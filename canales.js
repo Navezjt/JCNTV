@@ -16,7 +16,6 @@ var App = {
         },
         'meganoticias-2': {
             'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/HChCAZCHhS4?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Meganoticias (Live secundario)&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cima': {
@@ -136,6 +135,7 @@ var App = {
         },
         'lokito-yutu-chilli-ucas': {
             'nombre': 'Hong Kong Live 🌍',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCMEhYuxpkmiXoYryeXt0b5A&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Hong Kong Live (Chilli Lucas - 智利仔) 🌍 </div>'
         },  
         'ChilledCow (MUSIC)': {
@@ -152,6 +152,7 @@ var App = {
         },
         'cam-dipu-13-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Cámara Diputados Señal Youtube (no es 24/7) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu': {
