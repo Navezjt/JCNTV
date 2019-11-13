@@ -18,8 +18,9 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [CNN Chile](https://www.youtube.com/user/cnnchile)     | [Universo](https://www.universo.cl/)    | [Global News](https://www.youtube.com/user/GlobalToronto)        |              |
 | [Canal 9 (Conce)](https://www.canal9.cl/en-vivo/) | [AE (DUOC)](https://www.aeradio.cl/)     | [Crónica TV](https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g)              |              | 
 | [TVU (Conce)](https://www.tvu.cl/)   |      |                [DW Español](https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA)             |
-| [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |         |               |              |
+| [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |         |[Chilli Lucas - 智利仔 (Hong Kong)](https://www.youtube.com/channel/UCMEhYuxpkmiXoYryeXt0b5A)               |              |
 | [Cámara de Diputados](http://webtv.camara.cl/) |            |               |              |
+| [Cámara de Diputados Señal Youtube](https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw) |            |               |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               |               |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               |               |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               |               |              |
