@@ -8,7 +8,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplo.jpg)](https://alplox.github.io/tele/)
 
 # Canales disponibles junto a su origen:
-| Canales       | Radios        | Internacionales | Música     |
+| Canales Chilenos      | Radios Chilenas       | Internacionales | Música     |
 | ------------- | ------------- | ------------- | -------------|
 | [24 Horas](https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ)      | [Cooperativa](http://programas.cooperativa.cl/showalairelibre/)   | [Todonoticias](https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw) | [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow)   |
 | [24 Play](https://www.youtube.com/channel/UCeKSSTjG4r-Qvcpjnwgo0VQ)       | [Biobio TV](https://www.biobiochile.cl/biobiotv/)     | [RT Español](https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw)    | [Chillhop](https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg)    |
@@ -21,10 +21,12 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |         |               |              |
 | [Cámara de Diputados](http://webtv.camara.cl/) |            |               |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               |               |              |
+| [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               |               |              |
+| [UATV](https://uatv.cl/uatv-en-vivo/) |               |               |              |
+| [VTV](http://canalvtv.cl/vtv/) |               |               |              |
+| [Canal 33 (Temuco)](http://www.canal33.cl/online.php)|               |               |              |
 
-
-
-
+*si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline (o aún no actualizo yo la lista :P)*
 # Videos protestas:
 
 | LINK | Provisto por: | Fuente | Mirror         |
@@ -38,3 +40,5 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 ___
 [Idea original](http://pslabs.cl/tele.html) por [@pottersys](https://twitter.com/pottersys).
+
+Favicon cortesía de [mave007](https://github.com/mave007).
