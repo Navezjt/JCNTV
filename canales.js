@@ -85,9 +85,21 @@ var App = {
             'nombre': 'Canal 21 (Chillán) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 21 (Chillán) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
-        'cvu': {
-            'nombre': 'CVU TV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/ucvtv2?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CVU TV <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        'ucv': {
+            'nombre': 'UCV TV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/ucvtv2?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">UCV TV <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        },
+        'uatv': {
+            'nombre': 'UATV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/uatv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Universidad Autónoma de Chile Televisión <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        },
+        'vtv': {
+            'nombre': 'VTV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/vtv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">VTV2 Valle Televisión de Los Andes <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+        },
+        'canal-33': {
+            'nombre': 'Canal 33 (Temuco) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://streaminghd.cl/player.video/index.php?s=eduardo555/eduardo555" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Canal 33 (Temuco) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'dw': {
             'nombre': 'DW Español 🌍',
