@@ -38,7 +38,6 @@ var App = {
         },
         'Global-news': {
             'nombre': 'Global News 🌍',
-            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UChLtXXpo4Ge1ReTEboVvTDg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Global News 🌍</div>'
         },
         'tn': {
