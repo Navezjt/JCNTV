@@ -25,6 +25,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               |               |              |
 | [VTV](http://canalvtv.cl/vtv/) |               |               |              |
 | [Canal 33 (Temuco)](http://www.canal33.cl/online.php)|               |               |              |
+| [TV Senado](https://tv.senado.cl/)|               |               |              |
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline (o aún no actualizo yo la lista :P)*
 # Videos protestas:
