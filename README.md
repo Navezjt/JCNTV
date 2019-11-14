@@ -1,7 +1,13 @@
 ## Visor de múltiples canales de noticias chilenos a modo de seguir las protestas actuales
-https://alplox.github.io/tele/
+# Sitio: https://alplox.github.io/tele/
 
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
+
+- [Contenido:](#)
+    - [Canales disponibles junto a su origen](#canales-disponibles-junto-a-su-origen)
+    - [Colecciones videos protestas](#colección-videos-protestas)
+    - [Créditos](#créditos)
+    - [Aviso Legal](#aviso-legal)
 
 [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 
@@ -29,7 +35,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline (o aún no actualizo yo la lista :P)*
-# Videos protestas:
+# Colección videos protestas:
 
 | LINK | Provisto por: | Fuente | Mirror         |
 | ------------- | ------------- | ------------- | ------------|
@@ -41,6 +47,18 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [Canal de Telegram](https://t.me/s/archivandochile) | [@archivandochile](https://twitter.com/ArchivandoChile) | [x](https://twitter.com/ArchivandoChile/status/1186675232830054412)
 
 ___
+# Créditos
 [Idea original](http://pslabs.cl/tele.html) por [@pottersys](https://twitter.com/pottersys).
 
+Modificaciones por [Alplox](https://github.com/Alplox).
+
 Favicon cortesía de [mave007](https://github.com/mave007).
+
+___
+# Aviso Legal
+- “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos o foros públicos encontrados como libre distribución sin ninguna protección. 
+- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd entre otros…) y desconocemos si los mismos tienen contratos de cesión de derechos sobre estos canales o eventos de pago para reproducirlos, alojarlos o permitir utilizarlos.
+- El sitio cuenta con reproductores multimedia, lo que no corresponde a una retransmisión de los canales de TV ni implica la decodificación de éstos
+- "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de LIBRE ACCESO.
+- No se cobra ni ofrece canales de pago bajo ninguna modalidad.
+	
