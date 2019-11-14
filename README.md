@@ -13,19 +13,19 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [24 Horas](https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ)      | [Cooperativa](http://programas.cooperativa.cl/showalairelibre/)   | [Todonoticias](https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw) | [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow)   |
 | [TV Senado](https://tv.senado.cl/)     | [Biobio TV](https://www.biobiochile.cl/biobiotv/)     | [RT Español](https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw)    | [Chillhop](https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg)    |
 | [Meganoticias](https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q)  | [ADN](http://tv.adnradio.cl/)           | [RT News](https://www.youtube.com/channel/UCpwvZwUam-URkxB7g4USKpg)       | [Steezyasfuck](https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg) |
-| [Galería CIMA](https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg)  | [Duna](https://www.duna.cl/tv/)   | [MILENIO](https://www.youtube.com/user/MILENIO)       |              |
+| [Galería CIMA](https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg)  | [Duna](https://www.duna.cl/tv/)   | [MILENIO](https://www.youtube.com/user/MILENIO)       | [Relaxdaily](https://www.youtube.com/channel/UCc9EzBNAtdnNiDrMw5CAxUw)             |
 | [T13](https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg)   | [Infinita](http://www.infinita.cl/home/)      | [RT en vivo](https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ)                |              |     
 | [CNN Chile](https://www.youtube.com/user/cnnchile)     | [Universo](https://www.universo.cl/)    | [FRANCE 24 English](https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg)        |              |
 | [Canal 9 (Conce)](https://www.canal9.cl/en-vivo/) | [AE (DUOC)](https://www.aeradio.cl/)     | [Crónica TV](https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g)              |              | 
 | [TVU (Conce)](https://www.tvu.cl/)   |      |                [DW Español](https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA)             |
 | [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |         |[Sky News](https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ)               |              |
 | [Cámara de Diputados](http://webtv.camara.cl/) |            | [蘋果動新聞 HK Apple Daily](https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ)              |              |
-| [Cámara de Diputados Señal Youtube](https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw) |            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
+| [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [ABC News](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q)              |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               |               |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               |               |              |
 | [VTV](http://canalvtv.cl/vtv/) |               |               |              |
-| [Canal 33 (Temuco)](http://www.canal33.cl/online.php)|               |               |              |
+
 
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline (o aún no actualizo yo la lista :P)*
