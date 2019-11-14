@@ -62,4 +62,5 @@ ___
 - El sitio cuenta con reproductores multimedia, lo que no corresponde a una retransmisión de los canales de TV ni implica la decodificación de éstos.
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de LIBRE ACCESO.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
-	
+___
+[![HitCount](http://hits.dwyl.io/{Alplox}/{repo}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
