@@ -35,19 +35,19 @@ var App = {
             'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">CNN Chile <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'tv-senado': {
-            'nombre': 'TV Senado <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '🏛️ TV Senado <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">TV Senado <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cam-dipu-m3u-1': {
-            'nombre': 'Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"> Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu-m3u-2': {
-            'nombre': 'Cámara Diputados 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"> Cámara Diputados 0<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu-m3u-3': {
-            'nombre': 'Cámara Diputados 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"> Cámara Diputados 1<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cooperativa': {
@@ -55,7 +55,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/coopetv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Radio Cooperativa <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'mi-radiols': {
-            'nombre': '📻 Mi Radio LS<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '📻 Mi Radio LS <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UClJiriqxFwmmVIQeASJfICQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 Mi Radio La Serena 98.5 <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'bbtv': {
