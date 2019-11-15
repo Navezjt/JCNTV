@@ -38,6 +38,18 @@
 </head>
 
 <body>
+                        <!--popover creditos-->
+                         <script>
+                        $(document).ready(function(){
+                            $('[data-toggle="popover"]').popover();   
+                        });
+                        $('.popover-dismiss').popover({
+                        trigger: 'focus'
+                        })
+                        $("[data-toggle=popover]")
+                        .popover({html:true})
+                        </script>
+                        <!---->
       <div class="row no-gutters" id="los-canales">
             <div class="col-4 col-md-4 col-lg-4 offset-md-4" id="reloj-control">
                   <div class="container">
