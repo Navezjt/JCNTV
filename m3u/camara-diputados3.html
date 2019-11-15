@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Cámara Diputados 3</title>
+  <!--https://github.com/videojs/video.js-->
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+</head>
+<body>
+
+  <video-js id="my_video_1" class="vjs-default-skin vjs-16-9" controls preload="auto">
+    <source src="https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8" type="application/x-mpegURL {options: {navigationUI: 'hide'}">
+  </video-js>
+  
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/@videojs/http-streaming/dist/videojs-http-streaming.js"></script>
+  
+  <script>
+    var player = videojs('my_video_1', {
+      autoplay: 'muted'
+    });
+  </script>
+  
+</body>
+</html>
