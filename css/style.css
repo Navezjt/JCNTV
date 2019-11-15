@@ -2,10 +2,6 @@ body {
     background: #000000;
 }
 
-a, a:hover, a:visited{
-    color: white;
-}
-
 .nombre {
     font-family: 'Helvetica';
     position: relative;
