@@ -11,7 +11,8 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 
-[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplo.jpg)](https://alplox.github.io/tele/)
+[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
+[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
 
 # Canales disponibles junto a su origen:
 | Canales ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)    | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)     | Internacionales 🌍 | Música   🎵  |
