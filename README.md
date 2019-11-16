@@ -7,7 +7,9 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
     - [Canales disponibles junto a su origen](#canales-disponibles-junto-a-su-origen)
     - [Colecciones videos protestas](#colección-videos-protestas)
     - [Créditos](#créditos)
+    - [Variaciones Creadas](#variaciones-creadas)
     - [Aviso Legal](#aviso-legal)
+
 
 [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 
@@ -30,7 +32,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [ABC News](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q)              |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
-| [UATV](https://uatv.cl/uatv-en-vivo/) |               |               |              |
+| [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
 | [VTV](http://canalvtv.cl/vtv/) |               |               |              |
 
 
@@ -56,6 +58,13 @@ Modificaciones por [Alplox](https://github.com/Alplox).
 
 Favicon cortesía de [mave007](https://github.com/mave007).
 
+___
+# Variaciones Creadas:
+
+| LINK | por: | 
+| ------------- | ------------- |
+|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)|
+                      
 ___
 # Aviso Legal
 - “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos o foros públicos encontrados como libre distribución sin ninguna protección. 
