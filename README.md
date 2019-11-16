@@ -29,7 +29,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [Cámara de Diputados](http://webtv.camara.cl/) |            | [蘋果動新聞 HK Apple Daily](https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ)              |              |
 | [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [ABC News](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q)              |              |
-| [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               |               |              |
+| [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               |               |              |
 | [VTV](http://canalvtv.cl/vtv/) |               |               |              |
 
