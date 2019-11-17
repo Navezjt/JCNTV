@@ -56,14 +56,14 @@ ___
 
 Modificaciones por [Alplox](https://github.com/Alplox).
 
-Favicon cortesía de [mave007](https://github.com/mave007).
+[Favicon](https://github.com/Alplox/tele/blob/master/favicon.ico) cortesía de [mave007](https://github.com/mave007).
 
 ___
 # Variaciones Creadas:
 
-| LINK | por: | 
-| ------------- | ------------- |
-|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)|
+| LINK | por: | Fork  |
+| ------------- | ------------- |------------- |
+|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [x](https://alplox.github.io/tele/alternativa1/1)
                       
 ___
 # Aviso Legal
