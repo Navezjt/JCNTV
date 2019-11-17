@@ -335,11 +335,10 @@ var App = {
         } else {
             App.add('t13');
             App.add('cnn-cl');
-            App.add('tn');
+            App.add('venticuatro');
             App.add('left-voice-cima2');
             App.add('meganoticias');
-            App.add('cima');
-            App.add('venticuatro');
+
         }
         
     }
