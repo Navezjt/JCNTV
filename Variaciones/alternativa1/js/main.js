@@ -246,7 +246,7 @@ var App = {
             App.add('cima');
             App.add('venticuatro');
             App.add('meganoticias');
-            App.add('left-voice-cima2');
+            App.add('c5n');
             App.add('cnn-cl');
         }
     }
