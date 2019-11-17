@@ -118,6 +118,7 @@ var App = {
         },
         'left-voice-cima2': {
             'nombre': 'Left Voice 🌍', 
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UClUHLX_Rd-SNOl8Ws2C_EJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Left Voice 🌍</div>'
         },
         'tn': {
@@ -336,7 +337,7 @@ var App = {
             App.add('venticuatro');
             App.add('cima');
             App.add('meganoticias');
-            App.add('left-voice-cima2');
+            App.add('c5n');
 
         }
         
