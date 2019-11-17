@@ -33,7 +33,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [ABC News](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q)              |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
-| [VTV](http://canalvtv.cl/vtv/) |               |               |              |
+| [VTV](http://canalvtv.cl/vtv/) |               | [Chilli Lucas - 智利仔](https://www.youtube.com/channel/UCMEhYuxpkmiXoYryeXt0b5A)               |              |
 
 
 
@@ -61,11 +61,14 @@ Modificaciones por [Alplox](https://github.com/Alplox).
 ___
 # Variaciones Creadas:
 
-| LINK | por: | Fuente |Fork  |
+| LINK | Por: | Fuente |Fork  |
 | ------------- | ------------- |------------- |------------- |
 |https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1)
 |https://whywelove.news/love/country/chile/envivo  | [u/sebastianrw](https://old.reddit.com/user/sebastianrw)  |[Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)| (no sé como hacerlo...)|
-|https://alplox.github.io/tele/Variaciones/alternativa2/2    |[Alplox](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2)
+|https://alplox.github.io/tele/Variaciones/alternativa2/2    |[Alplox](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2) |
+|https://ncehk2019.github.io/nce-live/ **** | [ncehk2019](https://github.com/ncehk2019) | [Fuente](https://github.com/ncehk2019/nce-live) | [x](https://github.com/ncehk2019/nce-live)|
+
+**** Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con Chile y/o el proyecto.
 ___
 # Aviso Legal
 - “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos o foros públicos encontrados como libre distribución sin ninguna protección. 
