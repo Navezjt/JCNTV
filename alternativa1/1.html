@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<!--https://tele.0x00.cl/---->
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	 <!-- para reproducir m3u8 con el edge-->
+	<script src="https://raw.githubusercontent.com/videojs/http-streaming/master/src/videojs-http-streaming.js"> </script>
+	
+            <script>
+            var player = videojs('hls-example');
+            player.play();
+            </script>
+	    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/alternativa1/css/style.css">
+	<script src="https://kit.fontawesome.com/73ed46969f.js" crossorigin="anonymous"></script>  
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+        <title>Canales TV</title>
+    </head>
+	
+	
+    <body>
+	    <div class="alert alert-dark alert-dismissible fade show" id="myAlert" role="alert">
+                        <strong>Bienvenido!</strong> si quieres conocer el origen de cada livestream visita el <a href="https://github.com/Alplox/tele" target="_blank" class="alert-link">repositorio Github de la pagina 😊</a>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+	    
+	    <!--popover creditos-->
+                         <script>
+                        $(document).ready(function(){
+                            $('[data-toggle="popover"]').popover();   
+                        });
+                        $('.popover-dismiss').popover({
+                        trigger: 'focus'
+                        })
+                        $("[data-toggle=popover]")
+                        .popover({html:true})
+                        </script>
+                        <!---->
+	    
+        <div class="container-fluid">
+          <div class="row hora">
+              <div class="col-sm-1">
+                  <div class="numeros" id="time"></div>
+                  <p style="color: white; text-align: center; font-size: 10px">Hora local</p>
+              </div>
+              <div class="col-sm-1">
+                  <div class="numeros" id="UTCtime"></div>
+                  <p style="color: white; text-align: center; font-size: 10px">UTC</p>
+              </div>
+               <div class="col-sm-1">
+                  <div class="numeros" id="santiagotime"></div>
+                  <p style="color: white; text-align: center; font-size: 10px">Hora Santiago de Chile</p>
+              </div>
+		 <div class="col-sm-6">
+                <p style="color: white; text-align: center; font-size: 12px; padding: 1em 0 0 0;">
+                                <a href="https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019" target="_blank"
+                                style="font-size: 12px;color:#ffffff;background:#000000"> <i class="fab fa-wikipedia-w"></i> <strong>Protestas Chile 2019</strong></a>
+                                
+                                &mdash; <a href="#" target="_blank"
+                                          style="font-size: 12px;color:#ffffff;background:#000000" data-toggle="modal" data-target="#canales-origen"><i
+                                                class="fas fa-photo-video"></i>
+                                                Recopilación Videos Protestas</a>
+                                          <br>
+                                <a href="https://github.com/Alplox/tele" target="_blank"
+                                          style="font-size: 12px;color:#ffffff;background:#000000"><i class="fab fa-github"></i>
+                                          Github</a>
+						  <br>
+                         <a tabindex="0" href="#" data-toggle="popover" data-trigger="focus" title="Créditos" data-placement="top" data-html="true" data-content="<a href='http://pslabs.cl/tele.html'  title=''>Idea original</a> por <a href='https://twitter.com/pottersys' title=''>@pottersys</a> <br /> Modificaciones por <a href='https://github.com/Alplox' title=''>Alplox</a> <br /> Favicon cortesía de <a href='https://github.com/mave007' title=''>mave007</a>. <br /><br />  <a href='https://tele.0x00.cl/'  title=''>Variación</a> creada por <a href='https://old.reddit.com/user/0x00cl' title=''>u/0x00cl</a>">Créditos</a>       
+		  </div>
+                <div class="col-sm-3">
+                  <div class="form-group col-6">
+                      <label for="FormControlSelect1" style="font-size: 12px">Streams por fila</label>
+                        <select class="form-control form-control-sm" id="FormControlSelect1">
+                            <option value="12">1</option>
+                            <option value="6">2</option>
+                            <option value="4" selected>3</option>
+                            <option value="3">4</option>
+                            <option value="2">6</option>
+                      </select>
+                  </div>
+                  <div class="boton-modal col-6">
+		<label for="custom-btn" style="font-size: 12px">Canales</label>
+                    <button class="btn btn-light" id="custom-btn">+</button>
+                </div>
+              </div>
+          </div>
+          <div class="row no-gutters row-canales" id="los-canales">
+          </div>
+      </div>
+      <div class="others">
+          <div class="modal" id="custom-modal">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title">Selecciona tus canales</h5>
+                              <button type="button" class="close" id="custom-close">
+                                  <span>&times;</span>
+                              </button>
+                      </div>
+                      <div class="modal-body" style="text-align:center;"></div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" id="custom-close2">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+	    
+   <!-- Compilación Videos -->
+                                                      <div class="modal fade" id="canales-origen" tabindex="-1" role="dialog" aria-labelledby="canales-origenLabel" aria-hidden="true">
+                                                        <div class="modal-dialog" role="document">
+                                                          <div class="modal-content">
+                                                            <div class="modal-header">
+                                                              <h5 class="modal-title" id="canales-origenLabel">Compilaciones de videos entorno a las protestas desarrolladas en Chile este 2019:</h5>
+                                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                              </button>
+                                                            </div>
+                                                            <div class="modal-body" style="text-align:left;">
+                                                                - <strong><a href="https://archivopublico.smvi.co/" target="_blank" class="tooltip-test" title="por u/dorinacho" style="color:#000000">Archivo publico de videos</a></strong> por <a href="https://old.reddit.com/user/dorinacho" target="_blank" style="color:#000000">u/dorinacho</a>
+                                                                <br>
+                                                                - <strong><a href="https://drive.google.com/drive/folders/1xO5rwXFK1gOTuEzDf4wdtJFvyVqSqEXL" target="_blank" class="tooltip-test" title="por u/beatripit" style="color:#000000">350 videos (Google Drive)</a></strong> por <a href="https://old.reddit.com/user/beatripit/" target="_blank" style="color:#000000">u/beatripit</a> - <a href="http://mgnet.me/dRVn4G6" target="_blank" class="tooltip-test" title="Torrent" style="color:#000000">Mirror</a>
+                                                                <br>
+                                                                - <strong><a href="https://mega.nz/#F!lxon3KbL!NhlrKdgexf6jY36k6ndcaQ" target="_blank" class="tooltip-test" title="por u/ozzraven" style="color:#000000">Compilación en Mega.nz</a></strong> por <a href="https://old.reddit.com/user/ozzraven" target="_blank" style="color:#000000">u/ozzraven</a>
+                                                                <br>
+                                                                - <strong><a href="https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/" target="_blank" class="tooltip-test" title="por Varios" style="color:#000000">Compilación Usuarios Reddit</a></strong>
+                                                                <br>
+                                                                - <strong><a href="https://www.dropbox.com/sh/90int9i5w5pqkig/AAA-3nBgN5qEkU2BgRKtOGS-a?dl=0" target="_blank" class="tooltip-test" title="por @el_gamer_qlo" style="color:#000000">Compilación en Dropbox</a></strong> por <a href="https://twitter.com/el_gamer_qlo/" target="_blank" style="color:#000000">@el_gamer_qlo</a>
+                                                                <br>
+                                                                - <strong><a href="https://t.me/s/archivandochile" target="_blank" class="tooltip-test" title="por @archivandochile" style="color:#000000">Compilación mediante Telegram</a></strong> por <a href="https://twitter.com/archivandochile" target="_blank" style="color:#000000">@archivandochile</a>
+                                                            </div>
+                                                            <div class="modal-footer" id="canales-origen">
+							      <button type="button" class="btn btn-outline-info" role="button"><a href="https://forms.gle/uePCSougjByLagiu7" target="_blank" style="color:inherit">Compartir más videos</a></button>
+                                                              <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+	 
+<script src="/alternativa1/js/main.js"></script>
+    </body>
+</html>
