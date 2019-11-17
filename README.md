@@ -65,6 +65,7 @@ ___
 | ------------- | ------------- |------------- |------------- |
 |https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1)
 |https://whywelove.news/love/country/chile/envivo  | [u/sebastianrw](https://old.reddit.com/user/sebastianrw)  |[Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)| (no sé como hacerlo...)|
+|https://alplox.github.io/tele/Variaciones/alternativa2/2    |[Alplox](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2)
 ___
 # Aviso Legal
 - “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos o foros públicos encontrados como libre distribución sin ninguna protección. 
