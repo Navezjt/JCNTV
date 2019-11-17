@@ -244,11 +244,11 @@ var App = {
         App.add('cnn');
 
         if (!App.isMobile()) {
-            App.add('venticuatro');
             App.add('cima');
+            App.add('venticuatro');
             App.add('meganoticias');
             App.add('left-voice-cima2');
-            App.add('cnn');
+            App.add('cnn-cl');
         }
     }
 };
