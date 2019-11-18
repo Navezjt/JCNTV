@@ -69,10 +69,11 @@ var App = {
         'RT-News': {
             'nombre': 'RT News 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        'RT-america': {
-            'nombre': 'RT America 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCczrL-2b-gYK3l4yDld4XlQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+// el invidio no lo toma, esta bugeado...
+//       },
+//        'RT-america': {
+//            'nombre': 'RT America 🌍',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCczrL-2b-gYK3l4yDld4XlQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'MILENIO': {
             'nombre': 'MILENIO 🌍',
