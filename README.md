@@ -33,7 +33,7 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [ABC News](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q)              |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
-| [VTV](http://canalvtv.cl/vtv/) |               | [Chilli Lucas - 智利仔](https://www.youtube.com/channel/UCMEhYuxpkmiXoYryeXt0b5A)       |              |
+| [VTV](http://canalvtv.cl/vtv/) |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)       |              |
 | | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
 | | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
 | | |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w) | |
