@@ -346,7 +346,6 @@ var App = {
             App.add('venticuatro');
             App.add('cima');
             App.add('meganoticias');
-            App.add('c5n');
 
         }
         
