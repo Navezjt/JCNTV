@@ -30,10 +30,10 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 | [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |         |[Sky News](https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ)               |              |
 | [Cámara de Diputados](http://webtv.camara.cl/) |            | [蘋果動新聞 HK Apple Daily](https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ)              |              |
 | [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
-| [CHV](http://www.chilevision.cl/senal-online/)           |               | [ABC News](https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q)              |              |
+| [CHV](http://www.chilevision.cl/senal-online/)           |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)               |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
-| [VTV](http://canalvtv.cl/vtv/) |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)       |              |
+| [VTV](http://canalvtv.cl/vtv/) |               |        |              |
 | | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
 | | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
 | | |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w) | |
