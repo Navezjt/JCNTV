@@ -39,6 +39,9 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [VTV](http://canalvtv.cl/vtv/) |               |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)        |              |
 | | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
 | | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
+| | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
+| | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
+| | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
 
 
 
