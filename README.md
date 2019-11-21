@@ -3,6 +3,8 @@
 
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
+Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya que yo no cacho jajaja)
+
 - Contenido:
     - [Canales disponibles junto a su origen](#canales-disponibles-junto-a-su-origen)
     - [Colecciones videos protestas](#colección-videos-protestas)
@@ -66,10 +68,12 @@ ___
 
 | LINK | Por: | Fuente |Fork  |
 | ------------- | ------------- |------------- |------------- |
-|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1)
+|http://pslabs.cl/tele.html |  [@pottersys](https://twitter.com/pottersys)| [Fuente](https://twitter.com/pottersys/status/1187710925182255104) |[x](https://alplox.github.io/tele/) |
+|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1) |
 |https://whywelove.news/love/country/chile/envivo  | [u/sebastianrw](https://old.reddit.com/user/sebastianrw)  |[Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)| (no sé como hacerlo...)|
-|https://alplox.github.io/tele/Variaciones/alternativa2/2    |[Alplox](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2) |
-|https://ncehk2019.github.io/nce-live/ **** | [ncehk2019](https://github.com/ncehk2019) | [Fuente](https://github.com/ncehk2019/nce-live) | [x](https://github.com/ncehk2019/nce-live)|
+|https://alplox.github.io/tele/Variaciones/alternativa2/2    |["Alplox"](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2) |
+| https://www.serveruwu.com/tv/ | [@MadKoding](https://twitter.com/MadKoding)| [Fuente](https://twitter.com/MadKoding/status/1187725817079652353) | (no sé como hacerlo...)|
+|https://ncehk2019.github.io/nce-live/ **** | [ncehk2019](https://github.com/ncehk2019) | [Fuente](https://github.com/ncehk2019/nce-live) | (no sé como hacerlo...) |
 
 **** Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con Chile y/o el proyecto.
 ___
