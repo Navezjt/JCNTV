@@ -42,6 +42,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
 | | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
 | | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
+| | |[euronews (en español)](https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw) | |
 
 
 
