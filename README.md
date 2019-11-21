@@ -17,6 +17,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
+[![](https://github.com/Alplox/tele/raw/master/ejemplos/ejemplo-v2.jpg)](https://alplox.github.io/tele/Variaciones/alternativa1/1)
 
 # Canales disponibles junto a su origen:
 | Canales ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)    | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)     | Internacionales 🌍 | Música   🎵  |
