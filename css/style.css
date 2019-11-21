@@ -26,6 +26,7 @@ body {
 .reloj {
     font-family: 'Helvetica';
     font-size:1.4em;
+    pointer-events: none;
 }
 @media(min-width: 800px){
     .reloj{ font-size: 2em; }
