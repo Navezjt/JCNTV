@@ -170,7 +170,7 @@ var App = {
         },
         'rt-en-vivo2': {
             'nombre': 'RT en vivo 2 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe width=100% height=100% src="https://www.youtube.com/embed/culxRjPWWYs?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> RT en vivo 🌍 (Live 2)'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/culxRjPWWYs?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> RT en vivo 🌍 (Live 2)'
         },
         'RT-News': {
             'nombre': 'RT News 🌍',
