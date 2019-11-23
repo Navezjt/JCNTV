@@ -81,10 +81,10 @@ var App = {
          'RT-español2': {
             'nombre': 'RT en vivo 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-         'rt-en-vivo2': {
-            'nombre': 'RT en vivo 2 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/culxRjPWWYs?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//        },
+//         'rt-en-vivo2': {
+//            'nombre': 'RT en vivo 2 🌍',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/culxRjPWWYs?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'RT-News': {
             'nombre': 'RT News 🌍',
