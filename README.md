@@ -44,6 +44,10 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
 | | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
 | | |[euronews (en español)](https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw) | |
+| | |[VPItv](https://www.youtube.com/channel/UCVFiIRuxJ2GmJLUkHmlmj4w) | |
+| | |[Canal26Argentina](https://www.youtube.com/channel/UCrpMfcQNog595v5gAS-oUsQ) | |
+| | |[NoticiasUnoColombia](https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA) | |
+| | |[TV Pública Argentina](https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg) | |
 
 
 
