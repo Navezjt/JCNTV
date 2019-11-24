@@ -72,6 +72,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | ------------- |
 | https://www.indh.cl/ |
 | https://www.testigoenlinea.cl/ |
+| https://twitter.com/amnistiachile/status/1186667715047624710 |
 
 ___
 # Créditos
