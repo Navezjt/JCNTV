@@ -9,6 +9,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 - Contenido:
     - [Canales disponibles junto a su origen](#canales-disponibles-junto-a-su-origen)
     - [Colecciones videos protestas](#colección-videos-protestas)
+    - [Denunciar violación DDHH](#denunciar-violación-ddhh)
     - [Créditos](#créditos)
     - [Variaciones Creadas](#variaciones-creadas)
     - [Aviso Legal](#aviso-legal)
@@ -64,6 +65,13 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [Compilación Usuarios Reddit](https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/) | Varios | [x](https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/)
 | [Compilación en Dropbox](https://www.dropbox.com/sh/90int9i5w5pqkig/AAA-3nBgN5qEkU2BgRKtOGS-a?dl=0) | [@el_gamer_qlo](https://twitter.com/el_gamer_qlo/) | [x](https://twitter.com/el_gamer_qlo/status/1187034417442775041)
 | [Canal de Telegram](https://t.me/s/archivandochile) | [@archivandochile](https://twitter.com/ArchivandoChile) | [x](https://twitter.com/ArchivandoChile/status/1186675232830054412)
+
+# Denunciar violación DDHH:
+
+| LINK | 
+| ------------- |
+| https://www.indh.cl/ |
+| https://www.testigoenlinea.cl/ |
 
 ___
 # Créditos
