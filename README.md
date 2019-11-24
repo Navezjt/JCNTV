@@ -49,6 +49,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | | |[Canal26Argentina](https://www.youtube.com/channel/UCrpMfcQNog595v5gAS-oUsQ) | |
 | | |[NoticiasUnoColombia](https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA) | |
 | | |[TV Pública Argentina](https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg) | |
+| | |[A24](https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ) | |
 
 
 
