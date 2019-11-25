@@ -26,7 +26,6 @@ var App = {
         },
         'cima': {
             'nombre': 'Galeria CIMA <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Galeria CIMA&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         't13': {
@@ -392,9 +391,9 @@ var App = {
             App.add('t13');
             App.add('cnn-cl');
             App.add('venticuatro');
-            App.add('cam-dipu-m3u-1');
+            App.add('cima');
             App.add('meganoticias');
-
+            App.add('cam-dipu-m3u-1');
         }
         
     }
