@@ -392,7 +392,7 @@ var App = {
             App.add('t13');
             App.add('cnn-cl');
             App.add('venticuatro');
-            App.add('cima');
+     //       App.add('cima');
             App.add('meganoticias');
 
         }
