@@ -38,8 +38,8 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)               |              |
 | [CVU TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
-| [VTV](http://canalvtv.cl/vtv/) |               |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)        |              |
-| | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
+| [VTV](http://canalvtv.cl/vtv/) |  |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)  |     |
+|[Holvoet TV](https://holvoet.cl/en-vivo/) | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
 | | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
 | | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
 | | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
