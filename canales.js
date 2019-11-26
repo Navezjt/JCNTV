@@ -95,7 +95,7 @@ var App = {
         },
         'holvoet-tv-m3u': {
             'nombre': 'Holvoet TV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"> Holvoet TV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/holvoet-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"> Holvoet TV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'canal-9': {
             'nombre': 'Canal 9 (Conce) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
