@@ -263,18 +263,6 @@ var App = {
         'cam-dipu-13-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados Señal Youtube (no es 24/7) </a><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
-        },
-        'cam-dipu-m3u-edge': {
-            'nombre': 'Camara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"><a href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Camara de Diputados </a><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
-        },
-        'chv-m3u': {
-            'nombre': 'CHV  <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=sd"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"><a href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV [qHD] </a><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
-        },
-        'chv-m3u2': {
-            'nombre': 'CHV op2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img><img src="https://github.com/Alplox/tele/raw/master/icons/edge.png"></img>',
-            'code': '<video id="hls-example" class="embed-responsive embed-responsive-16by9 video-js vjs-default-skin" controls><source type="application/x-mpegURL" src="http://mi.chv.cl/playlist/stream.m3u8?s=hd"></video><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/edge.png"><a href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV [nHD] </a><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         }
     },
     templateCanal: '<div class="col-4 col-md-4 col-lg-4 un-player" data-canal="{canal}">{htmelele}</div>',
