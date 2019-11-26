@@ -252,7 +252,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCc9EzBNAtdnNiDrMw5CAxUw&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"> Relaxdaily 🎵 </div>'
         }, 
          'imuc-radio-chile': {
-            'nombre': 'IMUC Chile <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img> 🎵',
+            'nombre': 'IMUC Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img> 🎵',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img> IMUC Chile 🎵</div>'
         }, 
         'cam-dipu-13-yutu': {
