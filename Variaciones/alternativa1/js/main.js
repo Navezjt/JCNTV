@@ -256,6 +256,10 @@ var App = {
         },
          'cam-dipu-13-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube (No 24/7) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
+        'cam-dipu-13-yutu2': {
+            'nombre': 'Cámara Diputados Señal Youtube 2 (No 24/7) <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         }
     },
