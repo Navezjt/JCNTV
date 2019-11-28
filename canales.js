@@ -266,7 +266,7 @@ var App = {
         },
         'radio-manque': {
             'nombre': '📻 Radio Manque 102.9 FM <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/radios-solo-audio/radio-manque" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="http://www.radiomanque.org/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Manque 102.9 FM </a><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/radios-solo-audio/radio-manque" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.radiomanque.org/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Manque 102.9 FM </a><img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cam-dipu-13-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
