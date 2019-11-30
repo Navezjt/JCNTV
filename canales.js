@@ -59,6 +59,7 @@ var App = {
         },
         'chv-m3u-1': {
             'nombre': 'CHV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/chv1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         'cooperativa': {
@@ -140,6 +141,7 @@ var App = {
         },
         'el-tiempo': {
             'nombre': 'EL TIEMPO 🌍',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCe5-b0fCK3eQCpwS6MT0aNw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> EL TIEMPO</a> 🌍 </div>'
         },
          'revista-semana': {
@@ -198,12 +200,10 @@ var App = {
         },
         'a24': {
             'nombre': 'A24 🌍',
-            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> A24</a> 🌍</div>'
         },
          'noticias-uno-colombia': {
             'nombre': 'NoticiasUnoColombia 🌍',
-             'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC3NUgxBBl05tthfGBS6kPkA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NoticiasUnoColombia</a> 🌍</div>'
         },
         'tv-publica-arg': {
@@ -237,7 +237,6 @@ var App = {
         },  
         'HK-cable-tv': {
             'nombre': 'CABLE TV & CABLE News 🌍',
-            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_q7e5XYJB0JDGagcF0KW0w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 有線電視 CABLE TV & 有線新聞 CABLE News (Hong Kong)</a> 🌍 </div>'
         },
         'chilledCow': {
