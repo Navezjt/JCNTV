@@ -34,7 +34,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [TVU (Conce)](https://www.tvu.cl/)   | [Mi Radio La Serena](https://www.youtube.com/channel/UClJiriqxFwmmVIQeASJfICQ)      |                [DW Español](https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA)             |
 | [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |[Radio Placeres 87.7 FM](https://www.radioplaceres.cl/sitio/)         |[Sky News](https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ)               |              |
 | [Cámara de Diputados](http://webtv.camara.cl/) |[Radio Manque 102.9 FM](http://www.radiomanque.org/)            | [蘋果動新聞 HK Apple Daily](https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ)              |              |
-| [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
+| [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |[Radio USACH 94.5 FM](http://www.radio.usach.cl/)            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
 | [CHV](http://www.chilevision.cl/senal-online/)           |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)               |              |
 | [UCV TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
