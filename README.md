@@ -64,6 +64,8 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [Compilación Usuarios Reddit](https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/) | Varios | [x](https://old.reddit.com/r/chile/comments/dko63j/thread_de_videos_manifestaciones_octubre_2019/)
 | [Compilación en Dropbox](https://www.dropbox.com/sh/90int9i5w5pqkig/AAA-3nBgN5qEkU2BgRKtOGS-a?dl=0) | [@el_gamer_qlo](https://twitter.com/el_gamer_qlo/) | [x](https://twitter.com/el_gamer_qlo/status/1187034417442775041)
 | [Canal de Telegram](https://t.me/s/archivandochile) | [@archivandochile](https://twitter.com/ArchivandoChile) | [x](https://twitter.com/ArchivandoChile/status/1186675232830054412)
+| - | - | - | - |
+| [Videos Hong Kong](https://drive.google.com/drive/u/0/folders/1sdbhvxkWSvbECROtK1XXB8HR-s94vrKG) | Desconocido | [x](https://old.reddit.com/r/HongKong/comments/ds8ok5/trying_to_highlight_there_is_a_google_drive_full/f6nwttz/) | [Torrent](http://mgnet.me/dRVl9qA) / [Mega.nz](https://mega.nz/#!hBViQCwI!U8SQVE733rrHFc6BgIkE7_j-ZqRcbmjJoUrtPB5gUuQ)
 
 # Denunciar violación DDHH:
 
