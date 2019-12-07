@@ -68,6 +68,10 @@ var App = {
             'nombre': 'CHV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/chv1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
+         'uoct-tobalaba': {
+            'nombre': 'UOCT <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tobalaba" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/senal-de-la-uoct-3685422" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UOCT Tobalaba</a> <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+        },
         'cooperativa': {
             'nombre': '📻 Cooperativa <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/coopetv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">📻 <a href="http://programas.cooperativa.cl/showalairelibre/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">Radio Cooperativa</a> <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
@@ -425,7 +429,7 @@ var App = {
             App.add('cnn-m3u');
             App.add('venticuatro');
             App.add('cima');
-            App.add('adn');
+            App.add('uoct-tobalaba');
       //      App.add('cam-dipu-m3u-1');
         }
         
