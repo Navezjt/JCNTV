@@ -334,7 +334,7 @@ var App = {
             App.add('cima');
             App.add('venticuatro');
             App.add('meganoticias');
-            App.add('cam-dipu-m3u-1');
+      //      App.add('cam-dipu-m3u-1');
             App.add('cnn-m3u');
         }
     }
