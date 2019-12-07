@@ -237,6 +237,14 @@ var App = {
             'nombre': 'teleSUR tv 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCbHFKMtqLYkIBRiPHJwxu_w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> teleSUR tv</a> 🌍 </div>'
         },
+        'news-nigeria': {
+            'nombre': 'TVC News Nigeria  🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCq9e_hCv2jvgck8WowW1NXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVC News Nigeria</a> 🌍 </div>'
+        },
+        'abc7': {
+            'nombre': 'ABC7 SWFL  🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCgp4A6I8LCWrhUzn-5SbKvA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC7 SWFL</a> 🌍 </div>'
+        },
         'HK-apple-daily': {
             'nombre': 'HK Apple Daily 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeqUUXaM75wrK5Aalo6UorQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 蘋果動新聞 HK Apple Daily (Hong Kong)</a> 🌍 </div>'
@@ -244,6 +252,14 @@ var App = {
         'HK-cable-tv': {
             'nombre': 'CABLE TV & CABLE News 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_q7e5XYJB0JDGagcF0KW0w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 有線電視 CABLE TV & 有線新聞 CABLE News (Hong Kong)</a> 🌍 </div>'
+        },
+        'live-chino': {
+            'nombre': '三立LIVE新聞 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC2TuODJhC03pLgd6MpWP0iw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 三立LIVE新聞</a> 🌍 </div>'
+        },
+        'live-japones': {
+            'nombre': 'ANNnewsCH 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCGCZAYq5Xxojl_tSXcVJhiQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ANNnewsCH</a> 🌍 </div>'
         },
         'chilledCow': {
             'nombre': 'ChilledCow 🎵',
@@ -409,7 +425,7 @@ var App = {
             App.add('cnn-m3u');
             App.add('venticuatro');
             App.add('cima');
-            App.add('meganoticias');
+            App.add('adn');
       //      App.add('cam-dipu-m3u-1');
         }
         
