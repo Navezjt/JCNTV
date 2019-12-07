@@ -40,7 +40,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
 | [VTV](http://canalvtv.cl/vtv/) |  |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)  |     |
 |[Holvoet TV](https://holvoet.cl/en-vivo/) | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
-| | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
+|[UOCT](https://www.24horas.cl/envivo/senal-de-la-uoct-3685422) | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
 | | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
 | | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
 | | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
@@ -50,6 +50,11 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | | |[NoticiasUnoColombia](https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA) | |
 | | |[TV Pública Argentina](https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg) | |
 | | |[A24](https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ) | |
+| | |[ABC7 SWFL](https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg) | |
+| | |[TVC News Nigeria](https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA) | |
+| | |[ANNnewsCH](https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ) | |
+| | |[三立LIVE新聞](https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw) | |
+
 
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline.*
