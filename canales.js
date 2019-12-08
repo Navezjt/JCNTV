@@ -429,6 +429,7 @@ var App = {
             App.add('cnn-m3u');
             App.add('venticuatro');
             App.add('cima');
+            App.add('meganoticias');
             App.add('uoct-tobalaba');
       //      App.add('cam-dipu-m3u-1');
         }
