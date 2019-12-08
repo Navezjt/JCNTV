@@ -353,6 +353,7 @@ var App = {
         if (!App.isMobile()) {
             App.add('cima');
             App.add('venticuatro');
+            App.add('meganoticias');
             App.add('uoct-tobalaba');
       //      App.add('cam-dipu-m3u-1');
             App.add('cnn-m3u');
