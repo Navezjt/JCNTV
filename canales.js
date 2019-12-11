@@ -47,6 +47,10 @@ var App = {
             'nombre': '🏛️ TV Senado <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Senado</a> <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
+        'tv-senado-m3u': {
+            'nombre': '🏛️ TV Senado 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Senado</a> 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+        },
         'cam-dipu-m3u-1': {
             'nombre': '🏛️ Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.cdtv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados</a> <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
@@ -426,11 +430,11 @@ var App = {
         } else {
             App.add('t13-2');
             App.add('cnn-m3u');
-            App.add('venticuatro');
+            App.add('tv-senado-m3u');
             App.add('cima');
-            App.add('meganoticias-2');
-            App.add('uoct-tobalaba');
             App.add('cam-dipu-m3u-1');
+            App.add('venticuatro');
+            App.add('meganoticias-2');
         }
         
     }
