@@ -42,6 +42,10 @@ var App = {
             'nombre': '🏛️ TV Senado <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
+        'tv-senado-m3u': {
+            'nombre': '🏛️ TV Senado 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
         'cam-dipu-m3u-1': {
             'nombre': '🏛️ Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
@@ -351,16 +355,16 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('t13');
+        App.add('tv-senado');
         App.add('cnn');
 
         if (!App.isMobile()) {
             App.add('cima');
-            App.add('venticuatro');
+            App.add('cam-dipu-m3u-1');
             App.add('meganoticias-2');
             App.add('uoct-tobalaba');
-            App.add('cam-dipu-m3u-1');
             App.add('cnn-m3u');
+            App.add('t13');
         }
     }
 };
