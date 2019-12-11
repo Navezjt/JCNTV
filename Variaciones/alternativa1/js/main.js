@@ -314,6 +314,10 @@ var App = {
             'nombre': 'Cámara Diputados YT 08<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCCtDbZzh63vgU_BWHRGsbug&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
+        'cam-dipu-11-yutu': {
+            'nombre': 'Cámara Diputados YT 11<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
         'cam-dipu-12-yutu': {
             'nombre': 'Cámara Diputados YT 12<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
