@@ -41,7 +41,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [VTV](http://canalvtv.cl/vtv/) |  |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)  |     |
 |[Holvoet TV](https://holvoet.cl/en-vivo/) | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
 |[UOCT](https://www.24horas.cl/envivo/senal-de-la-uoct-3685422) | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
-| | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
+|[TV El Central](https://tvelcentral.cl/) | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
 | | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
 | | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
 | | |[euronews (en español)](https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw) | |
