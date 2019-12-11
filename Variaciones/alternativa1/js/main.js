@@ -355,7 +355,7 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('tv-senado');
+        App.add('tv-senado-m3u');
         App.add('cnn');
 
         if (!App.isMobile()) {
