@@ -28,7 +28,7 @@ var App = {
         },
         'el-ciudadano-fb': {
             'nombre': 'El Ciudadano FB <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FPeriodicoElCiudadano%2Fvideos%2F967896870256816%2F%3Fv%3D967896870256816&width=500&show_text=false&appId=262115109363 style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FPeriodicoElCiudadano%2Fvideos%2F967896870256816%2F%3Fv%3D967896870256816&width=500&show_text=false&appId=262115109363" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe></div>'
         },
         't13': {
             'nombre': 'T13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
