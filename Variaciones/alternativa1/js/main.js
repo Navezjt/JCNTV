@@ -391,7 +391,7 @@ var App = {
             App.add('cam-dipu-m3u-1');
             App.add('meganoticias');
             App.add('uoct-tobalaba');
-            App.add('cnn-m3u');
+            App.add('venticuatro');
             App.add('t13');
         }
     }
