@@ -457,7 +457,7 @@ var App = {
             App.add('cima');
             App.add('cam-dipu-m3u-1');
             App.add('venticuatro');
-            App.add('meganoticias');
+            App.add('meganoticias-2');
         }
         
     }
