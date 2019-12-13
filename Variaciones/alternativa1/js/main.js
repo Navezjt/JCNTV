@@ -384,15 +384,16 @@ var App = {
         App.seedModal();
 
         App.add('tv-senado-m3u');
-        App.add('cnn-m3u');
+        App.add('cima');
 
         if (!App.isMobile()) {
-            App.add('cima');
             App.add('cam-dipu-m3u-1');
-            App.add('meganoticias');
-            App.add('uoct-tobalaba');
-            App.add('venticuatro');
             App.add('t13');
+            App.add('uoct-tobalaba');
+            App.add('cnn-m3u');
+            App.add('meganoticias');
+            App.add('venticuatro');
+            
         }
     }
 };
