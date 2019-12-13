@@ -29,7 +29,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA</a>&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cima-mirror': {
-            'nombre': 'Galeria CIMA mirror<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'nombre': 'Galeria CIMA mirror <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA</a> mirror<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         't13': {
@@ -38,10 +38,12 @@ var App = {
         },
         't13-2': {
             'nombre': 'T13 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13</a> (Live 2)&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cnn-cl': {
             'nombre': 'CNN Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.youtube.com/user/cnnchile" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile</a> <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
          'cnn-m3u': {
@@ -457,7 +459,7 @@ var App = {
         if( App.isMobile() ){
             App.add('venticuatro');
         } else {
-            App.add('t13-2');
+            App.add('t13');
             App.add('cnn-m3u');
             App.add('tv-senado-m3u');
             App.add('cima');
