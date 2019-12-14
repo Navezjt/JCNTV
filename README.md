@@ -12,6 +12,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
     - [Denunciar violación DDHH](#denunciar-violación-ddhh)
     - [Variaciones Creadas](#variaciones-creadas)
     - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
+    - [Salud Mental](#salud-mental)
     - [Aviso Legal](#aviso-legal)
     - [Créditos](#créditos)
    
@@ -116,6 +117,11 @@ ___
 |[Periódico Resumen – Concepción](https://resumen.cl/) | [Twitter](https://twitter.com/rsumen) | [Facebook](https://www.facebook.com/PeriodicoResumenConcepcion)    | 🚫  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
 |[Radio Manque](http://www.radiomanque.org/) / [Opción](https://emisora.cl/manque/)| 🚫 | [Facebook](https://www.facebook.com/RadioManque/)    | [Instagram](https://www.instagram.com/radio.manque/)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
 |[Periódicos Chile](https://www.prensaescrita.com/america/chile.php) / [Opción](https://sitios.cl/directorio/diarios.htm) / [Opción2](http://kiosko.net/cl/)| 🚫 | 🚫   | 🚫 |🚫  |
+
+
+___
+# Salud Mental
+-https://www.psiconecta.org/
 
 
 ___
