@@ -25,10 +25,10 @@ var App = {
         'cima-mirror': {
             'nombre': 'Galeria CIMA mirror <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '24-horas-plaza': {
-            'nombre': '24 Horas Plaza Italia <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-plaza" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//        },
+//        '24-horas-plaza': {
+//            'nombre': '24 Horas Plaza Italia <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-plaza" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         't13': {
             'nombre': 'T13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
@@ -387,7 +387,7 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('24-horas-plaza');
+        App.add('tv-senado-m3u');
         App.add('cima');
 
         if (!App.isMobile()) {
