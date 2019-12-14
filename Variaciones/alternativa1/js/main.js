@@ -387,7 +387,7 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('festival');
+        App.add('24-horas-plaza');
         App.add('cima');
 
         if (!App.isMobile()) {
