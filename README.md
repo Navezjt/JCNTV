@@ -19,6 +19,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
+[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-ojo.gif)](https://alplox.github.io/tele/)
 [![](https://github.com/Alplox/tele/raw/master/ejemplos/ejemplo-v2.jpg)](https://alplox.github.io/tele/Variaciones/alternativa1/1)
 
 # Canales disponibles junto a su origen:
@@ -42,7 +43,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 |[Holvoet TV](https://holvoet.cl/en-vivo/) | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
 |[UOCT](https://www.24horas.cl/envivo/senal-de-la-uoct-3685422) | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
 |[TV El Central](https://tvelcentral.cl/) | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
-| | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
+|[24 Horas Plaza Italia](https://www.24horas.cl/envivo/asi-luce-plaza-italia-este-viernes-3781287) | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
 | | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
 | | |[euronews (en español)](https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw) | |
 | | |[VPItv](https://www.youtube.com/channel/UCVFiIRuxJ2GmJLUkHmlmj4w) | |
