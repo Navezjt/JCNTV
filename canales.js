@@ -34,6 +34,7 @@ var App = {
         },
          '24-horas-plaza': {
             'nombre': '24 Horas Plaza Italia <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-plaza" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/concierto-en-plaza-baquedano-3781287" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a>Plaza Italia <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
         't13': {
@@ -465,7 +466,7 @@ var App = {
         } else {
             App.add('meganoticias');
             App.add('cnn-m3u');
-            App.add('24-horas-plaza');
+            App.add('tv-senado-m3u');
             App.add('cima');
             App.add('cam-dipu-m3u-1');
             App.add('venticuatro');
