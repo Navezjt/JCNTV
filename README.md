@@ -6,17 +6,17 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya que yo no cacho jajaja)
 
-- Contenido:
-    - [Canales disponibles junto a su origen](#canales-disponibles-junto-a-su-origen)
-    - [Colecciones videos protestas](#colección-videos-protestas)
-    - [Denunciar violación DDHH](#denunciar-violación-ddhh)
-    - [Variaciones Creadas](#variaciones-creadas)
+- ***Contenido:***
+    - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen)
+    - [Colecciones videos protestas 🎞️](#colección-videos-protestas)
+    - [Denunciar violación DDHH ⚠️](#denunciar-violación-ddhh)
+    - [Variaciones Creadas 🖥️](#variaciones-creadas)
     - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
-    - [Salud Mental](#salud-mental)
-    - [Aviso Legal](#aviso-legal)
+    - [Salud Mental ❤️](#salud-mental)
+    - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
    
-[Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
+## [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
