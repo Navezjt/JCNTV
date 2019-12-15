@@ -471,10 +471,10 @@ var App = {
         } else {
             App.add('meganoticias');
             App.add('cnn-m3u');
-            App.add('tv-senado-m3u');
+            App.add('24-horas-m3u');
             App.add('cima');
             App.add('cam-dipu-m3u-1');
-            App.add('24-horas-m3u');
+            App.add('tv-senado');
             App.add('t13');
         }
         
