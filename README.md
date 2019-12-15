@@ -130,7 +130,7 @@ ___
 - Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd entre otros…) y desconocemos si los mismos tienen contratos de cesión de derechos sobre estos canales o eventos de pago para reproducirlos, alojarlos o permitir utilizarlos.
 - El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión de los canales de TV ni implica la decodificación de éstos.
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de LIBRE ACCESO.
-- No soy propietario, ni responsable de ninguno de los contenidos en este sitio web.
+- No se es propietario, ni responsable de ninguno de los contenidos transmitidos en este sitio web.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
 - El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o medio.
 ___
