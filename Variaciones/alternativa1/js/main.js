@@ -391,7 +391,7 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('tv-senado-m3u');
+        App.add('24-horas-m3u');
         App.add('cima');
 
         if (!App.isMobile()) {
@@ -400,7 +400,7 @@ var App = {
             App.add('uoct-tobalaba');
             App.add('cnn-m3u');
             App.add('meganoticias');
-            App.add('24-horas-m3u');
+            App.add('tv-senado');
             
         }
     }
