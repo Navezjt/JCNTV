@@ -9,10 +9,10 @@ var App = {
         'meganoticias': {
             'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-//        },
-//        'meganoticias-2': {
-//            'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/gVm6vqJn7aE?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
+        'meganoticias-2': {
+            'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/pfdzgvetauk?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 //        },
 //        'meganoticias-3': {
 //            'nombre': 'Meganoticias 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -37,10 +37,10 @@ var App = {
         't13': {
             'nombre': 'T13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/bOvhCYr1NYk?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-//        },
-//        't13-2': {
-//            'nombre': 'T13 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
+        't13-2': {
+            'nombre': 'T13 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
             't13-m3u': {
             'nombre': 'T13 op1 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -311,31 +311,31 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-13-yutu': {
-            'nombre': 'Cámara Diputados YT Vivienda, Desarrollo Urbano y Bienes Nacionales<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT Vivienda, Desarrollo Urbano y Bienes Nacionales <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-05-yutu': {
-            'nombre': 'Cámara Diputados YT Mujeres y Equidad de Género<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT Mujeres y Equidad de Género <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-06-yutu': {
-            'nombre': 'Cámara Diputados YT Derechos Humanos y Pueblos Originarios<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT Derechos Humanos y Pueblos Originarios <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-07-yutu': {
-            'nombre': 'Cámara Diputados YT 07<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 07 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-08-yutu': {
-            'nombre': 'Cámara Diputados YT 08<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 08 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCCtDbZzh63vgU_BWHRGsbug&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-11-yutu': {
-            'nombre': 'Cámara Diputados YT 11<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 11 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-12-yutu': {
-            'nombre': 'Cámara Diputados YT 12<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 12 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         }
     },
