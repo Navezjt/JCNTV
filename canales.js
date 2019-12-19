@@ -484,7 +484,7 @@ var App = {
             App.add('24-horas-m3u');
             App.add('cima');
             App.add('cam-dipu-m3u-1');
-            App.add('tv-senado');
+            App.add('tv-senado-m3u');
             App.add('t13');
         }
         
