@@ -3,7 +3,7 @@ var sizeMobile = 12;
 var App = {
     channels: {
        'venticuatro': {
-            'nombre': '24 horas <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'nombre': '24 horas 1<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'meganoticias': {
@@ -31,7 +31,7 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
          '24-horas-m3u': {
-            'nombre': '24 Horas <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '24 Horas 3<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'   
         },
         't13': {
