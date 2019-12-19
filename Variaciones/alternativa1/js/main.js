@@ -412,7 +412,7 @@ var App = {
             App.add('uoct-tobalaba');
             App.add('cnn-m3u');
             App.add('meganoticias');
-            App.add('tv-senado');
+            App.add('tv-senado-m3u');
             
         }
     }
