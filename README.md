@@ -26,38 +26,41 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 # Canales disponibles junto a su origen:
 | Canales ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)    | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)     | Internacionales 🌍 | Música   🎵  |
 | ------------- | ------------- | ------------- | -------------|
-| [24 Horas](https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ)      | [Cooperativa](http://programas.cooperativa.cl/showalairelibre/)   | [Todonoticias](https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw) | [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow)   |
-| [TV Senado](https://tv.senado.cl/)     | [Biobio TV](https://www.biobiochile.cl/biobiotv/)     | [RT Español](https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw)    | [Chillhop](https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg)    |
-| [Meganoticias](https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q)  | [ADN](http://tv.adnradio.cl/)           | [RT News](https://www.youtube.com/channel/UCpwvZwUam-URkxB7g4USKpg)       | [Steezyasfuck](https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg) |
-| [Galería CIMA](https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg)  | [Duna](https://www.duna.cl/tv/)   | [MILENIO](https://www.youtube.com/user/MILENIO)       | [Relaxdaily](https://www.youtube.com/channel/UCc9EzBNAtdnNiDrMw5CAxUw)             |
-| [T13](https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg)   | [Infinita](http://www.infinita.cl/home/)      | [RT en vivo](https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ)                | [IMUC Chile](https://www.youtube.com/channel/UCIIDtZoaK9UZi4FaGMmL_hw)             |     
-| [CNN Chile](https://www.youtube.com/user/cnnchile)     | [Universo](https://www.universo.cl/)    | [FRANCE 24 English](https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg)        |              |
-| [Canal 9 (Conce)](https://www.canal9.cl/en-vivo/) | [AE (DUOC)](https://www.aeradio.cl/)     | [Crónica TV](https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g)              |              | 
-| [TVU (Conce)](https://www.tvu.cl/)   | [Mi Radio La Serena](https://www.youtube.com/channel/UClJiriqxFwmmVIQeASJfICQ)      |                [DW Español](https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA)             |
-| [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)  |[Radio Placeres 87.7 FM](https://www.radioplaceres.cl/sitio/)         |[Sky News](https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ)               |              |
-| [Cámara de Diputados](http://webtv.camara.cl/) |[Radio Manque 102.9 FM](http://www.radiomanque.org/)            | [蘋果動新聞 HK Apple Daily](https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ)              |              |
-| [Canal 33 (Temuco)](http://www.canal33.cl/online.php) |[Radio USACH 94.5 FM](http://www.radio.usach.cl/)            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
-| [CHV](http://www.chilevision.cl/senal-online/)           |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)               |              |
-| [UCV TV](https://pucvmultimedios.cl/senal-online-tv.php) |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              |
-| [UATV](https://uatv.cl/uatv-en-vivo/) |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              |
-| [VTV](http://canalvtv.cl/vtv/) |  |[teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)  |     |
-|[Holvoet TV](https://holvoet.cl/en-vivo/) | |[America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
-|[UOCT](https://www.24horas.cl/envivo/senal-de-la-uoct-3685422) | |[LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
-|[TV El Central](https://tvelcentral.cl/) | |[EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
-|[24 Horas Plaza Italia](https://www.24horas.cl/envivo/asi-luce-plaza-italia-este-viernes-3781287) | |[Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
-| | |[Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
-| | |[euronews (en español)](https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw) | |
-| | |[VPItv](https://www.youtube.com/channel/UCVFiIRuxJ2GmJLUkHmlmj4w) | |
-| | |[Canal26Argentina](https://www.youtube.com/channel/UCrpMfcQNog595v5gAS-oUsQ) | |
-| | |[NoticiasUnoColombia](https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA) | |
-| | |[TV Pública Argentina](https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg) | |
-| | |[A24](https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ) | |
-| | |[ABC7 SWFL](https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg) | |
-| | |[TVC News Nigeria](https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA) | |
-| | |[ANNnewsCH](https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ) | |
-| | |[三立LIVE新聞](https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw) | |
-
-
+| [24 Horas](https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ)       | [Cooperativa](http://programas.cooperativa.cl/showalairelibre/)   | [Todonoticias](https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw) | [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow)   |
+| [24 Horas 2](https://www.24horas.cl/envivo/)                               | [Biobio TV](https://www.biobiochile.cl/biobiotv/)     | [RT Español](https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw)    | [Chillhop](https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg)    |
+| [24 Horas 3](https://www.24horas.cl/envivo/)                               | [ADN](http://tv.adnradio.cl/)           | [RT News](https://www.youtube.com/channel/UCpwvZwUam-URkxB7g4USKpg)       | [Steezyasfuck](https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg) |
+| [Galería CIMA](https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg)   | [Duna](https://www.duna.cl/tv/)   | [MILENIO](https://www.youtube.com/user/MILENIO)       | [Relaxdaily](https://www.youtube.com/channel/UCc9EzBNAtdnNiDrMw5CAxUw)             |
+| [T13](https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg)            | [Infinita](http://www.infinita.cl/home/)      | [RT en vivo](https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ)                | [IMUC Chile](https://www.youtube.com/channel/UCIIDtZoaK9UZi4FaGMmL_hw)             |     
+| [T13 op1](https://www.t13.cl/en-vivo)                                      | [Universo](https://www.universo.cl/)    | [FRANCE 24 English](https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg)        |              |
+| [CNN Chile](https://www.youtube.com/user/cnnchile)                         | [AE (DUOC)](https://www.aeradio.cl/)     | [Crónica TV](https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g)              |              | 
+| [CNN Chile 2](https://www.cnnchile.com/page/en-vivo/) - [x](http://www.m3u.cl/iptv-chile.php)    | [Mi Radio La Serena](https://www.youtube.com/channel/UClJiriqxFwmmVIQeASJfICQ)      |                [DW Español](https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA)             |
+| [Tribunal Constitucional de Chile](https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg)   | [Radio Placeres 87.7 FM](https://www.radioplaceres.cl/sitio/)         |[Sky News](https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ)  | |
+| [TV Senado](https://tv.senado.cl/) - [x](http://www.m3u.cl/iptv-chile.php)   | [Radio Manque 102.9 FM](http://www.radiomanque.org/)            | [蘋果動新聞 HK Apple Daily](https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ)              |              |
+| [TV Senado 2](https://tv.senado.cl/)    | [Radio USACH 94.5 FM](http://www.radio.usach.cl/)            | [有線電視 CABLE TV & 有線新聞 CABLE News](https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w)              |              |
+| [TV Senado 3](https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg)    |               | [RT America](https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ)               |              |
+| [Meganoticias](https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q)   |               | [Left Voice](https://www.youtube.com/channel/UClUHLX_Rd-SNOl8Ws2C_EJQ)              |              ||            
+| [TVU (Conce)](https://www.tvu.cl/)                                         |               | [Youtube C5N](https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w)              |              || 
+| [Canal 21 (Chillán)](http://www.canal21tv.cl/wp/en-vivo/)                  |               | [teleSUR tv](https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w)  |     || 
+| [Canal 9 (Conce)](https://www.canal9.cl/en-vivo/)                          |               | [America TV](https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw) | |
+| [Canal 33 (Temuco)](http://www.canal33.cl/online.php)                      |               | [LA NACION](https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA) | |
+| [CHV](http://www.chilevision.cl/senal-online/)                             |               | [EL TIEMPO](https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw) | |
+| [UCV TV](https://pucvmultimedios.cl/senal-online-tv.php)                   |               | [Revista Semana](https://www.youtube.com/channel/UC4oQAvXFuNlKivYjUynQKTA) | |
+| [UATV](https://uatv.cl/uatv-en-vivo/)                                      |               | [Noticias Caracol](https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ) | |
+| [VTV](http://canalvtv.cl/vtv/)                                             |               | [euronews (en español)](https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw) | |
+| [Holvoet TV](https://holvoet.cl/en-vivo/)                                  |               | [VPItv](https://www.youtube.com/channel/UCVFiIRuxJ2GmJLUkHmlmj4w) | |
+| [UOCT](https://www.24horas.cl/envivo/senal-de-la-uoct-3685422)             |               | [Canal26Argentina](https://www.youtube.com/channel/UCrpMfcQNog595v5gAS-oUsQ) | |
+| [TV El Central](https://tvelcentral.cl/)                                   |               | [NoticiasUnoColombia](https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA) | | 
+| [Cámara de Diputados 1](http://www.cdtv.cl//)                              |               | [TV Pública Argentina](https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg) | |
+| [Cámara de Diputados 2](http://webtv.camara.cl/)                           |               | [A24](https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ) | |
+| [Cámara de Diputados 3](http://webtv.camara.cl/)                           |               | [ABC7 SWFL](https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg) | |
+| [Cámara de Diputados Señal Youtube](https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA)             | |[TVC News Nigeria](https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA) | |
+| [Cámara de Diputados YT 05](https://www.youtube.com/channel/UC0QKtI8NpeMObauDylsSUDA)             | |[ANNnewsCH](https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ) | |
+| [Cámara de Diputados YT 06](https://www.youtube.com/channel/UCspWzpGflwb6A8PZqWw49CQ)            | |[三立LIVE新聞](https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw) | |
+| [Cámara de Diputados YT 07](https://www.youtube.com/channel/UCyVjDDBZGDywVGrpGBvGEsw)            | | | |
+| [Cámara de Diputados YT 08](https://www.youtube.com/channel/UCCtDbZzh63vgU_BWHRGsbug)            | | | |
+| [Cámara de Diputados YT 11](https://www.youtube.com/channel/UCYPKjGKq2yLbAnmth5rFZmQ)            | | | |
+| [Cámara de Diputados YT 12](https://www.youtube.com/channel/UCVOWFY-sgbDglBsfOap9okg)            | | | |
+| [Cámara de Diputados YT 13](https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw)            | | | |
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline.*
 
