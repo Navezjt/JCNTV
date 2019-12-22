@@ -274,7 +274,7 @@ var App = {
             App.add('cima');
             App.add('venticuatro');
             App.add('meganoticias');
-            App.add('tv-senado-yutu');   
+            App.add('mbf');   
             App.add('c5n');   
         }
     }
