@@ -5,7 +5,6 @@ var App = {
        'venticuatro': {
             'nombre': '24 horas <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
         //        },
 //        '24-horas-señal2': {
 //            'nombre': '24 Horas 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
