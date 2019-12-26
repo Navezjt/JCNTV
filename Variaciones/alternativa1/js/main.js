@@ -17,10 +17,10 @@ var App = {
         'meganoticias': {
             'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        'meganoticias-2': {
-            'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/DfT1ifi3KEM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//        },
+//        'meganoticias-2': {
+//            'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/DfT1ifi3KEM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 //        },
 //        'meganoticias-3': {
 //            'nombre': 'Meganoticias 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -41,10 +41,10 @@ var App = {
         't13': {
             'nombre': 'T13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/bOvhCYr1NYk?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        't13-2': {
-            'nombre': 'T13 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//        },
+//        't13-2': {
+//            'nombre': 'T13 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
             't13-m3u': {
             'nombre': 'T13 op1 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -65,10 +65,10 @@ var App = {
         'tv-senado-m3u': {
             'nombre': '🏛️ TV Senado 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        'tv-senado-yutu': {
-            'nombre': '🏛️ TV Senado 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//        },
+//        'tv-senado-yutu': {
+//            'nombre': '🏛️ TV Senado 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-m3u-1': {
             'nombre': '🏛️ Cámara Diputados <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -81,10 +81,10 @@ var App = {
         'cam-dipu-m3u-3': {
             'nombre': '🏛️ Cámara Diputados 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados3" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        'tribunal-consti': {
-            'nombre': '🏛️ Tribunal Constitucional de Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+ //       },
+ //       'tribunal-consti': {
+ //           'nombre': '🏛️ Tribunal Constitucional de Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+ //           'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'chv-m3u-1': {
             'nombre': 'CHV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
