@@ -129,7 +129,7 @@ var App = {
         },
         'tv-publica-arg': {
             'nombre': 'TV Pública Argentina 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/Z5IH9Z-3tkQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'france-24': {
             'nombre': 'FRANCE 24 🌍',
@@ -169,7 +169,7 @@ var App = {
         },
         'steezyasfuck': {
             'nombre': 'Steezyasfuck 🎵',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/g0AvCn6ViqY?autoplay=1&volume=100&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCsIg9WMfxjZZvwROleiVsQg&autoplay=1&volume=100&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'relaxdaily': {
             'nombre': 'Relaxdaily 🎵',
