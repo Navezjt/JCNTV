@@ -313,7 +313,7 @@ var App = {
         },
         'steezyasfuck': {
             'nombre': 'Steezyasfuck 🎵',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsIg9WMfxjZZvwROleiVsQg?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> STEEZYASFUCK</a> 🎵</div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsIg9WMfxjZZvwROleiVsQg&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> STEEZYASFUCK</a> 🎵</div>'
         },
         'relaxdaily': {
             'nombre': 'Relaxdaily 🎵',
