@@ -1,6 +1,7 @@
 ## Visor de múltiples canales de noticias chilenos a modo de seguir las protestas actuales
 # Sitio: https://alplox.github.io/tele/ - [Versión 2](https://alplox.github.io/tele/Variaciones/alternativa1/1) 
-[Versión 3 No YT tracking (invidio.us)](https://alplox.github.io/tele/Variaciones/alternativa2/2)
+[Versión 3 No YT tracking (invidio.us)](https://alplox.github.io/tele/Variaciones/alternativa2/2) -
+[Versión "Secreta" (Consume más CPU!)](https://alplox.github.io/tele/versionsecreta)
 
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
