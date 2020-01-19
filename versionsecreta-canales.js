@@ -1,4 +1,4 @@
-var size = 4;
+var size = 12;
 var sizeMobile = 12;
 var App = {
     channels: {
