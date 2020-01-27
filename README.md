@@ -17,7 +17,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
     - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
    
-## [Protestas Chile 2019](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
+## [Protestas Chile 2019 - 2020](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
