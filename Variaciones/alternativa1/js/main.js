@@ -13,10 +13,10 @@ var App = {
          '24-horas-m3u': {
             'nombre': '24 Horas 3<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'   
-        },
-        'meganoticias': {
-            'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+ //       },
+ //       'meganoticias': {
+ //           'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+ //           'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
  //       },
  //       'meganoticias-2': {
  //           'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -418,7 +418,7 @@ var App = {
             App.add('cam-dipu-m3u-1');
             App.add('t13');
             App.add('uoct-tobalaba');
-            App.add('meganoticias');
+            App.add('tn');
             App.add('cnn-m3u');
             App.add('tv-senado-m3u');
             
