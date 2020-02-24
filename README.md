@@ -63,6 +63,8 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 | [Cámara de Diputados YT 11](https://www.youtube.com/channel/UCYPKjGKq2yLbAnmth5rFZmQ)            | | | |
 | [Cámara de Diputados YT 12](https://www.youtube.com/channel/UCVOWFY-sgbDglBsfOap9okg)            | | | |
 | [Cámara de Diputados YT 13](https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw)            | | | |
+| [Canal 13](https://www.13.cl/en-vivo)                                                            | | | |
+| [TV Chile](https://www.tvchile.cl/envivo/)                                                       | | | |
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline.*
 
