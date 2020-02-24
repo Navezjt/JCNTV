@@ -6,9 +6,13 @@ var App = {
             'nombre': '24 horas <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
-         'canal-13': {
+         'canal-13-m3u': {
             'nombre': 'Canal 13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/canal13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'      
+        },
+        'tv-chile-m3u': {
+            'nombre': 'TV Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'      
 //        },
 //        '24-horas-señal2': {
 //            'nombre': '24 Horas 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -415,7 +419,7 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('canal-13');
+        App.add('canal-13-m3u');
         App.add('cima');
 
         if (!App.isMobile()) {
@@ -423,7 +427,7 @@ var App = {
             App.add('t13');;
             App.add('cnn-m3u');
             App.add('tv-senado-m3u');
-            
+            App.add('tv-chile-m3u');
         }
     }
 };
