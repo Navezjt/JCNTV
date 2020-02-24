@@ -492,7 +492,7 @@ var App = {
         if( App.isMobile() ){
             App.add('cima');
         } else {
-            App.add('uoct-tobalaba');
+            App.add('c5n');
             App.add('cnn-m3u');
             App.add('24-horas-m3u');
             App.add('cima');
