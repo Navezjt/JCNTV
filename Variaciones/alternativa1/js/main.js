@@ -415,14 +415,12 @@ var App = {
     init: function(){
         App.seedModal();
 
-        App.add('24-horas-m3u');
+        App.add('canal-13');
         App.add('cima');
 
         if (!App.isMobile()) {
             App.add('cam-dipu-m3u-1');
-            App.add('canal-13');
-            App.add('uoct-tobalaba');
-            App.add('t13');
+            App.add('t13');;
             App.add('cnn-m3u');
             App.add('tv-senado-m3u');
             
