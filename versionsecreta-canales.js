@@ -2,21 +2,34 @@ var size = 2;
 var sizeMobile = 12;
 var App = {
     channels: {
-       'venticuatro': {
+     'venticuatro': {
             'nombre': '24 horas <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        //        },
-//        '24-horas-señal2': {
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas TVN</a>&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>' 
+         },
+          'canal-13-m3u': {
+            'nombre': 'Canal 13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/canal13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.13.cl/en-vivo?page=1" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 13 </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'      
+        },
+         'tv-chile-m3u': {
+            'nombre': 'TV Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'      
+//       },
+//        'venticuatro-play': {
+//            'nombre': '24 Play <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+//            'status': 'offline',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeKSSTjG4r-Qvcpjnwgo0VQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCeKSSTjG4r-Qvcpjnwgo0VQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Play TVN</a>&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+//        },
+//         '24-horas-señal2': {
 //            'nombre': '24 Horas 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a>2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
         },
          '24-horas-m3u': {
-            'nombre': '24 Horas 3<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'   
-        },
-        'meganoticias': {
-            'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+            'nombre': '24 Horas 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'       
+//        },
+//        'meganoticias': {
+//            'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
  //       },
  //       'meganoticias-2': {
  //           'nombre': 'Meganoticias 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -25,6 +38,10 @@ var App = {
  //       'meganoticias-3': {
  //           'nombre': 'Meganoticias 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
  //           'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/GP91k0G86XI?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
+         'meganoticias-mirror': {
+            'nombre': 'Meganoticias op1 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias</a> (señal no oficial=inestable) &nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cima': {
             'nombre': 'Galeria CIMA <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
@@ -418,7 +435,7 @@ var App = {
             App.add('cam-dipu-m3u-1');
             App.add('t13');
             App.add('uoct-tobalaba');
-            App.add('meganoticias');
+            App.add('meganoticias-mirror');
             App.add('cnn-m3u');
             App.add('chv-m3u-1');
             App.add('cooperativa');
