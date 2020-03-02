@@ -9,10 +9,6 @@ var App = {
             'nombre': 'Canal 13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/canal13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.13.cl/en-vivo?page=1" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 13 </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'      
         },
-         'tv-chile-m3u': {
-            'nombre': 'TV Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'      
-        },
         'venticuatro-play': {
             'nombre': '24 Play <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'status': 'offline',
@@ -81,7 +77,6 @@ var App = {
         },
         'tv-senado-yutu': {
             'nombre': '🏛️ TV Senado 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Senado 3 (no es 24/7) </a>&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'cam-dipu-m3u-1': {
@@ -109,6 +104,10 @@ var App = {
          'cnn-m3u': {
             'nombre': 'CNN Chile 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/cnn1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.cnnchile.com/page/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile</a> 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
+        },
+        'tv-chile-m3u': {
+            'nombre': 'TV Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile </a><img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'      
         },
         'chv-m3u-1': {
             'nombre': 'CHV <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
