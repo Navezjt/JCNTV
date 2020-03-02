@@ -42,10 +42,10 @@ var App = {
  //       'cnn-cl': {
  //           'nombre': 'CNN Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
  //           'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
- //       },
- //        'tv-senado-yutu': {
- //           'nombre': '🏛️ TV Senado 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
- //           'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
+         'tv-senado-yutu': {
+            'nombre': '🏛️ TV Senado 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
  //       },
  //       'tribunal-consti': {
  //           'nombre': '🏛️ Tribunal Constitucional de Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
