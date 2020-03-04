@@ -25,6 +25,7 @@ var App = {
         },
         'meganoticias': {
             'nombre': 'Meganoticias <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias</a>&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'meganoticias-2': {
@@ -49,6 +50,10 @@ var App = {
             'nombre': 'Galeria CIMA mirror <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA</a> mirror <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
+        'mbf': {
+            'nombre': 'MBF Tobalaba <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/xZFIwLIxdaY&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCBmANckY0RV4wbF0EVqGPSA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> MBF Tobalaba esquina Apoquindo</a> (señal no oficial=inestable) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
+      },
         't13': {
             'nombre': 'T13 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/bOvhCYr1NYk?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13</a>&nbsp;<img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
@@ -99,10 +104,6 @@ var App = {
          'cnn-m3u': {
             'nombre': 'CNN Chile 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/cnn1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.cnnchile.com/page/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile</a> 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img></div>'
-        },
-        'mbf': {
-            'nombre': 'MBF Tobalaba <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>', 
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/xZFIwLIxdaY&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UCBmANckY0RV4wbF0EVqGPSA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> MBF Tobalaba esquina Apoquindo</a> (señal no oficial=inestable) <img class="edge" src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></div>'
         },
         'tv-chile-m3u': {
             'nombre': 'TV Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
@@ -508,7 +509,7 @@ var App = {
             App.add('cima');
             App.add('cam-dipu-m3u-1');
             App.add('tv-senado-m3u');
-            App.add('meganoticias');
+            App.add('meganoticias-mirror');
         }
         
     }
