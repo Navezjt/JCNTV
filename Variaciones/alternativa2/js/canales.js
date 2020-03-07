@@ -282,7 +282,7 @@ var App = {
         if (!App.isMobile()) {
             App.add('cima');
             App.add('venticuatro');
-            App.add('tn');
+            App.add('tv-senado-yutu');
             App.add('mbf');  
             App.add('meganoticias-mirror'); 
         }
