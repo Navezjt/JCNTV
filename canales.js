@@ -508,7 +508,7 @@ var App = {
             App.add('cima');
             App.add('cam-dipu-m3u-1');
             App.add('tv-senado-yutu');
-            App.add('meganoticias');
+            App.add('meganoticias-mirror');
         }
         
     }
