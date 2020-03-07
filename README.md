@@ -140,6 +140,8 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[Salud Mental](https://www.psiconecta.org/)||[Facebook](https://www.facebook.com/psiconectacl?_fb_noscript=1)-[Twitter](https://twitter.com/psiconectacl)-[Instagram](https://twitter.com/psiconectacl)|
 |[Uso de Tecnologías y Privacidad en Internet](https://old.reddit.com/r/chile/comments/dt4s2u/uso_de_tecnolog%C3%ADas_y_privacidad_en_internet/)|||
 |[Autoprotección Digital Contra La Vigilancia](https://ssd.eff.org/es/playlist/%C2%BFactivista-o-manifestante)|||
+|[Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
+|[Coronavirus rastrear la propagación](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 |**Proyectos GitHub** | | |
 |[constitucion_chile](https://github.com/opensourcechile/constitucion_chile) por [opensourcechile](https://github.com/opensourcechile)|||
 |[awesome_chilean_context](https://github.com/maurotoro/awesome_chilean_context) por [maurotoro](https://github.com/maurotoro)|||
