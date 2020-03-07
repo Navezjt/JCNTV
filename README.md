@@ -5,7 +5,7 @@
 
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
-Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya que yo no cacho jajaja)
+Toda contribución es bienvenida 😊
 
 - ***Contenido:***
     - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen)
@@ -13,7 +13,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
     - [Denunciar violación DDHH ⚠️](#denunciar-violación-ddhh)
     - [Variaciones Creadas 🖥️](#variaciones-creadas)
     - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
-    - [Salud Mental ❤️](#salud-mental)
+    - [Complementario 🔗](#complementario)
     - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
    
@@ -70,7 +70,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 
 # Colección videos protestas:
 
-| LINK | Provisto por: | Fuente | Mirror         |
+| Enlace | Provisto por: | Fuente | Mirror         |
 | ------------- | ------------- | ------------- | ------------|
 | [Archivo publico de videos](https://archivopublico.smvi.co/)     | [u/dorinacho](https://old.reddit.com/user/dorinacho) | [x](https://old.reddit.com/r/chile/comments/dlllnq/donde_difundir_v%C3%ADdeos_sobre_las_protestas/f4rl0lv/) | 
 | [Compilación en Google Drive](https://drive.google.com/drive/folders/1xO5rwXFK1gOTuEzDf4wdtJFvyVqSqEXL) | [u/beatripit](https://old.reddit.com/user/beatripit/) | [x](https://old.reddit.com/r/DataHoarder/comments/dsilcn/anyone_hoarding_chile_protest_videos/) | [Torrent](http://mgnet.me/dRVn4G6)
@@ -83,7 +83,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 
 # Denunciar violación DDHH:
 
-| LINKS | 
+| Enlaces | 
 | ------------- |
 | https://www.indh.cl/ |
 | https://www.testigoenlinea.cl/ |
@@ -92,7 +92,7 @@ Si sabe alguna manera de automatizarlo toda contribución es bienvenida 😊 (ya
 ___
 # Variaciones Creadas:
 
-| LINK | Por: | Fuente |Fork  |
+| Enlaces | Por: | Fuente |Fork  |
 | ------------- | ------------- |------------- |------------- |
 |http://pslabs.cl/tele.html |  [@pottersys](https://twitter.com/pottersys)| [Fuente](https://twitter.com/pottersys/status/1187710925182255104) |[x](https://alplox.github.io/tele/) |
 |https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1) |
@@ -109,7 +109,7 @@ ___
 
 *No porque un sitio sea "alternativo" lo convierte en verídico, recuerde aplicar el mismo nivel de criterio que con los medios televisivos o cualquier medio de prensa venga el caso [(¿Cómo detectar un Fake News?)](https://aam.cl/noticias-aam/social-media/como-detectar-un-fake-news/).
 
-| Link/Nombre          | Twitter ![](https://i.imgur.com/u4qu0Y1.png)      |Facebook ![](https://i.imgur.com/yGCWyob.png) |Instagram ![](https://i.imgur.com/L70jBYo.png)     |Fuente        |
+| Enlace/Nombre          | Twitter ![](https://i.imgur.com/u4qu0Y1.png)      |Facebook ![](https://i.imgur.com/yGCWyob.png) |Instagram ![](https://i.imgur.com/L70jBYo.png)     |Fuente        |
 | ------------- | ------------- |------------- |------------- |------------- |
 |[Ciper](https://ciperchile.cl/)  | [Twitter](https://twitter.com/ciper) | [Facebook](https://www.facebook.com/ciperchile)    | [Instagram](https://www.instagram.com/ciper_chile/?hl=es-la)  |🚫  |
 |[Radio Villa Francia](http://www.radiovillafrancia.cl/) / [Opción](https://emisora.cl/villa-francia/) | [Twitter](https://twitter.com/rvfradiopopular) | [Facebook](https://es-la.facebook.com/RadioVillaFrancia1/)    | [Instagram](https://www.instagram.com/villafrancia/)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
@@ -126,10 +126,25 @@ ___
 |[Periódicos Chile](https://www.prensaescrita.com/america/chile.php) / [Opción](https://sitios.cl/directorio/diarios.htm) / [Opción2](http://kiosko.net/cl/)| 🚫 | 🚫   | 🚫 |🚫  |
 
 
-___
-# Salud Mental
--https://www.psiconecta.org/
 
+___
+# Complementario
+Paginas/Material que posean información útil en cuanto a diversos temas que no sabía donde añadir para compartir:
+| Sitio | Mirror | RRSS
+| ------------- | ------------- | ------------- |
+| **Datos** | | |
+|[PacoLeaks](https://data.ddosecrets.com/file/PacoLeaks/) | [mirror](https://old.reddit.com/r/chile/comments/dsce0n/pacoleaks_an%C3%B3nimo_e_incensurable_versi%C3%B3n_2/) ||
+|**Prevención y cuidado** || |
+|[Pacomap.live](https://pacomap.live)||[Telegram](https://t.me/pacomaplive)-[Twitter](https://twitter.com/pacomaplive)-[Instagram](instagram.com/pacomap.live)|
+|[Guía para cuidarse los ojos en estas manifestaciones](https://www.reddit.com/r/chile/comments/du4hn0/gu%C3%ADa_para_cuidarse_los_ojos_en_estas/)|||
+|[Salud Mental](https://www.psiconecta.org/)||[Facebook](https://www.facebook.com/psiconectacl?_fb_noscript=1)-[Twitter](https://twitter.com/psiconectacl)-[Instagram](https://twitter.com/psiconectacl)|
+|[Uso de Tecnologías y Privacidad en Internet](https://old.reddit.com/r/chile/comments/dt4s2u/uso_de_tecnolog%C3%ADas_y_privacidad_en_internet/)|||
+|[Autoprotección Digital Contra La Vigilancia](https://ssd.eff.org/es/playlist/%C2%BFactivista-o-manifestante)|||
+|**Proyectos GitHub** | | |
+|[constitucion_chile](https://github.com/opensourcechile/constitucion_chile) por [opensourcechile](https://github.com/opensourcechile)|||
+|[awesome_chilean_context](https://github.com/maurotoro/awesome_chilean_context) por [maurotoro](https://github.com/maurotoro)|||
+|[2019-Chile](https://github.com/gorkang/2019-Chile) por [gorkang](https://github.com/gorkang)|||
+|[-Que-nos-pas-Chile-](https://github.com/jbaranao/-Que-nos-pas-Chile-) por [jbaranao](https://github.com/jbaranao) ||||
 
 ___
 # Aviso Legal
@@ -140,6 +155,8 @@ ___
 - No se es propietario, ni responsable de ninguno de los contenidos transmitidos en este sitio web.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
 - El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o medio.
+- En este proyecto no se almacena ningún stream.
+- Si posees los derechos de algún canal y deseas que lo retire, contáctame.
 ___
 
 # Créditos
