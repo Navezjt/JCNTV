@@ -135,7 +135,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 | **Datos** | | |
 |[PacoLeaks](https://data.ddosecrets.com/file/PacoLeaks/) | [mirror](https://old.reddit.com/r/chile/comments/dsce0n/pacoleaks_an%C3%B3nimo_e_incensurable_versi%C3%B3n_2/) ||
 |**Prevención y cuidado** || |
-|[Pacomap.live](https://pacomap.live)||[Telegram](https://t.me/pacomaplive)-[Twitter](https://twitter.com/pacomaplive)-[Instagram](instagram.com/pacomap.live)|
+|[Pacomap.live](https://pacomap.live)||[Telegram](https://t.me/pacomaplive)-[Twitter](https://twitter.com/pacomaplive)-[Instagram](https://www.instagram.com/pacomap.live/)|
 |[Guía para cuidarse los ojos en estas manifestaciones](https://www.reddit.com/r/chile/comments/du4hn0/gu%C3%ADa_para_cuidarse_los_ojos_en_estas/)|||
 |[Salud Mental](https://www.psiconecta.org/)||[Facebook](https://www.facebook.com/psiconectacl?_fb_noscript=1)-[Twitter](https://twitter.com/psiconectacl)-[Instagram](https://twitter.com/psiconectacl)|
 |[Uso de Tecnologías y Privacidad en Internet](https://old.reddit.com/r/chile/comments/dt4s2u/uso_de_tecnolog%C3%ADas_y_privacidad_en_internet/)|||
