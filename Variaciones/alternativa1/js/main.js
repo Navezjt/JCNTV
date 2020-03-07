@@ -431,7 +431,7 @@ var App = {
             App.add('t13');;
             App.add('cnn-m3u');
             App.add('tv-senado-m3u');
-            App.add('meganoticias');
+            App.add('meganoticias-mirror');
         }
     }
 };
