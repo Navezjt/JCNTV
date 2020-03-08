@@ -6,6 +6,7 @@
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 Toda contribución es bienvenida 😊
+[(Repositorio)](https://github.com/Alplox/tele)
 
 - ***Contenido:***
     - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen)
