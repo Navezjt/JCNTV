@@ -146,6 +146,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
 |[Coronavirus rastrear la propagación](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 |**Proyectos GitHub** | | |
+|[COVID19_Chile](https://datastudio.google.com/reporting/b1689869-0c59-442c-951d-2991c0fc611d/) por [ivanMSC](https://github.com/ivanMSC) - [x](https://old.reddit.com/r/chile/comments/fj48b7/reporte_interactivo_del_coronavirus_en_chile/)|||
 |[constitucion_chile](https://github.com/opensourcechile/constitucion_chile) por [opensourcechile](https://github.com/opensourcechile)|||
 |[awesome_chilean_context](https://github.com/maurotoro/awesome_chilean_context) por [maurotoro](https://github.com/maurotoro)|||
 |[2019-Chile](https://github.com/gorkang/2019-Chile) por [gorkang](https://github.com/gorkang)|||
