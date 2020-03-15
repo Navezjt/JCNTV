@@ -430,7 +430,7 @@ var App = {
             App.add('cam-dipu-m3u-1');
             App.add('t13');;
             App.add('cnn-m3u');
-            App.add('tv-senado-m3u');
+            App.add('tv-senado-yutu');
             App.add('meganoticias-mirror');
         }
     }
