@@ -13,7 +13,7 @@ Toda contribución es bienvenida 😊
     - [Denunciar violación DDHH ⚠️](#denunciar-violación-ddhh)
     - [Variaciones Creadas 🖥️](#variaciones-creadas)
     - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
-    - [Complementario 🔗](#complementario)
+    - [Complementario 🔗🦠](#complementario)
     - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
    
@@ -140,14 +140,14 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[Salud Mental](https://www.psiconecta.org/)||[Facebook](https://www.facebook.com/psiconectacl?_fb_noscript=1)-[Twitter](https://twitter.com/psiconectacl)-[Instagram](https://twitter.com/psiconectacl)|
 |[Uso de Tecnologías y Privacidad en Internet](https://old.reddit.com/r/chile/comments/dt4s2u/uso_de_tecnolog%C3%ADas_y_privacidad_en_internet/)|||
 |[Autoprotección Digital Contra La Vigilancia](https://ssd.eff.org/es/playlist/%C2%BFactivista-o-manifestante)|||
-|[Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
-|[COVID-19 Información Oficial Gobierno de Chile](https://www.gob.cl/coronavirus/)|||
-|[Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
-|[Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
-|[Coronavirus rastrear la propagación](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) | [mirror](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)||
+|[🦠Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
+|[🦠COVID-19 Información Oficial Gobierno de Chile](https://www.gob.cl/coronavirus/)|||
+|[🦠Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
+|[🦠Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
+|[🦠Coronavirus rastrear la propagación](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) | [mirror](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)||
 |**Proyectos GitHub** | | |
-|[COVID19_Chile](https://datastudio.google.com/reporting/b1689869-0c59-442c-951d-2991c0fc611d/) por [ivanMSC](https://github.com/ivanMSC) - [x](https://old.reddit.com/r/chile/comments/fj48b7/reporte_interactivo_del_coronavirus_en_chile/)|||
-|[CoronaVirus-Outbreak-App (Aplicación Android APK)](https://github.com/TheWCKD/CoronaVirus-Outbreak-App/releases) por [TheWCKD](https://github.com/TheWCKD)|||
+|[🦠COVID19_Chile](https://datastudio.google.com/reporting/b1689869-0c59-442c-951d-2991c0fc611d/) por [ivanMSC](https://github.com/ivanMSC) - [x](https://old.reddit.com/r/chile/comments/fj48b7/reporte_interactivo_del_coronavirus_en_chile/)|||
+|[🦠CoronaVirus-Outbreak-App (Aplicación Android APK)](https://github.com/TheWCKD/CoronaVirus-Outbreak-App/releases) por [TheWCKD](https://github.com/TheWCKD)|||
 |[constitucion_chile](https://github.com/opensourcechile/constitucion_chile) por [opensourcechile](https://github.com/opensourcechile)|||
 |[awesome_chilean_context](https://github.com/maurotoro/awesome_chilean_context) por [maurotoro](https://github.com/maurotoro)|||
 |[2019-Chile](https://github.com/gorkang/2019-Chile) por [gorkang](https://github.com/gorkang)|||
