@@ -141,6 +141,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[Uso de Tecnologías y Privacidad en Internet](https://old.reddit.com/r/chile/comments/dt4s2u/uso_de_tecnolog%C3%ADas_y_privacidad_en_internet/)|||
 |[Autoprotección Digital Contra La Vigilancia](https://ssd.eff.org/es/playlist/%C2%BFactivista-o-manifestante)|||
 |[Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
+|[COVID-19 Información Oficial Gobierno de Chile](https://www.gob.cl/coronavirus/)|||
 |[Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
 |[Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
 |[Coronavirus rastrear la propagación](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
