@@ -57,8 +57,8 @@ Toda contribución es bienvenida 😊
 | [Cámara de Diputados 3](http://webtv.camara.cl/)                           |               | [ABC7 SWFL](https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg) | |
 | [Cámara de Diputados Señal Youtube](https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA)             | |[TVC News Nigeria](https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA) | |
 | [Cámara de Diputados YT 05](https://www.youtube.com/channel/UC0QKtI8NpeMObauDylsSUDA)             | |[ANNnewsCH](https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ) | |
-| [Cámara de Diputados YT 06](https://www.youtube.com/channel/UCspWzpGflwb6A8PZqWw49CQ)            | | | |
-| [Cámara de Diputados YT 07](https://www.youtube.com/channel/UCyVjDDBZGDywVGrpGBvGEsw)            | | | |
+| [Cámara de Diputados YT 06](https://www.youtube.com/channel/UCspWzpGflwb6A8PZqWw49CQ)            | |[COVID-19](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) | |
+| [Cámara de Diputados YT 07](https://www.youtube.com/channel/UCyVjDDBZGDywVGrpGBvGEsw)            | |[COVID-19 Realtime Counter](https://www.youtube.com/embed/live_stream?channel=UCDGiCfCZIV5phsoGiPwIcyQ)| |
 | [Cámara de Diputados YT 08](https://www.youtube.com/channel/UCCtDbZzh63vgU_BWHRGsbug)            | | | |
 | [Cámara de Diputados YT 11](https://www.youtube.com/channel/UCYPKjGKq2yLbAnmth5rFZmQ)            | | | |
 | [Cámara de Diputados YT 12](https://www.youtube.com/channel/UCVOWFY-sgbDglBsfOap9okg)            | | | |
