@@ -144,10 +144,11 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[🦠COVID-19 Información Oficial Gobierno de Chile](https://www.gob.cl/coronavirus/)|||
 |[🦠Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
 |[🦠Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
-|[🦠Coronavirus rastrear la propagación](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) | [mirror](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)||
+|[🦠Coronavirus rastrear la propagación (Dashboard)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) - [x](https://github.com/CSSEGISandData/COVID-19) | [mirror1](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd) - [mirror2](https://ncov2019.live/data) - [mirror3](https://covid19info.live/) - [mirror4](https://shiny.john-coene.com/coronavirus/) - [mirror5](https://covid19.tk/) - [mirror6](https://covid19esp.herokuapp.com/) - [mirror7](https://app.developer.here.com/coronavirus/) - [mirror8](https://corona-board.soaple.endpoint.ainize.ai/statistics/dashboard) - [mirror9](https://covid19.locale.ai/) - [mirror.chile](https://public.tableau.com/shared/42MCSNGQP?:display_count=y&:origin=viz_share_link&:embed=y&:showVizHome=no)||
 |**Proyectos GitHub** | | |
 |[🦠COVID19_Chile](https://datastudio.google.com/reporting/b1689869-0c59-442c-951d-2991c0fc611d/) por [ivanMSC](https://github.com/ivanMSC) - [x](https://old.reddit.com/r/chile/comments/fj48b7/reporte_interactivo_del_coronavirus_en_chile/)|||
 |[🦠CoronaVirus-Outbreak-App (Aplicación Android APK)](https://github.com/TheWCKD/CoronaVirus-Outbreak-App/releases) por [TheWCKD](https://github.com/TheWCKD)|||
+|[🦠Corona Tracker (Aplicación IOS/Mac](https://coronatracker.samabox.com/) por [MhdHejazi](https://github.com/MhdHejazi) - [x](https://github.com/MhdHejazi/CoronaTracker)|||
 |[constitucion_chile](https://github.com/opensourcechile/constitucion_chile) por [opensourcechile](https://github.com/opensourcechile)|||
 |[awesome_chilean_context](https://github.com/maurotoro/awesome_chilean_context) por [maurotoro](https://github.com/maurotoro)|||
 |[2019-Chile](https://github.com/gorkang/2019-Chile) por [gorkang](https://github.com/gorkang)|||
