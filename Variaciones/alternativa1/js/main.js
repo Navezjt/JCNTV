@@ -369,14 +369,6 @@ var App = {
         'corona': {
             'nombre': 'COVID-19',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'   
-        },
-        'corona-chile': {
-            'nombre': 'COVID-19 Chile <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://public.tableau.com/shared/42MCSNGQP?:showVizHome=no" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'   
-        },
-        'corona-chile2': {
-            'nombre': 'COVID-19 Chile 2 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://datastudio.google.com/u/0/reporting/b1689869-0c59-442c-951d-2991c0fc611d " frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'   
         }
     },
     add: function(canal){
@@ -443,7 +435,7 @@ var App = {
             App.add('t13');;
             App.add('cnn-m3u');
             App.add('tv-senado-yutu');
-            App.add('meganoticias-mirror');
+            App.add('corona');
         }
     }
 };
