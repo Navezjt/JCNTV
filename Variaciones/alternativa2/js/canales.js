@@ -227,6 +227,10 @@ var App = {
         'corona-realtime': {
             'nombre': 'COVID-19 Realtime Counter 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCDGiCfCZIV5phsoGiPwIcyQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+        },
+        'corona-realtime2': {
+            'nombre': 'COVID-19 Realtime Counter ESP 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCeTLfdV50E3osW8WO4U3Kug&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         }
     },
     add: function(canal){
@@ -295,6 +299,7 @@ var App = {
             App.add('meganoticias');
             App.add('corona');
             App.add('corona-realtime');
+            App.add('corona-realtime2');
         }
     }
 };
