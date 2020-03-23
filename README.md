@@ -59,7 +59,7 @@ Toda contribución es bienvenida 😊
 | [Cámara de Diputados YT 05](https://www.youtube.com/channel/UC0QKtI8NpeMObauDylsSUDA)             | |[ANNnewsCH](https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ) | |
 | [Cámara de Diputados YT 06](https://www.youtube.com/channel/UCspWzpGflwb6A8PZqWw49CQ)            | |[COVID-19](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) | |
 | [Cámara de Diputados YT 07](https://www.youtube.com/channel/UCyVjDDBZGDywVGrpGBvGEsw)            | |[COVID-19 Realtime Counter](https://www.youtube.com/embed/live_stream?channel=UCDGiCfCZIV5phsoGiPwIcyQ)| |
-| [Cámara de Diputados YT 08](https://www.youtube.com/channel/UCCtDbZzh63vgU_BWHRGsbug)            | | | |
+| [Cámara de Diputados YT 08](https://www.youtube.com/channel/UCCtDbZzh63vgU_BWHRGsbug)            | |[COVID-19 Realtime Counter ESP](https://www.youtube.com/channel/UCeTLfdV50E3osW8WO4U3Kug) | |
 | [Cámara de Diputados YT 11](https://www.youtube.com/channel/UCYPKjGKq2yLbAnmth5rFZmQ)            | | | |
 | [Cámara de Diputados YT 12](https://www.youtube.com/channel/UCVOWFY-sgbDglBsfOap9okg)            | | | |
 | [Cámara de Diputados YT 13](https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw)            | | | |
