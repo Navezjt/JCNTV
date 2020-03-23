@@ -145,6 +145,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[🦠Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
 |[🦠Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
 |[🦠Coronavirus rastrear la propagación (Dashboard)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) - [x](https://github.com/CSSEGISandData/COVID-19) | [mirrors](https://www.apuntesplox.xyz/2020/03/dashboards-coronavirus-covid-19.html)||
+|[🦠Visualización del coronavirus en Chile](https://www.covidchile.com/) - [x](https://old.reddit.com/r/chile/comments/fka0x2/visualizaci%C3%B3n_del_corona_virus_en_chile/) |||
 |**Proyectos GitHub** | | |
 |[🦠COVID19_Chile](https://datastudio.google.com/reporting/b1689869-0c59-442c-951d-2991c0fc611d/) por [ivanMSC](https://github.com/ivanMSC) - [x](https://old.reddit.com/r/chile/comments/fj48b7/reporte_interactivo_del_coronavirus_en_chile/)|||
 |[🦠CoronaVirus-Outbreak-App (Aplicación Android APK)](https://github.com/TheWCKD/CoronaVirus-Outbreak-App/releases) por [TheWCKD](https://github.com/TheWCKD)|||
