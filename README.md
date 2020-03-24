@@ -148,7 +148,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[🦠Visualización del coronavirus en Chile](https://www.covidchile.com/) - [x](https://old.reddit.com/r/chile/comments/fka0x2/visualizaci%C3%B3n_del_corona_virus_en_chile/) |||
 |**Proyectos GitHub** | | |
 |[🦠COVID19_Chile](https://datastudio.google.com/reporting/b1689869-0c59-442c-951d-2991c0fc611d/) por [ivanMSC](https://github.com/ivanMSC) - [x](https://old.reddit.com/r/chile/comments/fj48b7/reporte_interactivo_del_coronavirus_en_chile/)|||
-|[🦠Chile-coronavirus](https://github.com/sundios/Chile-coronavirus) por [sundios](https://github.com/sundios) - [x](https://old.reddit.com/r/chile/comments/fo7wtw/covid19_dashboard_dia_a_dia/) |||
+|[🦠Chile-coronavirus](https://datastudio.google.com/u/0/reporting/f97733c1-17e1-4bd6-8841-9dd2d45ac9b4/page/W3OJB) por [sundios](https://github.com/sundios) - [x](https://old.reddit.com/r/chile/comments/fo7wtw/covid19_dashboard_dia_a_dia/) |||
 |[🦠CoronaVirus-Outbreak-App (Aplicación Android APK)](https://github.com/TheWCKD/CoronaVirus-Outbreak-App/releases) por [TheWCKD](https://github.com/TheWCKD)|||
 |[🦠Corona Tracker (Aplicación IOS/Mac](https://coronatracker.samabox.com/) por [MhdHejazi](https://github.com/MhdHejazi) - [x](https://github.com/MhdHejazi/CoronaTracker)|||
 |[🦠analisis_covid19_chile](https://github.com/clbustos/analisis_covid19_chile) por [clbustos](https://github.com/clbustos/) |||
