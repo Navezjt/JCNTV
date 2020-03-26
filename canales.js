@@ -199,7 +199,7 @@ var App = {
         },
         'cnn-español': {
             'nombre': 'CNN en Español 🌍',
-            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN en Español</a> 🌍</div>'
+            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="https://github.com/Alplox/tele/raw/master/icons/rojo.png"><a href="https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN en Español</a> 🌍</div>'
         },
         'el-tiempo': {
             'nombre': 'EL TIEMPO 🌍',
