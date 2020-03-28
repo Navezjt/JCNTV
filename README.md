@@ -98,7 +98,7 @@ ___
 |https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1) |
 |https://whywelove.news/love/country/chile/envivo  | [u/sebastianrw](https://old.reddit.com/user/sebastianrw)  |[Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)| (no sé como hacerlo...)|
 |https://alplox.github.io/tele/Variaciones/alternativa2/2    |["Alplox"](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2) |
-| https://www.serveruwu.com/tv/ | [@MadKoding](https://twitter.com/MadKoding)| [Fuente](https://twitter.com/MadKoding/status/1187725817079652353) | (no sé como hacerlo...)|
+|~~https://www.serveruwu.com/tv/~~ https://muro.serveruwu.com/ | [@MadKoding](https://twitter.com/MadKoding)| [~~Fuente~~](https://twitter.com/MadKoding/status/1187725817079652353) [Fuente](https://twitter.com/MadKoding/status/1243190023513673730) | (no sé como hacerlo...)|
 |https://joelpurra.com/projects/multi-video-frames/ **** | [joelpurra](https://github.com/joelpurra) | [Fuente](https://github.com/joelpurra/multi-video-frames) | (no sé como hacerlo...) |
 
 **** Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con Chile y/o el proyecto.
