@@ -137,7 +137,8 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |**Prevención y cuidado** || |
 |[Pacomap.live](https://pacomap.live)||[Telegram](https://t.me/pacomaplive)-[Twitter](https://twitter.com/pacomaplive)-[Instagram](https://www.instagram.com/pacomap.live/)|
 |[Guía para cuidarse los ojos en estas manifestaciones](https://www.reddit.com/r/chile/comments/du4hn0/gu%C3%ADa_para_cuidarse_los_ojos_en_estas/)|||
-|[Salud Mental](https://www.psiconecta.org/)||[Facebook](https://www.facebook.com/psiconectacl?_fb_noscript=1)-[Twitter](https://twitter.com/psiconectacl)-[Instagram](https://twitter.com/psiconectacl)|
+|[Salud Mental (psiconecta.org)](https://www.psiconecta.org/)||[Facebook](https://www.facebook.com/psiconectacl?_fb_noscript=1)-[Twitter](https://twitter.com/psiconectacl)-[Instagram](https://twitter.com/psiconectacl)|
+|[Salud Mental (linealibre.cl)](https://linealibre.cl/) ||[Instagram](https://www.instagram.com/lalinealibre/)|
 |[Uso de Tecnologías y Privacidad en Internet](https://old.reddit.com/r/chile/comments/dt4s2u/uso_de_tecnolog%C3%ADas_y_privacidad_en_internet/)|||
 |[Autoprotección Digital Contra La Vigilancia](https://ssd.eff.org/es/playlist/%C2%BFactivista-o-manifestante)|||
 |[🦠Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
