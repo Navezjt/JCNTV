@@ -144,7 +144,8 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[🦠Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
 |[🦠COVID-19 Información Oficial Gobierno de Chile](https://www.gob.cl/coronavirus/)|||
 |[🦠Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
-|[🦠Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |||
+|[🦠📺El coronavirus explicado: qué debemos hacer cada uno](https://www.youtube.com/watch?v=-PuSllvcdRc) ||[Facebook](https://www.facebook.com/Kurzgesagt)-[Twitter](https://twitter.com/kurz_gesagt)-[Instagram](https://www.instagram.com/kurz_gesagt/)|
+|[🦠Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |[mirror](https://web.archive.org/web/20200329163522/https://medium.com/tomas-pueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200)||
 |[🦠Coronavirus rastrear la propagación (Dashboard)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) - [x](https://github.com/CSSEGISandData/COVID-19) | [mirrors](https://www.apuntesplox.xyz/2020/03/dashboards-coronavirus-covid-19.html)||
 |[🦠Visualización del coronavirus en Chile](https://www.covidchile.com/) - [x](https://old.reddit.com/r/chile/comments/fka0x2/visualizaci%C3%B3n_del_corona_virus_en_chile/) |||
 |[🦠🛒Donde encontrar e informar bienes de primera necesidad](https://infocovid.online/) - [x](https://old.reddit.com/r/chile/comments/flnh2x/megathread_coronavirus_covid19_en_chile_parte_2/flolczf/) ||| |
