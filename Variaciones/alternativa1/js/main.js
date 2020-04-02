@@ -3,7 +3,7 @@ var sizeMobile = 12;
 var App = {
     channels: {
         'tv-senado': {
-            'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ TV Senado <img src="master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'tv-senado-m3u': {
@@ -16,7 +16,7 @@ var App = {
         },
         'cam-dipu-m3u-1': {
             'nombre': '🏛️ Cámara Diputados <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="master/m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'cam-dipu-m3u-2': {
             'nombre': '🏛️ Cámara Diputados 2 <img src="icons/chile.png"></img>',
