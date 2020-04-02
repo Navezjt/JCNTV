@@ -7,7 +7,7 @@ var App = {
         },
         'tv-senado-m3u': {
             'nombre': '🏛️ TV Senado 2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Senado</a> 2 <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Senado</a> 2 <img src="icons/chile.png"></img></div>'
         },
         'tv-senado-yutu': {
             'nombre': '🏛️ TV Senado 3 <img src="icons/chile.png"></img>',
@@ -15,11 +15,11 @@ var App = {
         },
         'cam-dipu-m3u-1': {
             'nombre': '🏛️ Cámara Diputados <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.cdtv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados</a> <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.cdtv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados</a> <img src="icons/chile.png"></img></div>'
         },
         'cam-dipu-m3u-2': {
             'nombre': '🏛️ Cámara Diputados 2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/camara-diputados2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados 0</a><img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados 0</a><img src="icons/chile.png"></img></div>'
         },
         'cam-dipu-m3u-3': {
             'nombre': '🏛️ Cámara Diputados 3 <img src="icons/chile.png"></img>',
@@ -45,15 +45,15 @@ var App = {
          '24-horas-señal2': {
             'nombre': '24 Horas 2 <img src="icons/chile.png"></img>',
              'status': 'offline',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a>2 <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a>2 <img src="icons/chile.png"></img></div>'
         },
          '24-horas-m3u': {
             'nombre': '24 Horas 3 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a><img src="icons/chile.png"></img></div>'      
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas </a><img src="icons/chile.png"></img></div>'      
         },
          'canal-13-m3u': {
             'nombre': 'Canal 13 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/canal13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.13.cl/en-vivo?page=1" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 13 </a><img src="icons/chile.png"></img></div>'      
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.13.cl/en-vivo?page=1" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 13 </a><img src="icons/chile.png"></img></div>'      
         },
         'meganoticias': {
             'nombre': 'Meganoticias <img src="icons/chile.png"></img>',
@@ -84,7 +84,7 @@ var App = {
         },
          't13-m3u': {
             'nombre': 'T13 op1 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/t13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.t13.cl/en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13</a> op1 <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/t13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.t13.cl/en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13</a> op1 <img src="icons/chile.png"></img></div>'
         },
         'mbf': {
             'nombre': 'MBF Tobalaba <img src="icons/chile.png"></img>', 
@@ -102,19 +102,19 @@ var App = {
         },
          'cnn-m3u': {
             'nombre': 'CNN Chile 2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/cnn1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.cnnchile.com/page/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile</a> 2 <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/cnn1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.cnnchile.com/page/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile</a> 2 <img src="icons/chile.png"></img></div>'
         },
         'tv-chile-m3u': {
             'nombre': 'TV Chile <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile </a><img src="icons/chile.png"></img></div>'      
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile </a><img src="icons/chile.png"></img></div>'      
         },
         'chv-m3u-1': {
             'nombre': 'CHV <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/chv1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV </a><img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/chv1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV </a><img src="icons/chile.png"></img></div>'
         },
          'uoct-tobalaba': {
             'nombre': 'UOCT <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tobalaba" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/senal-de-la-uoct-3685422" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UOCT Tobalaba</a> <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tobalaba" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://www.24horas.cl/envivo/senal-de-la-uoct-3685422" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UOCT Tobalaba</a> <img src="icons/chile.png"></img></div>'
         },
         'cooperativa': {
             'nombre': '📻 Cooperativa <img src="icons/chile.png"></img>',
@@ -150,11 +150,11 @@ var App = {
         },
         'holvoet-tv-m3u': {
             'nombre': 'Holvoet TV <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/holvoet-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://holvoet.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Holvoet TV</a> <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/holvoet-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://holvoet.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Holvoet TV</a> <img src="icons/chile.png"></img></div>'
         },
         'tv-central-m3u': {
             'nombre': 'TV El Central <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/tv-central" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://tvelcentral.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV El Central</a> <img src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-central" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="https://tvelcentral.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV El Central</a> <img src="icons/chile.png"></img></div>'
         },
         'canal-9': {
             'nombre': 'Canal 9 (Conce) <img src="icons/chile.png"></img>',
@@ -344,15 +344,15 @@ var App = {
         },
         'radio-placeres': {
             'nombre': '📻 Radio Placeres 87.7 FM <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/radios-solo-audio/radio-placeres" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="icons/rojo.png"><a href="https://www.radioplaceres.cl/sitio/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Placeres 87.7 FM </a><img class="edge" src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="radios-solo-audio/radio-placeres" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="icons/rojo.png"><a href="https://www.radioplaceres.cl/sitio/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Placeres 87.7 FM </a><img class="edge" src="icons/chile.png"></img></div>'
         },
         'radio-manque': {
             'nombre': '📻 Radio Manque 102.9 FM <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/radios-solo-audio/radio-manque" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.radiomanque.org/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Manque 102.9 FM </a><img class="edge" src="icons/chile.png"></img></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="radios-solo-audio/radio-manque" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.radiomanque.org/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Manque 102.9 FM </a><img class="edge" src="icons/chile.png"></img></div>'
         },
         'radio-usach': {
             'nombre': '📻 Radio USACH 94.5 FM <img src="icons/chile.png"></img>',
-            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/radios-solo-audio/radio-usach" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.radio.usach.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio USACH 94.5 FM </a><img class="edge" src="icons/chile.png"></img></div>'
+            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="radios-solo-audio/radio-usach" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><a href="http://www.radio.usach.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio USACH 94.5 FM </a><img class="edge" src="icons/chile.png"></img></div>'
         },
         'cam-dipu-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube <img src="icons/chile.png"></img>',
