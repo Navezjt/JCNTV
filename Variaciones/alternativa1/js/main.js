@@ -377,11 +377,14 @@ var App = {
         'corona-realtime': {
             'nombre': 'COVID-19 Realtime Counter 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCDGiCfCZIV5phsoGiPwIcyQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+//        },
+//        'corona-realtime2': {
+//            'nombre': 'COVID-19 Realtime Counter ESP 🌍',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeTLfdV50E3osW8WO4U3Kug&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
-        'corona-realtime2': {
-            'nombre': 'COVID-19 Realtime Counter ESP 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeTLfdV50E3osW8WO4U3Kug&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        }
+        '31-minutos': {
+            'nombre': '31 minutos - Todos los episodios <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/videoseries?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
     },
     add: function(canal){
         if( App.channels[canal] ){
@@ -449,7 +452,7 @@ var App = {
             App.add('tv-senado-yutu');
             App.add('corona');
             App.add('corona-realtime');
-            App.add('corona-realtime2');
+            App.add('31-minutos');
         }
     }
 };
