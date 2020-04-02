@@ -396,7 +396,12 @@ var App = {
         },
         'corona-realtime2': {
             'nombre': 'COVID-19 Realtime Counter ESP 🌍',
+            'status': 'offline',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeTLfdV50E3osW8WO4U3Kug&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="icons/rojo.png"><a href="https://www.youtube.com/channel/UCeTLfdV50E3osW8WO4U3Kug" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TOP 5 en español 🌍</a></div>'
+        },
+        '31-minutos': {
+            'nombre': '31 minutos - Todos los episodios <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/videoseries?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre"><img class="rec" src="icons/rojo.png"><a href="https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 31 minutos - Todos los episodios</a><img class="edge" src="icons/chile.png"></img></div>'
         }
     },
     templateCanal: '<div class="col-4 col-md-4 col-lg-4 un-player" data-canal="{canal}">{htmelele}</div>',
