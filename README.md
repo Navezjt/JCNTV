@@ -65,6 +65,7 @@ Toda contribución es bienvenida 😊
 | [Cámara de Diputados YT 13](https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw)            | | | |
 | [Canal 13](https://www.13.cl/en-vivo)                                                            | | | |
 | [TV Chile](https://www.tvchile.cl/envivo/)                                                       | | | |
+| [31 minutos - Todos los episodios](https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL)                                                       | | | |
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline.*
 
