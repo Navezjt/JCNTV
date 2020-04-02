@@ -2,6 +2,9 @@ body {
     background: #000000;
 }
 
+
+/* */
+
 .nombre {
     font-family: 'Helvetica';
     position: relative;
@@ -16,7 +19,7 @@ body {
     text-align: center;
 }
 
-#reloj-control p{
+#reloj-control p {
     color: white;
     font-size: 12px;
     margin: 0;
@@ -24,14 +27,20 @@ body {
 
 .reloj {
     font-family: 'Helvetica';
-    font-size:1.4em;
+    font-size: 1.4em;
     pointer-events: none;
 }
-@media(min-width: 800px){
-    .reloj{ font-size: 2em; }
+
+@media(min-width: 800px) {
+    .reloj {
+        font-size: 2em;
+    }
 }
-@media(min-width: 1620px){
-    .reloj{ font-size: 8em; }
+
+@media(min-width: 1620px) {
+    .reloj {
+        font-size: 8em;
+    }
 }
 
 .rec {
@@ -51,27 +60,43 @@ body {
     line-height: 15px;
 }
 
-.boton-modal{
+.boton-modal {
     color: white;
     font-size: 3em;
     opacity: 0.2;
     position: fixed;
+    z-index: 999;
     bottom: 0.5em;
     right: 0.5em;
 }
 
-@media(min-width: 800px){
-    .boton-modal{ bottom: 1em; right: 1em; }
-}
-@media(min-width: 1620px){
-    .boton-modal{ font-size: 4em; bottom: 1.5em; right: 1.5em; }
+@media(min-width: 800px) {
+    .boton-modal {
+        bottom: 1em;
+        right: 1em;
+    }
 }
 
-.boton-modal:hover{
-    opacity: 1;
+@media(min-width: 1620px) {
+    .boton-modal {
+        font-size: 4em;
+        bottom: 1.5em;
+        right: 1.5em;
+    }
 }
-.boton-modal .fa-plus-circle{
+
+.boton-modal:hover {
+    opacity: 1;
+    z-index: 999;
+}
+
+.boton-modal {
     cursor: pointer;
+}
+
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
 }
 
 #modal-selecta .modal-body button {
@@ -79,39 +104,75 @@ body {
     width: 40%;
     margin-bottom: 0.5em;
 }
-@media(min-width: 800px){
-    #modal-selecta .modal-body button{ width: 29%; }
+
+@media(min-width: 800px) {
+    #modal-selecta .modal-body button {
+        width: 29%;
+    }
 }
-@media(min-width: 1620px){
-    #modal-selecta .modal-body button{ width: 25%; }
+
+@media(min-width: 1620px) {
+    #modal-selecta .modal-body button {
+        width: 25%;
+    }
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
