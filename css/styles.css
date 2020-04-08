@@ -1,0 +1,131 @@
+    .modal-content .modal-footer {
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        border-radius: 0px !important;
+    }
+    
+    .nombre {
+        font-family: 'Helvetica';
+        position: relative;
+        bottom: 30px;
+        font-size: 10px;
+        line-height: 15px;
+        background: black;
+        background: rgba(0, 0, 0, 0.6);
+        color: green;
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    body {
+        background: #000000;
+    }
+    
+    .fa-whatsapp {
+        color: #33ba48;
+    }
+    
+    .fa-twitter {
+        color: #83c7f7;
+    }
+    
+    .fa-facebook {
+        color: #3c5498;
+    }
+    
+    .fa-telegram {
+        color: #2aa1d4;
+    }
+    
+    .fa-envelope-o {
+        color: black;
+    }
+    
+    .hora {
+        color: #daf6ff;
+        text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+        text-align: center;
+    }
+    
+    .numeros {
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+    }
+    
+    .navbar {
+        position: relative;
+    }
+    
+    .col-4 {
+        width: auto;
+    }
+    
+    .form-control-sm {
+        margin-top: 15px;
+    }
+    
+    .pulsate {
+        color: rgb(16, 173, 201);
+        font-size: 1.5em;
+        animation: pulsate 3s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0.5;
+    }
+    
+    @keyframes pulsate {
+        0% {
+            opacity: 0.5;
+        }
+        50% {
+            opacity: 1.0;
+        }
+        100% {
+            opacity: 0.5;
+        }
+    }
+    
+    @media(min-width: 320px) {
+        .hora {
+            font-size: 0.5em;
+        }
+    }
+    
+    @media(min-width: 800px) {
+        .hora {
+            font-size: 1em;
+        }
+    }
+    
+    @media(min-width: 1620px) {
+        .hora {
+            font-size: 1.5em;
+        }
+    }
+    
+    .modal-body {
+        max-height: calc(100vh - 210px);
+        overflow-y: auto;
+    }
+    
+    .modal-footer {
+        background-color: #424242;
+    }
+    
+    .modal-body button {
+        margin-right: 1em;
+        width: 40%;
+        margin-bottom: 0.4em;
+    }
+    
+    @media(min-width: 800px) {
+        .modal-body button {
+            width: 29%;
+        }
+    }
+    
+    @media(min-width: 1620px) {
+        .modal-body button {
+            width: 25%;
+        }
+    }
