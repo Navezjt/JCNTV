@@ -442,7 +442,7 @@ var App = {
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         '24-horas-m3u': {
-            'nombre': '24 Horas 3<img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
+            'nombre': '24 Horas 3 <img src="https://github.com/Alplox/tele/raw/master/icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://alplox.github.io/tele/m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'canal-13-m3u': {
@@ -848,6 +848,7 @@ var App = {
         if (!App.isMobile()) {
             App.add("cam-dipu-m3u-1");
             App.add("tv-senado-yutu");
+            App.add("corona-realtime");
         }
     }
 };
