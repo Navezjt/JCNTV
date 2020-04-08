@@ -17,9 +17,8 @@ Toda contribución es bienvenida 😊
     - [Créditos](#créditos)
    
 ## [Protestas Chile 2019 - 2020](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
-Versión 1
-[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
-[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
+[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva.jpg)](https://alplox.github.io/tele/)
+[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva-opciones.gif)](https://alplox.github.io/tele/)
 
 # Canales disponibles junto a su origen:
 | Canales ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)    | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)     | Internacionales 🌍 | Música   🎵  |
