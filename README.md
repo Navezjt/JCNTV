@@ -1,6 +1,5 @@
 ## Visor de múltiples canales de noticias chilenos a modo de seguir/comparar las ~~protestas actuales~~ noticias
-# Sitio: https://alplox.github.io/tele/ - [Versión 2](https://alplox.github.io/tele/Variaciones/alternativa1/1) 
-[Versión 3 No YT tracking (invidio.us)](https://alplox.github.io/tele/Variaciones/alternativa2/2)
+# Sitio: https://alplox.github.io/tele/
 
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
@@ -13,16 +12,14 @@ Toda contribución es bienvenida 😊
     - [Denunciar violación DDHH ⚠️](#denunciar-violación-ddhh)
     - [Variaciones Creadas 🖥️](#variaciones-creadas)
     - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
-    - [Complementario 🔗🦠](#complementario)
+    - [Material Complementario 🔗🦠](#material-complementario)
     - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
    
 ## [Protestas Chile 2019 - 2020](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
-
+Versión 1
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-noche.jpg)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-gif.gif)](https://alplox.github.io/tele/)
-[![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-ojo.gif)](https://alplox.github.io/tele/)
-[![](https://github.com/Alplox/tele/raw/master/ejemplos/ejemplo-v2.jpg)](https://alplox.github.io/tele/Variaciones/alternativa1/1)
 
 # Canales disponibles junto a su origen:
 | Canales ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)    | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)     | Internacionales 🌍 | Música   🎵  |
@@ -84,23 +81,24 @@ Toda contribución es bienvenida 😊
 
 # Denunciar violación DDHH:
 
-| Enlaces | 
-| ------------- |
-| https://www.indh.cl/ |
-| https://www.testigoenlinea.cl/ |
-| https://twitter.com/amnistiachile/status/1186667715047624710 |
+| Enlaces |  RRSS |
+| ------------- | ------------- |
+| https://www.indh.cl/ |  [Facebook](https://www.facebook.com/indhchile) - [Twitter](https://twitter.com/inddhh) - [Instagram](https://www.instagram.com/indhchile/)          |
+| https://www.testigoenlinea.cl/ |  [Twitter](https://twitter.com/testigoenlinea) - [Instagram](https://www.instagram.com/testigoenlinea/)          |
+| https://amnistia.cl/ - [X](https://amnistia.cl/noticia/donde-denunciar-si-sufro-una-violacion-de-derechos-humanos/) |  [Facebook](https://amnistia.cl/) - [Twitter](https://twitter.com/amnistiachile/status/1186667715047624710) - [Instagram](https://www.instagram.com/amnistiachile/)          |
+| https://observadoresddhh.org/ | [Facebook](https://www.facebook.com/oddhchile/) - [Twitter](https://twitter.com/obsDDHHcl) - [Instagram](https://www.instagram.com/observadoresddhhcasamemoria/)          |
+| https://www.hrw.org/es | [Facebook](http://www.facebook.com/humanrightswatchenespanol) - [Twitter](https://twitter.com/hrw_espanol) - [Instagram](https://www.instagram.com/hrw_espanol/)                                              |
 
 ___
 # Variaciones Creadas:
 
-| Enlaces | Por: | Fuente |Fork  |
-| ------------- | ------------- |------------- |------------- |
-|http://pslabs.cl/tele.html |  [@pottersys](https://twitter.com/pottersys)| [Fuente](https://twitter.com/pottersys/status/1187710925182255104) |[x](https://alplox.github.io/tele/) |
-|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |[x](https://alplox.github.io/tele/alternativa1/1) |
-|https://whywelove.news/love/country/chile/envivo  | [u/sebastianrw](https://old.reddit.com/user/sebastianrw)  |[Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)| (no sé como hacerlo...)|
-|https://alplox.github.io/tele/Variaciones/alternativa2/2    |["Alplox"](https://github.com/Alplox) | [Fuente](https://github.com/Alplox/tele/tree/master/Variaciones/alternativa2) | [x](https://alplox.github.io/tele/Variaciones/alternativa2/2) |
-|https://muro.serveruwu.com/ - ~~https://www.serveruwu.com/tv/~~ | [@MadKoding](https://twitter.com/MadKoding)| [Fuente](https://twitter.com/MadKoding/status/1243190023513673730) - [~~Fuente~~](https://twitter.com/MadKoding/status/1187725817079652353) | (no sé como hacerlo...)|
-|https://joelpurra.com/projects/multi-video-frames/ **** | [joelpurra](https://github.com/joelpurra) | [Fuente](https://github.com/joelpurra/multi-video-frames) | (no sé como hacerlo...) |
+| Enlaces | Por: | Fuente |
+| ------------- | ------------- |------------- |
+|http://pslabs.cl/tele.html |  [@pottersys](https://twitter.com/pottersys)| [Fuente](https://twitter.com/pottersys/status/1187710925182255104) |
+|https://tele.0x00.cl/ |  [u/0x00cl](https://old.reddit.com/user/0x00cl)| [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/) |
+|https://whywelove.news/love/country/chile/envivo  | [u/sebastianrw](https://old.reddit.com/user/sebastianrw)  |[Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)| 
+|https://muro.serveruwu.com/ - ~~https://www.serveruwu.com/tv/~~ | [@MadKoding](https://twitter.com/MadKoding)| [Fuente](https://twitter.com/MadKoding/status/1243190023513673730) - [~~Fuente~~](https://twitter.com/MadKoding/status/1187725817079652353) |
+|https://joelpurra.com/projects/multi-video-frames/ **** | [joelpurra](https://github.com/joelpurra) | [Fuente](https://github.com/joelpurra/multi-video-frames) |
 
 **** Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con Chile y/o el proyecto.
 ___
@@ -116,7 +114,7 @@ ___
 |[Radio Villa Francia](http://www.radiovillafrancia.cl/) / [Opción](https://emisora.cl/villa-francia/) | [Twitter](https://twitter.com/rvfradiopopular) | [Facebook](https://es-la.facebook.com/RadioVillaFrancia1/)    | [Instagram](https://www.instagram.com/villafrancia/)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
 |Piensa Prensa | [Twitter](https://twitter.com/PiensaPrensa) | [Facebook](https://www.facebook.com/PIENSAPRENSA/)    | [Instagram](https://www.instagram.com/piensaprensa/)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
 |[Prensa OPAL](https://prensaopal.cl) | [Twitter](https://twitter.com/prensaopal) | [Facebook](https://www.facebook.com/prensaopal/)    | [Instagram](https://www.instagram.com/prensaopalchile/)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
-|Fast Check CL    |🚫 |🚫 |[Instagram](https://www.instagram.com/fastcheckcl/)|[x](https://www.youtube.com/watch?v=dtzzm05t9OI)|
+|[Fast Check CL](https://www.fastcheck.cl/)    |🚫 |🚫 |[Instagram](https://www.instagram.com/fastcheckcl/)|[x](https://www.youtube.com/watch?v=dtzzm05t9OI)|
 |[Radio Placeres – Valparaíso](https://emisora.cl/placeres-valparaiso/) / [Opción](https://onlineradiobox.com/cl/placeres/) | [Twitter](https://twitter.com/radioplaceres) | [Facebook](https://www.facebook.com/Radio-Placeres-a-la-Izquierda-del-Dial-257617057586511/)    | [Instagram](https://www.instagram.com/radio.placeres/)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
 |Iniciativa Pasaje Justo| 🚫 | [Facebook](https://www.facebook.com/Iniciativa-Pasaje-Justo-107393104012536/)    | [Instagram](https://www.instagram.com/pasaje_justo)  |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
 |[Radio 19 de abril – Cobertura colectiva](https://www.radio19deabril.cl/) | [Twitter](https://twitter.com/radio19deabril) | [Facebook](https://www.facebook.com/LaRadio19deAbril/)    | 🚫 |[X](https://cdisonancia.wordpress.com/2019/10/21/medios-alternativos-que-cubren-la-protesta-y-la-represion-m/)  |
@@ -129,7 +127,7 @@ ___
 
 
 ___
-# Complementario
+# Material Complementario
 Paginas/Material que posean información útil en cuanto a diversos temas que no sabía donde añadir para compartir:
 | Sitio | Mirror | RRSS
 | ------------- | ------------- | ------------- |
@@ -163,19 +161,21 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 
 ___
 # Aviso Legal
-- “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos o foros públicos encontrados como libre distribución sin ninguna protección. 
-- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd entre otros…) y desconocemos si los mismos tienen contratos de cesión de derechos sobre estos canales o eventos de pago para reproducirlos, alojarlos o permitir utilizarlos.
-- El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión de los canales de TV ni implica la decodificación de éstos.
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de LIBRE ACCESO.
+- “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección.
+- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd, entre otros).
+- El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión de los canales ni implica la decodificación de éstos.
 - No se es propietario, ni responsable de ninguno de los contenidos transmitidos en este sitio web.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
 - El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o medio.
 - En este proyecto no se almacena ningún stream.
-- Si posees los derechos de algún canal y deseas que lo retire, contáctame.
+- Si posees los derechos de algún canal y deseas que sea retirado, contáctame.
 ___
 
 # Créditos
-[Idea original](http://pslabs.cl/tele.html) por [@pottersys](https://twitter.com/pottersys).
+[Idea original](http://pslabs.cl/tele.html) por [@pottersys](https://twitter.com/pottersys/status/1187710925182255104).
+
+[Variación](https://tele.0x00.cl/) creada por [u/0x00cl](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/)
 
 Modificaciones por [Alplox](https://github.com/Alplox).
 
