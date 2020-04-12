@@ -161,7 +161,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 
 ___
 # Aviso Legal
-- "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de LIBRE ACCESO.
+- "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso.
 - “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección.
 - Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd, entre otros).
 - El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión de los canales ni implica la decodificación de éstos.
