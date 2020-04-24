@@ -140,6 +140,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[Autoprotección Digital Contra La Vigilancia](https://ssd.eff.org/es/playlist/%C2%BFactivista-o-manifestante)|||
 |[🦠Coronavirus información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)|||
 |[🦠COVID-19 Información Oficial Gobierno de Chile](https://www.gob.cl/coronavirus/)|||
+|[🦠Visualizador Oficial datos Coronavirus Chile con información estadística y territorial](https://idechile.maps.arcgis.com/apps/opsdashboard/index.html#/6662268991094e439cee1a6f9f0e46ea) |[mirrors](http://www.minciencia.gob.cl/covid19#Soluciones)||
 |[🦠Casos confirmados en Chile COVID-19](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) |||
 |[🦠📺El coronavirus explicado: qué debemos hacer cada uno](https://www.youtube.com/watch?v=-PuSllvcdRc) |[mirror](https://www.youtube.com/watch?v=BtN-goy9VOY)|[Facebook](https://www.facebook.com/Kurzgesagt)-[Twitter](https://twitter.com/kurz_gesagt)-[Instagram](https://www.instagram.com/kurz_gesagt/)|
 |[🦠Coronavirus: Por qué Debemos Actuar Ya](https://medium.com/@tomaspueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200) |[mirror](https://web.archive.org/web/20200329163522/https://medium.com/tomas-pueyo/coronavirus-por-qu%C3%A9-debemos-actuar-ya-93079c61e200)||
