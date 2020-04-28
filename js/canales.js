@@ -751,7 +751,7 @@ var App = {
         },
         'corona1': {
             'nombre': '🦠 COVID-19 1 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube.com/embed/live_stream?channel=UCBilL350BkEKDa-zUrr_kEw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube.com/embed/dT0eZimWqmA?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
         'corona2': {
             'nombre': '🦠 COVID-19 2 🌍',
@@ -832,7 +832,7 @@ var App = {
         if (!App.isMobile()) {
             App.add("cam-dipu-m3u-1");
             App.add("tv-senado-yutu");
-            App.add("corona1");
+            App.add("corona3");
         }
     }
 };
