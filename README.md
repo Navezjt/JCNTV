@@ -153,7 +153,10 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 |[🦠CoronaVirus-Outbreak-App (Aplicación Android APK)](https://github.com/TheWCKD/CoronaVirus-Outbreak-App/releases) por [TheWCKD](https://github.com/TheWCKD)|||
 |[🦠Corona Tracker (Aplicación IOS/Mac](https://coronatracker.samabox.com/) por [MhdHejazi](https://github.com/MhdHejazi) - [x](https://github.com/MhdHejazi/CoronaTracker)|||
 |[🦠analisis_covid19_chile](https://github.com/clbustos/analisis_covid19_chile) por [clbustos](https://github.com/clbustos/) |||
-|[🦠mapacovid.cl](http://www.mapacovid.cl/) por [YachayData](https://github.com/YachayData/) - [x](https://github.com/YachayData/COVID-19) [x](https://github.com/YachayData/mapacovid.cl)|||
+|[🦠mapacovid.cl](https://www.mapacovid.cl/) por [YachayData](https://github.com/YachayData/) - [x](https://github.com/YachayData/COVID-19) [x](https://github.com/YachayData/mapacovid.cl)|||
+|[🦠covid19entucomuna.cl](https://www.covid19entucomuna.cl/) por [javierlopeza](https://github.com/javierlopeza) - [x](https://github.com/javierlopeza/coronavirus-chile)|||
+|[🦠Datos-COVID19](http://www.minciencia.gob.cl/COVID19) por [MinCiencia](https://github.com/MinCiencia) - [x](https://github.com/MinCiencia/Datos-COVID19)|||
+|[🦠covid19-data](https://github.com/jorgeperezrojas/covid19-data) por [jorgeperezrojas](https://github.com/jorgeperezrojas)|||
 |[constitucion_chile](https://github.com/opensourcechile/constitucion_chile) por [opensourcechile](https://github.com/opensourcechile)|||
 |[awesome_chilean_context](https://github.com/maurotoro/awesome_chilean_context) por [maurotoro](https://github.com/maurotoro)|||
 |[2019-Chile](https://github.com/gorkang/2019-Chile) por [gorkang](https://github.com/gorkang)|||
