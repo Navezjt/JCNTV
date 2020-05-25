@@ -4,6 +4,40 @@
         border-radius: 0px !important;
     }
     
+    .boton-covid{
+        color: white;
+        font-size: 3em;
+        opacity: 0.2;
+        position: fixed;
+        bottom: 0.5em;
+        right: 0.5em;
+        cursor: pointer;
+    }
+
+    @media(min-width: 800px){
+        .boton-covid{ bottom: 1em; right: 1em; }
+    }
+    @media(min-width: 1620px){
+        .boton-covid{ font-size: 4em; bottom: 1.5em; right: 1.5em; }
+    }
+    
+    .boton-covid:hover{
+        opacity: 1;
+    }
+   
+    .btn-circle.btn-xl {
+        width: 70px;
+        height: 70px;
+        padding: 10px 16px;
+        border-radius: 35px;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+
+    .emojicovid:hover {
+        text-decoration: none;
+    }
+
     .nombre {
         font-family: 'Helvetica';
         position: relative;
