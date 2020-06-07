@@ -677,34 +677,6 @@ var App = {
             'nombre': 'ABC News 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCBi2mrWuNuyYy4gbM6fU18Q&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
         },
-        '460-canales-usa-m3u': {
-            'nombre': '📝 460 Canales USA 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://cdn.iptvmate.net/countries/us.m3u" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '247-canales-cl-m3u': {
-            'nombre': '📝 247 Canales CL <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://www.m3u.cl/playlist/CL.m3u" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '176-canales-es-m3u': {
-            'nombre': '📝 176 Canales ES 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://cdn.iptvmate.net/countries/es.m3u" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '81-canales-ar-m3u': {
-            'nombre': '📝 81 Canales AR 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://cdn.iptvmate.net/countries/ar.m3u" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '70-canales-uk-m3u': {
-            'nombre': '📝 70 Canales UK 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://cdn.iptvmate.net/countries/uk.m3u" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '56-canales-mx-m3u': {
-            'nombre': '📝 56 Canales MX 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://cdn.iptvmate.net/countries/mx.m3u" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
-        '36-canales-ca-m3u': {
-            'nombre': '📝 36 Canales CA 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.reloltv.com/embed-playlist.php?playlist=https://cdn.iptvmate.net/countries/ca.m3u&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-        },
         'nbc-news': {
             'nombre': 'NBC News 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
