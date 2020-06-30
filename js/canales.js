@@ -1,6 +1,14 @@
-///Modal aviso legal para que carge al inicar la página https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php///
-$(document).ready(function() {
-    $("#modalabout").modal('show');
+///Modal aviso legal para que carge al inicar la página junto a crear cookie para que no vuelva a salir https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click///
+   $(document).ready(function () {
+    //if cookie hasn't been set...
+    if (document.cookie.indexOf("ModalShown=true")<0) {
+        $("#modalabout").modal("show");
+        //Modal has been shown, now set a cookie so it never comes back
+        $("#myModalClose").click(function () {
+            $("#modalabout").modal("hide");
+        });
+        document.cookie = "ModalShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+    }
 });
 /////////////////////////////////////////////////////////
 
