@@ -209,7 +209,7 @@ ___
 
 &mdash; <a>Icono GitHub, Share y Copyright</a> <a href="https://fontawesome.com/" target="_blank">fontawesome.com</a>.
 
-
+&mdash; <a>Estilo barra tamaño</a> <a href="https://codepen.io/nosurprisethere/pen/KJxwQz" target="_blank">codepen.io/nosurprisethere</a>.
 
 
 [![HitCount](http://hits.dwyl.io/{Alplox}/{repo}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
