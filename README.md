@@ -15,6 +15,7 @@ Toda contribución es bienvenida 😊
     - [Material Complementario 🔗🦠](#material-complementario)
     - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
+    - [Componentes](#componentes)
    
 ## [Protestas Chile 2019 - 2020](https://es.wikipedia.org/wiki/Protestas_en_Chile_de_2019) 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva.jpg)](https://alplox.github.io/tele/)
@@ -185,13 +186,30 @@ ___
 ___
 
 # Créditos
-[Idea original](http://pslabs.cl/tele.html) por [@pottersys](https://twitter.com/pottersys/status/1187710925182255104).
+&mdash; <a href="http://pslabs.cl/tele.html" target="_blank">Idea Original</a> por <a href="https://twitter.com/pottersys/status/1187710925182255104" target="_blank">@pottersys</a>.
 
-[Variación](https://tele.0x00.cl/) creada por [u/0x00cl](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/)
+&mdash; <a href="https://tele.0x00.cl/" target="_blank">Variación</a> creada por <a href="https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/" target="_blank">u/0x00cl</a>.
 
-Modificaciones por [Alplox](https://github.com/Alplox).
+&mdash; <a>Modificaciones</a> por <a href="https://github.com/Alplox" target="_blank">Alplox</a>.
 
-[Favicon](https://github.com/Alplox/tele/blob/master/favicon.ico) cortesía de [mave007](https://github.com/mave007).
+&mdash; <a href="https://github.com/Alplox/tele/blob/master/favicon.ico" target="_blank">Favicon</a> cortesia de <a href="https://github.com/mave007" target="_blank">mave007</a>.
+
+
+## Componentes
+
+&mdash; <a>Reloj</a> <a href="https://time.is/" target="_blank">time.is</a>.
+
+&mdash; <a>Biblioteca rediseño</a> <a href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>.
+
+&mdash; <a>Botones compartir</a> <a href="https://github.com/wcoder/share-buttons" target="_blank">github.com/wcoder/share-buttons</a>.
+
+&mdash; <a>Copiado texto automático</a> <a href="https://www.w3schools.com/howto/howto_js_copy_clipboard.asp" target="_blank">w3schools.com</a>.
+
+&mdash; <a>Modal al cargar sitio</a> <a href="https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php" target="_blank">tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load</a>.
+
+&mdash; <a>Icono GitHub, Share y Copyright</a> <a href="https://fontawesome.com/" target="_blank">fontawesome.com</a>.
+
+
 
 
 [![HitCount](http://hits.dwyl.io/{Alplox}/{repo}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
