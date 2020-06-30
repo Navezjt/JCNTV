@@ -205,7 +205,7 @@ ___
 
 &mdash; <a>Copiado texto automático</a> <a href="https://www.w3schools.com/howto/howto_js_copy_clipboard.asp" target="_blank">w3schools.com</a>.
 
-&mdash; <a>Modal al cargar sitio</a> <a href="https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php" target="_blank">tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load</a>.
+&mdash; <a>Modal al cargar sitio + Cookie</a> <a href="https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click" target="_blank">coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click</a>.
 
 &mdash; <a>Icono GitHub, Share y Copyright</a> <a href="https://fontawesome.com/" target="_blank">fontawesome.com</a>.
 
