@@ -211,5 +211,6 @@ ___
 
 &mdash; <a>Estilo barra tamaño</a> <a href="https://codepen.io/nosurprisethere/pen/KJxwQz" target="_blank">codepen.io/nosurprisethere</a>.
 
+&mdash; <a>Filtro para canales</a> <a href="https://www.w3schools.com/bootstrap/bootstrap_filters.asp" target="_blank">w3schools.com</a>.
 
 [![HitCount](http://hits.dwyl.io/{Alplox}/{repo}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
