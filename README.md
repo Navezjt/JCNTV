@@ -186,9 +186,9 @@ ___
 ___
 
 # Créditos
-&mdash; <a href="http://pslabs.cl/tele.html" target="_blank">Idea Original</a> por <a href="https://twitter.com/pottersys/status/1187710925182255104" target="_blank">@pottersys</a>.
+&mdash; <a href="http://pslabs.cl/tele.html" target="_blank">Inspirado en</a> por <a href="https://twitter.com/pottersys/status/1187710925182255104" target="_blank">@pottersys</a>.
 
-&mdash; <a href="https://tele.0x00.cl/" target="_blank">Variación</a> creada por <a href="https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/" target="_blank">u/0x00cl</a>.
+&mdash; <a href="https://tele.0x00.cl/" target="_blank">Basándose en Variación</a> creada por <a href="https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/" target="_blank">u/0x00cl</a>.
 
 &mdash; <a>Modificaciones</a> por <a href="https://github.com/Alplox" target="_blank">Alplox</a>.
 
@@ -201,13 +201,13 @@ ___
 
 &mdash; <a>Biblioteca rediseño</a> <a href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>.
 
-&mdash; <a>Botones compartir</a> <a href="https://github.com/wcoder/share-buttons" target="_blank">github.com/wcoder/share-buttons</a>.
+&mdash; <a>Botones compartir</a> <a href="https://sharingbuttons.io/" target="_blank">sharingbuttons.io</a>.
 
 &mdash; <a>Copiado texto automático</a> <a href="https://www.w3schools.com/howto/howto_js_copy_clipboard.asp" target="_blank">w3schools.com</a>.
 
-&mdash; <a>Modal al cargar sitio + Cookie</a> <a href="https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click" target="_blank">coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click</a>.
+&mdash; <a>Modal al cargar sitio + Cookie</a> <a href="https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click" target="_blank">coderwall.com</a>.
 
-&mdash; <a>Icono GitHub, Share y Copyright</a> <a href="https://fontawesome.com/" target="_blank">fontawesome.com</a>.
+&mdash; <a>Iconos GitHub, Share, Copyright y RRSS</a> <a href="https://fontawesome.com/" target="_blank">fontawesome.com</a>.
 
 &mdash; <a>Estilo barra tamaño</a> <a href="https://codepen.io/nosurprisethere/pen/KJxwQz" target="_blank">codepen.io/nosurprisethere</a>.
 
