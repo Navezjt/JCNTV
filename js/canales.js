@@ -111,7 +111,7 @@ var App = {
         },
         'cima': {
             'nombre': 'Galeria CIMA <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA op1 <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA <img src="icons/chile.png"></img></a></div>'
         },
         'cima-mirror': {
             'nombre': 'Galeria CIMA op1 <img src="icons/chile.png"></img>',
