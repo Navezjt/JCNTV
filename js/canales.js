@@ -68,11 +68,11 @@ var App = {
     channels: {
         'tv-senado': {
             'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado <img src="icons/chile.png"></img></a></div>'
         },
         'tv-senado-m3u': {
             'nombre': '🏛️ TV Senado 2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado 2 <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado 2 <img src="icons/chile.png"></img></a></div>'
         },
         'tv-senado-yutu': {
             'nombre': '🏛️ TV Senado 3 <img src="icons/chile.png"></img>',
@@ -125,6 +125,10 @@ var App = {
         'meganoticias-mirror': {
             'nombre': 'Meganoticias op1 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op1 <img src="icons/chile.png"></img></a></div>'
+        },
+        'meganoticias-m3u': {
+            'nombre': 'Meganoticias op2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5ddfebf14bee0054b9b3fd14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.meganoticias.cl/senal-en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op2 <img src="icons/chile.png"></img></a></div>'
         },
         't13': {
             'nombre': 'T13 <img src="icons/chile.png"></img>',
@@ -599,7 +603,10 @@ var App = {
         App.seedModal();
         App.add("cam-dipu-m3u-1");
         if (!App.isMobile()) {
-            App.add("tv-senado-yutu");
+            App.add("tv-senado-m3u");
+            App.add("meganoticias");
+            App.add("venticuatro");
+            App.add("cnn-cl");
             App.add("corona3");
         }
     }
