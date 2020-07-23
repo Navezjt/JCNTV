@@ -606,7 +606,7 @@ var App = {
             App.add("tv-senado-m3u");
             App.add("meganoticias");
             App.add("venticuatro");
-            App.add("cnn-cl");
+            App.add("t13");
             App.add("corona3");
         }
     }
