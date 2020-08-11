@@ -132,7 +132,7 @@ var App = {
         },
         't13': {
             'nombre': 'T13 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 <img src="icons/chile.png"></img></a></div>'
         },
         't13-m3u': {
             'nombre': 'T13 op1 <img src="icons/chile.png"></img>',
@@ -442,6 +442,10 @@ var App = {
             'nombre': 'IMUC Chile <img src="icons/chile.png"></img> 🎵',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCIIDtZoaK9UZi4FaGMmL_hw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> IMUC Chile <img src="icons/chile.png"></img>🎵</a></div>'
         },
+        'doom-radio': {
+            'nombre': 'Doom Radio 🎵',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCR2D48i5MCMYwVKbgYIAftQ&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCR2D48i5MCMYwVKbgYIAftQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Doom Radio 🎵</a></div>'
+        },
         'radio-placeres': {
             'nombre': '📻 Radio Placeres 87.7 FM <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="radios-solo-audio/radio-placeres" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.radioplaceres.cl/sitio/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Placeres 87.7 FM <img src="icons/chile.png"></img></a></div>'
@@ -521,6 +525,10 @@ var App = {
         'corona-pag-chile': {
             'nombre': '🦠 COVID-19 Chile <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://bing.com/covid/local/chile" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://bing.com/covid/local/chile" target="_blank" class="tooltip-test" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Chile <img src="icons/chile.png"></img></a></div>'
+        },
+        'vtrchile': {
+            'nombre': '🦠 VTR TV Covid-19 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeeGISoikxCnbaLYgU4SAgA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCeeGISoikxCnbaLYgU4SAgA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🦠 VTR TV Covid-19 <img src="icons/chile.png"></img></a></div>'
         },
         '31-minutos': {
             'nombre': '31 minutos - Todos los episodios <img src="icons/chile.png"></img>',
@@ -603,7 +611,7 @@ var App = {
         App.seedModal();
         App.add("cam-dipu-m3u-1");
         if (!App.isMobile()) {
-            App.add("tv-senado-m3u");
+            App.add("tv-senado-yutu");
             App.add("meganoticias");
             App.add("venticuatro");
             App.add("t13");
