@@ -100,7 +100,7 @@ var App = {
         },
         'cima-mirror': {
             'nombre': 'Galeria CIMA op1 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA op1 <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA op1 <img src="icons/chile.png"></img></a></div>'
         },
         'venticuatro': {
             'nombre': '24 horas <img src="icons/chile.png"></img>',
@@ -125,10 +125,10 @@ var App = {
         'meganoticias-mirror': {
             'nombre': 'Meganoticias op1 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op1 <img src="icons/chile.png"></img></a></div>'
-        },
-        'meganoticias-m3u': {
-            'nombre': 'Meganoticias op2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5ddfebf14bee0054b9b3fd14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.meganoticias.cl/senal-en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op2 <img src="icons/chile.png"></img></a></div>'
+                //        },
+                //        'meganoticias-m3u': {
+                //            'nombre': 'Meganoticias op2 <img src="icons/chile.png"></img>',
+                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5ddfebf14bee0054b9b3fd14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.meganoticias.cl/senal-en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op2 <img src="icons/chile.png"></img></a></div>'
         },
         't13': {
             'nombre': 'T13 <img src="icons/chile.png"></img>',
@@ -340,11 +340,11 @@ var App = {
         },
         'france-24-esp': {
             'nombre': 'FRANCE 24 Español 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCUdOoVWuWmgo1wByzcsyKDQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 Español 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCUdOoVWuWmgo1wByzcsyKDQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 Español 🌍</a></div>'
         },
         'france-24-eng': {
             'nombre': 'FRANCE 24 English 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 English 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 English 🌍</a></div>'
         },
         'france-info': {
             'nombre': 'franceinfo 🌍',
@@ -372,7 +372,7 @@ var App = {
         },
         'abc7-swfl': {
             'nombre': 'ABC7 SWFL 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCq9e_hCv2jvgck8WowW1NXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC7 SWFL 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCq9e_hCv2jvgck8WowW1NXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC7 SWFL 🌍</a></div>'
         },
         'nbcla': {
             'nombre': 'NBCLA 🌍',
@@ -384,7 +384,7 @@ var App = {
         },
         'nbc-news': {
             'nombre': 'NBC News 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NBC News 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NBC News 🌍</a></div>'
                 //        },
                 //        'usa-today': {
                 //            'nombre': 'USA TODAY 🌍',
@@ -412,7 +412,7 @@ var App = {
         },
         'live-japones': {
             'nombre': 'ANNnewsCH 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCGCZAYq5Xxojl_tSXcVJhiQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ANNnewsCH 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCGCZAYq5Xxojl_tSXcVJhiQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ANNnewsCH 🌍</a></div>'
         },
         'live-taiwan': {
             'nombre': '民視直播 FTVN Live 53 🌍',
