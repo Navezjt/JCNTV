@@ -609,7 +609,7 @@ var App = {
 
     init: function() {
         App.seedModal();
-        App.add("cam-dipu-m3u-1");
+        App.add("cam-dipu-m3u-2");
         if (!App.isMobile()) {
             App.add("tv-senado-m3u");
             App.add("meganoticias");
