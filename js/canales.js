@@ -615,7 +615,7 @@ var App = {
             App.add("meganoticias");
             App.add("venticuatro");
             App.add("t13");
-            App.add("corona3");
+            App.add("cima");
         }
     }
 };
