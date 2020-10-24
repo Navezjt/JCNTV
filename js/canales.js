@@ -611,7 +611,7 @@ var App = {
         App.seedModal();
         App.add("cam-dipu-m3u-2");
         if (!App.isMobile()) {
-            App.add("tv-senado-m3u");
+            App.add("tv-senado-yutu");
             App.add("meganoticias");
             App.add("venticuatro");
             App.add("t13");
