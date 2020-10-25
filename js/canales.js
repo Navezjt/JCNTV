@@ -621,13 +621,13 @@ var App = {
 
     init: function() {
         App.seedModal();
-        App.add("cam-dipu-m3u-2");
+        App.add("cima");
         if (!App.isMobile()) {
-            App.add("tv-senado-yutu");
+            App.add("cnn-cl");
             App.add("meganoticias");
             App.add("venticuatro");
             App.add("t13");
-            App.add("cima");
+            App.add("bbtv");
         }
     }
 };
