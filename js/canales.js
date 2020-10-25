@@ -564,7 +564,7 @@ var App = {
         },
         'plebi': {
             'nombre': 'Conteo votos <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/plebiscito" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'    
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="yes" src="m3u/plebiscito" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'    
         }
     },
     add: function(canal) {
