@@ -152,7 +152,7 @@ var App = {
         },
         'stgo-tv': {
             'nombre': 'Stgo TV <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://stv.janus.cl/front/embed.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>div class="nombre-barra"><a class="nombre-color" href="https://www.santiagotelevision.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Stgo TV <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://stv.janus.cl/front/embed.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.santiagotelevision.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Stgo TV <img src="icons/chile.png"></img></a></div>'
         },
         'la-tercera': {
             'nombre': 'La Tercera TV <img src="icons/chile.png"></img>',
