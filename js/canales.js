@@ -1,31 +1,31 @@
 // barra tamaño https://codepen.io/nosurprisethere/pen/KJxwQz
-const settings={
+const settings = {
     fill: '#ce6102',
     background: '#1f1f1f'
-  }
-  
-  const sliders = document.querySelectorAll('.range-slider');
-  
+}
 
-  Array.prototype.forEach.call(sliders,(slider)=>{
-    slider.querySelector('input').addEventListener('input', (event)=>{
-      slider.querySelector('span').innerHTML = event.target.value;
-      applyFill(event.target);
+const sliders = document.querySelectorAll('.range-slider');
+
+
+Array.prototype.forEach.call(sliders, (slider) => {
+    slider.querySelector('input').addEventListener('input', (event) => {
+        slider.querySelector('span').innerHTML = event.target.value;
+        applyFill(event.target);
     });
     applyFill(slider.querySelector('input'));
-  });
-  
-  function applyFill(slider) {
-    const percentage = 100*(slider.value-slider.min)/(slider.max-slider.min);
-    const bg = `linear-gradient(90deg, ${settings.fill} ${percentage}%, ${settings.background} ${percentage+0.1}%)`;
+});
+
+function applyFill(slider) {
+    const percentage = 100 * (slider.value - slider.min) / (slider.max - slider.min);
+    const bg = `linear-gradient(90deg, ${settings.fill} ${percentage}%, ${settings.background} ${percentage + 0.1}%)`;
     slider.style.background = bg;
-  }
+}
 /////////////////////////////////////////////////////////
 
 ///Modal aviso legal para que carge al inicar la página junto a crear cookie para que no vuelva a salir https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click///
-   $(document).ready(function () {
+$(document).ready(function () {
     //if cookie hasn't been set...
-    if (document.cookie.indexOf("ModalShown=true")<0) {
+    if (document.cookie.indexOf("ModalShown=true") < 0) {
         $("#modalabout").modal("show");
         //Modal has been shown, now set a cookie so it never comes back
         $("#myModalClose").click(function () {
@@ -37,14 +37,14 @@ const settings={
 /////////////////////////////////////////////////////////
 
 ///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
-$(document).ready(function(){
-    $("#mifiltro").on("keyup", function() {
-      var value = $(this).val().toLowerCase();
-      $("#PorFiltrar *").filter(function() {
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });
+$(document).ready(function () {
+    $("#mifiltro").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#PorFiltrar *").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
     });
-  });
+});
 /////////////////////////////////////////////////////////
 
 
@@ -97,82 +97,66 @@ var App = {
         'cima': {
             'nombre': 'Galeria CIMA <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'cima-mirror': {
-                //            'nombre': 'Galeria CIMA op1 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA op1 <img src="icons/chile.png"></img></a></div>'
         },
         'venticuatro': {
             'nombre': '24 horas <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas <img src="icons/chile.png"></img></a></div>'
+    //        },
+    //        'venticuatro-yutu-2': {
+    //            'nombre': '24 horas 2 <img src="icons/chile.png"></img>',
+    //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/sjQsjgBt03I?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="icons/chile.png"></img></a></div>'
         },
-        'venticuatro-yutu-2': {
-            'nombre': '24 horas 2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/sjQsjgBt03I?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        '24-horas-señal2': {
-                //            'nombre': '24 Horas 2 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="icons/chile.png"></img></a></div>'
+        '24-horas-señal2': {
+            'nombre': '24 Horas s2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="icons/chile.png"></img></a></div>'
         },
         '24-horas-m3u': {
             'nombre': '24 Horas op1 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas op1 <img src="icons/chile.png"></img></a></div>'
-                 //       },
-                //        'canal-13-m3u': {
-                //            'nombre': 'Canal 13 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.13.cl/en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 13 <img src="icons/chile.png"></img></a></div>'
         },
         'meganoticias': {
             'nombre': 'Meganoticias <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias <img src="icons/chile.png"></img></a></div>'
         },
         'meganoticias-yutu-2': {
-            'nombre': 'meganoticias 2 <img src="icons/chile.png"></img>',
+            'nombre': 'Meganoticias 2 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/D1cIpb9Zkqk?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias 2 <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'meganoticias-mirror': {
-                //           'nombre': 'Meganoticias op1 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op1 <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'meganoticias-m3u': {
-                //            'nombre': 'Meganoticias op2 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5ddfebf14bee0054b9b3fd14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.meganoticias.cl/senal-en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias op2 <img src="icons/chile.png"></img></a></div>'
         },
         't13': {
             'nombre': 'T13 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        't13-m3u': {
-                //            'nombre': 'T13 op1 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/t13" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.t13.cl/en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 op1 <img src="icons/chile.png"></img></a></div>'
-                //       },
-                //       'tribunal-consti': {
-                //           'nombre': '🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img>', 
-                //           'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img></a></div>'
+        },
+        'tribunal-consti': {
+            'nombre': '🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img></a></div>'
         },
         'cnn-cl': {
             'nombre': 'CNN Chile <img src="icons/chile.png"></img>',
-            'code':'<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/user/cnnchile" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'cnn-m3u': {
-                //            'nombre': 'CNN Chile op1 <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/cnn1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.cnnchile.com/page/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile op1 <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/user/cnnchile" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile <img src="icons/chile.png"></img></a></div>'
+    //        },
+    //        'tvn-yutu': {
+    //            'nombre': 'TVN <img src="icons/chile.png"></img>',
+    //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
         },
-        'tvn-yutu': {
-            'nombre': 'TVN <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 <img src="icons/chile.png"></img></a></div>'
+        'prensa-presidencia {
+            'nombre': 'Prensa Presidencia <img src="icons/chile.png"></img>',
+        'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5dc17f8944795108a2a52a49?autoplay=true&volume=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://prensa.presidencia.cl/streaming.aspx" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Prensa Presidencia <img src="icons/chile.png"></img></a></div>'
         },
         'tv-chile-m3u': {
             'nombre': 'TV Chile <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'chv-m3u-1': {
-                //            'nombre': 'CHV <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/chv1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.chilevision.cl/senal-online/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CHV <img src="icons/chile.png"></img></a></div>'
         },
         'uoct-tobalaba': {
             'nombre': 'UOCT <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tobalaba" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/senal-de-la-uoct-3685422" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UOCT <img src="icons/chile.png"></img></a></div>'
+        },
+        'stgo-tv': {
+            'nombre': 'Stgo TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://stv.janus.cl/front/embed.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>div class="nombre-barra"><a class="nombre-color" href="https://www.santiagotelevision.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Stgo TV <img src="icons/chile.png"></img></a></div>'
+        },
+        'la-tercera': {
+            'nombre': 'La Tercera TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/la-tercera" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.latercera.com/canal/la-tercera-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> La Tercera TV <img src="icons/chile.png"></img></a></div>'
         },
         'cooperativa': {
             'nombre': '📻 Cooperativa <img src="icons/chile.png"></img>',
@@ -213,10 +197,10 @@ var App = {
         'holvoet-tv-m3u': {
             'nombre': 'Holvoet TV <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/holvoet-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://holvoet.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Holvoet TV <img src="icons/chile.png"></img></a></div>'
-        },
-        'tv-central-m3u': {
-            'nombre': 'TV El Central <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-central" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tvelcentral.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV El Central <img src="icons/chile.png"></img></a></div>'
+    //        },
+    //        'tv-central-m3u': {
+    //            'nombre': 'TV El Central <img src="icons/chile.png"></img>',
+    //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-central" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tvelcentral.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV El Central <img src="icons/chile.png"></img></a></div>'
         },
         'tv-salud-m3u': {
             'nombre': 'TV Salud <img src="icons/chile.png"></img>',
@@ -261,10 +245,6 @@ var App = {
         'cnn-español': {
             'nombre': 'CNN en Español 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN en Español 🌍</a></div>'
-                //        },
-                //        'cnn-brasil': {
-                //            'nombre': 'CNN Brasil 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Brasil 🌍</a></div>'
         },
         'el-tiempo': {
             'nombre': 'EL TIEMPO 🌍',
@@ -297,10 +277,10 @@ var App = {
         'cronica-tv': {
             'nombre': 'Crónica TV 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCT7KFGv6s2a-rh2Jq8ZdM1g&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Crónica TV 🌍</a></div>'
-                //        },
-                //        'RT-español': {
-                //            'nombre': 'RT en Español 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC2mtXUpAYLYJIZ2deSPhlqw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> RT en Español 🌍</a></div>'
+        },
+        'RT-español': {
+            'nombre': 'RT en Español 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC2mtXUpAYLYJIZ2deSPhlqw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> RT en Español 🌍</a></div>'
         },
         'RT-español2': {
             'nombre': 'RT en vivo 🌍',
@@ -322,10 +302,6 @@ var App = {
             'nombre': 'VPItv 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCVFiIRuxJ2GmJLUkHmlmj4w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCVFiIRuxJ2GmJLUkHmlmj4w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> VPItv 🌍</a></div>'
         },
-        'canal-26-arg': {
-            'nombre': 'Canal 26 Argentina 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCrpMfcQNog595v5gAS-oUsQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 26 Argentina 🌍</a></div>'
-        },
         'el-siete-tv': {
             'nombre': 'El Siete TV 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC64ZNqX0FQHabP8iIkmnR3A&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> El Siete TV 🌍</a></div>'
@@ -333,14 +309,6 @@ var App = {
         'a24': {
             'nombre': 'A24 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> A24 🌍</a></div>'
-        },
-        'noticias-uno-colombia': {
-            'nombre': 'NoticiasUnoColombia 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC3NUgxBBl05tthfGBS6kPkA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC3NUgxBBl05tthfGBS6kPkA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NoticiasUnoColombia 🌍</a></div>'
-                //        },
-                //       'tv-publica-arg': {
-                //            'nombre': 'TV Pública Argentina 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Pública Argentina 🌍</a></div>'
         },
         'la-nacion': {
             'nombre': 'LA NACION 🌍',
@@ -357,10 +325,6 @@ var App = {
         'france-24-eng': {
             'nombre': 'FRANCE 24 English 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 English 🌍</a></div>'
-                //        },
-                //        'france-info': {
-                //            'nombre': 'franceinfo 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCO6K_kkdP-lnSCiO3tPx7WA&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> franceinfo 🌍</a></div>'
         },
         'sky-news': {
             'nombre': 'Sky News 🌍',
@@ -389,34 +353,26 @@ var App = {
         'nbcla': {
             'nombre': 'NBCLA 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCSWoppsVL0TLxFQ2qP_DLqQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCSWoppsVL0TLxFQ2qP_DLqQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NBCLA 🌍</a></div>'
-                //        },
-                //        'abc-news': {
-                //            'nombre': 'ABC News 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UCBi2mrWuNuyYy4gbM6fU18Q&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC News 🌍</a></div>'
         },
         'nbc-news': {
             'nombre': 'NBC News 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NBC News 🌍</a></div>'
-                //        },
-                //        'usa-today': {
-                //            'nombre': 'USA TODAY 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCP6HGa63sBC7-KHtkme-p-g&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCP6HGa63sBC7-KHtkme-p-g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> USA TODAY 🌍</a></div>'
         },
         'record-news': {
             'nombre': 'Record News 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Record News 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Record News 🌍</a></div>'
         },
         'news-nigeria': {
             'nombre': 'TVC News Nigeria 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCgp4A6I8LCWrhUzn-5SbKvA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVC News Nigeria 🌍</a></div>'
-                //        },
-                //        'HK-apple-daily': {
-                //            'nombre': 'HK Apple Daily 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeqUUXaM75wrK5Aalo6UorQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HK Apple Daily 🌍</a></div>'
-                //        },
-                //        'HK-cable-tv': {
-                //            'nombre': 'CABLE TV & CABLE News 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_q7e5XYJB0JDGagcF0KW0w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CABLE TV & CABLE News 🌍</a></div>'
+        },
+        'HK-apple-daily': {
+            'nombre': 'HK Apple Daily 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCeqUUXaM75wrK5Aalo6UorQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HK Apple Daily 🌍</a></div>'
+        },
+        'HK-cable-tv': {
+            'nombre': 'CABLE TV & CABLE News 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC_q7e5XYJB0JDGagcF0KW0w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CABLE TV & CABLE News 🌍</a></div>'
         },
         'live-chino': {
             'nombre': '三立LIVE新聞 🌍',
@@ -493,10 +449,10 @@ var App = {
         'cam-dipu-13-yutu': {
             'nombre': 'Cámara Diputados YT 13 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 13 <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'times-square': {
-                //            'nombre': 'Times Square Live 4K 🌍',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidio.us/embed/live_stream?channel=UC6qrG3W8SMK0jior2olka3g&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
+        },
+        'times-square': {
+            'nombre': 'Times Square Live 4K 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UC6qrG3W8SMK0jior2olka3g&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
         },
         'nasa': {
             'nombre': '🔭 NASA Live 🌍',
@@ -509,10 +465,6 @@ var App = {
         'spacex': {
             'nombre': '🔭 SpaceX 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 SpaceX 🌍</a></div>'
-        },
-        'espacio-luna': {
-            'nombre': '🔭 Lunar view from SELENE 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube.com/embed/nX0sg1Gp-1w?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/watch?v=nX0sg1Gp-1w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 Lunar view from SELENE 🌍</a></div>'
         },
         'espacio-tierra': {
             'nombre': '🔭 Earth view from ISS 🌍',
@@ -561,79 +513,75 @@ var App = {
         'tv-educa-cl': {
             'nombre': 'TV Educa Chile <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvn.cl/envivo/tveducachile/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Educa Chile <img src="icons/chile.png"></img></a></div>'
-                //        },
-                //        'plebi': {
-                //            'nombre': 'Conteo votos <img src="icons/chile.png"></img>',
-                //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="yes" src="m3u/plebiscito" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'    
         }
     },
     add: function(canal) {
         if (App.channels[canal]) {
-            var thisCanal = document.createElement("div");
-            thisCanal.innerHTML = App.channels[canal].code;
+    var thisCanal = document.createElement("div");
+    thisCanal.innerHTML = App.channels[canal].code;
 
-            if (App.isMobile()) {
-                thisCanal.classList.add("col-" + sizeMobile);
-            } else {
-                thisCanal.classList.add("col-" + size);
-            }
-            thisCanal.classList.add("stream");
-            thisCanal.setAttribute("data-canal", canal);
-            var losCanales = document.getElementById("los-canales");
-            losCanales.appendChild(thisCanal);
-            var n = document.querySelector('button[data-canal="' + canal + '"]');
-            n.classList.remove("btn-outline-secondary");
-            n.classList.add("btn-primary");
-        }
-    },
-    remove: function(canal) {
-        var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
-        var losCanales = document.getElementById("los-canales");
-        if (findCanal != null) {
-            losCanales.removeChild(findCanal);
-            var n = document.querySelector('button[data-canal="' + canal + '"]');
-            n.classList.remove("btn-primary");
-            n.classList.add("btn-outline-secondary");
-        }
-    },
-    isMobile: function() {
-        var check = false;
-        (function(a) { if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true; })(navigator.userAgent || navigator.vendor || window.opera);
-        return check;
-    },
-
-    seedModal: function() {
-        for (const llave in App.channels) {
-            let buttonTV;
-            buttonTV = document.createElement("button");
-            buttonTV.classList.add("btn");
-            buttonTV.classList.add("btn-outline-secondary");
-            buttonTV.setAttribute("data-canal", llave);
-            buttonTV.innerHTML = App.channels[llave].nombre;
-            let n = document.querySelector(".modal-body");
-            n.appendChild(buttonTV);
-            buttonTV.addEventListener("click", function() {
-                if (buttonTV.getAttribute("class").includes("btn-outline-secondary")) {
-                    App.add(llave);
-                } else if (buttonTV.getAttribute("class").includes("btn-primary")) {
-                    App.remove(llave);
-                }
-            })
-        };
-    },
-
-
-    init: function() {
-        App.seedModal();
-        App.add("cima");
-        if (!App.isMobile()) {
-            App.add("tv-senado-yutu");
-            App.add("cam-dipu-m3u-1");
-            App.add("venticuatro");
-            App.add("t13");
-            App.add("meganoticias");
-        }
+    if (App.isMobile()) {
+        thisCanal.classList.add("col-" + sizeMobile);
+    } else {
+        thisCanal.classList.add("col-" + size);
     }
+    thisCanal.classList.add("stream");
+    thisCanal.setAttribute("data-canal", canal);
+    var losCanales = document.getElementById("los-canales");
+    losCanales.appendChild(thisCanal);
+    var n = document.querySelector('button[data-canal="' + canal + '"]');
+    n.classList.remove("btn-outline-secondary");
+    n.classList.add("btn-primary");
+}
+    },
+remove: function(canal) {
+    var findCanal = document.querySelector('div[data-canal="' + canal + '"]');
+    var losCanales = document.getElementById("los-canales");
+    if (findCanal != null) {
+        losCanales.removeChild(findCanal);
+        var n = document.querySelector('button[data-canal="' + canal + '"]');
+        n.classList.remove("btn-primary");
+        n.classList.add("btn-outline-secondary");
+    }
+},
+isMobile: function() {
+    var check = false;
+    (function (a) { if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true; })(navigator.userAgent || navigator.vendor || window.opera);
+    return check;
+},
+
+seedModal: function() {
+    for (const llave in App.channels) {
+        let buttonTV;
+        buttonTV = document.createElement("button");
+        buttonTV.classList.add("btn");
+        buttonTV.classList.add("btn-outline-secondary");
+        buttonTV.setAttribute("data-canal", llave);
+        buttonTV.innerHTML = App.channels[llave].nombre;
+        let n = document.querySelector(".modal-body");
+        n.appendChild(buttonTV);
+        buttonTV.addEventListener("click", function () {
+            if (buttonTV.getAttribute("class").includes("btn-outline-secondary")) {
+                App.add(llave);
+            } else if (buttonTV.getAttribute("class").includes("btn-primary")) {
+                App.remove(llave);
+            }
+        })
+    };
+},
+
+
+init: function() {
+    App.seedModal();
+    App.add("cima");
+    if (!App.isMobile()) {
+        App.add("tv-senado-yutu");
+        App.add("cam-dipu-m3u-1");
+        App.add("venticuatro");
+        App.add("t13");
+        App.add("meganoticias");
+    }
+}
 };
 
 App.init();
@@ -657,27 +605,27 @@ var btn = document.getElementById("custom-btn");
 var span = document.getElementById("custom-close");
 var span2 = document.getElementById("custom-close2");
 
-btn.onclick = function() {
+btn.onclick = function () {
     modal.style.display = "block";
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
 
-span.onclick = function() {
+span.onclick = function () {
     modal.style.display = "none";
 }
 
-span2.onclick = function() {
+span2.onclick = function () {
     modal.style.display = "none";
 }
 
 var hue = document.getElementById("FormControlSelect1");
 
-hue.onchange = function(event) {
+hue.onchange = function (event) {
     size = event.target.value
     sizeMobile = event.target.value
     let canal2 = document.querySelectorAll(".stream");
@@ -690,27 +638,27 @@ hue.onchange = function(event) {
 
 var anchoStreams = document.getElementById("formControlRange");
 
-anchoStreams.oninput = function(event) {
-        let streams2 = document.getElementById("los-canales");
-        console.log(streams2)
-        streams2.style.maxWidth = event.target.value + "%"
-    }
-    /////////////////////////////////////////////////////////
+anchoStreams.oninput = function (event) {
+    let streams2 = document.getElementById("los-canales");
+    console.log(streams2)
+    streams2.style.maxWidth = event.target.value + "%"
+}
+/////////////////////////////////////////////////////////
 
 //////share buttons//////////
-$('.share-button').on('click', function() {
+$('.share-button').on('click', function () {
     $(this).addClass('open');
 })
 $(".share-items").draggable({
     axis: "x",
     containment: ".share-items-wrapper"
 });
-$(".share-item").on('click', function() {
+$(".share-item").on('click', function () {
     $('.share-button').addClass('shared');
-    setTimeout(function() {
+    setTimeout(function () {
         $('.share-button').addClass('thankyou');
     }, 800);
-    setTimeout(function() {
+    setTimeout(function () {
         $('.share-button').removeClass('open');
         $('.share-button').removeClass('shared');
         $('.share-button').removeClass('thankyou');
