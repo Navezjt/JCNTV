@@ -138,9 +138,9 @@ var App = {
     //            'nombre': 'TVN <img src="icons/chile.png"></img>',
     //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
         },
-        'prensa-presidencia' {
+        'prensa-presidencia': {
             'nombre': 'Prensa Presidencia <img src="icons/chile.png"></img>',
-        'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5dc17f8944795108a2a52a49?autoplay=true&volume=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://prensa.presidencia.cl/streaming.aspx" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Prensa Presidencia <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5dc17f8944795108a2a52a49?autoplay=true&volume=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://prensa.presidencia.cl/streaming.aspx" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Prensa Presidencia <img src="icons/chile.png"></img></a></div>'
         },
         'tv-chile-m3u': {
             'nombre': 'TV Chile <img src="icons/chile.png"></img>',
