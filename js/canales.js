@@ -22,32 +22,6 @@ function applyFill(slider) {
 }
 /////////////////////////////////////////////////////////
 
-///Modal aviso legal para que carge al inicar la página junto a crear cookie para que no vuelva a salir https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click///
-$(document).ready(function () {
-    //if cookie hasn't been set...
-    if (document.cookie.indexOf("ModalShown=true") < 0) {
-        $("#modalabout").modal("show");
-        //Modal has been shown, now set a cookie so it never comes back
-        $("#myModalClose").click(function () {
-            $("#modalabout").modal("hide");
-        });
-        document.cookie = "ModalShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
-    }
-});
-/////////////////////////////////////////////////////////
-
-///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
-$(document).ready(function () {
-    $("#mifiltro").on("keyup", function () {
-        var value = $(this).val().toLowerCase();
-        $("#PorFiltrar *").filter(function () {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-    });
-});
-/////////////////////////////////////////////////////////
-
-
 ///copiar enlace a portapapeles//////////////////////////
 function myFunction() {
     var copyText = document.getElementById("myInput");
@@ -648,23 +622,3 @@ anchoStreams.oninput = function (event) {
     streams2.style.maxWidth = event.target.value + "%"
 }
 /////////////////////////////////////////////////////////
-
-//////share buttons//////////
-$('.share-button').on('click', function () {
-    $(this).addClass('open');
-})
-$(".share-items").draggable({
-    axis: "x",
-    containment: ".share-items-wrapper"
-});
-$(".share-item").on('click', function () {
-    $('.share-button').addClass('shared');
-    setTimeout(function () {
-        $('.share-button').addClass('thankyou');
-    }, 800);
-    setTimeout(function () {
-        $('.share-button').removeClass('open');
-        $('.share-button').removeClass('shared');
-        $('.share-button').removeClass('thankyou');
-    }, 2500);
-});
