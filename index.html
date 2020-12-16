@@ -719,17 +719,6 @@
                 }
             });
             /////////////////////////////////////////////////////////
-
-            ///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
-            $(document).ready(function () {
-                $("#mifiltro").on("keyup", function () {
-                    var value = $(this).val().toLowerCase();
-                    $("#PorFiltrar *").filter(function () {
-                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                    });
-                });
-            });
-            ////////////////////////////////////////////////////////
             //////share buttons//////////
             $('.share-button').on('click', function () {
                 $(this).addClass('open');
