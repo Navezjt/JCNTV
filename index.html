@@ -702,9 +702,61 @@
     </div>
 </div>
 
+    <script>
+        ///Modal aviso legal para que carge al inicar la página junto a crear cookie para que no vuelva a salir https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click///
+        var document;
+        if (document === undefined) {
+            
+            $(document).ready(function () {
+                //if cookie hasn't been set...
+                if (document.cookie.indexOf("ModalShown=true") < 0) {
+                    $("#modalabout").modal("show");
+                    //Modal has been shown, now set a cookie so it never comes back
+                    $("#myModalClose").click(function () {
+                        $("#modalabout").modal("hide");
+                    });
+                    document.cookie = "ModalShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+                }
+            });
+            /////////////////////////////////////////////////////////
+
+            ///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
+            $(document).ready(function () {
+                $("#mifiltro").on("keyup", function () {
+                    var value = $(this).val().toLowerCase();
+                    $("#PorFiltrar *").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+            ////////////////////////////////////////////////////////
+            //////share buttons//////////
+            $('.share-button').on('click', function () {
+                $(this).addClass('open');
+            })
+            $(".share-items").draggable({
+                axis: "x",
+                containment: ".share-items-wrapper"
+            });
+            $(".share-item").on('click', function () {
+                $('.share-button').addClass('shared');
+                setTimeout(function () {
+                    $('.share-button').addClass('thankyou');
+                }, 800);
+                setTimeout(function () {
+                    $('.share-button').removeClass('open');
+                    $('.share-button').removeClass('shared');
+                    $('.share-button').removeClass('thankyou');
+                }, 2500);
+            });
+        } else {}
+    </script>
+
     <!-- pa que funciona la caga de dropdown -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/canales.js"></script>
