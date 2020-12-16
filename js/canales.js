@@ -22,6 +22,17 @@ function applyFill(slider) {
 }
 /////////////////////////////////////////////////////////
 
+ ///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
+            $(document).ready(function () {
+                $("#mifiltro").on("keyup", function () {
+                    var value = $(this).val().toLowerCase();
+                    $("#PorFiltrar *").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+////////////////////////////////////////////////////////
+
 ///copiar enlace a portapapeles//////////////////////////
 function myFunction() {
     var copyText = document.getElementById("myInput");
