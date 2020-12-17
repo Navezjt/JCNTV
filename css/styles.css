@@ -258,3 +258,7 @@
             width: 25%;
         }
     }
+
+    caption {
+        caption-side: top;
+    }
