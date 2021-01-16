@@ -236,9 +236,16 @@ var App = {
             'nombre': 'América TV 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/2Vyx4ee2Tss?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV 🌍</a></div>'
         },
+
+
+
+
+
+
+        
         'america-tv-op1': {
             'nombre': 'América TV op1 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/2Vyx4ee2Tss?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV op1 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/2Vyx4ee2Tss?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV op1 🌍</a></div>'
         },
         'net-tv': {
             'nombre': 'Net TV 🌍',
@@ -330,7 +337,7 @@ var App = {
         },
         'hch-vivo': {
             'nombre': 'HCH En Vivo 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/ZI_WRS21yVc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCa6ycATPsQ7y42jG6DtLIyQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HCH En Vivo 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/ZI_WRS21yVc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCa6ycATPsQ7y42jG6DtLIyQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HCH En Vivo 🌍</a></div>'
         },
         'la-nacion': {
             'nombre': 'LA NACION 🌍',
@@ -338,7 +345,7 @@ var App = {
         },
         'telesur-tv': {
             'nombre': 'teleSUR tv 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/-GV6pB-ft90?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> teleSUR tv 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/-GV6pB-ft90?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> teleSUR tv 🌍</a></div>'
         },
         'france-24-esp': {
             'nombre': 'FRANCE 24 Español 🌍',
@@ -350,7 +357,7 @@ var App = {
         },
         'france-info': {
             'nombre': 'franceinfo 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/wwNZKfBLAsc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> franceinfo 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/wwNZKfBLAsc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> franceinfo 🌍</a></div>'
         },
         'sky-news': {
             'nombre': 'Sky News 🌍',
@@ -390,7 +397,7 @@ var App = {
         },
         'abc-news': {
             'nombre': 'ABC News 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/w_Ma8oQLmSM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC News 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/w_Ma8oQLmSM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC News 🌍</a></div>'
         },    
         'nbc-news': {
             'nombre': 'NBC News 🌍',
@@ -490,7 +497,7 @@ var App = {
         },
         'times-square': {
             'nombre': 'Times Square Live 4K 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/eJ7ZkQ5TC08?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/eJ7ZkQ5TC08?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
         },
         'nasa': {
             'nombre': '🔭 NASA Live 🌍',
@@ -498,7 +505,7 @@ var App = {
         },
         'nasa1': {
             'nombre': '🔭 NASA ISS Live Stream 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://invidious.snopyta.org/embed/EEIk7gwjgIM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/watch?v=EEIk7gwjgIM" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://invidiou.site/embed/EEIk7gwjgIM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/watch?v=EEIk7gwjgIM" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream 🌍</a></div>'
         },
         'spacex': {
             'nombre': '🔭 SpaceX 🌍',
