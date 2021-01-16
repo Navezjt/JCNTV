@@ -51,7 +51,7 @@ function myFunction() {
 var size = 4;
 var sizeMobile = 12;
 var App = {
-    channels: {
+     channels: {
         'tv-senado': {
             'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado <img src="icons/chile.png"></img></a></div>'
@@ -132,9 +132,9 @@ var App = {
             'nombre': 'TV Chile <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile <img src="icons/chile.png"></img></a></div>'
         },
-        'uoct-tobalaba': {
-            'nombre': 'UOCT <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tobalaba" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/senal-de-la-uoct-3685422" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UOCT <img src="icons/chile.png"></img></a></div>'
+        'tvn': {
+            'nombre': 'TVN <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tobalaba" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
         },
         'stgo-tv': {
             'nombre': 'Stgo TV <img src="icons/chile.png"></img>',
@@ -179,6 +179,10 @@ var App = {
         'radio-la-clave': {
             'nombre': '📻 Radio La Clave <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/laclavetv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="nombre-barra"><a class="nombre-color" href="https://radiolaclave.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio La Clave <img src="icons/chile.png"></img></a></div>'
+        },
+        'radio-folclor-chile': {
+            'nombre': '📻 Radio Folclor de Chile <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC0Hl8kJe8Xwv8g63Q4qefQg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC0Hl8kJe8Xwv8g63Q4qefQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio Folclor de Chile <img src="icons/chile.png"></img></a></div>'
         },
         'holvoet-tv-m3u': {
             'nombre': 'Holvoet TV <img src="icons/chile.png"></img>',
@@ -230,12 +234,36 @@ var App = {
         },
         'america-tv': {
             'nombre': 'América TV 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/live_stream?channel=UC6NVDkuzY2exMOVFw4i9oHw&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/2Vyx4ee2Tss?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV 🌍</a></div>'
         },
-        'cnn-español': {
-            'nombre': 'CNN en Español 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN en Español 🌍</a></div>'
+        'america-tv-op1': {
+            'nombre': 'América TV op1 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/2Vyx4ee2Tss?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV op1 🌍</a></div>'
         },
+        'net-tv': {
+            'nombre': 'Net TV 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/nettv?volume=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre">Net TV</div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.canalnet.tv/page/senal-en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Net TV 🌍</a></div>'
+        },
+        'ip-noticias': {
+            'nombre': 'IP Noticias 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC1bBjOZieJWHbsFA0LwjjJA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> IP Noticias 🌍</a></div>'
+        },
+        'tv-publica-arg': {
+            'nombre': 'Televisión Pública 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Televisión Pública 🌍</a></div>'
+        },
+//        'cnn-español': {
+//            'nombre': 'CNN en Español 🌍',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN en Español 🌍</a></div>'
+//        },
+        'cnn-us': {
+            'nombre': 'CNN US 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/us" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://us.cnn.com" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN US 🌍</a></div>'
+        },
+       'cnn-brasil': {
+            'nombre': 'CNN Brasil 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Brasil 🌍</a></div>'
+       },
         'el-tiempo': {
             'nombre': 'EL TIEMPO 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCe5-b0fCK3eQCpwS6MT0aNw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> EL TIEMPO 🌍</a></div>'
@@ -302,7 +330,7 @@ var App = {
         },
         'hch-vivo': {
             'nombre': 'HCH En Vivo 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/live_stream?channel=UCa6ycATPsQ7y42jG6DtLIyQ&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCa6ycATPsQ7y42jG6DtLIyQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HCH En Vivo 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/ZI_WRS21yVc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCa6ycATPsQ7y42jG6DtLIyQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HCH En Vivo 🌍</a></div>'
         },
         'la-nacion': {
             'nombre': 'LA NACION 🌍',
@@ -310,7 +338,7 @@ var App = {
         },
         'telesur-tv': {
             'nombre': 'teleSUR tv 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/live_stream?channel=UCbHFKMtqLYkIBRiPHJwxu_w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> teleSUR tv 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/-GV6pB-ft90?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> teleSUR tv 🌍</a></div>'
         },
         'france-24-esp': {
             'nombre': 'FRANCE 24 Español 🌍',
@@ -322,7 +350,7 @@ var App = {
         },
         'france-info': {
             'nombre': 'franceinfo 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/live_stream?channel=UCO6K_kkdP-lnSCiO3tPx7WA&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> franceinfo 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/wwNZKfBLAsc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> franceinfo 🌍</a></div>'
         },
         'sky-news': {
             'nombre': 'Sky News 🌍',
@@ -340,6 +368,14 @@ var App = {
             'nombre': 'CNA 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC83jt4dlz1Gjl58fzQrrKZg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNA 🌍</a></div>'
         },
+        'newsmax': {
+            'nombre': 'Newsmax 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCx6h-dWzJ5NpAlja1YsApdg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Newsmax TV 🌍</a></div>'
+        },
+        'fox-news-now': {
+            'nombre': 'NewsNOW from FOX',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCJg9wBPyKMNA5sRDnvzmkdg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NewsNOW from FOX 🌍</a></div>'
+        },
         'abc7': {
             'nombre': 'ABC7 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCVxBA3Cbu3pm8w8gEIoMEog&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCVxBA3Cbu3pm8w8gEIoMEog" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC7 🌍</a></div>'
@@ -354,7 +390,7 @@ var App = {
         },
         'abc-news': {
             'nombre': 'ABC News 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/live_stream?channel=UCBi2mrWuNuyYy4gbM6fU18Q&autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC News 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/w_Ma8oQLmSM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC News 🌍</a></div>'
         },    
         'nbc-news': {
             'nombre': 'NBC News 🌍',
@@ -454,7 +490,7 @@ var App = {
         },
         'times-square': {
             'nombre': 'Times Square Live 4K 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/eJ7ZkQ5TC08&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidious.snopyta.org/embed/eJ7ZkQ5TC08?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
         },
         'nasa': {
             'nombre': '🔭 NASA Live 🌍',
@@ -462,7 +498,7 @@ var App = {
         },
         'nasa1': {
             'nombre': '🔭 NASA ISS Live Stream 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/EEIk7gwjgIM?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/watch?v=EEIk7gwjgIM" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://invidious.snopyta.org/embed/EEIk7gwjgIM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/watch?v=EEIk7gwjgIM" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream 🌍</a></div>'
         },
         'spacex': {
             'nombre': '🔭 SpaceX 🌍',
