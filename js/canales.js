@@ -102,7 +102,7 @@ var App = {
         },
         'meganoticias': {
             'nombre': 'Meganoticias <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/Et4i_BymLGQ?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/alEkFpLf43k?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias <img src="icons/chile.png"></img></a></div>'
         },
         'meganoticias-yutu-2': {
             'nombre': 'Meganoticias 2 <img src="icons/chile.png"></img>',
