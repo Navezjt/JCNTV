@@ -546,6 +546,10 @@ var App = {
         'tv-educa-cl': {
             'nombre': 'TV Educa Chile <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvn.cl/envivo/tveducachile/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Educa Chile <img src="icons/chile.png"></img></a></div>'
+        },
+        'bob-ross: {
+            'nombre': 'Bob Ross (Todas las Temporadas) 🌍',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLOVNqqD-2HgiA-GZyzcfZN9n-YelhB5&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="nombre-barra"><img class="rec" src="icons/rojo.png"></img><a class="nombre-color" href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta serie"> Bob Ross (Todas las Temporadas) 🎨</a></div>'
         }
     },
     add: function(canal) {
