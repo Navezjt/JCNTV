@@ -15,7 +15,6 @@ Toda contribución es bienvenida 😊
     - [Material Complementario 🔗🦠](#material-complementario)
     - [Aviso Legal 📝](#aviso-legal)
     - [Créditos](#créditos)
-    - [Componentes](#componentes)
    
 ## [Estallido social](https://es.wikipedia.org/wiki/Estallido_social) 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva.jpg)](https://alplox.github.io/tele/)
@@ -204,31 +203,48 @@ ___
 ___
 
 # Créditos
-&mdash; <a href="http://pslabs.cl/tele.html" target="_blank">Inspirado en</a> por <a href="https://twitter.com/pottersys/status/1187710925182255104" target="_blank">@pottersys</a>.
 
-&mdash; <a href="https://tele.0x00.cl/" target="_blank">Basándose en Variación</a> creada por <a href="https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/" target="_blank">u/0x00cl</a>.
+```
+MIT License
 
-&mdash; <a>Modificaciones</a> por <a href="https://github.com/Alplox" target="_blank">Alplox</a>.
+Copyright (c) 2021 Alplox
 
-&mdash; <a href="https://github.com/Alplox/tele/blob/master/favicon.ico" target="_blank">Favicon</a> cortesia de <a href="https://github.com/mave007" target="_blank">mave007</a>.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+================================================================================
+
+Mentions:
+Favicon created using this sites https://favicon.io/ and https://pixelcraft.web.app/
+First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/favicon.ico)
+Site inspired on http://pslabs.cl/tele.html by @pottersys
+Based on variation https://tele.0x00.cl/ by u/0x00cl
 
 
-## Componentes
-
-&mdash; <a>Reloj</a> <a href="https://time.is/" target="_blank">time.is</a>.
-
-&mdash; <a>Biblioteca rediseño</a> <a href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>.
-
-&mdash; <a>Botones compartir</a> <a href="https://sharingbuttons.io/" target="_blank">sharingbuttons.io</a>.
-
-&mdash; <a>Copiado texto automático</a> <a href="https://www.w3schools.com/howto/howto_js_copy_clipboard.asp" target="_blank">w3schools.com</a>.
-
-&mdash; <a>Modal al cargar sitio + Cookie</a> <a href="https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click" target="_blank">coderwall.com</a>.
-
-&mdash; <a>Iconos GitHub, Share, Copyright y RRSS</a> <a href="https://fontawesome.com/" target="_blank">fontawesome.com</a>.
-
-&mdash; <a>Estilo barra tamaño</a> <a href="https://codepen.io/nosurprisethere/pen/KJxwQz" target="_blank">codepen.io/nosurprisethere</a>.
-
-&mdash; <a>Filtro para canales</a> <a href="https://www.w3schools.com/bootstrap/bootstrap_filters.asp" target="_blank">w3schools.com</a>.
+Component                               Primary Author          License             License URL
+---------------------------------------------------------------------------------------------
+Reloj                                   Digitz.no               https://time.is/widgets
+Biblioteca diseño                       The Bootstrap Authors   MIT                 https://opensource.org/licenses/MIT 
+Botones compartir                       Maximilian Stoiber      MIT                 https://opensource.org/licenses/MIT 
+Iconos GitHub, Share, Copyright y RRSS  Fonticons, Inc.         CC BY 4.0           https://creativecommons.org/licenses/by/4.0/
+Estilo barra tamaño                     Huw Llewellyn           MIT                 https://opensource.org/licenses/MIT 
+---------------------------------------------------------------------------------------------
+```
 
 [![HitCount](http://hits.dwyl.io/{Alplox}/{repo}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
