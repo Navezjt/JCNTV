@@ -25,7 +25,7 @@ SOFTWARE.
 
 Mentions:
 Favicon created using this sites https://favicon.io/ and https://pixelcraft.web.app/
-First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/favicon.ico)
+First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/Favicon/primer-favicon.ico)
 Site inspired on http://pslabs.cl/tele.html by @pottersys
 Based on variation https://tele.0x00.cl/ by u/0x00cl
 
@@ -36,7 +36,8 @@ Reloj                                   Digitz.no               https://time.is/
 Biblioteca diseño                       The Bootstrap Authors   MIT                 https://opensource.org/licenses/MIT 
 Botones compartir                       Maximilian Stoiber      MIT                 https://opensource.org/licenses/MIT 
 Iconos GitHub, Share, Copyright y RRSS  Fonticons, Inc.         CC BY 4.0           https://creativecommons.org/licenses/by/4.0/
-Estilo barra tamaño                     Huw Llewellyn           MIT                 https://opensource.org/licenses/MIT 
+Estilo barra tamaño                     Huw Llewellyn           MIT                 https://opensource.org/licenses/MIT
+Video.js                                Brightcove, Inc.        Apache V2.0         https://www.apache.org/licenses/LICENSE-2.0
 ---------------------------------------------------------------------------------------------
 
 ================================================================================
@@ -537,3 +538,22 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+=======================================================================
+=======================================================================
+
+
+Copyright Brightcove, Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.

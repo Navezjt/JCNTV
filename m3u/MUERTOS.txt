@@ -1,0 +1,28 @@
+
+CANAL 13
+https://cl-canal13-canal13-app-qfb4kpcp-live.ned.media/live.m3u8
+
+T13
+https://t13-movil-live.cdn.nedmedia.io/index.m3u8
+
+CHV
+https://mdstrm.com/live-stream-playlist/5cc0855ddf297e136a586daa.m3u8
+http://mi.chv.cl/playlist/stream.m3u8?s=hd
+http://mi.chv.cl/playlist/stream.m3u8?s=sd
+
+CAMARA DE DIPUTADOS
+http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8
+
+TV EL CENTRAL
+https://5580a424c4e9f.streamlock.net:8020/vs/tvelcentral/chunklist_w514497132.m3u8
+https://593b04c4c5670.streamlock.net:443/8172/8172/playlist.m3u8
+
+
+estos links los guardo porque si y que pasa
+https://www.servelelecciones.cl/
+https://2020.decidechile.cl/#/
+https://www.meganoticias.cl/plebiscito-2020/
+https://www.24horas.cl/plebiscito-chile-elige/
+https://www.t13.cl/plebiscito
+https://www.emol.com/especiales/2020/nacional/plebiscito/resultados.asp
+https://www.soychile.cl/noticias/plebiscito2020/

@@ -144,8 +144,6 @@ input::-moz-focus-outer {
     border: 0;
 }
 
-
-
 /* modal */
 .modal-body {
     max-height: calc(100vh - 210px);
@@ -167,7 +165,6 @@ input::-moz-focus-outer {
     text-align:center;
 }
 
-
 /* botones de canales */
 .modal-body button {
     margin-right: 1em;
@@ -186,8 +183,6 @@ input::-moz-focus-outer {
         width: 25%;
     }
 }
-
-
 
 /* boton copiar enlace*/
 .btn-copiar {
@@ -222,16 +217,6 @@ caption {
     color: #F26D21;
     pointer-events: visible;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-/* gif circulo rojo*/
-.rec {
-    width: 10px;
-    height: 10px;
-    line-height: 15px;
-    animation: pulsate 5s ease-out;
-    animation-iteration-count: infinite;
-    opacity: 0.5;
 }
 
 /* iconos */

@@ -243,7 +243,8 @@ Reloj                                   Digitz.no               https://time.is/
 Biblioteca diseño                       The Bootstrap Authors   MIT                 https://opensource.org/licenses/MIT 
 Botones compartir                       Maximilian Stoiber      MIT                 https://opensource.org/licenses/MIT 
 Iconos GitHub, Share, Copyright y RRSS  Fonticons, Inc.         CC BY 4.0           https://creativecommons.org/licenses/by/4.0/
-Estilo barra tamaño                     Huw Llewellyn           MIT                 https://opensource.org/licenses/MIT 
+Estilo barra tamaño                     Huw Llewellyn           MIT                 https://opensource.org/licenses/MIT
+Video.js                                Brightcove, Inc.        Apache V2.0         https://www.apache.org/licenses/LICENSE-2.0
 ---------------------------------------------------------------------------------------------
 ```
 
