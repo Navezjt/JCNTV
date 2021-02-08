@@ -6,7 +6,6 @@ const settings = {
 
 const sliders = document.querySelectorAll('.range-slider');
 
-
 Array.prototype.forEach.call(sliders, (slider) => {
     slider.querySelector('input').addEventListener('input', (event) => {
         slider.querySelector('span').innerHTML = event.target.value;
@@ -22,8 +21,8 @@ function applyFill(slider) {
 }
 /////////////////////////////////////////////////////////
 
- ///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
- $(document).ready(function () {
+///Filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
+$(document).ready(function () {
     $("#mifiltro").on("keyup", function () {
         var value = $(this).val().toLowerCase();
         $("#PorFiltrar *").filter(function () {
@@ -32,7 +31,6 @@ function applyFill(slider) {
     });
 });
 ////////////////////////////////////////////////////////
-
 
 ///copiar enlace a portapapeles//////////////////////////
 function myFunction() {
@@ -600,7 +598,6 @@ seedModal: function() {
     };
 },
 
-
 init: function() {
     App.seedModal();
     App.add("cima");
@@ -609,26 +606,12 @@ init: function() {
         App.add("cam-dipu-m3u-1");
         App.add("venticuatro");
         App.add("t13");
-        App.add("meganoticias");
+        App.add("meganoticias"); 
     }
 }
 };
 
 App.init();
-
-function updateClock() {
-    var now = new Date();
-    localtime = now.toTimeString().slice(0, 8);
-    utctime = now.toUTCString().slice(17, 25);
-    var santiago = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDay(), now.getUTCHours() - 3, now.getUTCMinutes(), now.getUTCSeconds());
-    santiagotime = santiago.toTimeString().slice(0, 8);
-    document.getElementById("time").innerHTML = localtime;
-    document.getElementById("UTCtime").innerHTML = utctime;
-    document.getElementById("santiagotime").innerHTML = santiagotime;
-    setTimeout(updateClock, 1000);
-}
-
-updateClock();
 
 var modal = document.getElementById("custom-modal");
 var btn = document.getElementById("custom-btn");
@@ -653,7 +636,7 @@ span2.onclick = function () {
     modal.style.display = "none";
 }
 
-var hue = document.getElementById("FormControlSelect1");
+var hue = document.getElementById("Stream_por_fila");
 
 hue.onchange = function (event) {
     size = event.target.value
@@ -666,7 +649,7 @@ hue.onchange = function (event) {
     }
 }
 
-var anchoStreams = document.getElementById("formControlRange");
+var anchoStreams = document.getElementById("Tamaño_streams");
 
 anchoStreams.oninput = function (event) {
     let streams2 = document.getElementById("los-canales");
