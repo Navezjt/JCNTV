@@ -64,7 +64,7 @@
             </script>
         </div>
         <button aria-controls='navbarSupportedContent' aria-expanded='true' aria-label='Toggle navigation'
-            class='navbar-toggler' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
+            class='navbar-toggler custom-toggler' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
             <span class='navbar-toggler-icon'></span>
         </button>
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>
@@ -111,14 +111,14 @@
                                 class="fab fa-github"></i> Repositorio</a>
                     </div>
                 </li>
-            </ul>
-            <div class="form-group">
+                <div class="form-group">
                 <label>Tamaño</label>
                 <div class="range-slider">
                     <input class="range-slider__range" type="range" value="100" min="50" max="100" id="Tamaño_streams">
                     <span class="range-slider__value">100</span>
                 </div>
             </div>
+            <button class="btn btn-sm btn-outline-info btn1-nombres-stream" type="button">Nombre transmisiones on/off</button>
             <div class="form-group">
                 <select class="form-control form-control-sm" id="Stream_por_fila">
                     <option value="12">1 Stream por fila</option>
@@ -129,10 +129,9 @@
                     <option value="1">12 Stream por fila a lo enfermo</option>
                 </select>
             </div>
-
+            </ul> 
         </div>
     </nav>
-
     <!--fin Navbar-->
     <div class="container2">
         <div class="row no-gutters row-canales" id="los-canales"></div>
@@ -921,7 +920,7 @@
                                         <input type="text" value="https://alplox.github.io/tele/" id="myInput">
 
                                         <!-- boton para copiar automaticamente https://www.w3schools.com/howto/howto_js_copy_clipboard.asp -->
-                                        <button class="btn-copiar" onclick="myFunction()">Copiar enlace</button>
+                                        <button class="btn-copiar" onclick="copiarEnlace()">Copiar enlace</button>
 
                                     </div>
                                 </div>
@@ -940,8 +939,8 @@
             <!---->
         </div>
         <div class="boton-covid">
-            <a class="emojicovid tooltip-test" button type="button" data-toggle="modal" data-target="#complementario"
-                role="button" title="Información COVID-19">🦠</a>
+            <span class="emojicovid tooltip-test" button type="button" data-toggle="modal" data-target="#complementario"
+                role="button" title="Información COVID-19">🦠</span>
         </div>
     </div>
     <script rel="preload" as="script" src="js/canales.js"></script>

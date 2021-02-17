@@ -33,7 +33,7 @@ $(document).ready(function () {
 ////////////////////////////////////////////////////////
 
 ///copiar enlace a portapapeles//////////////////////////
-function myFunction() {
+function copiarEnlace() {
     var copyText = document.getElementById("myInput");
 
     copyText.select();
@@ -645,7 +645,6 @@ hue.onchange = function (event) {
     for (let videos of canal2) {
         videos.classList.remove("col-12", "col-6", "col-4", "col-3", "col-2");
         videos.classList.add("col-" + event.target.value);
-        console.log(videos)
     }
 }
 
@@ -653,7 +652,13 @@ var anchoStreams = document.getElementById("Tamaño_streams");
 
 anchoStreams.oninput = function (event) {
     let streams2 = document.getElementById("los-canales");
-    console.log(streams2)
     streams2.style.maxWidth = event.target.value + "%"
 }
+/////////////////////////////////////////////////////////
+///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
+$(document).ready(function(){
+    $(".btn1-nombres-stream").click(function(){
+      $(".nombre-barra").toggle();
+    });
+  });
 /////////////////////////////////////////////////////////
