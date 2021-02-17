@@ -383,4 +383,10 @@ td {
         width: 100%;
         line-height: 12px;
     }
+    .modal-footer {
+        flex-wrap: wrap;
+    }
+    #mifiltro {   
+        width: 100%;
+    }
 }
