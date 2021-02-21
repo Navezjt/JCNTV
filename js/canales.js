@@ -233,14 +233,10 @@ var App = {
         'america-tv': {
             'nombre': 'América TV 🌍',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/2Vyx4ee2Tss?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV 🌍</a></div>'
-//        },
-//       'america-tv-op1': {
-//            'nombre': 'América TV op1 🌍',
-//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/2Vyx4ee2Tss?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV op1 🌍</a></div>'
         },
         'net-tv': {
             'nombre': 'Net TV 🌍',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/nettv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre">Net TV</div><div class="nombre-barra"><a class="nombre-color" href="https://www.canalnet.tv/page/senal-en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Net TV 🌍</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/nettv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canalnet.tv/page/senal-en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Net TV 🌍</a></div>'
         },
         'ip-noticias': {
             'nombre': 'IP Noticias 🌍',
@@ -449,10 +445,6 @@ var App = {
         'doom-radio': {
             'nombre': 'Doom Radio 🎵',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCR2D48i5MCMYwVKbgYIAftQ&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCR2D48i5MCMYwVKbgYIAftQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Doom Radio 🎵</a></div>'
-//        },
-//        'radio-placeres': {
-//            'nombre': '📻 Radio Placeres 87.7 FM <img src="icons/chile.png"></img>',
-//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="radios-solo-audio/radio-placeres" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.radioplaceres.cl/sitio/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 📻 Radio Placeres 87.7 FM <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube <img src="icons/chile.png"></img>',
