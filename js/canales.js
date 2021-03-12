@@ -442,6 +442,10 @@ var App = {
             'nombre': 'IMUC Chile <img src="icons/chile.png"></img> 🎵',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCIIDtZoaK9UZi4FaGMmL_hw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> IMUC Chile <img src="icons/chile.png"></img>🎵</a></div>'
         },
+        'live-vinyl-chile': {
+            'nombre': 'Live Vinyl Chile <img src="icons/chile.png"></img> 🎵',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC8FJRxSiunppaD0sZgL7H_A&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC8FJRxSiunppaD0sZgL7H_A" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Live Vinyl Chile <img src="icons/chile.png"></img>🎵</a></div>'
+        },
         'doom-radio': {
             'nombre': 'Doom Radio 🎵',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCR2D48i5MCMYwVKbgYIAftQ&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCR2D48i5MCMYwVKbgYIAftQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Doom Radio 🎵</a></div>'
@@ -596,7 +600,7 @@ init: function() {
     if (!App.isMobile()) {
         App.add("tv-senado-yutu");
         App.add("cam-dipu-m3u-1");
-        App.add("venticuatro");
+        App.add("cnn-cl-m3u");
         App.add("t13");
         App.add("meganoticias"); 
     }
