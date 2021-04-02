@@ -14,7 +14,7 @@ Toda contribución es bienvenida 😊
     - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
     - [Material Complementario 🔗🦠](#material-complementario)
     - [Descargo de responsabilidad 📝](#descargo-de-responsabilidad)
-    - [Créditos](#créditos)
+    - [Licencia](#licencia)
    
 ## [Estallido social](https://es.wikipedia.org/wiki/Estallido_social) 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva.jpg)](https://alplox.github.io/tele/)
@@ -121,7 +121,6 @@ ___
 | http://pslabs.cl/tele.html                                      | [@pottersys](https://twitter.com/pottersys)              | [Fuente](https://twitter.com/pottersys/status/1187710925182255104)                                                                          |
 | https://tele.0x00.cl/                                           | [u/0x00cl](https://old.reddit.com/user/0x00cl)           | [Fuente](https://old.reddit.com/r/chile/comments/dx76yi/megathread_jornada_de_protestas_d%C3%ADa_30_70k_subs/f7p0vjn/)                      |
 | https://whywelove.news/love/country/chile/envivo                | [u/sebastianrw](https://old.reddit.com/user/sebastianrw) | [Fuente](https://old.reddit.com/r/chile/comments/dwba7u/monitorea_las_noticias_de_chile_en_tiempo_real/)                                    |
-| https://muro.serveruwu.com/ - ~~https://www.serveruwu.com/tv/~~ | [@MadKoding](https://twitter.com/MadKoding)              | [Fuente](https://twitter.com/MadKoding/status/1243190023513673730) - [~~Fuente~~](https://twitter.com/MadKoding/status/1187725817079652353) |
 | https://joelpurra.com/projects/multi-video-frames/ ****         | [joelpurra](https://github.com/joelpurra)                | [Fuente](https://github.com/joelpurra/multi-video-frames)                                                                                   |
 
 **** Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con Chile y/o el proyecto.
@@ -200,7 +199,7 @@ ___
 - Si posees los derechos de algún canal y deseas que sea retirado, contáctame.
 ___
 
-# Créditos
+# Licencia
 
 ```
 MIT License
@@ -246,4 +245,4 @@ Video.js                                Brightcove, Inc.        Apache V2.0     
 ---------------------------------------------------------------------------------------------
 ```
 
-[![HitCount](http://hits.dwyl.io/{Alplox}/{repo}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
+[![HitCount](http://hits.dwyl.com/{Alplox}/{tele}.svg)](http://hits.dwyl.com/{Alplox}/{tele})
