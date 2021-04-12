@@ -111,11 +111,11 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 <img src="icons/chile.png"></img></a></div>'
         },
         'tribunal-consti': {
-            'nombre': '🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Tribunal Constitucional <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img></a></div>'
         },
         'poder-judicial': {
-            'nombre': '🏛️ Poder Judicial Chile <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Poder Judicial <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🏛️ Poder Judicial Chile <img src="icons/chile.png"></img></a></div>'
         },
         'cnn-cl': {
