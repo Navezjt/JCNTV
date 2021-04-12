@@ -598,7 +598,7 @@ init: function() {
     App.seedModal();
     App.add("cima");
     if (!App.isMobile()) {
-        App.add("tv-senado-yutu");
+        App.add("tv-senado-m3u");
         App.add("cam-dipu-m3u-1");
         App.add("cnn-cl-m3u");
         App.add("t13");
