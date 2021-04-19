@@ -71,26 +71,26 @@
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul class='navbar-nav mr-auto'>
                 <li class='nav-item'>
-                    <a class='nav-link' type="button" data-toggle="modal" data-target="#prensa">📰 📻 Medios de Prensa
-                        Alternativos</a>
+                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#prensa">📰 📻 Medios de Prensa
+                        Alternativos</button>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' type="button" data-toggle="modal" data-target="#compilados">🎞️ Recopilación
-                        Videos Protestas</a>
+                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#compilados">🎞️ Recopilación
+                        Videos Protestas</button>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' type="button" data-toggle="modal" data-target="#complementario">🔗 Material
-                        Complementario 🦠</a>
+                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#complementario">🔗 Material
+                        Complementario 🦠</button>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link' type="button" data-toggle="modal" data-target="#modalcompartir">👍 Compartir <i
-                            class="fas fa-share-alt"></i> </a>
+                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#modalcompartir">👍 Compartir <i
+                            class="fas fa-share-alt"></i> </button>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="variacionesdropdown" data-toggle="dropdown"
+                    <button class="nav-link btn dropdown-toggle" type="button" id="variacionesdropdown" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         🖥️ Variaciones Creadas
-                    </a>
+                    </button>
                     <div class="dropdown-menu" aria-labelledby="variacionesdropdown">
                         <a class='dropdown-item' href='http://pslabs.cl/tele.html' rel="noopener">Variación por
                             @pottersys</a>
@@ -100,18 +100,19 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="aboutdropdown" data-toggle="dropdown"
+                    <button class="nav-link btn dropdown-toggle" type="button" id="aboutdropdown" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         About
-                    </a>
+                    </button>
                     <div class="dropdown-menu" aria-labelledby="aboutdropdown">
-                        <a class='dropdown-item' href='#' type="button" data-toggle="modal"
+                        <a class='dropdown-item' href='#' data-toggle="modal"
                             data-target="#modalabout">Descargo de responsabilidad</a>
                         <a class='dropdown-item' href="#" data-toggle="modal" data-target="#modalcreditos">Créditos</a>
                         <a class='dropdown-item' href="https://github.com/Alplox/tele" rel="noopener"><i
                                 class="fab fa-github"></i> Repositorio</a>
                     </div>
                 </li>
+                <li>
                 <div class="form-group">
                 <label>Tamaño</label>
                 <div class="range-slider">
@@ -119,8 +120,12 @@
                     <span class="range-slider__value">100</span>
                 </div>
             </div>
-            <button class="btn btn-sm btn-outline-info btn1-nombres-stream" type="button">Nombre transmisiones on/off</button>
-            <div class="form-group">
+        </li>
+        <li>
+            <button class="btn btn-sm btn-outline-info btn1-nombres-stream" type="button">Nombre bajo transmisiones on/off</button>
+        </li>
+            <li>
+                <div class="form-group">
                 <select class="form-control form-control-sm" id="Stream_por_fila">
                     <option value="12">1 Stream por fila</option>
                     <option value="6">2 Stream por fila</option>
@@ -129,7 +134,8 @@
                     <option value="2">6 Stream por fila</option>
                     <option value="1">12 Stream por fila a lo enfermo</option>
                 </select>
-            </div>
+                </div>
+            </li>
             </ul> 
         </div>
     </nav>
@@ -142,7 +148,7 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Selecciona tus canales</h5>
+                        <h1 class="modal-title">Selecciona tus canales</h1>
                         <button type="button" class="close" id="custom-close" data-dismiss="modal">
                             <span>&times;</span>
                         </button>
@@ -154,9 +160,9 @@
                     <div class="modal-footer">
                         <!-- https://www.w3schools.com/bootstrap/bootstrap_filters.asp -->
                         <input class="form-control" id="mifiltro" type="text" placeholder="Buscar..">
-                        <a button type="button" class="btn btn-outline-info" role="button"
-                            href="https://github.com/Alplox/tele#canales-disponibles-junto-a-su-origen"
-                            rel="noopener">Fuentes</a>
+                        <button type="button" class="btn btn-outline-info"
+                        onclick="window.open('https://github.com/Alplox/tele#canales-disponibles-junto-a-su-origen', '_blank', 'noopener');"
+                           >Fuentes</button>
                         <button type="button" class="btn btn-danger" id="custom-close2"
                             data-dismiss="modal">Cerrar</button>
                     </div>
@@ -201,9 +207,9 @@
                         <button type="button" class="btn btn-outline-info tooltip-test" data-dismiss="modal"
                             data-toggle="modal" data-target="#modalcreditos" title="Créditos"><i
                                 class="fas fa-copyright"></i></button>
-                        <a button type="button" class="btn btn-secondary tooltip-test"
-                            href="https://github.com/Alplox/tele" title="Repositorio" rel="noopener"><i
-                                class="fab fa-github"></i></a>
+                        <button type="button" class="btn btn-secondary tooltip-test" title="Repositorio"
+                        onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i
+                                class="fab fa-github"></i></button>
                         <button type="button" class="btn btn-success" id="myModalClose" data-dismiss="modal"
                             data-target="#modalabout">Entendido</button>
                     </div>
@@ -217,7 +223,7 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="ddhhLabel">Denunciar violación DDHH ⚠️</h5>
+                        <h1 class="modal-title" id="ddhhLabel">Denunciar violación DDHH ⚠️</h1>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
                                 aria-hidden="true">&times;</span></button>
                     </div>
@@ -225,16 +231,16 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <table class="table table-bordered">
+                                    <caption>
+                                        Existen medios oficiales para la divulgación de videos que registren algún suceso que viole los derechos humanos como:</caption>
                                     <thead class="thead-dark">
                                         <tr>
                                             <th scope="col">Sitio</th>
                                             <th scope="col">RRSS</th>
                                         </tr>
                                     </thead>
+                                   
                                     <tbody>
-                                        <caption>Existen medios oficiales para la divulgación de videos que registren
-                                            algún
-                                            suceso que viole los derechos humanos como:</caption>
                                         <tr>
                                             <td><a href="https://www.indh.cl/" rel="noopener">Indh.cl</a></td>
                                             <td><a href="https://www.facebook.com/indhchile"
@@ -296,7 +302,7 @@
         </div>
         <!---->
 
-        <!--Modal créditos-->
+        <!--créditos-->
         <div id="modalcreditos" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -317,6 +323,7 @@
                         <br>&mdash; <a href="https://github.com/Alplox/tele/blob/master/Favicon/primer-favicon.ico"
                             rel="noopener">Primer Favicon</a> cortesía de <a href="https://github.com/mave007"
                             rel="noopener">mave007</a>.
+                        <br>
                         <br>
                         <h2 class="display-5"> Componentes </h2>
                         &mdash; <a>Reloj</a> <a href="https://time.is/" rel="noopener">time.is</a>.
@@ -342,8 +349,7 @@
                         <br>
                     </div>
                     <div class="modal-footer">
-                        <a button type="button" class="btn btn-secondary role=" href="https://github.com/Alplox/tele"
-                            rel="noopener"><i class="fab fa-github"></i> Repositorio</a>
+                        <button class="btn btn-secondary role=" onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i class="fab fa-github"></i> Repositorio</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
@@ -357,8 +363,8 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="compiladosLabel">Compilaciones de videos entorno a las protestas
-                            desarrolladas en Chile y el mundo 🎞️:</h5>
+                        <h1 class="modal-title" id="compiladosLabel">Compilaciones de videos entorno a las protestas
+                            desarrolladas en Chile y el mundo 🎞️:</h1>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -423,10 +429,8 @@
                             class="tooltip-test" title="Megathread">mirrors</a>
                     </div>
                     <div class="modal-footer">
-                        <a button type="button" data-dismiss="modal" data-toggle="modal" data-target="#ddhh"
-                            class="btn btn-warning" role="button">Denunciar violación DDHH</a>
-                        <a button type="button" class="btn btn-outline-info" role="button"
-                            href="https://forms.gle/cwU8cpByWirhpexw7" rel="noopener">Compartir más videos</a>
+                        <button type="button" data-dismiss="modal" data-toggle="modal" data-target="#ddhh"
+                            class="btn btn-warning">Denunciar violación DDHH</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
@@ -440,7 +444,7 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="prensaLabel">Medios de Prensa Alternativos 📰 📻:</h5>
+                        <h1 class="modal-title" id="prensaLabel">Medios de Prensa Alternativos 📰 📻:</h1>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -452,9 +456,9 @@
                                     <thead class="thead-dark">
                                         <tr>
                                             <th scope="col">Link/Nombre</th>
-                                            <th scope="col">Twitter <img src="https://i.imgur.com/u4qu0Y1.png"></th>
-                                            <th scope="col">Facebook<img src="https://i.imgur.com/yGCWyob.png"></th>
-                                            <th scope="col">Instagram<img src="https://i.imgur.com/L70jBYo.png"></th>
+                                            <th scope="col">Twitter <img src="https://i.imgur.com/u4qu0Y1.png" alt="Twitter-logo"></th>
+                                            <th scope="col">Facebook<img src="https://i.imgur.com/yGCWyob.png" alt="Facebook-logo"></th>
+                                            <th scope="col">Instagram<img src="https://i.imgur.com/L70jBYo.png" alt="Instagram-logo"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -650,8 +654,8 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="complementarioLabel">Paginas/Material que poseen información útil en
-                            cuanto a diversos temas 🔗</h5>
+                        <h1 class="modal-title" id="complementarioLabel">Paginas/Material que poseen información útil en
+                            cuanto a diversos temas 🔗</h1>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -937,8 +941,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal"
                             data-target="#modalcreditos">Créditos</button>
-                        <a button type="button" class="btn btn-secondary role=" href="https://github.com/Alplox/tele"
-                            rel="noopener"><i class="fab fa-github"></i> Repositorio</a>
+                        <button class="btn btn-secondary" onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i class="fab fa-github"></i> Repositorio</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
@@ -946,12 +949,12 @@
             <!---->
         </div>
         <div class="boton-covid">
-            <span class="emojicovid tooltip-test" button type="button" data-toggle="modal" data-target="#complementario"
+            <span class="emojicovid tooltip-test" data-toggle="modal" data-target="#complementario"
                 role="button" title="Información COVID-19">🦠</span>
         </div>
     </div>
-    <script rel="preload" as="script" src="js/canales.js"></script>
-    <script rel="preload" as="script" src="js/scripts.js"></script>
+    <script rel="preload" src="js/canales.js"></script>
+    <script rel="preload" src="js/scripts.js"></script>
 </body>
 
 </html>
