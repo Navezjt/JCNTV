@@ -177,10 +177,6 @@ var App = {
             'nombre': '📻 Contivision Música <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="http://media.digitalproserver.com/v2/live/contivisionmusica" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://web.contivision.cl/ctv/envivo3.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'
         },
-        'contivision-musica-m3u': {
-            'nombre': '📻 Contivision Música 2 <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/contivision-musica" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://web.contivision.cl/ctv/envivo3.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Contivision Música 2 <img src="icons/chile.png"></img></a></div>'
-        },
         'radio-genial': {
             'nombre': '📻 Radio Genial 100.5 FM <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://v2.tustreaming.cl/genialtv/live1/embed.html?autoplay=true" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'
@@ -249,17 +245,13 @@ var App = {
             'nombre': 'Canal 21 2 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal-21" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal21tv.cl/wp/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 21 2 <img src="icons/chile.png"></img></a></div>'
         },
-
-
-
-
         'estaciontv-m3u': {
             'nombre': 'Estacióntv <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/estaciontv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.estaciontv.cl/site/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Estacióntv <img src="icons/chile.png"></img></a></div>'
         },
-        'pinguino-m3u': {
+        'pinguino-tv': {
             'nombre': 'Pingüino TV <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/pinguino-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://elpinguino.com/reproductor/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Pingüino TV <img src="icons/chile.png"></img></a></div>'
+        'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://elpinguino.com/reproductor/" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://elpinguino.com/reproductor/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Pingüino TV <img src="icons/chile.png"></img></a></div>'
         },
         'teleton-tv': {
             'nombre': 'Teletón TV <img src="icons/chile.png"></img>',

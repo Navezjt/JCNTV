@@ -1,4 +1,4 @@
-
+MUERTOS:
 CANAL 13
 https://cl-canal13-canal13-app-qfb4kpcp-live.ned.media/live.m3u8
 
@@ -17,7 +17,29 @@ TV EL CENTRAL
 https://5580a424c4e9f.streamlock.net:8020/vs/tvelcentral/chunklist_w514497132.m3u8
 https://593b04c4c5670.streamlock.net:443/8172/8172/playlist.m3u8
 
+RADIO GENIAL
+https://v3.tustreaming.cl/genialtv/live1/tracks-v1a1/index.m3u8
 
+CANAL 21
+https://edge1.cl.grupoz.cl/canal21tv/live/chunklist_w148640593.m3u8
+
+PINGUINO TV
+https://167.114.133.205:1935/live/pinguinotv/playlist.m3u8
+http://streaming.elpinguino.com:1935/live/pinguinotv_240p/playlist.m3u8
+
+=====================================================================================
+=====================================================================================
+FUNCIONAN PERO NO TIENEN HTTPS:
+Contivision musica
+http://wow2.cl.digitalproserver.com/contivisionmusica/contivisionmusicavivo/contivisionmusica.smil/playlist.m3u8
+
+
+
+
+
+
+=====================================================================================
+=====================================================================================
 estos links los guardo porque si y que pasa
 https://www.servelelecciones.cl/
 https://2020.decidechile.cl/#/
