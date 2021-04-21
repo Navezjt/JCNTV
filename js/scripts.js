@@ -22,12 +22,12 @@ function applyFill(slider) {
   } ${percentage + 0.1}%)`;
   slider.style.background = bg;
 }
-///filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp
+///filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp y https://es.stackoverflow.com/questions/195813/c%C3%B3mo-ignorar-acentos-en-b%C3%BAsqueda-filtro-usando-javascript (ROTO, encuentra resultados sin tildes pero si se digita con tilde no)
 $(document).ready(function () {
   $("#mifiltro").on("keyup", function () {
     var value = $(this).val().toLowerCase();
     $("#PorFiltrar *").filter(function () {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      $(this).toggle($(this).text().normalize("NFD").replace(/[\u0300-\u036f]/g, '').toLowerCase().indexOf(value) > -1);
     });
   });
 });

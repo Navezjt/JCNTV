@@ -4,605 +4,595 @@ var sizeMobile = 12;
 var App = {
      channels: {
         'tv-senado': {
-            'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ TV Senado <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://janus-tv.senado.cl/embed.php" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado <img src="icons/chile.png"></img></a></div>'
         },
         'tv-senado-m3u': {
-            'nombre': '🏛️ TV Senado 2 <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ TV Senado 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-senado" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.senado.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado 2 <img src="icons/chile.png"></img></a></div>'
         },
         'tv-senado-yutu': {
-            'nombre': '🏛️ TV Senado 3 <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ TV Senado 3 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ TV Senado 3 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-m3u-1': {
-            'nombre': '🏛️ Cámara Diputados <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados1" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.cdtv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-m3u-2': {
-            'nombre': '🏛️ Cámara Diputados 2 <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 2 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-m3u-3': {
-            'nombre': '🏛️ Cámara Diputados 3 <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados 3 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados3" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 3 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-dipu': {
-            'nombre': '🏛️ Cámara Diputados 4 <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Cámara Diputados 4 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 4 <img src="icons/chile.png"></img></a></div>'
         },
         'cima': {
-            'nombre': 'Galeria CIMA <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galeria CIMA <img src="icons/chile.png"></img></a></div>'
+            'nombre': 'Galería CIMA <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Galería CIMA <img src="icons/chile.png"></img></a></div>'
         },
         'venticuatro': {
-            'nombre': '24 horas <img src="icons/chile.png"></img>',
+            'nombre': '24 horas <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas <img src="icons/chile.png"></img></a></div>'
 //        },
 //        'venticuatro-yutu-s2': {
-//            'nombre': '24 horas s2 <img src="icons/chile.png"></img>',
+//            'nombre': '24 horas s2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/sjQsjgBt03I?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="icons/chile.png"></img></a></div>'
         },
         '24-horas-señal2': {
-            'nombre': '24 Horas s2 <img src="icons/chile.png"></img>',
+            'nombre': '24 Horas s2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas-2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="icons/chile.png"></img></a></div>'
         },
         '24-horas-m3u': {
-            'nombre': '24 Horas 2 <img src="icons/chile.png"></img>',
+            'nombre': '24 Horas 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 24 Horas 2 <img src="icons/chile.png"></img></a></div>'
         },
         'meganoticias': {
-            'nombre': 'Meganoticias <img src="icons/chile.png"></img>',
+            'nombre': 'Meganoticias <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias <img src="icons/chile.png"></img></a></div>'
         },
         'meganoticias-yutu-s2': {
-            'nombre': 'Meganoticias s2 <img src="icons/chile.png"></img>',
+            'nombre': 'Meganoticias s2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/kcD_9wwuHqo?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Meganoticias 2<img src="icons/chile.png"></img></a></div>'
         },
         't13': {
-            'nombre': 'T13 <img src="icons/chile.png"></img>',
+            'nombre': 'T13 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> T13 <img src="icons/chile.png"></img></a></div>'
         },
         'tribunal-consti': {
-            'nombre': '🏛️ Tribunal Constitucional <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Tribunal Constitucional <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🏛️ Tribunal Constitucional de Chile <img src="icons/chile.png"></img></a></div>'
         },
         'poder-judicial': {
-            'nombre': '🏛️ Poder Judicial <img src="icons/chile.png"></img>',
+            'nombre': '🏛️ Poder Judicial <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🏛️ Poder Judicial Chile <img src="icons/chile.png"></img></a></div>'
         },
         'cnn-cl': {
-            'nombre': 'CNN Chile <img src="icons/chile.png"></img>',
+            'nombre': 'CNN Chile <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCpOAcjJNAp0Y0fhznRrXIJQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile <img src="icons/chile.png"></img></a></div>'
         },
         'cnn-cl-m3u': {
-            'nombre': 'CNN Chile 2 <img src="icons/chile.png"></img>',
+            'nombre': 'CNN Chile 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/cnn-cl" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.cnnchile.com/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile 2<img src="icons/chile.png"></img></a></div>'
         },
         'prensa-presidencia': {
-            'nombre': 'Prensa Presidencia <img src="icons/chile.png"></img>',
+            'nombre': 'Prensa Presidencia <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5dc17f8944795108a2a52a49?autoplay=true&volume=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://prensa.presidencia.cl/streaming.aspx" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Prensa Presidencia <img src="icons/chile.png"></img></a></div>'
         },
         'tv-chile-m3u': {
-            'nombre': 'TV Chile <img src="icons/chile.png"></img>',
+            'nombre': 'TV Chile <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile <img src="icons/chile.png"></img></a></div>'
         },
         'tvn': {
-            'nombre': 'TVN 2 <img src="icons/chile.png"></img>',
+            'nombre': 'TVN 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tvn" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
 //        },
 //        'tvn-yutu': {
-//            'nombre': 'TVN <img src="icons/chile.png"></img>',
+//            'nombre': 'TVN <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
         },
         'canal-13': {
-            'nombre': 'Canal 13 <img src="icons/chile.png"></img>',
+            'nombre': 'Canal 13 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCd4D3LfXC_9MY2zSv_3gMgw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCd4D3LfXC_9MY2zSv_3gMgw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 13 <img src="icons/chile.png"></img></a></div>'
         },
         'stgo-tv': {
-            'nombre': 'Stgo TV <img src="icons/chile.png"></img>',
+            'nombre': 'Stgo TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://stv.janus.cl/front/embed.html" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.santiagotelevision.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Stgo TV <img src="icons/chile.png"></img></a></div>'
         },
         'la-tercera': {
-            'nombre': 'La Tercera TV <img src="icons/chile.png"></img>',
+            'nombre': 'La Tercera TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/la-tercera" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.latercera.com/canal/la-tercera-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> La Tercera TV <img src="icons/chile.png"></img></a></div>'
         },
         'cooperativa': {
-            'nombre': '📻 Cooperativa <img src="icons/chile.png"></img>',
+            'nombre': '📻 Cooperativa <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/coopetv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://programas.cooperativa.cl/showalairelibre/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Cooperativa <img src="icons/chile.png"></img></a></div>'
         },
         'bbtv': {
-            'nombre': '📻 Biobio TV <img src="icons/chile.png"></img>',
+            'nombre': '📻 Biobio TV <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/bbtv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.biobiochile.cl/biobiotv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Biobio TV <img src="icons/chile.png"></img></a></div>'
         },
         'adn': {
-            'nombre': '📻 ADN <img src="icons/chile.png"></img>',
+            'nombre': '📻 ADN <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/adntv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://tv.adnradio.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 ADN <img src="icons/chile.png"></img></a></div>'
         },
         'duna': {
-            'nombre': '📻 Duna <img src="icons/chile.png"></img>',
+            'nombre': '📻 Duna <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/dunatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.duna.cl/tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Duna <img src="icons/chile.png"></img></a></div>'
         },
         'infinita': {
-            'nombre': '📻 Infinita <img src="icons/chile.png"></img>',
+            'nombre': '📻 Infinita <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/infinitatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.infinita.cl/home/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Infinita <img src="icons/chile.png"></img></a></div>'
         },
         'universo': {
-            'nombre': '📻 Universo <img src="icons/chile.png"></img>',
+            'nombre': '📻 Universo <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/universotv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.universo.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Universo <img src="icons/chile.png"></img></a></div>'
         },
         'radio-ae': {
-            'nombre': '📻 AE (DUOC) <img src="icons/chile.png"></img>',
+            'nombre': '📻 AE (DUOC) <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/3991add90400a25a1580f290246f90eb?sound=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.aeradio.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 AE (DUOC) <img src="icons/chile.png"></img></a></div>'
         },
-
-
-
-
-
-
-
-
-
-
         'carolina-tv': {
-            'nombre': '📻 Carolina TV <img src="icons/chile.png"></img>',
+            'nombre': '📻 Carolina TV <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/carolinatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.carolina.cl/tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Carolina TV <img src="icons/chile.png"></img></a></div>'
         },
         'carolina-tv-m3u': {
-            'nombre': '📻 Carolina TV 2 <img src="icons/chile.png"></img>',
+            'nombre': '📻 Carolina TV 2 <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/carolina-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.carolina.cl/tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Carolina TV 2 <img src="icons/chile.png"></img></a></div>'
         },
         'fm-tiempo': {
-            'nombre': '📻 FM Tiempo <img src="icons/chile.png"></img>',
+            'nombre': '📻 FM Tiempo <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/fmtiempotv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.fmtiempo.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 FM Tiempo <img src="icons/chile.png"></img></a></div>'
         },
         'fm-tiempo-m3u': {
-            'nombre': '📻 FM Tiempo 2 <img src="icons/chile.png"></img>',
+            'nombre': '📻 FM Tiempo 2 <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/fm-tiempo" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.fmtiempo.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FM Tiempo 2 <img src="icons/chile.png"></img></a></div>'
         },
         'alegria-tv-m3u': {
-            'nombre': '📻 Alegría TV <img src="icons/chile.png"></img>',
+            'nombre': '📻 Alegría TV <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/alegria-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.alegriafm.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Alegría TV <img src="icons/chile.png"></img></a></div>'
         },
         'romantica-tv': {
-            'nombre': '📻 Romántica TV <img src="icons/chile.png"></img>',
+            'nombre': '📻 Romántica TV <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/romanticatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.romantica.cl/romantica-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Romántica TV <img src="icons/chile.png"></img></a></div>'
         },
         'romantica-tv-m3u': {
-            'nombre': '📻 Romántica TV 2 <img src="icons/chile.png"></img>',
+            'nombre': '📻 Romántica TV 2 <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/romantica-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.romantica.cl/romantica-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Romántica TV 2 <img src="icons/chile.png"></img></a></div>'
         },
         'radio-genial': {
-            'nombre': '📻 Radio Genial 100.5 FM <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://v2.tustreaming.cl/genialtv/live1/embed.html?autoplay=true" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'
+            'nombre': '📻 Radio Genial 100.5 FM <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://v2.tustreaming.cl/genialtv/live1/embed.html?autoplay=true" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio Genial 100.5 FM <img src="icons/chile.png"></img></a></div>'
         },
         'radio-genial-m3u': {
-            'nombre': '📻 Radio Genial 100.5 FM 2 <img src="icons/chile.png"></img>',
+            'nombre': '📻 Radio Genial 100.5 FM 2 <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/radio-genial" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Radio Genial 100.5 FM 2 <img src="icons/chile.png"></img></a></div>'
         },
         'mi-radiols': {
-            'nombre': '📻 Mi Radio LS <img src="icons/chile.png"></img>',
+            'nombre': '📻 Mi Radio LS <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UClJiriqxFwmmVIQeASJfICQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UClJiriqxFwmmVIQeASJfICQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Mi Radio LS <img src="icons/chile.png"></img></a></div>'
         },
         'radio-la-clave': {
-            'nombre': '📻 Radio La Clave <img src="icons/chile.png"></img>',
+            'nombre': '📻 Radio La Clave <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/laclavetv?volume=0&mute=1" frameborder="0"></iframe><div class="nombre-barra"><a class="nombre-color" href="https://radiolaclave.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio La Clave <img src="icons/chile.png"></img></a></div>'
         },
         'radio-folclor-chile': {
-            'nombre': '📻 Radio Folclor de Chile <img src="icons/chile.png"></img>',
+            'nombre': '📻 Radio Folclor de Chile <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC0Hl8kJe8Xwv8g63Q4qefQg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC0Hl8kJe8Xwv8g63Q4qefQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio Folclor de Chile <img src="icons/chile.png"></img></a></div>'
         },
         'radio-maria-chile': {
-            'nombre': '📻 Radio María Chile <img src="icons/chile.png"></img>',
+            'nombre': '📻 Radio María Chile <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UClMwb2kCYemWyDIZ2dYttKA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UClMwb2kCYemWyDIZ2dYttKA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio María Chile <img src="icons/chile.png"></img></a></div>'
         },
         'on-radio-kpop': {
-            'nombre': '📻 On Radio Kpop <img src="icons/chile.png"></img>',
+            'nombre': '📻 On Radio Kpop <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/0551dfe14dd61f524debcb5b5595b3f2?sound=0" frameborder="0"></iframe><div class="nombre-barra"><a class="nombre-color" href="https://onradiochile.cl/kpop/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 On Radio Kpop <img src="icons/chile.png"></img></a></div>'
         },
         'on-radio-kpop-m3u': {
-            'nombre': '📻 On Radio Kpop 2 <img src="icons/chile.png"></img>',
+            'nombre': '📻 On Radio Kpop 2 <img src="icons/chile.png"></img><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/on-radio-kpop" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://onradiochile.cl/kpop/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 On Radio Kpop 2 <img src="icons/chile.png"></img></a></div>'
         },
         'holvoet-tv-m3u': {
-            'nombre': 'Holvoet TV <img src="icons/chile.png"></img>',
+            'nombre': 'Holvoet TV <img src="icons/chile.png"></img><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/holvoet-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://holvoet.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Holvoet TV <img src="icons/chile.png"></img></a></div>'
         },
         'tv-salud-m3u': {
-            'nombre': 'TV Salud <img src="icons/chile.png"></img>',
+            'nombre': 'TV Salud <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-salud" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tvsalud.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Salud <img src="icons/chile.png"></img></a></div>'
         },
         'antofagasta-tv-m3u': {
-            'nombre': 'Antofagasta TV <img src="icons/chile.png"></img>',
+            'nombre': 'Antofagasta TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/antofagasta-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.antofagasta.tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Antofagasta TV <img src="icons/chile.png"></img></a></div>'
         },
         'canal-9': {
-            'nombre': 'Canal 9 <img src="icons/chile.png"></img>',
+            'nombre': 'Canal 9 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/c9?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal9.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 9 <img src="icons/chile.png"></img></a></div>'
         },
         'canal-9-m3u': {
-            'nombre': 'Canal 9 2 <img src="icons/chile.png"></img>',
+            'nombre': 'Canal 9 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal-9" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal9.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 9 2 <img src="icons/chile.png"></img></a></div>'
         },
         'tvu': {
-            'nombre': 'TVU <img src="icons/chile.png"></img>',
+            'nombre': 'TVU <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/tvu?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvu.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVU <img src="icons/chile.png"></img></a></div>'
         },
         'tvu-m3u': {
-            'nombre': 'TVU 2 <img src="icons/chile.png"></img>',
+            'nombre': 'TVU 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tvu" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvu.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVU 2 <img src="icons/chile.png"></img></a></div>'
         },
         'canal-21': {
-            'nombre': 'Canal 21 <img src="icons/chile.png"></img>',
+            'nombre': 'Canal 21 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?sound=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal21tv.cl/wp/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 21 <img src="icons/chile.png"></img></a></div>'
         },
         'canal-21-m3u': {
-            'nombre': 'Canal 21 2 <img src="icons/chile.png"></img>',
+            'nombre': 'Canal 21 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal-21" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal21tv.cl/wp/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 21 2 <img src="icons/chile.png"></img></a></div>'
         },
         'estaciontv-m3u': {
-            'nombre': 'Estacióntv <img src="icons/chile.png"></img>',
+            'nombre': 'Estacióntv <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/estaciontv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.estaciontv.cl/site/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Estacióntv <img src="icons/chile.png"></img></a></div>'
         },
         'pinguino-tv': {
-            'nombre': 'Pingüino TV <img src="icons/chile.png"></img>',
+            'nombre': 'Pingüino TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
         'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://elpinguino.com/reproductor/" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://elpinguino.com/reproductor/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Pingüino TV <img src="icons/chile.png"></img></a></div>'
         },
         'teleton-tv': {
-            'nombre': 'Teletón TV <img src="icons/chile.png"></img>',
+            'nombre': 'Teletón TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5d6d5f05a2f6f407b0147965?autoplay=true&volume=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://teletontv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Teletón TV <img src="icons/chile.png"></img></a></div>'
         },
         'teleton-tv-m3u': {
-            'nombre': 'Teletón TV 2 <img src="icons/chile.png"></img>',
+            'nombre': 'Teletón TV 2 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/teleton-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://teletontv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Teletón TV 2 <img src="icons/chile.png"></img></a></div>'
         },
         'contexto-nuble-tv-m3u': {
-            'nombre': 'Contexto Ñuble TV <img src="icons/chile.png"></img>',
+            'nombre': 'Contexto Ñuble TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/contexto-nuble-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.contextonuble.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Contexto Ñuble TV <img src="icons/chile.png"></img></a></div>'
         },
         'ucv': {
-            'nombre': 'UCV TV <img src="icons/chile.png"></img>',
+            'nombre': 'UCV TV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/ucvtv2?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://pucvmultimedios.cl/senal-online-tv.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UCV TV <img src="icons/chile.png"></img></a></div>'
         },
         'uatv': {
-            'nombre': 'UATV <img src="icons/chile.png"></img>',
+            'nombre': 'UATV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/uatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://uatv.cl/uatv-en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> UATV <img src="icons/chile.png"></img></a></div>'
         },
         'vtv': {
-            'nombre': 'VTV <img src="icons/chile.png"></img>',
+            'nombre': 'VTV <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/vtv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://canalvtv.cl/vtv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> VTV <img src="icons/chile.png"></img></a></div>'
         },
         'canal-33': {
-            'nombre': 'Canal 33 <img src="icons/chile.png"></img>',
+            'nombre': 'Canal 33 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://streaminghd.cl/player.video/index.php?s=eduardo555/eduardo555" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.canal33.cl/online.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 33 <img src="icons/chile.png"></img></a></div>'
         },
         'contivision-m3u': {
-            'nombre': 'Contivision <img src="icons/chile.png"></img>',
+            'nombre': 'Contivision <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/contivision" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://w.contivision.cl/cvn/envivo.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Contivision <img src="icons/chile.png"></img></a></div>'
         },
         'tn': {
-            'nombre': 'Todonoticias 🌍',
+            'nombre': 'Todonoticias 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Todonoticias 🌍</a></div>'
         },
         'c5n': {
-            'nombre': 'C5N 🌍',
+            'nombre': 'C5N 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> C5N 🌍</a></div>'
         },
         'america-tv': {
-            'nombre': 'América TV 🌍',
+            'nombre': 'América TV 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/2Vyx4ee2Tss?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> América TV 🌍</a></div>'
         },
         'net-tv': {
-            'nombre': 'Net TV 🌍',
+            'nombre': 'Net TV 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/nettv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canalnet.tv/page/senal-en-vivo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Net TV 🌍</a></div>'
         },
         'ip-noticias': {
-            'nombre': 'IP Noticias 🌍',
+            'nombre': 'IP Noticias 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC1bBjOZieJWHbsFA0LwjjJA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> IP Noticias 🌍</a></div>'
         },
         'tv-publica-arg': {
-            'nombre': 'Televisión Pública 🌍',
+            'nombre': 'Televisión Pública 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Televisión Pública 🌍</a></div>'
         },
         'cnn-español': {
-            'nombre': 'CNN en Español 🌍',
+            'nombre': 'CNN en Español 🌍<span hidden>España, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN en Español 🌍</a></div>'
         },
         'cnn-us': {
-            'nombre': 'CNN US 🌍',
+            'nombre': 'CNN US 🌍<span hidden>Estados unidos, inglés</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/us" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://us.cnn.com" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN US 🌍</a></div>'
         },
        'cnn-brasil': {
-            'nombre': 'CNN Brasil 🌍',
+            'nombre': 'CNN Brasil 🌍<span hidden>Brasil, Portugues</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Brasil 🌍</a></div>'
        },
         'el-tiempo': {
-            'nombre': 'EL TIEMPO 🌍',
+            'nombre': 'EL TIEMPO 🌍<span hidden>Colombia, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCe5-b0fCK3eQCpwS6MT0aNw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCe5-b0fCK3eQCpwS6MT0aNw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> EL TIEMPO 🌍</a></div>'
         },
         'noti-caracol': {
-            'nombre': 'Noticias Caracol 🌍',
+            'nombre': 'Noticias Caracol 🌍<span hidden>Colombia, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC2Xq2PK-got3Rtz9ZJ32hLQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Noticias Caracol 🌍</a></div>'
         },
         'globovision': {
-            'nombre': 'Globovisión En Vivo 🌍',
+            'nombre': 'Globovisión En Vivo 🌍<span hidden>Venezuela, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCfJtBtmhnIyfUB6RqXeImMw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCfJtBtmhnIyfUB6RqXeImMw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Globovisión En Vivo 🌍</a></div>'
         },
         'euronews-esp': {
-            'nombre': 'euronews (Español) 🌍',
+            'nombre': 'euronews (Español) 🌍<span hidden>Francia, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> euronews (Español) 🌍</a></div>'
         },
         'euronews-eng': {
-            'nombre': 'euronews (English) 🌍',
+            'nombre': 'euronews (English) 🌍<span hidden>Francia, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCSrZ3UV4jOidv8ppoVuvW9Q&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCSrZ3UV4jOidv8ppoVuvW9Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> euronews (English) 🌍</a></div>'
         },
         'euronews-ru': {
-            'nombre': 'euronews Русский 🌍',
+            'nombre': 'euronews Русский 🌍<span hidden>Francia, ruso/span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCFzJjgVicCtFxJ5B0P_ei8A&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> euronews Русский 🌍</a></div>'
         },
         'dw': {
-            'nombre': 'DW Español 🌍',
+            'nombre': 'DW Español 🌍<span hidden>Alemania, español/span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> DW Español 🌍</a></div>'
         },
         'cronica-tv': {
-            'nombre': 'Crónica TV 🌍',
+            'nombre': 'Crónica TV 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCT7KFGv6s2a-rh2Jq8ZdM1g&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Crónica TV 🌍</a></div>'
         },
         'RT-español': {
-            'nombre': 'RT en Español 🌍',
+            'nombre': 'RT en Español 🌍<span hidden>Rusia, español/span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC2mtXUpAYLYJIZ2deSPhlqw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> RT en Español 🌍</a></div>'
         },
         'RT-español2': {
-            'nombre': 'RT en vivo 🌍',
+            'nombre': 'RT en vivo 🌍<span hidden>Rusia, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> RT en vivo 🌍</a></div>'
         },
         'RT-News': {
-            'nombre': 'RT News 🌍',
+            'nombre': 'RT News 🌍<span hidden>Rusia, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCpwvZwUam-URkxB7g4USKpg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCpwvZwUam-URkxB7g4USKpg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> RT News 🌍</a></div>'
         },
         'RT-america': {
-            'nombre': 'RT America 🌍',
+            'nombre': 'RT America 🌍<span hidden>Rusia, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCczrL-2b-gYK3l4yDld4XlQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> RT America 🌍</a></div>'
         },
         'MILENIO': {
-            'nombre': 'MILENIO 🌍',
+            'nombre': 'MILENIO 🌍<span hidden>Mexico, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCFxHplbcoJK9m70c4VyTIxg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCFxHplbcoJK9m70c4VyTIxg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> MILENIO 🌍</a></div>'
         },
         'vpitv': {
-            'nombre': 'VPItv 🌍',
+            'nombre': 'VPItv 🌍<span hidden>Venezuela, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCVFiIRuxJ2GmJLUkHmlmj4w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCVFiIRuxJ2GmJLUkHmlmj4w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> VPItv 🌍</a></div>'
         },
         'el-siete-tv': {
-            'nombre': 'El Siete TV 🌍',
+            'nombre': 'El Siete TV 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC64ZNqX0FQHabP8iIkmnR3A&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> El Siete TV 🌍</a></div>'
         },
         'a24': {
-            'nombre': 'A24 🌍',
+            'nombre': 'A24 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> A24 🌍</a></div>'
 //        },
 //        'hch-vivo': {
-//            'nombre': 'HCH En Vivo 🌍',
+//            'nombre': 'HCH En Vivo 🌍<span hidden>Honduras</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/ZI_WRS21yVc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCa6ycATPsQ7y42jG6DtLIyQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HCH En Vivo 🌍</a></div>'
         },
         'la-nacion': {
-            'nombre': 'LA NACION 🌍',
+            'nombre': 'LA NACION 🌍<span hidden>Argentina, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCba3hpU7EFBSk817y9qZkiA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> LA NACION 🌍</a></div>'
 //        },
 //        'telesur-tv': {
-//            'nombre': 'teleSUR tv 🌍',
+//            'nombre': 'teleSUR tv 🌍<span hidden>Venezuela, español</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/-GV6pB-ft90?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> teleSUR tv 🌍</a></div>'
         },
         'france-24-esp': {
-            'nombre': 'FRANCE 24 Español 🌍',
+            'nombre': 'FRANCE 24 Español 🌍<span hidden>Francia, español/span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCUdOoVWuWmgo1wByzcsyKDQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCUdOoVWuWmgo1wByzcsyKDQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 Español 🌍</a></div>'
         },
         'france-24-eng': {
-            'nombre': 'FRANCE 24 English 🌍',
+            'nombre': 'FRANCE 24 English 🌍<span hidden>Francia, ingles/span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FRANCE 24 English 🌍</a></div>'
 //        },
 //        'france-info': {
-//            'nombre': 'franceinfo 🌍',
+//            'nombre': 'franceinfo 🌍<span hidden>Francia, frances/span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/wwNZKfBLAsc?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCO6K_kkdP-lnSCiO3tPx7WA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> franceinfo 🌍</a></div>'
         },
         'sky-news': {
-            'nombre': 'Sky News 🌍',
+            'nombre': 'Sky News 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCoMdktPbSTixAyNGwb-UYkQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Sky News 🌍</a></div>'
         },
         'trt-world': {
-            'nombre': 'TRT World 🌍',
+            'nombre': 'TRT World 🌍<span hidden>Turquia, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC7fWeaHhqgM4Ry-RMpM2YYw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TRT World 🌍</a></div>'
         },
         'al-jazeera': {
-            'nombre': 'Al Jazeera English 🌍',
+            'nombre': 'Al Jazeera English 🌍<span hidden>Catar, arabe</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Al Jazeera English 🌍</a></div>'
         },
         'cna': {
-            'nombre': 'CNA 🌍',
+            'nombre': 'CNA 🌍<span hidden>Singapur, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC83jt4dlz1Gjl58fzQrrKZg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNA 🌍</a></div>'
         },
         'newsmax': {
-            'nombre': 'Newsmax 🌍',
+            'nombre': 'Newsmax 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCx6h-dWzJ5NpAlja1YsApdg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Newsmax TV 🌍</a></div>'
         },
         'fox-news-now': {
-            'nombre': 'NewsNOW from FOX',
+            'nombre': 'NewsNOW from FOX 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCJg9wBPyKMNA5sRDnvzmkdg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NewsNOW from FOX 🌍</a></div>'
         },
         'abc7': {
-            'nombre': 'ABC7 🌍',
+            'nombre': 'ABC7 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCVxBA3Cbu3pm8w8gEIoMEog&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCVxBA3Cbu3pm8w8gEIoMEog" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC7 🌍</a></div>'
         },
         'abc7-swfl': {
-            'nombre': 'ABC7 SWFL 🌍',
+            'nombre': 'ABC7 SWFL 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCq9e_hCv2jvgck8WowW1NXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCq9e_hCv2jvgck8WowW1NXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC7 SWFL 🌍</a></div>'
         },
         'nbcla': {
-            'nombre': 'NBCLA 🌍',
+            'nombre': 'NBCLA 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCSWoppsVL0TLxFQ2qP_DLqQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCSWoppsVL0TLxFQ2qP_DLqQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NBCLA 🌍</a></div>'
 //        },
 //        'abc-news': {
-//            'nombre': 'ABC News 🌍',
+//            'nombre': 'ABC News 🌍<span hidden>Estados unidos, ingles</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/w_Ma8oQLmSM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ABC News 🌍</a></div>'
         },    
         'nbc-news': {
-            'nombre': 'NBC News 🌍',
+            'nombre': 'NBC News 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> NBC News 🌍</a></div>'
         },
         'record-news': {
-            'nombre': 'Record News 🌍',
+            'nombre': 'Record News 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Record News 🌍</a></div>'
         },
         'news-nigeria': {
-            'nombre': 'TVC News Nigeria 🌍',
+            'nombre': 'TVC News Nigeria 🌍<span hidden>Nigeria, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCgp4A6I8LCWrhUzn-5SbKvA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCgp4A6I8LCWrhUzn-5SbKvA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVC News Nigeria 🌍</a></div>'
         },
         'HK-apple-daily': {
-            'nombre': 'HK Apple Daily 🌍',
+            'nombre': 'HK Apple Daily 🌍<span hidden>Hong Kong, chino</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCeqUUXaM75wrK5Aalo6UorQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> HK Apple Daily 🌍</a></div>'
         },
         'HK-cable-tv': {
-            'nombre': 'CABLE TV & CABLE News 🌍',
+            'nombre': 'CABLE TV & CABLE News 🌍<span hidden>Hong Kong, chino</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC_q7e5XYJB0JDGagcF0KW0w&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CABLE TV & CABLE News 🌍</a></div>'
         },
         'live-chino': {
-            'nombre': '三立LIVE新聞 🌍',
+            'nombre': '三立LIVE新聞 🌍<span hidden>Taiwan, chino</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC2TuODJhC03pLgd6MpWP0iw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 三立LIVE新聞 🌍</a></div>'
         },
         'live-japones': {
-            'nombre': 'ANNnewsCH 🌍',
+            'nombre': 'ANNnewsCH 🌍<span hidden>Japon, japones</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCGCZAYq5Xxojl_tSXcVJhiQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ANNnewsCH 🌍</a></div>'
         },
         'live-taiwan': {
-            'nombre': '民視直播 FTVN Live 53 🌍',
+            'nombre': '民視直播 FTVN Live 53 🌍<span hidden>Taiwan, chino</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UClIfopQZlkkSpM1VgCFLRJA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UClIfopQZlkkSpM1VgCFLRJA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 民視直播 FTVN Live 53 🌍</a></div>'
         },
         'live-chino-2': {
-            'nombre': '三立iNEWS 🌍',
+            'nombre': '三立iNEWS 🌍<span hidden>Taiwan, chino</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCoNYj9OFHZn3ACmmeRCPwbA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCoNYj9OFHZn3ACmmeRCPwbA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 三立iNEWS 🌍</a></div>'
         },
         'chilledCow': {
-            'nombre': 'ChilledCow 🎵',
+            'nombre': 'ChilledCow 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/5qap5aO4i9A?autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> ChilledCow 🎵</a></div>'
         },
         'chillhop': {
-            'nombre': 'Chillhop 🎵',
+            'nombre': 'Chillhop 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCOxqgCwgOqC2lMqC5PYz_Dg&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Chillhop 🎵</a></div>'
         },
         'steezyasfuck': {
-            'nombre': 'Steezyasfuck 🎵',
+            'nombre': 'Steezyasfuck 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCsIg9WMfxjZZvwROleiVsQg&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Steezyasfuck 🎵</a></div>'
         },
         'relaxdaily': {
-            'nombre': 'Relaxdaily 🎵',
+            'nombre': 'Relaxdaily 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCc9EzBNAtdnNiDrMw5CAxUw&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCc9EzBNAtdnNiDrMw5CAxUw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Relaxdaily 🎵</a></div>'
         },
         'imuc-radio-chile': {
-            'nombre': 'IMUC Chile <img src="icons/chile.png"></img> 🎵',
+            'nombre': 'IMUC Chile <img src="icons/chile.png"></img> 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCIIDtZoaK9UZi4FaGMmL_hw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> IMUC Chile <img src="icons/chile.png"></img>🎵</a></div>'
         },
         'live-vinyl-chile': {
-            'nombre': 'Live Vinyl Chile <img src="icons/chile.png"></img> 🎵',
+            'nombre': 'Live Vinyl Chile <img src="icons/chile.png"></img> 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC8FJRxSiunppaD0sZgL7H_A&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC8FJRxSiunppaD0sZgL7H_A" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Live Vinyl Chile <img src="icons/chile.png"></img>🎵</a></div>'
         },
         'doom-radio': {
-            'nombre': 'Doom Radio 🎵',
+            'nombre': 'Doom Radio 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCR2D48i5MCMYwVKbgYIAftQ&autoplay=1&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCR2D48i5MCMYwVKbgYIAftQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Doom Radio 🎵</a></div>'
         },
         'cam-dipu-yutu': {
-            'nombre': 'Cámara Diputados Señal Youtube <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados Señal Youtube <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados Señal Youtube <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-01-yutu': {
-            'nombre': 'Cámara Diputados YT 01 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 01 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCcULnWuDzgQG9yF0Dv3DIgg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 01 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-03-yutu': {
-            'nombre': 'Cámara Diputados YT 03 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 03 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCF6KgLfQqQzekn8U1DwVs9g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 03 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-05-yutu': {
-            'nombre': 'Cámara Diputados YT 05 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 05 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC0QKtI8NpeMObauDylsSUDA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 05 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-06-yutu': {
-            'nombre': 'Cámara Diputados YT 06 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 06 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCspWzpGflwb6A8PZqWw49CQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 06 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-07-yutu': {
-            'nombre': 'Cámara Diputados YT 07 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 07 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCyVjDDBZGDywVGrpGBvGEsw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 07 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-08-yutu': {
-            'nombre': 'Cámara Diputados YT 08 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 08 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCCtDbZzh63vgU_BWHRGsbug&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCCtDbZzh63vgU_BWHRGsbug" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 08 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-11-yutu': {
-            'nombre': 'Cámara Diputados YT 11 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 11 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCYPKjGKq2yLbAnmth5rFZmQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 11 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-12-yutu': {
-            'nombre': 'Cámara Diputados YT 12 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 12 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCVOWFY-sgbDglBsfOap9okg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 12 <img src="icons/chile.png"></img></a></div>'
         },
         'cam-dipu-13-yutu': {
-            'nombre': 'Cámara Diputados YT 13 <img src="icons/chile.png"></img>',
+            'nombre': 'Cámara Diputados YT 13 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 13 <img src="icons/chile.png"></img></a></div>'
 //        },
 //        'times-square': {
-//            'nombre': 'Times Square Live 4K 🌍',
+//            'nombre': 'Times Square Live 4K 🌍<span hidden>Estados unidos, ingles</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://invidiou.site/embed/eJ7ZkQ5TC08?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
         },
         'nasa': {
-            'nombre': '🔭 NASA Live 🌍',
+            'nombre': '🔭 NASA Live 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/21X5lGlDOfg?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/watch?v=21X5lGlDOfg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 NASA Live 🌍</a></div>'
 //        },
 //        'nasa1': {
-//            'nombre': '🔭 NASA ISS Live Stream 🌍',
+//            'nombre': '🔭 NASA ISS Live Stream 🌍<span hidden>Estados unidos, ingles</span>',
 //            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://invidiou.site/embed/EEIk7gwjgIM?autoplay=1&volume=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/watch?v=EEIk7gwjgIM" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream 🌍</a></div>'
         },
         'spacex': {
-            'nombre': '🔭 SpaceX 🌍',
+            'nombre': '🔭 SpaceX 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 SpaceX 🌍</a></div>'
         },
         'espacio-tierra': {
-            'nombre': '🔭 Earth view from ISS 🌍',
+            'nombre': '🔭 Earth view from ISS 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/XBPjVzSoepo?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/watch?v=XBPjVzSoepo" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🔭 Earth view from ISS 🌍</a></div>'
         },
         'corona-pagina': {
-            'nombre': '🦠 COVID-19 Dashboard 🌍',
+            'nombre': '🦠 COVID-19 Dashboard 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank" class="tooltip-test" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Dashboard 🌍</a></div>'
         },
         'corona1': {
-            'nombre': '🦠 COVID-19 Live 🌍',
+            'nombre': '🦠 COVID-19 Live 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/NMre6IAAAiU?autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCDGiCfCZIV5phsoGiPwIcyQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> 🦠 COVID-19 Live 🌍</a></div>'
         },
         'corona-pag-chile': {
-            'nombre': '🦠 COVID-19 Chile <img src="icons/chile.png"></img>',
+            'nombre': '🦠 COVID-19 Chile <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://bing.com/covid/local/chile" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://bing.com/covid/local/chile" target="_blank" class="tooltip-test" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Chile <img src="icons/chile.png"></img></a></div>'
         },
         '31-minutos': {
-            'nombre': '31 minutos - Todos los episodios <img src="icons/chile.png"></img>',
+            'nombre': '31 minutos - Todos los episodios <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta serie"> 31 minutos - Todos los episodios <img src="icons/chile.png"></img></a></div>'
         },
         'diego-glot-s01': {
-            'nombre': 'Diego y Glot - Temporada 1 <img src="icons/chile.png"></img>',
+            'nombre': 'Diego y Glot - Temporada 1 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/watch?v=J3cLcZ1QhFE&list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta serie"> Diego y Glot - Temporada 1 <img src="icons/chile.png"></img></a></div>'
         },
         'los-pulentos-s01': {
-            'nombre': 'Los Pulentos - Temporada 1 <img src="icons/chile.png"></img>',
+            'nombre': 'Los Pulentos - Temporada 1 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/playlist?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta serie"> Los Pulentos - Temporada 1 <img src="icons/chile.png"></img></a></div>'
         },
         'villa-dulce-s01': {
-            'nombre': 'Villa Dulce - Temporada 1 <img src="icons/chile.png"></img>',
+            'nombre': 'Villa Dulce - Temporada 1 <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/playlist?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta serie"> Villa Dulce - Temporada 1 <img src="icons/chile.png"></img></a></div>'
         },
         'tv-educa-cl': {
-            'nombre': 'TV Educa Chile <img src="icons/chile.png"></img>',
+            'nombre': 'TV Educa Chile <img src="icons/chile.png"></img><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvn.cl/envivo/tveducachile/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Educa Chile <img src="icons/chile.png"></img></a></div>'
         },
         'bob-ross': {
-            'nombre': 'Bob Ross (Todas las Temporadas) 🌍',
+            'nombre': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLOVNqqD-2HgiA-GZyzcfZN9n-YelhB5&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta serie"> Bob Ross (Todas las Temporadas) 🎨</a></div>'
         }
     },
