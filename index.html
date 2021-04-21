@@ -38,6 +38,7 @@
             }
         });
     </script>
+    
 </head>
 
 <body>
@@ -49,7 +50,7 @@
     </noscript>
     <!--Navbar-->
     <nav class='navbar navbar-dark bg-dark fixed-top'>
-        <button class="btn btn-outline-primary pulsate" type="button" id="custom-btn">+Canales 📺</button>
+        <button class="btn btn-outline-primary pulsate" type="button" data-toggle="modal" data-target="#modal-canales">+Canales 📺</button>
         <div class="tooltip-test" title="Hora Santiago, Chile">
             <p class="hora">
                 <span id="Santiago_z179"></span>
@@ -65,7 +66,7 @@
             </script>
         </div>
         <button aria-controls='navbarSupportedContent' aria-expanded='true' aria-label='Toggle navigation'
-            class='navbar-toggler custom-toggler' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
+            class='navbar-toggler' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
             <span class='navbar-toggler-icon'></span>
         </button>
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>
@@ -140,16 +141,16 @@
         </div>
     </nav>
     <!--fin Navbar-->
-    <div class="container2">
+    <div>
         <div class="row no-gutters row-canales" id="los-canales"></div>
 
         <!--modal listado canales-->
-        <div class="modal" id="custom-modal">
+        <div class="modal" id="modal-canales">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title">Selecciona tus canales</h1>
-                        <button type="button" class="close" id="custom-close" data-dismiss="modal">
+                        <button type="button" class="close" data-dismiss="modal">
                             <span>&times;</span>
                         </button>
                     </div>
@@ -163,7 +164,7 @@
                         <button type="button" class="btn btn-outline-info"
                         onclick="window.open('https://github.com/Alplox/tele#canales-disponibles-junto-a-su-origen', '_blank', 'noopener');"
                            >Fuentes</button>
-                        <button type="button" class="btn btn-danger" id="custom-close2"
+                        <button type="button" class="btn btn-danger"
                             data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
@@ -175,32 +176,36 @@
         <div id="modalabout" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header" hidden>
-
+                    <div class="modal-header">
+                        <h1 class="display-4"> Descargo de responsabilidad </h1>
                     </div>
                     <div class="modal-body">
-                        <h1 class="display-4"> Descargo de responsabilidad </h1>
-                        <hr class="my-4">• "tele" es un proyecto colaborativo gratuito para gestionar canales de
-                        televisión por internet de libre acceso.
-                        <br>• “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha
+                        <ul>
+                        <li>"tele" es un proyecto colaborativo gratuito para gestionar canales de
+                        televisión por internet de libre acceso.</li>
+                        <li>“tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha
                         sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna
-                        protección.
-                        <br>• Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming
-                        online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd, entre otros).
-                        <br>• El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión
-                        de los canales ni implica la decodificación de éstos.
-                        <br>• No se es propietario, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal.
-                        <br>• No se cobra ni ofrece canales de pago bajo ninguna modalidad.
-                        <br>• El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de
-                        ninguna forma o medio.
-                        <br>• En este proyecto no se almacena ninguna transmisión.
-                        <br>• Si posees los derechos de algún canal y deseas que sea retirado, contáctame.
-                        <hr class="my-4"> &mdash; Si quieres conocer el origen de cada livestream visita el <a href="https://github.com/Alplox/tele" rel="noopener">repositorio
-                        GitHub</a> de la pagina.
+                        protección.</li>
+                        <li>Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming
+                        online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd, entre otros).</li>
+                        <li>El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión
+                        de los canales ni implica la decodificación de éstos.</li>
+                        <li>No se es propietario, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal.
+                        <li>No se cobra ni ofrece canales de pago bajo ninguna modalidad.</li>
+                        <li>El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de
+                        ninguna forma o medio.</li>
+                        <li>En este proyecto no se almacena ninguna transmisión.</li>
+                        <li>Si posees los derechos de algún canal y deseas que sea retirado, contáctame.</li>
+                        </ul>
+                    <hr> 
+                    <footer>
+                        <p>&mdash; Si quieres conocer el origen de cada livestream visita el <a href="https://github.com/Alplox/tele" rel="noopener">repositorio
+                        GitHub</a> de la pagina.</p>
+                    </footer>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-outline-primary tooltip-test" data-dismiss="modal"
-                            data-toggle="modal" data-target="#custom-modal" title="Canales">📺</button>
+                            data-toggle="modal" data-target="#modal-canales" title="Canales">📺</button>
                         <button type="button" class="btn btn-outline-warning tooltip-test" data-dismiss="modal"
                             data-toggle="modal" data-target="#modalcompartir" title="Compartir"><i
                                 class="fas fa-share-alt"></i></button>
@@ -306,11 +311,10 @@
         <div id="modalcreditos" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header" hidden>
-
+                    <div class="modal-header">
+                        <h1 class="display-3">Créditos</h1>
                     </div>
                     <div class="modal-body">
-                        <h1 class="display-3"> Créditos </h1>
                         &mdash; <a>Sitio</a> por <a href="https://github.com/Alplox" rel="noopener">Alplox</a>.
                         <br>&mdash; <a href="http://pslabs.cl/tele.html" rel="noopener">Inspirado en pslabs.cl/tele</a>
                         por <a href="https://twitter.com/pottersys/status/1187710925182255104"
@@ -323,8 +327,7 @@
                         <br>&mdash; <a href="https://github.com/Alplox/tele/blob/master/Favicon/primer-favicon.ico"
                             rel="noopener">Primer Favicon</a> cortesía de <a href="https://github.com/mave007"
                             rel="noopener">mave007</a>.
-                        <br>
-                        <br>
+                        <section>
                         <h2 class="display-5"> Componentes </h2>
                         &mdash; <a>Reloj</a> <a href="https://time.is/" rel="noopener">time.is</a>.
 
@@ -342,11 +345,11 @@
                             
                         <br>&mdash; <a>Video.js</a> <a href="https://videojs.com/"
                             rel="noopener">videojs.com</a>.
-                        <br>
+                        </section>
+                        <footer>
                         <br>&mdash; <a href="https://raw.githubusercontent.com/Alplox/tele/master/LICENSE"
                             rel="noopener">LICENCIAS</a>.
-                        <br>
-                        <br>
+                        </footer>
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-secondary role=" onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i class="fab fa-github"></i> Repositorio</button>
@@ -955,6 +958,7 @@
     </div>
     <script rel="preload" src="js/canales.js"></script>
     <script rel="preload" src="js/scripts.js"></script>
+   
 </body>
 
 </html>

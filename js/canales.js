@@ -78,10 +78,6 @@ var App = {
         'cnn-cl-m3u': {
             'nombre': 'CNN Chile 2 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/cnn-cl" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.cnnchile.com/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNN Chile 2<img src="icons/chile.png"></img></a></div>'
-//        },
-//        'tvn-yutu': {
-//            'nombre': 'TVN <img src="icons/chile.png"></img>',
-//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
         },
         'prensa-presidencia': {
             'nombre': 'Prensa Presidencia <img src="icons/chile.png"></img>',
@@ -92,8 +88,12 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-chile" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvchile.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Chile <img src="icons/chile.png"></img></a></div>'
         },
         'tvn': {
-            'nombre': 'TVN <img src="icons/chile.png"></img>',
+            'nombre': 'TVN 2 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tvn" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.24horas.cl/envivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
+//        },
+//        'tvn-yutu': {
+//            'nombre': 'TVN <img src="icons/chile.png"></img>',
+//            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVN <img src="icons/chile.png"></img></a></div>'
         },
         'canal-13': {
             'nombre': 'Canal 13 <img src="icons/chile.png"></img>',
@@ -133,7 +133,61 @@ var App = {
         },
         'radio-ae': {
             'nombre': '📻 AE (DUOC) <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/3991add90400a25a1580f290246f90eb?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.aeradio.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 AE (DUOC) <img src="icons/chile.png"></img></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/3991add90400a25a1580f290246f90eb?sound=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.aeradio.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 AE (DUOC) <img src="icons/chile.png"></img></a></div>'
+        },
+
+
+
+
+
+
+
+
+
+
+        'carolina-tv': {
+            'nombre': '📻 Carolina TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/carolinatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.carolina.cl/tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Carolina TV <img src="icons/chile.png"></img></a></div>'
+        },
+        'carolina-tv-m3u': {
+            'nombre': '📻 Carolina TV 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/carolina-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.carolina.cl/tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Carolina TV 2 <img src="icons/chile.png"></img></a></div>'
+        },
+        'fm-tiempo': {
+            'nombre': '📻 FM Tiempo <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/fmtiempotv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.fmtiempo.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 FM Tiempo <img src="icons/chile.png"></img></a></div>'
+        },
+        'fm-tiempo-m3u': {
+            'nombre': '📻 FM Tiempo 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/fm-tiempo" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.fmtiempo.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> FM Tiempo 2 <img src="icons/chile.png"></img></a></div>'
+        },
+        'alegria-tv-m3u': {
+            'nombre': '📻 Alegría TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/alegria-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.alegriafm.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Alegría TV <img src="icons/chile.png"></img></a></div>'
+        },
+        'romantica-tv': {
+            'nombre': '📻 Romántica TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/romanticatv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.romantica.cl/romantica-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Romántica TV <img src="icons/chile.png"></img></a></div>'
+        },
+        'romantica-tv-m3u': {
+            'nombre': '📻 Romántica TV 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/romantica-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.romantica.cl/romantica-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Romántica TV 2 <img src="icons/chile.png"></img></a></div>'
+        },
+        'contivision-musica': {
+            'nombre': '📻 Contivision Música <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="http://media.digitalproserver.com/v2/live/contivisionmusica" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://web.contivision.cl/ctv/envivo3.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'
+        },
+        'contivision-musica-m3u': {
+            'nombre': '📻 Contivision Música 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/contivision-musica" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://web.contivision.cl/ctv/envivo3.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Contivision Música 2 <img src="icons/chile.png"></img></a></div>'
+        },
+        'radio-genial': {
+            'nombre': '📻 Radio Genial 100.5 FM <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://v2.tustreaming.cl/genialtv/live1/embed.html?autoplay=true" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'
+        },
+        'radio-genial-m3u': {
+            'nombre': '📻 Radio Genial 100.5 FM 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/radio-genial" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Radio Genial 100.5 FM 2 <img src="icons/chile.png"></img></a></div>'
         },
         'mi-radiols': {
             'nombre': '📻 Mi Radio LS <img src="icons/chile.png"></img>',
@@ -151,6 +205,14 @@ var App = {
             'nombre': '📻 Radio María Chile <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UClMwb2kCYemWyDIZ2dYttKA&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UClMwb2kCYemWyDIZ2dYttKA" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Radio María Chile <img src="icons/chile.png"></img></a></div>'
         },
+        'on-radio-kpop': {
+            'nombre': '📻 On Radio Kpop <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/0551dfe14dd61f524debcb5b5595b3f2?sound=0" frameborder="0"></iframe><div class="nombre-barra"><a class="nombre-color" href="https://onradiochile.cl/kpop/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 On Radio Kpop <img src="icons/chile.png"></img></a></div>'
+        },
+        'on-radio-kpop-m3u': {
+            'nombre': '📻 On Radio Kpop 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/on-radio-kpop" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://onradiochile.cl/kpop/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 On Radio Kpop 2 <img src="icons/chile.png"></img></a></div>'
+        },
         'holvoet-tv-m3u': {
             'nombre': 'Holvoet TV <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/holvoet-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://holvoet.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Holvoet TV <img src="icons/chile.png"></img></a></div>'
@@ -159,17 +221,57 @@ var App = {
             'nombre': 'TV Salud <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-salud" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tvsalud.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TV Salud <img src="icons/chile.png"></img></a></div>'
         },
+        'antofagasta-tv-m3u': {
+            'nombre': 'Antofagasta TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/antofagasta-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.antofagasta.tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Antofagasta TV <img src="icons/chile.png"></img></a></div>'
+        },
         'canal-9': {
-            'nombre': 'Canal 9 (Conce) <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/c9?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal9.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 9 (Concepción) <img src="icons/chile.png"></img></a></div>'
+            'nombre': 'Canal 9 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/c9?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal9.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 9 <img src="icons/chile.png"></img></a></div>'
+        },
+        'canal-9-m3u': {
+            'nombre': 'Canal 9 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal-9" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal9.cl/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 9 2 <img src="icons/chile.png"></img></a></div>'
         },
         'tvu': {
-            'nombre': 'TVU (Conce) <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/tvu?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvu.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVU (Concepción) <img src="icons/chile.png"></img></a></div>'
+            'nombre': 'TVU <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/tvu?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvu.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVU <img src="icons/chile.png"></img></a></div>'
+        },
+        'tvu-m3u': {
+            'nombre': 'TVU 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tvu" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.tvu.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> TVU 2 <img src="icons/chile.png"></img></a></div>'
         },
         'canal-21': {
-            'nombre': 'Canal 21 (Chillán) <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.canal21tv.cl/wp/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 21 (Chillán) <img src="icons/chile.png"></img></a></div>'
+            'nombre': 'Canal 21 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://live.grupoz.cl/8b383d0a9cef5560a1bfbbeaf6ad4a38?sound=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal21tv.cl/wp/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 21 <img src="icons/chile.png"></img></a></div>'
+        },
+        'canal-21-m3u': {
+            'nombre': 'Canal 21 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/canal-21" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.canal21tv.cl/wp/en-vivo/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 21 2 <img src="icons/chile.png"></img></a></div>'
+        },
+
+
+
+
+        'estaciontv-m3u': {
+            'nombre': 'Estacióntv <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/estaciontv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.estaciontv.cl/site/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Estacióntv <img src="icons/chile.png"></img></a></div>'
+        },
+        'pinguino-m3u': {
+            'nombre': 'Pingüino TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/pinguino-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://elpinguino.com/reproductor/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Pingüino TV <img src="icons/chile.png"></img></a></div>'
+        },
+        'teleton-tv': {
+            'nombre': 'Teletón TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/5d6d5f05a2f6f407b0147965?autoplay=true&volume=0" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://teletontv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Teletón TV <img src="icons/chile.png"></img></a></div>'
+        },
+        'teleton-tv-m3u': {
+            'nombre': 'Teletón TV 2 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/teleton-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://teletontv.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Teletón TV 2 <img src="icons/chile.png"></img></a></div>'
+        },
+        'contexto-nuble-tv-m3u': {
+            'nombre': 'Contexto Ñuble TV <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/contexto-nuble-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://tv.contextonuble.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Contexto Ñuble TV <img src="icons/chile.png"></img></a></div>'
         },
         'ucv': {
             'nombre': 'UCV TV <img src="icons/chile.png"></img>',
@@ -184,8 +286,12 @@ var App = {
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/vtv?volume=0&mute=1" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://canalvtv.cl/vtv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> VTV <img src="icons/chile.png"></img></a></div>'
         },
         'canal-33': {
-            'nombre': 'Canal 33 (Temuco) <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://streaminghd.cl/player.video/index.php?s=eduardo555/eduardo555" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.canal33.cl/online.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 33 (Temuco) <img src="icons/chile.png"></img></a></div>'
+            'nombre': 'Canal 33 <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://streaminghd.cl/player.video/index.php?s=eduardo555/eduardo555" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://www.canal33.cl/online.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Canal 33 <img src="icons/chile.png"></img></a></div>'
+        },
+        'contivision-m3u': {
+            'nombre': 'Contivision <img src="icons/chile.png"></img>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/contivision" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://w.contivision.cl/cvn/envivo.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Contivision <img src="icons/chile.png"></img></a></div>'
         },
         'tn': {
             'nombre': 'Todonoticias 🌍',
@@ -582,32 +688,9 @@ init: function() {
 
 App.init();
 
-var modal = document.getElementById("custom-modal");
-var btn = document.getElementById("custom-btn");
-var span = document.getElementById("custom-close");
-var span2 = document.getElementById("custom-close2");
+var streamxfila = document.getElementById("Stream_por_fila");
 
-btn.onclick = function () {
-    modal.style.display = "block";
-}
-
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-span2.onclick = function () {
-    modal.style.display = "none";
-}
-
-var hue = document.getElementById("Stream_por_fila");
-
-hue.onchange = function (event) {
+streamxfila.onchange = function (event) {
     size = event.target.value
     sizeMobile = event.target.value
     let canal2 = document.querySelectorAll(".stream");
