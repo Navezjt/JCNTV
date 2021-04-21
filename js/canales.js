@@ -173,10 +173,6 @@ var App = {
             'nombre': '📻 Romántica TV 2 <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/romantica-tv" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.romantica.cl/romantica-tv/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Romántica TV 2 <img src="icons/chile.png"></img></a></div>'
         },
-        'contivision-musica': {
-            'nombre': '📻 Contivision Música <img src="icons/chile.png"></img>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="http://media.digitalproserver.com/v2/live/contivisionmusica" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://web.contivision.cl/ctv/envivo3.php" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'
-        },
         'radio-genial': {
             'nombre': '📻 Radio Genial 100.5 FM <img src="icons/chile.png"></img>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://v2.tustreaming.cl/genialtv/live1/embed.html?autoplay=true" frameborder="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://radiogenial.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">📻 Contivision Música <img src="icons/chile.png"></img></a></div>'

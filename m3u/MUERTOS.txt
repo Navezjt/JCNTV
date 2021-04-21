@@ -31,6 +31,7 @@ http://streaming.elpinguino.com:1935/live/pinguinotv_240p/playlist.m3u8
 =====================================================================================
 FUNCIONAN PERO NO TIENEN HTTPS:
 Contivision musica
+http://media.digitalproserver.com/v2/live/contivisionmusica
 http://wow2.cl.digitalproserver.com/contivisionmusica/contivisionmusicavivo/contivisionmusica.smil/playlist.m3u8
 
 
