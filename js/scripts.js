@@ -1,10 +1,6 @@
 ///barra tamaño https://codepen.io/nosurprisethere/pen/KJxwQz
-const settings = {
-  fill: "#ce6102",
-  background: "#1f1f1f",
-};
-
-const sliders = document.querySelectorAll(".range-slider");
+const settings = { fill: "#ce6102", background: "#1f1f1f" },
+  sliders = document.querySelectorAll(".range-slider");
 
 Array.prototype.forEach.call(sliders, (slider) => {
   slider.querySelector("input").addEventListener("input", (event) => {
@@ -25,22 +21,26 @@ function applyFill(slider) {
 ///filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp y https://es.stackoverflow.com/questions/195813/c%C3%B3mo-ignorar-acentos-en-b%C3%BAsqueda-filtro-usando-javascript (ROTO, encuentra resultados sin tildes pero si se digita con tilde no)
 $(document).ready(function () {
   $("#mifiltro").on("keyup", function () {
-    var value = $(this).val().toLowerCase();
+    var t = $(this).val().toLowerCase();
     $("#PorFiltrar *").filter(function () {
-      $(this).toggle($(this).text().normalize("NFD").replace(/[\u0300-\u036f]/g, '').toLowerCase().indexOf(value) > -1);
+      $(this).toggle(
+        $(this)
+          .text()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .indexOf(t) > -1
+      );
     });
   });
 });
 ///copiar enlace a portapapeles//////////////////////////
 function copiarEnlace() {
-  var copyText = document.getElementById("myInput");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-  document.execCommand("copy");
-
-  alert("Copiado exitoso!: " + copyText.value);
+  var e = document.getElementById("myInput");
+  e.select(),
+    e.setSelectionRange(0, 99999) /*For mobile devices*/,
+    document.execCommand("copy"),
+    alert("Copiado exitoso!: " + e.value);
 }
 ///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
 $(document).ready(function () {
