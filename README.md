@@ -6,22 +6,22 @@ Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 Toda contribución es bienvenida 😊
 [(Repositorio)](https://github.com/Alplox/tele)
 
-- ***Contenido:***
-    - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen)
-    - [Colecciones videos protestas 🎞️](#colección-videos-protestas)
-    - [Denunciar violación DDHH ⚠️](#denunciar-violación-ddhh)
-    - [Variaciones Creadas 🖥️](#variaciones-creadas)
-    - [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos)
-    - [Material Complementario 🔗🦠](#material-complementario)
-    - [Descargo de responsabilidad 📝](#descargo-de-responsabilidad)
-    - [Licencia](#licencia)
+# Tabla de contenido
+- [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen-)
+- [Colecciones videos protestas 🎞️](#colección-videos-protestas-)
+- [Denunciar violación DDHH ⚠️](#denunciar-violación-ddhh-)
+- [Variaciones Creadas 🖥️](#variaciones-creadas-)
+- [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos-)
+- [Material Complementario 🔗🦠](#material-complementario-)
+- [Descargo de responsabilidad 📝](#descargo-de-responsabilidad-)
+- [Licencia](#licencia-)
    
 ## [Estallido social](https://es.wikipedia.org/wiki/Estallido_social) 
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva.jpg)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/ejemplo-version-nueva-opciones.gif)](https://alplox.github.io/tele/)
 [![](https://raw.githubusercontent.com/Alplox/tele/master/ejemplos/plebiscito-gif.gif)](https://alplox.github.io/tele/)
 
-# Canales disponibles junto a su origen:
+# Canales disponibles junto a su origen: [↑](#tabla-de-contenido)
 | Canales ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)                                            | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png)                    | Internacionales 🌍                                                                                                                          | Música   🎵                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [TV Senado](https://tv.senado.cl/) - [x](https://www.m3u.cl/iptv-chile.php)                                       | [Cooperativa](http://programas.cooperativa.cl/showalairelibre/)                             | [Todonoticias](https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw)                                                                    | [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow)                              |
@@ -87,7 +87,7 @@ Toda contribución es bienvenida 😊
 
 *si algún canal del listado no se encuentra disponible en la página significa que su estado esta offline.*
 
-# Colección videos protestas:
+# Colección videos protestas: [↑](#tabla-de-contenido)
 
 | Enlace                                                                                                                       | Provisto por:                                           | Fuente                                                                                                                       | Mirror                                                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Toda contribución es bienvenida 😊
 | [Police Brutality, 2020 George Floyd Protests](https://drive.google.com/drive/folders/1TmsiNwYcFYK0mWmprVMvolI6Cd0Yyl8M)     | Desconocido                                             | [x (4chan)](https://boards.4chan.org/gif/thread/17208817) - [Archive](https://archived.moe/gif/thread/17208817/)             |                                                                                                                        |
 | [Capitol Hill Riots, 2021](https://mega.nz/folder/30MlkQib#RDOaGzmtFEHkxSYBaJSzVA)                                           | [u/AdamLynch](https://old.reddit.com/user/AdamLynch)    | [x (Reddit)](https://old.reddit.com/r/DataHoarder/comments/krx449/megathread_archiving_the_capitol_hill_riots/)              | [Mirrors](https://old.reddit.com/r/DataHoarder/comments/krx449/megathread_archiving_the_capitol_hill_riots/)           |
 
-# Denunciar violación DDHH:
+# Denunciar violación DDHH: [↑](#tabla-de-contenido)
 
 | Enlaces |  RRSS |
 | ------------- | ------------- |
@@ -115,7 +115,7 @@ Toda contribución es bienvenida 😊
 | https://www.hrw.org/es | [Facebook](http://www.facebook.com/humanrightswatchenespanol) - [Twitter](https://twitter.com/hrw_espanol) - [Instagram](https://www.instagram.com/hrw_espanol/)                                              |
 
 ___
-# Variaciones Creadas:
+# Variaciones Creadas: [↑](#tabla-de-contenido) 
 
 | Enlaces                                                 | Por:                                                                  | Fuente                                                                                                                 |
 |---------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ ___
 **** Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con Chile y/o el proyecto.
 ___
 
-# Medios de Prensa Alternativos 
+# Medios de Prensa Alternativos: [↑](#tabla-de-contenido)
 📰 📻 
 
 *No porque un sitio sea "alternativo" lo convierte en verídico, recuerde aplicar el mismo nivel de criterio que con los medios televisivos o cualquier medio de prensa venga el caso [(¿Cómo detectar un Fake News?)](https://aam.cl/noticias-aam/social-media/como-detectar-un-fake-news/).
@@ -163,7 +163,7 @@ ___
 
 
 ___
-# Material Complementario
+# Material Complementario: [↑](#tabla-de-contenido)
 Paginas/Material que posean información útil en cuanto a diversos temas que no sabía donde añadir para compartir:
 | Sitio                                                                                                                                                                                                                                          | Mirror                                                                              | RRSS                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ Paginas/Material que posean información útil en cuanto a diversos temas que no
 | [-Que-nos-pas-Chile-](https://github.com/jbaranao/-Que-nos-pas-Chile-) por [jbaranao](https://github.com/jbaranao)                                                                                                                             |                                                                                     |                                                                                                                                                            |
 
 ___
-# Descargo de responsabilidad
+# Descargo de responsabilidad [↑](#tabla-de-contenido)
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso.
 - “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección.
 - Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd, entre otros).
@@ -207,7 +207,7 @@ ___
 - Si posees los derechos de algún canal y deseas que sea retirado, contáctame.
 ___
 
-# Licencia
+# Licencia [↑](#tabla-de-contenido)
 
 ```
 MIT License
