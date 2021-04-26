@@ -23,7 +23,7 @@ var App = {
         },
         'cam-dipu-m3u-2': {
             'nombre': '🏛️ Cámara Diputados 2 <img src="images/chile-svg.svg" width="16" height="16"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 2 <img src="images/chile-svg.svg" width="12" height="12"></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="../m3u/camara-diputados2.html" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="http://webtv.camara.cl/" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 2 <img src="images/chile-svg.svg" width="12" height="12"></a></div>'
         },
         'cam-dipu-m3u-3': {
             'nombre': '🏛️ Cámara Diputados 3 <img src="images/chile-svg.svg" width="16" height="16"><span hidden>Chile, español</span>',
