@@ -245,7 +245,7 @@ var App = {
         },
         'mediabanco-m3u': {
             'nombre': 'MEDIABANCO <img src="images/chile-svg.svg" width="16" height="16"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="http://iframe.dacast.com/b/169709/c/560061?autoplay=true&volume=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://halcon.parquemet.cl/index.html" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> MEDIABANCO Señal Limpia <img src="images/chile-svg.svg" width="12" height="12"></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://iframe.dacast.com/b/169709/c/560061?autoplay=true&volume=0" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://halcon.parquemet.cl/index.html" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> MEDIABANCO Señal Limpia <img src="images/chile-svg.svg" width="12" height="12"></a></div>'
         },
         'holvoet-tv-m3u': {
             'nombre': 'Holvoet TV <img src="images/chile-svg.svg" width="16" height="16"><span hidden>Chile, Radios</span>',
