@@ -249,7 +249,7 @@ SOFTWARE.
 
 Mentions:
 Favicon created using this sites https://favicon.io/ and https://pixelcraft.web.app/
-First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/favicon.ico)
+First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/Favicon/primer-favicon.ico)
 Site inspired on http://pslabs.cl/tele.html by @pottersys
 Based on variation https://tele.0x00.cl/ by u/0x00cl
 
