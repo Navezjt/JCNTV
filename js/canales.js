@@ -467,6 +467,10 @@ var App = {
             'nombre': 'Al Jazeera English 🌍<span hidden>Catar, arabe</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> Al Jazeera English 🌍</a></div>'
         },
+        'al-jazeera-arabe': {
+            'nombre': 'AlJazeera Channel قناة الجزيرة 🌍<span hidden>Catar, arabe</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCfiwzLy-8yKzIbsmZTzxDgw&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UCfiwzLy-8yKzIbsmZTzxDgw" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> AlJazeera Channel قناة الجزيرة 🌍</a></div>'
+        },
         'cna': {
             'nombre': 'CNA 🌍<span hidden>Singapur, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=1&mute=1&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a class="nombre-color" href="https://www.youtube.com/channel/UC83jt4dlz1Gjl58fzQrrKZg" target="_blank" class="tooltip-test" title="Ir a la página oficial de esta emisión"> CNA 🌍</a></div>'
