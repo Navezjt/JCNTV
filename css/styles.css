@@ -2,7 +2,7 @@ body {
     background: #000000;
 }
 
-h1{
+h1 {
     font-size: large;
 }
 
@@ -193,6 +193,11 @@ input::-moz-focus-outer {
     }
 }
 
+.modal-body button img{
+    width: 16px;
+    height: 16px;
+}
+
 /* boton copiar enlace*/
 .btn-copiar {
     margin-right: 1em;
@@ -227,7 +232,7 @@ caption {
 }
 
 /* nombre dentro barra iframes */
-.nombre-color {
+.nombre-barra a{
     opacity: 0.6;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
@@ -236,11 +241,18 @@ caption {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.nombre-color:hover {
+.nombre-barra a:hover {
     opacity: 1;
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Tamaño banderas */
+.nombre-barra img{
+    width: 12px;
+    height: 12px;
+}
+
 
 /* iconos compartir*/
 .share-items:hover a{
@@ -386,6 +398,9 @@ td {
         right: 0%;
         width: 100%;
         line-height: 12px;
+    }
+    .canales-body p{
+        font-size: smaller;
     }
     .modal-footer {
         flex-wrap: wrap;
