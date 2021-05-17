@@ -705,7 +705,7 @@ var App = {
         },
         'votaciones': {
             'nombre': 'Votaciones <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/votaciones" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="yes" src="m3u/votaciones" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div>'
         },
         'bob-ross': {
             'nombre': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
