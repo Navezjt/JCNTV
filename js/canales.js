@@ -703,6 +703,10 @@ var App = {
             'nombre': 'TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa2" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div><div class="nombre-barra"><a href="https://www.tvn.cl/envivo/tveducachile/" target="_blank" title="Ir a la página oficial de esta emisión"> TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
+        'votaciones': {
+            'nombre': 'Votaciones <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/votaciones" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe></div>'
+        },
         'bob-ross': {
             'nombre': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLOVNqqD-2HgiA-GZyzcfZN9n-YelhB5&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" target="_blank" title="Ir a la página oficial de esta serie"> Bob Ross (Todas las Temporadas) 🎨</a></div>'
@@ -773,6 +777,7 @@ init: function() {
         App.add("cnn-cl-m3u");
         App.add("t13");
         App.add("meganoticias"); 
+        App.add("votaciones");
     }
 }
 };

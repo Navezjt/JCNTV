@@ -231,12 +231,6 @@ caption {
     background: rgba(0, 0, 0, 0.8);
 }
 
-.iframes-votos{
-    display: flex;
-  
-}
-
-
 /* nombre dentro barra iframes */
 .nombre-barra a{
     opacity: 0.6;

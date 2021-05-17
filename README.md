@@ -141,6 +141,7 @@ ___
 | http://reloltv.com/ ****                                | [Popelysh](https://whois.domaintools.com/reloltv.com)                 | ❌                                                                                                                      |
 | http://www.cxtvlive.com/tv/country/chile ****           | [Felipe](https://whois.domaintools.com/cxweb.com.br)                  | ❌                                                                                                                      |
 | https://vivotvhd.com/4/Chile.htm ****                   | ["nuevarena.com" Hernan](https://whois.domaintools.com/nuevarena.com) | ❌                                                                                                                      |
+| https://www.chilenotas.com/ ++++                        | ???                                                                   | ❌                                                                                                                      |
 
 ++++ Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con la idea del proyecto.
 
