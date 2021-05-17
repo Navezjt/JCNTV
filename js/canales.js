@@ -768,7 +768,8 @@ init: function() {
     App.add("cima");
     if (!App.isMobile()) {
         App.add("tv-senado-yutu");
-        App.add("cam-dipu-m3u-1");
+    //    App.add("cam-dipu-m3u-1");
+        App.add("venticuatro");
         App.add("cnn-cl-m3u");
         App.add("t13");
         App.add("meganoticias"); 
