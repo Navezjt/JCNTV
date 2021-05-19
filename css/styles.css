@@ -11,6 +11,11 @@ h1 {
     padding: 0rem 1rem;
 }
 
+iframe {
+    margin: 0;
+    padding: 0;
+}
+
 /* Animacion boton canales*/
 .pulsate {
     color: rgb(16, 173, 201);
@@ -252,7 +257,6 @@ caption {
     width: 12px;
     height: 12px;
 }
-
 
 /* iconos compartir*/
 .share-items:hover a{
