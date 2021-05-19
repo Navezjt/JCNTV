@@ -39,9 +39,18 @@ function copiarEnlace() {
   var e = document.getElementById("myInput");
   e.select(),
     e.setSelectionRange(0, 99999) /*For mobile devices*/,
-    document.execCommand("copy"),
-    alert("Copiado exitoso!: " + e.value);
+    document.execCommand("copy");
 }
+/// alerta copiado https://codepen.io/lancebush/pen/zdxLE
+$("#success").click(function () {
+  $(".notify").toggleClass("active");
+  $("#notifyType").toggleClass("success");
+  
+  setTimeout(function(){
+    $(".notify").removeClass("active");
+    $("#notifyType").removeClass("success");
+  },2000);
+});
 ///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
 $(document).ready(function () {
   $(".btn1-nombres-stream").click(function () {

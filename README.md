@@ -265,6 +265,7 @@ Iconos GitHub, Share, Copyright y RRSS  Fonticons, Inc.         CC BY 4.0       
 Estilo barra tamaño                     Huw Llewellyn           MIT                 https://opensource.org/licenses/MIT
 Video.js                                Brightcove, Inc.        Apache V2.0         https://www.apache.org/licenses/LICENSE-2.0
 Countrys Flags SVG Vector               SVG Repo                CC0 License         http://creativecommons.org/publicdomain/zero/1.0/
+Simple Timed Alert Notifications        Lance Bush              MIT                 https://opensource.org/licenses/MIT
 ---------------------------------------------------------------------------------------------
 ```
 

@@ -315,6 +315,34 @@ td {
     text-decoration: none;
 }
 
+/* alerta copiado exitoso */
+.notify{  
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:0;  
+    box-sizing:border-box;
+    color:white;  
+    text-align:center;
+    background:rgba(0,0,0,.6);
+    overflow:hidden;
+    box-sizing:border-box;
+    transition:height .2s;
+}
+    
+#notifyType:before{
+    display:block;
+    margin-top:15px; 
+}
+
+.active{  
+    height:50px;
+}
+
+.success:before{
+    Content:"Copiado Exitoso!";
+}
+
 /* alerta de no javascript */
 .no-js {
     font-family: Arial, Helvetica, sans-serif;
@@ -377,6 +405,9 @@ td {
 @media screen and (max-width: 767px) {
     .navbar {
         padding: .5rem 1rem;
+        position: fixed;
+        bottom: 0; 
+        top: auto;
     }
     .navbar-toggler {
         padding: 0rem;
@@ -407,5 +438,9 @@ td {
     }
     #mifiltro {   
         width: 100%;
+    }
+    .boton-covid {
+        bottom: 1.5em;
+        right: 0.5em;
     }
 }
