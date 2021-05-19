@@ -1,3 +1,14 @@
+/// https://scottdeluzio.com/defer-parsing-javascript-youtube-videos/
+function init() {
+  var vidDefer = document.getElementsByTagName('iframe');
+  var iframes = Array.prototype.slice.call(vidDefer);
+  iframes.forEach(function(iframe) {
+  if(iframe.getAttribute('data-src')) {
+  iframe.setAttribute('src',iframe.getAttribute('data-src'));
+}
+}
+)}
+window.onload = init;
 ///barra tamaño https://codepen.io/nosurprisethere/pen/KJxwQz
 const settings = { fill: "#ce6102", background: "#1f1f1f" },
   sliders = document.querySelectorAll(".range-slider");
