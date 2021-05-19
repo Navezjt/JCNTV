@@ -11,11 +11,6 @@ h1 {
     padding: 0rem 1rem;
 }
 
-iframe {
-    border:none;
-    margin:0;
-}
-
 /* Animacion boton canales*/
 .pulsate {
     color: rgb(16, 173, 201);
