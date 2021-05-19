@@ -49,7 +49,7 @@ var App = {
         },
         '24-horas-señal2': {
             'nombre': '24 Horas s2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas-s2" frameborder="0"></iframe></div><div class="nombre-barra"><a href="https://www.24horas.cl/envivo/" target="_blank" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/24-horas-s2" frameborder="0" margin="0"></iframe></div><div class="nombre-barra"><a href="https://www.24horas.cl/envivo/" target="_blank" title="Ir a la página oficial de esta emisión"> 24 horas 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
         '24-horas-señal2-2': {
             'nombre': '24 Horas s2 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
