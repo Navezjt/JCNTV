@@ -703,10 +703,6 @@ var App = {
             'nombre': 'TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa2"></iframe></div><div class="nombre-barra"><a href="https://www.tvn.cl/envivo/tveducachile/" title="Ir a la página oficial de esta emisión"> TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
-        'votaciones': {
-            'nombre': 'Votaciones <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="yes" src="m3u/votaciones"></iframe></div>'
-        },
         'bob-ross': {
             'nombre': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLOVNqqD-2HgiA-GZyzcfZN9n-YelhB5&autoplay=0&mute=0&vq=medium&enablejsapi=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" title="Ir a la página oficial de esta serie"> Bob Ross (Todas las Temporadas) 🎨</a></div>'
@@ -777,7 +773,6 @@ init: function() {
         App.add("cnn-cl-m3u");
         App.add("t13");
         App.add("meganoticias"); 
-        App.add("votaciones");
     }
 }
 };
