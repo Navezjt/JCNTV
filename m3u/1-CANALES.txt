@@ -1,6 +1,12 @@
 (Los canales y radios dentro de la carpeta "m3u" se añaden como iframe directo a cada html listado)
 Lista de canales activos:
 
+ █████   ██████ ████████ ██ ██    ██  ██████  ███████    
+██   ██ ██         ██    ██ ██    ██ ██    ██ ██      ██ 
+███████ ██         ██    ██ ██    ██ ██    ██ ███████    
+██   ██ ██         ██    ██  ██  ██  ██    ██      ██ ██ 
+██   ██  ██████    ██    ██   ████    ██████  ███████                               
+
 24 Horas - Señal 2 - 2
 https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
 24 Horas - Señal 2
@@ -39,12 +45,6 @@ La Red
 https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
 La Red 2
 https://unlimited1-cl-movistar.dps.live/lared/lared.smil/lared/livestream0/chunks.m3u8
-La Tercera
-https://unlimited2-cl.dps.live/lttv/lttv.smil/playlist.m3u8
-Halcón Parquemet, Cumbre
-https://s13.ipcamlive.com/streams/0doevpfldsmsx32tx/stream.m3u8
-Halcón Parquemet, Terraza
-https://s12.ipcamlive.com/streams/0cbuqz3kfhg1t4sed/stream.m3u8
 Teletón TV
 https://mdstrm.com/live-stream-playlist/5d6d5f05a2f6f407b0147965.m3u8
 TV Chile
@@ -63,15 +63,12 @@ TVN
 https://unlimited10-cl.dps.live/tvn/tvn.smil/tvn/livestream1/chunks.m3u8
 TVU
 https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8
-CNN US
-https://cnnlive.warnermediacdn.com/hls/live/2011591/PROD-cnnlive0/de/master.m3u8
+
 
 
 
 
 RADIOS:
-ADN
-https://unlimited1-cl-isp.dps.live/adntv/adntv.smil/playlist.m3u8
 ALEGRIA TV
 https://593b04c4c5670.streamlock.net:443/8192/8192/playlist.m3u8
 CAROLINA TV
@@ -97,7 +94,14 @@ https://unlimited2-cl.dps.live/romanticatv/romanticatv.smil/playlist.m3u8
 
 =====================================================================================
 =====================================================================================
-MUERTOS:
+
+███    ███ ██    ██ ███████ ██████  ████████  ██████  ███████    
+████  ████ ██    ██ ██      ██   ██    ██    ██    ██ ██      ██ 
+██ ████ ██ ██    ██ █████   ██████     ██    ██    ██ ███████    
+██  ██  ██ ██    ██ ██      ██   ██    ██    ██    ██      ██ ██ 
+██      ██  ██████  ███████ ██   ██    ██     ██████  ███████    
+                                                                 
+                                                                 
 CANAL 13
 https://cl-canal13-canal13-app-qfb4kpcp-live.ned.media/live.m3u8
 https://mdstrm.com/live-stream-playlist/5f2d60b6e6e8357a6a4d8b4d.m3u8?access_token=K4ScKCso1XrsDWMpyaRdiLPvINkCJiXcSp21IE6j2USeoRaTnr2bXuVHituDld2bWAxDiun136e
@@ -122,6 +126,9 @@ https://mdstrm.com/live-stream-playlist-v/56f97fc0b9bb39786b04a3b0.m3u8
 CNN CHILE
 http://unlimited1-cl-isp.dps.live/cnnprensa/cnnprensa.smil/playlist.m3u8
 
+CNN US
+https://cnnlive.warnermediacdn.com/hls/live/2011591/PROD-cnnlive0/de/master.m3u8
+
 CAMARA DE DIPUTADOS
 http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8
 
@@ -139,16 +146,49 @@ PINGUINO TV
 https://167.114.133.205:1935/live/pinguinotv/playlist.m3u8
 http://streaming.elpinguino.com:1935/live/pinguinotv_240p/playlist.m3u8
 
+LA TERCERA TV
+https://unlimited2-cl.dps.live/lttv/lttv.smil/playlist.m3u8
+
+ADN
+https://unlimited1-cl-isp.dps.live/adntv/adntv.smil/playlist.m3u8
+
+Halcón Parquemet, Cumbre
+https://s13.ipcamlive.com/streams/0doevpfldsmsx32tx/stream.m3u8
+
+Halcón Parquemet, Terraza
+https://s12.ipcamlive.com/streams/0cbuqz3kfhg1t4sed/stream.m3u8
+
+MEDIABANCO
+https://iframe.dacast.com/b/169709/c/560061?autoplay=true&volume=0
+
+NASA TV MEDIA
+https://www.ustream.tv/embed/10414700?autoplay=true&volume=0
+
+NASA TV PUBLIC
+https://www.ustream.tv/embed/6540154?autoplay=true&volume=0
+
+ABC NEWS (BLOQUEO VISOR EXTERNO)
+https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q
+
+
+
+
+
+
+
+ ██████  ████████ ██████   ██████  ███████    
+██    ██    ██    ██   ██ ██    ██ ██      ██ 
+██    ██    ██    ██████  ██    ██ ███████    
+██    ██    ██    ██   ██ ██    ██      ██ ██ 
+ ██████     ██    ██   ██  ██████  ███████    
+                                              
+
 =====================================================================================
 =====================================================================================
 FUNCIONAN PERO NO TIENEN HTTPS:
 Contivision musica
 http://media.digitalproserver.com/v2/live/contivisionmusica
 http://wow2.cl.digitalproserver.com/contivisionmusica/contivisionmusicavivo/contivisionmusica.smil/playlist.m3u8
-
-
-
-
 
 
 =====================================================================================
