@@ -139,10 +139,6 @@ var App = {
             'nombre': '📻 ADN <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/adntv?volume=0&mute=1"></iframe></div><div class="nombre-barra"><a href="http://tv.adnradio.cl/" title="Ir a la página oficial de esta emisión">📻 ADN <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
-        'adn-m3u': {
-            'nombre': '📻 ADN 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/adn"></iframe></div><div class="nombre-barra"><a href="http://tv.adnradio.cl/" title="Ir a la página oficial de esta emisión"> ADN 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
         'duna': {
             'nombre': '📻 Duna <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/dunatv?volume=0&mute=1"></iframe></div><div class="nombre-barra"><a href="https://www.duna.cl/tv/" title="Ir a la página oficial de esta emisión">📻 Duna <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
@@ -223,7 +219,7 @@ var App = {
             'nombre': '📻 On Radio Kpop 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/on-radio-kpop"></iframe></div><div class="nombre-barra"><a href="https://onradiochile.cl/kpop/" title="Ir a la página oficial de esta emisión">📻 On Radio Kpop 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
-        'radioi-america-tv-m3u': {
+        'radio-america-tv-m3u': {
             'nombre': '📻 Radio América TV Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/radios/radio-america-tv-cl"></iframe></div><div class="nombre-barra"><a href="http://www.radioamerica.cl/" title="Ir a la página oficial de esta emisión">📻 Radio América TV Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
