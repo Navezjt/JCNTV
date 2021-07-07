@@ -1,23 +1,33 @@
+/* !important = regla sobreescrita ya que existe en bootstrap.min */
+
 body {
-    background: #000000;
+    background: #000000 !important;
+}
+
+a, 
+a:hover{
+    text-decoration: none;
+}
+
+img {
+    width: 1rem;
+    height: 1rem;
 }
 
 h1 {
-    font-size: large;
-}
+    font-size: larger !important;
+} 
 
 .navbar {
-    position: relative;
-    padding: 0rem 1rem;
+    color: var(--white);
+    padding: 0 1rem !important;
 }
 
 /* Animacion boton canales*/
 .pulsate {
-    color: rgb(16, 173, 201);
-    font-size: 1.5em;
+    color: var(--white);
     animation: pulsate 3s ease-out;
     animation-iteration-count: infinite;
-    opacity: 0.5;
 }
 
 @keyframes pulsate {
@@ -34,55 +44,49 @@ h1 {
 
 /* reloj */
 .hora {
-    color: rgb(255, 255, 255);
-    font-size: 1.5em;
     pointer-events: none;
     text-align: center;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
+    font-size: clamp(0.5rem, 1.4rem, 2rem); 
 }
 
 /* mencion time.is */
 .time-credits {
-    font-size: 12px; 
-    text-align: center; 
-    color: #83c7f7;
-    margin-top: 0rem;
-    margin-bottom: .5rem;
+    font-size: clamp(0.25rem, 0.75rem, 1rem); 
+    color: var(--secondary);
+    margin: 0 0 0.5rem 0;
 }
 
-#time_is_link:hover {
-    color: #fff;
-    text-decoration: none;
+.time-credits>a{
+    color: var(--cyan);
+    pointer-events: visible;
 }
 
-/* selector nº streams */
-label {
-   color: #fff;
+.time-credits>a:hover{
+    color: var(--primary);
 }
 
 /* boton on/off nombres stream*/
-.btn1-nombres-stream {
+.btn-nombres-transmisiones {
     margin-bottom: 1%;
-}
+} 
 
 /* slider tamaño streams*/
 .range-slider {
     width: 100%;
 }
 
-.range-slider__range {
+.slider-range {
     -webkit-appearance: none;
     width: calc(100% - (73px));
     height: 10px;
     border-radius: 5px;
-    background: #ac5102;
+    background: var(--orange);
     outline: none;
     padding: 0;
     margin: 0;
 }
 
-.range-slider__range::-webkit-slider-thumb {
+.slider-range::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 20px;
@@ -92,15 +96,15 @@ label {
     cursor: pointer;
 }
 
-.range-slider__range::-webkit-slider-thumb:hover {
+.slider-range::-webkit-slider-thumb:hover {
     background: #6b96c2;
 }
 
-.range-slider__range:active::-webkit-slider-thumb {
+.slider-range:active::-webkit-slider-thumb {
     background: #6b96c2;
 }
 
-.range-slider__range::-moz-range-thumb {
+.slider-range::-moz-range-thumb {
     width: 20px;
     height: 20px;
     border: 0;
@@ -109,29 +113,24 @@ label {
     cursor: pointer;
 }
 
-.range-slider__range::-moz-range-thumb:hover {
+.slider-range::-moz-range-thumb:hover {
     background: #6b96c2;
 }
 
-.range-slider__range:active::-moz-range-thumb {
+.slider-range:active::-moz-range-thumb {
     background: #6b96c2;
 }
 
 /* numero que indica tamaño activo*/
-.range-slider__value {
-    display: inline-block;
+.slider-value {
     position: relative;
-    width: 60px;
-    color: #fff;
-    line-height: 20px;
-    text-align: center;
     border-radius: 3px;
     background: #203e5c;
     padding: 5px 10px;
     margin-left: 8px;
 }
 
-.range-slider__value:after {
+.slider-value:after {
     top: 8px;
     left: -7px;
     width: 0;
@@ -160,102 +159,67 @@ input::-moz-focus-outer {
 }
 
 .modal-footer {
-    border-radius: 0px !important;
-    background-color: #424242;
-    flex-wrap: nowrap;
+    background-color: var(--dark);
+    flex-wrap: wrap;
 }
 
-/* interior modal canales */
-.canales-body {
-    text-align:center;
+/* interior modales */
+.canales-body, 
+.compartir-body {
+    text-align: center;
 }
 
-.compartir-body{
-    text-align:center;
+ .stream{
+    word-wrap: break-word;
+} 
+
+.disclaimer{
+    padding:0.5rem 1rem 0.5rem 0;
 }
 
-/* botones de canales */
-.modal-body button {
-    margin-right: 1em;
-    width: 40%;
-    margin-bottom: 0.4em;
-}
-
-@media(min-width: 800px) {
-    .modal-body button {
-        width: 29%;
-    }
-}
-
-@media(min-width: 1620px) {
-    .modal-body button {
-        width: 25%;
-    }
-}
-
-.modal-body button img{
-    width: 16px;
-    height: 16px;
-}
-
-/* boton copiar enlace*/
-.btn-copiar {
-    margin-right: 1em;
-    border-radius: 5px;
-    width: 50%;
-    margin-bottom: 0.4em;
+.disclaimer>p{
+    padding:0 0.5rem;
 }
 
 /* mensaje modal DDHH */
 caption {
-    caption-side: top;
+    display: flexbox;
+    width: 100%;
+} 
+
+/* botones de canales */
+.modal-body button {
+    width: clamp(25%, 30%, 35%);
+    margin: 0 0.5rem 0.5rem 0;
+    word-wrap: break-word;
 }
 
 /* barra sobre iframes canales */
 .nombre-barra {
     position: absolute;
-    bottom: 1px;
-    left: 25%;
-    right: 25%;
+    top: 5px;
+    right: 5px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px 0 5px; 
     border-radius: 5px;
-    line-height: 15px;
+    font-size: clamp(0.375rem, 0.6875rem, 1rem);
+    opacity: 0.5;
     background: black;
-    background: rgba(0, 0, 0, 0.5);
-    margin: auto;
-    width: auto;
-    text-align: center;
-    pointer-events: none;
 }
 
 .nombre-barra:hover {
-    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
 }
 
 /* nombre dentro barra iframes */
 .nombre-barra a{
-    opacity: 0.6;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
-    color: #fff;
-    pointer-events: visible;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.nombre-barra a:hover {
-    opacity: 1;
-    color: #ffffff;
-    text-decoration: none;
+    color: var(--white);
 }
 
 /* Tamaño banderas */
 .nombre-barra img{
-    width: 12px;
-    height: 12px;
-}
-
-/* iconos compartir*/
-.share-items:hover a{
-    text-decoration: none;
+   padding-bottom: 2px;
 }
 
 .share-item:hover {
@@ -279,39 +243,24 @@ caption {
 }
 
 #wsp-web{
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .fa-envelope-o {
     color: black;
 }
 
-/* texto tablas modales*/
-td {
-    text-align:left;
-}
-
-/* color enlaces modal compilado videos */
-#enlaces-videos a{
-    color: black;
-}
-
 /* boton flotante covid */
 .boton-covid {
-    font-size: 3em;
+    font-size: 3rem;
     opacity: 0.2;
     position: fixed;
-    bottom: 0.5em;
-    right: 0.5em;
-    cursor: pointer;
+    bottom: 0.5rem;
+    right: 0.5rem;
 }
 
 .boton-covid:hover {
     opacity: 1;
-}
-
-.emojicovid:hover {
-    text-decoration: none;
 }
 
 /* alerta copiado exitoso */
@@ -321,7 +270,7 @@ td {
     width:100%;
     height:0;  
     box-sizing:border-box;
-    color:white;  
+    color:var(--white);  
     text-align:center;
     background:rgba(0,0,0,.6);
     overflow:hidden;
@@ -344,17 +293,15 @@ td {
 
 /* alerta de no javascript */
 .no-js {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
     z-index: 3000;
     overflow: hidden;
-    justify-content: center;
+    font-size: clamp(0.5rem, 10vw, 3rem);
     text-align: center;
-    color: #000000;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
@@ -398,48 +345,4 @@ td {
   100% {
     transform: rotate(360deg);
   }
-}
-
-/* Mi intento de responsive (para telefonos...)*/
-@media screen and (max-width: 767px) {
-    .navbar {
-        padding: .5rem 1rem;
-        position: fixed;
-        bottom: 0; 
-        top: auto;
-    }
-    .navbar-toggler {
-        padding: 0rem;
-    }
-    .pulsate {
-        font-size: 1.2em;
-    }
-    .hora {
-        font-size: 1.2em;
-    }
-    .time-credits {
-        font-size: .7em; 
-    }
-    .no-js {
-        font-size: 150%;
-    }
-    .nombre-barra {
-        left: 0%;
-        right: 0%;
-        width: 100%;
-        line-height: 12px;
-    }
-    .canales-body p{
-        font-size: smaller;
-    }
-    .modal-footer {
-        flex-wrap: wrap;
-    }
-    #mifiltro {   
-        width: 100%;
-    }
-    .boton-covid {
-        bottom: 1.5em;
-        right: 0.5em;
-    }
 }

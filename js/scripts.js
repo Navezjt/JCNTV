@@ -1,5 +1,5 @@
 ///barra tamaño https://codepen.io/nosurprisethere/pen/KJxwQz
-const settings = { fill: "#ce6102", background: "#1f1f1f" },
+const settings = { fill: "#fd7e14", background: "#1f1f1f" },
   sliders = document.querySelectorAll(".range-slider");
 
 Array.prototype.forEach.call(sliders, (slider) => {
@@ -18,16 +18,21 @@ function applyFill(slider) {
   } ${percentage + 0.1}%)`;
   slider.style.background = bg;
 }
-///filtro de canales https://www.w3schools.com/bootstrap/bootstrap_filters.asp y https://es.stackoverflow.com/questions/195813/c%C3%B3mo-ignorar-acentos-en-b%C3%BAsqueda-filtro-usando-javascript (ROTO, encuentra resultados sin tildes pero si se digita con tilde no)
+/* 
+filtro de canales 
+https://www.w3schools.com/bootstrap/bootstrap_filters.asp 
+https://es.stackoverflow.com/questions/195813/c%C3%B3mo-ignorar-acentos-en-b%C3%BAsqueda-filtro-usando-javascript 
+https://es.stackoverflow.com/questions/62031/eliminar-signos-diacr%C3%ADticos-en-javascript-eliminar-tildes-acentos-ortogr%C3%A1ficos
+*/
 $(document).ready(function () {
   $("#mifiltro").on("keyup", function () {
     var t = $(this).val().toLowerCase();
-    $("#PorFiltrar *").filter(function () {
+    $("#por-filtrar *").filter(function () {
       $(this).toggle(
         $(this)
           .text()
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
+          .normalize()
+          .replace(/[\u0300-\u036f]/g,"")
           .toLowerCase()
           .indexOf(t) > -1
       );
@@ -36,7 +41,7 @@ $(document).ready(function () {
 });
 ///copiar enlace a portapapeles//////////////////////////
 function copiarEnlace() {
-  var e = document.getElementById("myInput");
+  let e = document.getElementById("myInput");
   e.select(),
     e.setSelectionRange(0, 99999) /*For mobile devices*/,
     document.execCommand("copy");
@@ -53,7 +58,7 @@ $("#success").click(function () {
 });
 ///nombre transmisiones on/off https://www.w3schools.com/jquery/jquery_hide_show.asp/////////
 $(document).ready(function () {
-  $(".btn1-nombres-stream").click(function () {
+  $(".btn-nombres-transmisiones").click(function () {
     $(".nombre-barra").toggle();
   });
 });
