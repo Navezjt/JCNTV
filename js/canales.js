@@ -27,15 +27,19 @@ let App = {
             'nombre': '🏛️ Cámara Diputados 3 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/camara-diputados3"></iframe></div><div class="nombre-barra"><a href="http://webtv.camara.cl/" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 3 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
-        'cam-dipu-dipu': {
-            'nombre': '🏛️ Cámara Diputados 4 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA" title="Ir a la página oficial de esta emisión">🏛️ Cámara Diputados 4 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        'convencion-tv': {
+            'nombre': '🏛️ Convención Constitucional <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://mdstrm.com/live-stream/60d476c14157440829d03cd7?autoplay=true&volume=0"></iframe></div><div class="nombre-barra"><a href="https://www.convencion.tv/" title="Ir a la página oficial de esta emisión">🏛️ Convención Constitucional <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
-        'cima': {
-            'nombre': 'Galería CIMA <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" title="Ir a la página oficial de esta emisión"> Galería CIMA <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        'tribunal-consti': {
+            'nombre': '🏛️ Tribunal Constitucional <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg" title="Ir a la página oficial de esta emisión"> 🏛️ Tribunal Constitucional de Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
-        'venticuatro': {
+        'poder-judicial': {
+            'nombre': '🏛️ Poder Judicial <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg" title="Ir a la página oficial de esta emisión"> 🏛️ Poder Judicial Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        '24-horas': {
             'nombre': '24 horas <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ" title="Ir a la página oficial de esta emisión"> 24 horas <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },    
@@ -66,14 +70,6 @@ let App = {
         't13': {
             'nombre': 'T13 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg" title="Ir a la página oficial de esta emisión"> T13 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'tribunal-consti': {
-            'nombre': '🏛️ Tribunal Constitucional <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg" title="Ir a la página oficial de esta emisión"> 🏛️ Tribunal Constitucional de Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'poder-judicial': {
-            'nombre': '🏛️ Poder Judicial <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg" title="Ir a la página oficial de esta emisión"> 🏛️ Poder Judicial Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
         'cnn-cl': {
             'nombre': 'CNN Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -138,6 +134,10 @@ let App = {
         'adn': {
             'nombre': '📻 ADN <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://rudo.video/live/adntv?volume=0&mute=1"></iframe></div><div class="nombre-barra"><a href="http://tv.adnradio.cl/" title="Ir a la página oficial de esta emisión">📻 ADN <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'adn-2': {
+            'nombre': '📻 ADN 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCczkrFICr0xEgDsk51zZojA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCczkrFICr0xEgDsk51zZojA" title="Ir a la página oficial de esta emisión"> 📻 ADN 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
         },
         'duna': {
             'nombre': '📻 Duna <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
@@ -361,7 +361,7 @@ let App = {
             'nombre': 'RED MÁS Noticias <img src="svg/colombia.svg" alt="bandera Colombia" title="Colombia"><span hidden>Colombia, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCpcvsK0UAI3MIHsjjj3CgMg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="ttps://www.youtube.com/channel/UCpcvsK0UAI3MIHsjjj3CgMg" title="Ir a la página oficial de esta emisión"> RED MÁS Noticias <img src="svg/colombia.svg" alt="bandera Colombia"></a></div>'
         },
-//PERU
+// PERU
         'tv-peru': {
             'nombre': 'TVPerú Noticias <img src="svg/peru.svg" title="Peru"><span hidden>Peru, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA" title="Ir a la página oficial de esta emisión"> TVPerú Noticias <img src="svg/peru.svg"></a></div>'
@@ -584,6 +584,136 @@ let App = {
             'nombre': 'the bootleg boy 2 🎵<span hidden>Radios</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCwkTfp14Sj7o6q9_8ADJpnA&autoplay=1&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCwkTfp14Sj7o6q9_8ADJpnA" title="Ir a la página oficial de esta emisión"> the bootleg boy 2 🎵</a></div>'
         },
+// CAMARAS MUNDO
+    // Chile
+        'plaza-italia': {
+            'nombre': '📷 Galería CIMA <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg" title="Ir a la página oficial de esta emisión"> Galería CIMA <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+    //  Argentina
+        'obelisco': {
+            'nombre': '📷 FourSeasons BuenosAires <img src="svg/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Cámaras, Argentina, Español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCCkRwmztPEvut3gpsgmCmzw&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCCkRwmztPEvut3gpsgmCmzw" title="Ir a la página oficial de esta emisión">📷 FourSeasons BuenosAires <img src="svg/argentina.svg" alt="bandera Argentina" title="Argentina"></a></div>'
+        },
+        'puente-gral-belgrano': {
+            'nombre': '📷 SISE Argentina <img src="svg/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Cámaras, Argentina, Español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC2RkL2eATR1V6H8g4eNfA5Q&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC2RkL2eATR1V6H8g4eNfA5Q" title="Ir a la página oficial de esta emisión">📷 SISE Argentina <img src="svg/argentina.svg" alt="bandera Argentina" title="Argentina"></a></div>'
+        },
+    // EEUU
+        'times-square': {
+            'nombre': '📷 Times Square Live 4K <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC6qrG3W8SMK0jior2olka3g&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" title="Ir a la página oficial de esta emisión">📷 Times Square Live 4K <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'puente-brooklyn': {
+            'nombre': '📷 St. George Tower <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/KGuCGd726RA?autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCp1ojgNJ8mNWdMDsdcMRA2Q" title="Ir a la página oficial de esta emisión">📷 Live NYC Brooklyn Bridge <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'bryant-park': {
+            'nombre': '📷 Bryant Park NYC <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC6AlfoRUeH4B1an_R5YSSTw&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC6AlfoRUeH4B1an_R5YSSTw" title="Ir a la página oficial de esta emisión">📷 Bryant Park NYC <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'george-washington-bridge': {
+            'nombre': '📷 Fort Lee Today On Demand <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UChQ5P-kHBZpH20EnXm9X0YQ&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UChQ5P-kHBZpH20EnXm9X0YQ" title="Ir a la página oficial de esta emisión">📷 Fort Lee Today On Demand <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+    // Japon
+        'pandas': {
+            'nombre': '📷 アドベンチャーワールド公式 🌍<span hidden>Cámaras, Japon, japones</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCVEmpbL5VzfXsULPFeRsj4Q&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCVEmpbL5VzfXsULPFeRsj4Q" title="Ir a la página oficial de esta emisión">📷 アドベンチャーワールド公式 🌍</a></div>'
+        },
+        'cruce-shibuya': {
+            'nombre': '📷 SHIBUYA COMMUNITY NEWS 🌍<span hidden>Cámaras, Japon, japones</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCgdHxnHSXvcAi4PaMIY1Ltg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCgdHxnHSXvcAi4PaMIY1Ltg" title="Ir a la página oficial de esta emisión">📷 SHIBUYA COMMUNITY NEWS 🌍</a></div>'
+        },
+        'RailCam': {
+            'nombre': '📷 Aoba traffics 🌍<span hidden>Cámaras, Japon, japones</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCynDLZ-YJnrMLSQvwYi-bUA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCynDLZ-YJnrMLSQvwYi-bUA" title="Ir a la página oficial de esta emisión">📷 Tokyo Train Live Camera (Hachioji) 🌍</a></div>'
+        },
+        'jerusalem': {
+            'nombre': '📷 JERUSALEM Live 🌍<span hidden>Cámaras, Jerusalem, arabe</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/UAjimIsht0M?autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC1byT4dOeBAZwVqQ309iAuA" title="Ir a la página oficial de esta emisión">📷 JERUSALEM 🔴Live | Shavua Tov 🌍</a></div>'
+        },
+        'hawaii-livecam': {
+            'nombre': '📷 Aqualink Hawaii 🌍<span hidden>Cámaras, Hawaii</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCTLF36lXVM7uiR-VolWHv0Q&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCTLF36lXVM7uiR-VolWHv0Q" title="Ir a la página oficial de esta emisión">📷 Aqualink | MEGA Lab | Hawaii live stream 🌍</a></div>'
+        },
+    // aleatorio
+        'camaras-aleatorias': {
+            'nombre': '📷 Boston and Maine Live 🌍<span hidden>Cámaras</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/ZPdV3Ae4ZuU?autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC8gbWbcNNyb5-NIXvFklkOA" title="Ir a la página oficial de esta emisión">📷 Boston and Maine Live 🌍</a></div>'
+        },
+// ESPACIO
+        'nasa': {
+            'nombre': '🔭 NASA Live <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/21X5lGlDOfg?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=21X5lGlDOfg" title="Ir a la página oficial de esta emisión"> 🔭 NASA Live <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'space-videos': {
+            'nombre': '🔭 NASA ISS Live Stream <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/EEIk7gwjgIM?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=EEIk7gwjgIM" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'nasa-spaceflight': {
+            'nombre': '🔭 NASASpaceflight <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA" title="Ir a la página oficial de esta emisión"> 🔭 NASASpaceflight <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'spacex': {
+            'nombre': '🔭 SpaceX <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA" title="Ir a la página oficial de esta emisión"> 🔭 SpaceX <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'espacio-tierra': {
+            'nombre': '🔭 Earth view from ISS <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/XBPjVzSoepo?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=XBPjVzSoepo" title="Ir a la página oficial de esta emisión"> 🔭 Earth view from ISS <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+        'labpadre': {
+            'nombre': '🔭 LabPadre <img src="svg/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCFwMITSkc1Fms6PoJoh1OUQ&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCFwMITSkc1Fms6PoJoh1OUQ" title="Ir a la página oficial de esta emisión"> 🔭 LabPadre <img src="svg/us.svg" alt="bandera US" title="US"></a></div>'
+        },
+// COVID
+        'corona-pagina': {
+            'nombre': '🦠 COVID-19 Dashboard 🌍<span hidden>Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe></div><div class="nombre-barra"><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Dashboard 🌍</a></div>'
+        },
+        'corona1': {
+            'nombre': '🦠 COVID-19 Live 🌍<span hidden>Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/NMre6IAAAiU?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCDGiCfCZIV5phsoGiPwIcyQ" title="Ir a la página oficial de esta emisión"> 🦠 COVID-19 Live 🌍</a></div>'
+        },
+        'corona-pag-chile': {
+            'nombre': '🦠 COVID-19 Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://bing.com/covid/local/chile"></iframe></div><div class="nombre-barra"><a href="https://bing.com/covid/local/chile" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+// SERIES
+        '31-minutos': {
+            'nombre': '31 minutos - Todos los episodios <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL" title="Ir a la página oficial de esta serie"> 31 minutos - Todos los episodios <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'diego-glot-s01': {
+            'nombre': 'Diego y Glot - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=J3cLcZ1QhFE&list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u" title="Ir a la página oficial de esta serie"> Diego y Glot - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'los-pulentos-s01': {
+            'nombre': 'Los Pulentos - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/playlist?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb" title="Ir a la página oficial de esta serie"> Los Pulentos - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'villa-dulce-s01': {
+            'nombre': 'Villa Dulce - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/playlist?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3" title="Ir a la página oficial de esta serie"> Villa Dulce - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'bob-ross': {
+            'nombre': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLOVNqqD-2HgiA-GZyzcfZN9n-YelhB5&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" title="Ir a la página oficial de esta serie"> Bob Ross (Todas las Temporadas) 🎨</a></div>'
+// EDUCATIVOS
+        },
+        'tv-educa-cl': {
+            'nombre': '📚 TV Educa Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa"></iframe></div><div class="nombre-barra"><a href="https://www.tvn.cl/envivo/tveducachile/" title="Ir a la página oficial de esta emisión">📚 TV Educa Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'tv-educa-cl-2': {
+            'nombre': '📚 TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa2"></iframe></div><div class="nombre-barra"><a href="https://www.tvn.cl/envivo/tveducachile/" title="Ir a la página oficial de esta emisión">📚 TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
+        },
+        'puntaje-nacional': {
+            'nombre': '📚 PuntajeNacional Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCCY6xIXHmGBGZUgUYxtfKSg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCCY6xIXHmGBGZUgUYxtfKSg" title="Ir a la página oficial de esta emisión">📚 PuntajeNacional Chile 🌍</a></div>'
+        },
 // CANALES ALTERNATIVOS CAM DIPUTADOS
         'cam-dipu-yutu': {
             'nombre': 'Cámara Diputados Señal Youtube <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -624,98 +754,6 @@ let App = {
         'cam-dipu-13-yutu': {
             'nombre': 'Cámara Diputados YT 13 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw" title="Ir a la página oficial de esta emisión"> Cámara Diputados YT 13 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-// CAMARAS MUNDO
-        'times-square': {
-            'nombre': 'Times Square Live 4K 🌍<span hidden>Estados unidos, ingles</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UC6qrG3W8SMK0jior2olka3g&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g" title="Ir a la página oficial de esta emisión"> Times Square Live 4K 🌍</a></div>'
-        },
-        'jerusalem': {
-            'nombre': 'JERUSALEM Live 🌍<span hidden>Jerusalem, arabe</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/UAjimIsht0M?autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UC1byT4dOeBAZwVqQ309iAuA" title="Ir a la página oficial de esta emisión"> JERUSALEM 🔴Live | Shavua Tov 🌍</a></div>'
-        },
-        'hawaii-livecam': {
-            'nombre': 'Aqualink Hawaii 🌍<span hidden>Hawaii</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCTLF36lXVM7uiR-VolWHv0Q&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCTLF36lXVM7uiR-VolWHv0Q" title="Ir a la página oficial de esta emisión"> Aqualink | MEGA Lab | Hawaii live stream 🌍</a></div>'
-        },
-        'pandas': {
-            'nombre': 'アドベンチャーワールド公式 🌍<span hidden>Hawaii</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCVEmpbL5VzfXsULPFeRsj4Q&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCVEmpbL5VzfXsULPFeRsj4Q" title="Ir a la página oficial de esta emisión"> アドベンチャーワールド公式 🌍</a></div>'
-        },
-        'cruce-shibuya': {
-            'nombre': 'SHIBUYA COMMUNITY NEWS 🌍<span hidden>Hawaii</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCgdHxnHSXvcAi4PaMIY1Ltg&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCgdHxnHSXvcAi4PaMIY1Ltg" title="Ir a la página oficial de esta emisión"> SHIBUYA COMMUNITY NEWS 🌍</a></div>'
-        },
-        'RailCam': {
-            'nombre': 'Aoba traffics 🌍<span hidden>Hawaii</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCynDLZ-YJnrMLSQvwYi-bUA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCynDLZ-YJnrMLSQvwYi-bUA" title="Ir a la página oficial de esta emisión"> Tokyo Train Live Camera (Hachioji) 🌍</a></div>'
-        },
-        'puente-brooklyn': {
-            'nombre': 'St. George Tower 🌍<span hidden>Hawaii</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/KGuCGd726RA?autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCp1ojgNJ8mNWdMDsdcMRA2Q" title="Ir a la página oficial de esta emisión"> Live NYC Brooklyn Bridge 🌍</a></div>'
-        },
-// ESPACIO
-        'nasa': {
-            'nombre': '🔭 NASA Live 🌍<span hidden>Estados unidos, ingles, espacio</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/21X5lGlDOfg?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=21X5lGlDOfg" title="Ir a la página oficial de esta emisión"> 🔭 NASA Live 🌍</a></div>'
-        },
-        'space-videos': {
-            'nombre': '🔭 NASA ISS Live Stream 🌍<span hidden>Estados unidos, ingles, espacio</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/EEIk7gwjgIM?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=EEIk7gwjgIM" title="Ir a la página oficial de esta emisión"> 🔭 NASA ISS Live Stream 🌍</a></div>'
-        },
-        'nasa-spaceflight': {
-            'nombre': '🔭 NASASpaceflight 🌍<span hidden>Estados unidos, ingles, espacio</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA" title="Ir a la página oficial de esta emisión"> 🔭 NASASpaceflight 🌍</a></div>'
-        },
-        'spacex': {
-            'nombre': '🔭 SpaceX 🌍<span hidden>Estados unidos, ingles, espacio</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA" title="Ir a la página oficial de esta emisión"> 🔭 SpaceX 🌍</a></div>'
-        },
-        'espacio-tierra': {
-            'nombre': '🔭 Earth view from ISS 🌍<span hidden>Estados unidos, ingles, espacio</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/XBPjVzSoepo?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=XBPjVzSoepo" title="Ir a la página oficial de esta emisión"> 🔭 Earth view from ISS 🌍</a></div>'
-        },
-// COVID
-        'corona-pagina': {
-            'nombre': '🦠 COVID-19 Dashboard 🌍<span hidden>Estados unidos, ingles</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe></div><div class="nombre-barra"><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Dashboard 🌍</a></div>'
-        },
-        'corona1': {
-            'nombre': '🦠 COVID-19 Live 🌍<span hidden>Estados unidos, ingles</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="https://www.youtube-nocookie.com/embed/NMre6IAAAiU?autoplay=1&mute=1&modestbranding=1&showinfo=0"></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCDGiCfCZIV5phsoGiPwIcyQ" title="Ir a la página oficial de esta emisión"> 🦠 COVID-19 Live 🌍</a></div>'
-        },
-        'corona-pag-chile': {
-            'nombre': '🦠 COVID-19 Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://bing.com/covid/local/chile"></iframe></div><div class="nombre-barra"><a href="https://bing.com/covid/local/chile" title="Ir a la página oficial de este dashboard"> 🦠 COVID-19 Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-// SERIES
-        '31-minutos': {
-            'nombre': '31 minutos - Todos los episodios <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL" title="Ir a la página oficial de esta serie"> 31 minutos - Todos los episodios <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'diego-glot-s01': {
-            'nombre': 'Diego y Glot - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/watch?v=J3cLcZ1QhFE&list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u" title="Ir a la página oficial de esta serie"> Diego y Glot - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'los-pulentos-s01': {
-            'nombre': 'Los Pulentos - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/playlist?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb" title="Ir a la página oficial de esta serie"> Los Pulentos - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'villa-dulce-s01': {
-            'nombre': 'Villa Dulce - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/playlist?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3" title="Ir a la página oficial de esta serie"> Villa Dulce - Temporada 1 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'tv-educa-cl': {
-            'nombre': 'TV Educa Chile <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa"></iframe></div><div class="nombre-barra"><a href="https://www.tvn.cl/envivo/tveducachile/" title="Ir a la página oficial de esta emisión"> TV Educa Chile <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'tv-educa-cl-2': {
-            'nombre': 'TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe scrolling="no" src="m3u/tv-educa2"></iframe></div><div class="nombre-barra"><a href="https://www.tvn.cl/envivo/tveducachile/" title="Ir a la página oficial de esta emisión"> TV Educa Chile 2 <img src="svg/chile.svg" alt="bandera Chile"></a></div>'
-        },
-        'bob-ross': {
-            'nombre': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLOVNqqD-2HgiA-GZyzcfZN9n-YelhB5&autoplay=0&mute=0&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ" title="Ir a la página oficial de esta serie"> Bob Ross (Todas las Temporadas) 🎨</a></div>'
         }
     },
     add: function(canal) {
@@ -775,10 +813,9 @@ seedModal: function() {
 
 init: function() {
     App.seedModal();
-    App.add("cima");
+    App.add("convencion-tv");
     if (!App.isMobile()) {
         App.add("tv-senado-yutu");
-    //    App.add("cam-dipu-m3u-1");
         App.add("24-horas-m3u");
         App.add("cnn-cl-m3u");
         App.add("t13");
