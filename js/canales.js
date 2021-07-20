@@ -377,7 +377,7 @@ let App = {
         },
         'telesur-tv': {
             'nombre': 'teleSUR tv <img src="svg/venezuela.svg" alt="bandera Venezuela" title="Venezuela"><span hidden>Venezuela, español</span>',
-            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCbHFKMtqLYkIBRiPHJwxu_w&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" title="Ir a la página oficial de esta emisión"> teleSUR tv <img src="svg/venezuela.svg" alt="bandera Venezuela"</a></div>'
+            'code': '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCbHFKMtqLYkIBRiPHJwxu_w&autoplay=1&mute=1&modestbranding=1&showinfo=0" allowfullscreen></iframe></div><div class="nombre-barra"><a href="https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w" title="Ir a la página oficial de esta emisión"> teleSUR tv <img src="svg/venezuela.svg" alt="bandera Venezuela"></a></div>'
         },   
 // MEXICO
         'MILENIO': {

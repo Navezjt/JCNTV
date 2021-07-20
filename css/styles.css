@@ -169,10 +169,6 @@ input::-moz-focus-outer {
     text-align: center;
 }
 
- .stream{
-    word-wrap: break-word;
-} 
-
 .disclaimer{
     padding:0.5rem 1rem 0.5rem 0;
 }
@@ -251,7 +247,7 @@ caption {
 }
 
 /* boton flotante covid */
-.boton-covid {
+.boton-flotante {
     font-size: 3rem;
     opacity: 0.2;
     position: fixed;
@@ -259,7 +255,7 @@ caption {
     right: 0.5rem;
 }
 
-.boton-covid:hover {
+.boton-flotante:hover {
     opacity: 1;
 }
 
