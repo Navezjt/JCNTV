@@ -149,6 +149,7 @@ ___
 | http://www.cxtvlive.com/tv/country/chile ****           | [Felipe](https://whois.domaintools.com/cxweb.com.br)                  | ❌                                                                                                                      |
 | https://vivotvhd.com/4/Chile.htm ****                   | ["nuevarena.com" Hernan](https://whois.domaintools.com/nuevarena.com) | ❌                                                                                                                      |
 | https://www.chilenotas.com/ ++++                        | ???                                                                   | ❌                                                                                                                      |
+| https://alplox.github.io/la-tele/                       | [Alplox](https://github.com/Alplox/)                                  | [Fuente](https://github.com/Alplox/la-tele)                                                                            |
 
 ++++ Lo encontré y me pareció bien añadirlo, no tiene ninguna relación con la idea del proyecto.
 
