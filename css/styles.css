@@ -164,7 +164,7 @@ input::-moz-focus-outer {
 }
 
 /* interior modales */
-.canales-body, 
+.modal-body-btns, 
 .compartir-body {
     text-align: center;
 }
@@ -178,9 +178,9 @@ input::-moz-focus-outer {
 }
 
 /* mensaje modal DDHH */
-caption {
-    display: flexbox;
-    width: 100%;
+.caption {
+    display: flex;
+    justify-content: center;
 } 
 
 /* botones de canales */

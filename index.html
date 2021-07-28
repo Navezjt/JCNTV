@@ -67,7 +67,7 @@
 
     <!--Navbar-->
     <nav class='navbar navbar-dark bg-dark'>
-        <button class="btn btn-outline-primary pulsate" type="button" data-toggle="modal"
+        <button class="btn btn-outline-primary pulsate" data-toggle="modal"
             data-target="#modal-canales">+Canales 📺</button>
         <span title="Hora Santiago, Chile">
             <div class="hora">
@@ -91,26 +91,26 @@
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul class='navbar-nav mr-auto'>
                 <li class='nav-item'>
-                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#prensa">📰 📻 Medios de
+                    <button class='nav-link btn' data-toggle="modal" data-target="#prensa">📰 📻 Medios de
                         Prensa
                         Alternativos</button>
                 </li>
                 <li class='nav-item'>
-                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#compilados">🎞️
+                    <button class='nav-link btn' data-toggle="modal" data-target="#compilados">🎞️
                         Recopilación
                         Videos Protestas</button>
                 </li>
                 <li class='nav-item'>
-                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#complementario">🔗
+                    <button class='nav-link btn' data-toggle="modal" data-target="#complementario">🔗
                         Material
                         Complementario 🦠</button>
                 </li>
                 <li class='nav-item'>
-                    <button class='nav-link btn' type="button" data-toggle="modal" data-target="#modalcompartir">👍
+                    <button class='nav-link btn' data-toggle="modal" data-target="#modalcompartir">👍
                         Compartir <i class="fas fa-share-alt"></i> </button>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link btn dropdown-toggle" type="button" id="variacionesdropdown"
+                    <button class="nav-link btn dropdown-toggle" id="variacionesdropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         🖥️ Variaciones Creadas
                     </button>
@@ -127,7 +127,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link btn dropdown-toggle" type="button" id="aboutdropdown" data-toggle="dropdown"
+                    <button class="nav-link btn dropdown-toggle" id="aboutdropdown" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         About
                     </button>
@@ -149,7 +149,7 @@
                     </div>
                 </li>
                 <li>
-                    <button class="btn btn-sm btn-outline-info btn-nombres-transmisiones" type="button">Nombre transmisiones on/off</button>
+                    <button class="btn btn-sm btn-outline-info btn-nombres-transmisiones">Nombre transmisiones on/off</button>
                 </li>
                 <li>
                     <div class="form-group">
@@ -177,29 +177,28 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title">Selecciona tus canales</h1>
-                    <button type="button" class="close" data-dismiss="modal">
+                    <button class="close" data-dismiss="modal">
                         <span>&times;</span>
                     </button>
                 </div>
-                <div class="modal-body canales-body" id="por-filtrar">
-                    <div>
-                        <caption>
+                <div class="modal-body">
+                        <section class="caption">
                             <i>
                                 Si quieres contribuir con algun canal recuerda que
                                 puedes hacerlo mediante el <a href="https://github.com/Alplox/tele"
-                                rel="noopener">repositorio GitHub <i class="fab fa-github"></i></a>
-                            </i>.
-                        </caption>
-                    </div>       
+                                rel="noopener">repositorio GitHub <i class="fab fa-github"></i></a>.
+                            </i>
+                        </section>
+                    <div class="modal-body-btns" id="por-filtrar"></div>
                 </div>
                 <div class="modal-footer">
                     <input class="form-control" id="mifiltro" type="text" title="Buscar por país/canal"
                         placeholder="Buscar...">
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcompartir" title="Compartir"><i class="fas fa-share-alt"></i></button>
-                    <button type="button" class="btn btn-outline-info"
-                        onclick="window.open('https://github.com/Alplox/tele#canales-disponibles-junto-a-su-origen-', '_blank', 'noopener');">Fuentes</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                        <a href="https://github.com/Alplox/tele#canales-disponibles-junto-a-su-origen-" rel="noopener" class="btn btn-outline-info">
+                        Fuentes</a>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -240,16 +239,16 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
                         data-target="#modal-canales" title="Canales">📺</button>
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcompartir" title="Compartir"><i class="fas fa-share-alt"></i></button>
-                    <button type="button" class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcreditos" title="Créditos"><i class="fas fa-copyright"></i></button>
-                    <button type="button" class="btn btn-secondary" title="Repositorio"
-                        onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i
-                            class="fab fa-github"></i></button>
-                    <button type="button" class="btn btn-success" id="myModalClose" data-dismiss="modal"
+                    
+                    <a href="https://github.com/Alplox/tele" rel="noopener" class="btn btn-secondary" title="Repositorio">
+                        <i class="fab fa-github"></i></a>
+                    <button class="btn btn-success" id="myModalClose" data-dismiss="modal"
                         data-target="#modalabout">Entendido</button>
                 </div>
             </div>
@@ -263,7 +262,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title">Denunciar violación DDHH ⚠️</h1>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+                    <button class="close" data-dismiss="modal" aria-label="Close"> <span
                             aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
@@ -327,13 +326,13 @@
                             </table>
                         </div>
                     </div>
-                    <caption>
+                    <section class="caption">
                         <i>Si quieres contribuir con algún sitio recuerda que
                             puedes hacerlo mediante el <a href="https://github.com/Alplox/tele"
-                                rel="noopener">repositorio GitHub <i class="fab fa-github"></i></i></a>.</caption>
+                                rel="noopener">repositorio GitHub <i class="fab fa-github"></i></i></a>.</section>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -385,14 +384,13 @@
                     </footer>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
                         data-target="#modal-canales" title="Canales">📺</button>
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcompartir" title="Compartir"><i class="fas fa-share-alt"></i></button>
-                    <button class="btn btn-secondary role="
-                        onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i
-                            class="fab fa-github"></i> Repositorio</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <a href="https://github.com/Alplox/tele" rel="noopener" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> Repositorio</a>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -406,7 +404,7 @@
                 <div class="modal-header">
                     <h1 class="modal-title">Compilaciones de videos entorno a las protestas
                         desarrolladas en Chile y el mundo 🎞️:</h1>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -468,13 +466,13 @@
                         href="https://old.reddit.com/user/STNGTCOLSOS" rel="noopener">u/STNGTCOLSOS</a>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
                         data-target="#modal-canales" title="Canales">📺</button>
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcompartir" title="Compartir"><i class="fas fa-share-alt"></i></button>
-                    <button type="button" data-dismiss="modal" data-toggle="modal" data-target="#ddhh"
+                    <button data-dismiss="modal" data-toggle="modal" data-target="#ddhh"
                         class="btn btn-warning">Denunciar violación DDHH</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -487,7 +485,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title">Medios de Prensa Alternativos 📰 📻:</h1>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -687,11 +685,11 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
                         data-target="#modal-canales" title="Canales">📺</button>
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcompartir" title="Compartir"><i class="fas fa-share-alt"></i></button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -705,7 +703,7 @@
                 <div class="modal-header">
                     <h1 class="modal-title">Sitios que poseen información útil en
                         cuanto a diversos temas 🔗</h1>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -909,17 +907,17 @@
                             </table>
                         </div>
                     </div>
-                    <caption>
+                    <section class="caption">
                         <i>Si quieres contribuir con algún sitio recuerda que
                             puedes hacerlo mediante el <a href="https://github.com/Alplox/tele"
-                                rel="noopener">repositorio GitHub <i class="fab fa-github"></i></i></a>.</caption>
+                                rel="noopener">repositorio GitHub <i class="fab fa-github"></i></i></a>.</section>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
                         data-target="#modal-canales" title="Canales">📺</button>
-                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-warning" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcompartir" title="Compartir"><i class="fas fa-share-alt"></i></button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -971,7 +969,7 @@
                                     <input type="text" value="https://alplox.github.io/tele/" id="myInput">
 
                                     <!-- boton para copiar automaticamente https://www.w3schools.com/howto/howto_js_copy_clipboard.asp -->
-                                    <button class="btn btn-info" onclick="copiarEnlace()" id="success">Copiar
+                                    <button class="btn btn-info" id="success">Copiar
                                         enlace</button>
 
                                 </div>
@@ -980,26 +978,27 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-primary" data-dismiss="modal" data-toggle="modal"
                         data-target="#modal-canales" title="Canales">📺</button>
-                    <button type="button" class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal"
+                    <button class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal"
                         data-target="#modalcreditos">Créditos</button>
-                    <button class="btn btn-secondary"
-                        onclick="window.open('https://github.com/Alplox/tele', '_blank', 'noopener');"><i
-                            class="fab fa-github"></i> Repositorio</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <a href="https://github.com/Alplox/tele" rel="noopener" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> Repositorio</a>
+                    <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
         <!---->
         <div class="notify"><span id="notifyType"></span></div>
     </div>
+    <!---->
+
     <div class="boton-flotante">
         <span class="emojicovid" data-toggle="modal" data-target="#complementario" role="button"
             title="Información COVID-19">🦠</span>
     </div>
-    <script rel="preload" src="js/canales.js"></script>
-    <script src="js/scripts.js"></script>
+<script rel="preload" src="js/canales.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 <!--
 ██╗    ██╗███████╗███╗   ██╗ █████╗     ██╗    ██╗███████╗███╗   ██╗ █████╗ 

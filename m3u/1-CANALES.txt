@@ -63,8 +63,8 @@ TVN
 https://unlimited10-cl.dps.live/tvn/tvn.smil/tvn/livestream1/chunks.m3u8
 TVU
 https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8
-
-
+Convención Constitucional
+https://mdstrm.com/live-stream-playlist-v/60d476c14157440829d03cd7.m3u8
 
 
 

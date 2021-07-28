@@ -31,23 +31,20 @@ $(document).ready(function () {
       $(this).toggle(
         $(this)
           .text()
-          .normalize()
-          .replace(/[\u0300-\u036f]/g,"")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, '')
           .toLowerCase()
           .indexOf(t) > -1
       );
     });
   });
 });
-///copiar enlace a portapapeles//////////////////////////
-function copiarEnlace() {
+///copiar enlace a portapapeles y alerta copiado https://codepen.io/lancebush/pen/zdxLE
+$("#success").click(function () {
   let e = document.getElementById("myInput");
   e.select(),
     e.setSelectionRange(0, 99999) /*For mobile devices*/,
     document.execCommand("copy");
-}
-/// alerta copiado https://codepen.io/lancebush/pen/zdxLE
-$("#success").click(function () {
   $(".notify").toggleClass("active");
   $("#notifyType").toggleClass("success");
   
