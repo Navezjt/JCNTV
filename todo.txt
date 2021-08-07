@@ -97,6 +97,6 @@ https://joelpurra.com/projects/multi-video-frames/ (similar a lo que ocurre aqui
 
 
 -poner links en m3u dentro de canales.js para ahorrar cargas 
-y evitar crear un archivo html por cada uno
+y evitar crear un archivo html por cada uno (ver "la tele" aun no me convece ese metodo)
 
 -que se recuerden los canales seleccionados tras recargar la pagina

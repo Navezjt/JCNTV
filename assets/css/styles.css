@@ -164,8 +164,7 @@ input::-moz-focus-outer {
 }
 
 /* interior modales */
-.modal-body-btns, 
-.compartir-body {
+.modal-body-btns {
     text-align: center;
 }
 
@@ -218,45 +217,57 @@ input::-moz-focus-outer {
    padding-bottom: 2px;
 }
 
+.share-item {
+    margin: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
 .share-item:hover {
     opacity: 0.6;
 }
 
-.fa-facebook {
-    color: #3c5498;
+.share-svg {
+    fill: var(--yellow);
+    width: 1rem;
+    height: 1rem;
 }
 
-.fa-twitter {
-    color: #83c7f7;
+.btn-share:hover .share-svg{
+    fill: var(--gray-dark);
 }
 
-.fa-whatsapp {
-    color: #33ba48;
+.github-logo {
+    width: 1rem;
+    height: 1rem;
 }
 
-.fa-telegram {
-    color: #2aa1d4;
+.btn-secondary>.github-logo {
+    fill: var(--light);
 }
 
-#wsp-web{
-    font-size: 0.625rem;
-}
-
-.fa-envelope-o {
-    color: black;
+.modal-body,
+a>.github-logo {
+    fill: var(--gray-dark);
 }
 
 /* boton flotante covid */
 .boton-flotante {
-    font-size: 3rem;
-    opacity: 0.2;
     position: fixed;
     bottom: 0.5rem;
     right: 0.5rem;
 }
 
-.boton-flotante:hover {
+.boton-flotante .share-svg{
+    opacity: 0.2;
+    height: 3rem;
+    width: 3rem;
+}
+
+.boton-flotante:hover .share-svg{
     opacity: 1;
+    height: 4rem;
+    width: 4rem;
 }
 
 /* alerta copiado exitoso */
