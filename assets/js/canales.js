@@ -19,7 +19,7 @@ let App = {
         'tv-senado-yutu': {
             'name': '🏛️ TV Senado 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
             'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-            'source': 'https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQ'
+            'source': 'https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg'
         },
         'cam-dipu-m3u-1': {
             'name': '🏛️ Cámara Diputados <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -1050,7 +1050,7 @@ init: function() {
     if (!App.isMobile()) {
         App.add("tv-senado-yutu");
         App.add("24-horas-m3u");
-        App.add("cnn-cl-m3u");
+        App.add("cnn-cl-m3u-2");
         App.add("t13");
         App.add("meganoticias"); 
     }
@@ -1075,5 +1075,3 @@ let anchoStreams = document.getElementById("tamaño-streams");
     let streams2 = document.getElementById("los-canales");
     streams2.style.maxWidth = event.target.value + "%"
 }
-
-

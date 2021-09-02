@@ -91,12 +91,12 @@ https://www.w3schools.com/howto/howto_js_filter_elements.asp
                         <button class="btn-filtros" onclick="filterSelection('ingles')">Inglés</button>
                     </div>
 
-
 -iframes 100% viewport (eliminar espacio en negro abajo)
 https://joelpurra.com/projects/multi-video-frames/ (similar a lo que ocurre aqui)
 
-
 -poner links en m3u dentro de canales.js para ahorrar cargas 
-y evitar crear un archivo html por cada uno (ver "la tele" aun no me convece ese metodo)
+y evitar crear un archivo html por cada uno 
+(experimente con "la tele", pero aun no se como implementarlo aca)
 
--que se recuerden los canales seleccionados tras recargar la pagina
+-que se recuerden los canales seleccionados tras recargar la pagina 
+(quizas con localstorage, aun me queda por aprender calmao)
