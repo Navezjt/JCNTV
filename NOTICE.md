@@ -6,7 +6,7 @@ For the license of "tele" refer to LICENSE file.
 ```
 Mentions:
 -Favicon created using the site https://favicon.io/ with https://pixelcraft.web.app/
--First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/Favicon/primer-favicon.ico)
+-First Favicon by mave007 (https://github.com/Alplox/tele/blob/master/assets/favicon/primer-favicon.ico)
 -Site inspired on http://pslabs.cl/tele.html by @pottersys
 -Based on variation https://tele.0x00.cl/ by u/0x00cl
 ```
