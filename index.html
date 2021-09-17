@@ -9,22 +9,12 @@
         content="Dashboard de noticias de Chile y el mundo. Mira múltiples canales simultáneamente." />
     <link rel="stylesheet" href="assets/libraries/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/canales.js"></script>
+    <link rel="stylesheet" href="assets/libraries/video-js/video-js.css"/>
     <!-- (dropdown) jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/libraries/jquery/jquery-3.6.0.slim.min.js"></script>
     <script src="assets/libraries/popper/popper-2.9.3.min.js"></script>
     <script src="assets/libraries/bootstrap/bootstrap.min.js"></script>
-    <!--Modal Descargo de responsabilidad para que carge al inicar la página junto a crear cookie para que no vuelva a salir https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click -->
-    <script>
-        $(document).ready(function () {
-            if (document.cookie.indexOf("ModalShown=true") < 0) {
-                $("#modalabout").modal("show");
-                $("#myModalClose").click(function () {
-                    $("#modalabout").modal("hide");
-                });
-                document.cookie = "ModalShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
-            }
-        });
-    </script>
     <!-- Open Graph Meta -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="tele">
@@ -51,7 +41,8 @@
 <body>
     <noscript>
         <div class="no-js">
-            <p>⚠️ El sitio <b>no</b> funciona sin <b>JavaScript</b>, habilitalo para continuar.</p>
+            <p>⚠️ El sitio <b>no</b> funciona sin <b>JavaScript</b>.</p>
+            <p>Si lo has deshabilitado, por favor <b>vuelve a activarlo</b>.</p>
             <div class="wave"></div>
         </div>
     </noscript>
@@ -1210,9 +1201,7 @@ L341.91,330.654L341.91,330.654z" />
                         </svg>
                     </a>
                     <hr>
-                    <!-- Copiar enlace -->
                     <input type="text" value="https://alplox.github.io/tele/" id="myInput">
-                    <!-- boton para copiar automaticamente https://www.w3schools.com/howto/howto_js_copy_clipboard.asp -->
                     <button class="btn btn-info" id="success">Copiar
                         enlace</button>
                 </div>
@@ -1252,7 +1241,8 @@ L341.91,330.654L341.91,330.654z" />
                c39.79,0,72.047-32.257,72.047-72.047C411.635,346.787,379.378,314.529,339.588,314.529z" />
             </svg></span>
     </div>
-<script rel="preload" src="assets/js/canales.js"></script>
+<script src="assets/libraries/video-js/video.min.js"></script>
+<script src="assets/libraries/video-js/lang/es.js"></script>
 <script src="assets/js/scripts.js"></script>
 </body>
 <!--
