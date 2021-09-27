@@ -163,7 +163,7 @@ let App = {
       App.add('convencion-tv');
       if (!App.isMobile()) {
           App.add('tv-senado-yutu');
-          App.add('tvn-m3u');
+          App.add('24-horas-m3u');
           App.add('cnn-cl-m3u-2');
           App.add('t13');
           App.add('meganoticias'); 
