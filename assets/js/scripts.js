@@ -160,9 +160,9 @@ let App = {
     
     init: function() {
       App.seedModal();
-      App.add('galeria-cima-s2');
+      App.add('convencion-tv');
       if (!App.isMobile()) {
-          App.add('galeria-cima');
+          App.add('tv-senado-yutu');
           App.add('24-horas-m3u');
           App.add('cnn-cl-m3u-2');
           App.add('t13');
