@@ -774,11 +774,6 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg'
     },
-    'galeria-cima-s2': {
-        'name': '📷 Galería CIMA s2<img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/g8e-pBGeAF8?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg'
-    },
     'parquemet-cumbre': {
         'name': '📷 Halcón Parquemet, Cumbre <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español</span>',
         'code': 'https://g1.ipcamlive.com/player/player.php?alias=5a7084c9e0136&autoplay=true',
