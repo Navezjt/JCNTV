@@ -160,11 +160,11 @@ let App = {
     
     init: function() {
       App.seedModal();
-      App.add('convencion-tv');
+      App.add('tips');
       if (!App.isMobile()) {
-          App.add('tv-senado-yutu');
+          App.add('servelelecciones');
+          App.add('decidechile');
           App.add('24-horas-m3u');
-          App.add('cnn-cl-m3u-2');
           App.add('t13');
           App.add('meganoticias'); 
         } 
