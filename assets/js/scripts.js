@@ -160,13 +160,12 @@ let App = {
     
     init: function() {
       App.seedModal();
-      App.add('tips');
+      App.add('galeria-cima');
       if (!App.isMobile()) {
-          App.add('servelelecciones');
-          App.add('decidechile');
           App.add('24-horas-m3u');
           App.add('t13');
-          App.add('meganoticias'); 
+          App.add('meganoticias');
+          App.add('cnn-cl');
         } 
     }
 };

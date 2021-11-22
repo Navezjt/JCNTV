@@ -1,6 +1,6 @@
 const channels = {
 //ELECCIONES
-    'decidechile': {
+    /* 'decidechile': {
         'name': 'decidechile.cl <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
         'code': 'https://live.decidechile.cl/',
         'source': 'https://live.decidechile.cl/'
@@ -12,9 +12,9 @@ const channels = {
     },
     'tips': {
         'name': 'Vaya a votar (si quiere) <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://alplox.github.io/tele/assets/js/temporal-elecciones-2021.html',
+        'code': 'https://alplox.github.io/tele/assets/js/archivo.html',
         'source': 'https://alplox.github.io/tele/'
-    },
+    }, */
 // Canales
     'tv-senado': {
         'name': '🏛️ TV Senado <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
