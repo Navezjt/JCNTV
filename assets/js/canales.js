@@ -1,8 +1,8 @@
 const channels = {
 //ELECCIONES
-    /* 'decidechile': {
+    'decidechile': {
         'name': 'decidechile.cl <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://live.decidechile.cl/',
+        'code': 'https://live.decidechile.cl/#/ev/2021.12/ct/2021.12.P/',
         'source': 'https://live.decidechile.cl/'
     },
     'servelelecciones': {
@@ -14,7 +14,12 @@ const channels = {
         'name': 'Vaya a votar (si quiere) <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
         'code': 'https://alplox.github.io/tele/assets/js/archivo.html',
         'source': 'https://alplox.github.io/tele/'
-    }, */
+    },
+    'servel': {
+        'name': 'Servicio Electoral de Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCB8s6rETjmWgXrp_BxyXqdg'
+    },
 // Canales
     'tv-senado': {
         'name': '🏛️ TV Senado <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -205,6 +210,16 @@ const channels = {
         'name': 'CHV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC8EdTmyUaFIfZvVttJ9lgIA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC8EdTmyUaFIfZvVttJ9lgIA'
+    },
+    'chv-2': {
+        'name': 'CHV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://chvvvvvvvv.temporalservel.repl.co/',
+        'source': 'https://www.chilevision.cl/senal-online'
+    },
+    'mega': {
+        'name': 'Mega <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8',
+        'source': 'https://www.mega.cl/'
     },
     'la-red': {
         'name': 'La Red <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',

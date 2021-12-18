@@ -255,6 +255,7 @@ a>.github-logo {
 
 /* boton flotante covid */
 .boton-flotante {
+    /* z-index: 1; */
     position: fixed;
     bottom: 0.5rem;
     right: 0.5rem;
