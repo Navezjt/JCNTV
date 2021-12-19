@@ -164,13 +164,14 @@ let App = {
     
     init: () => {
       App.seedModal();
-      App.add('tips');
+      App.add('cima');
       if (!App.isMobile()) {
         App.add('decidechile');
         App.add('servelelecciones');
         App.add('24-horas-m3u');
         App.add('t13');
         App.add('meganoticias');
+        App.add('cnn-cl');
       }
     }
 };
