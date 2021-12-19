@@ -93,6 +93,7 @@ let App = {
           divIframe.classList.add('embed-responsive', 'embed-responsive-16by9');
           const iframevideo = document.createElement('iframe');
           iframevideo.setAttribute('src', App.channels[canal].code);
+          iframevideo.setAttribute('allowFullScreen', '');
           divIframe.append(iframevideo);
           thisCanal.classList.add('stream');
           thisCanal.setAttribute('data-canal', canal);
@@ -166,12 +167,11 @@ let App = {
       App.seedModal();
       App.add('galeria-cima');
       if (!App.isMobile()) {
-        App.add('decidechile');
-        App.add('servelelecciones');
         App.add('24-horas-m3u');
         App.add('t13');
         App.add('meganoticias');
         App.add('cnn-cl');
+        App.add('servelelecciones');
       }
     }
 };
