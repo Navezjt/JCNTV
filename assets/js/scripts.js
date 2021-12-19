@@ -164,7 +164,7 @@ let App = {
     
     init: () => {
       App.seedModal();
-      App.add('cima');
+      App.add('galeria-cima');
       if (!App.isMobile()) {
         App.add('decidechile');
         App.add('servelelecciones');
