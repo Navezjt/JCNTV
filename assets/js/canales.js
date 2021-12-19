@@ -136,6 +136,11 @@ const channels = {
         'm3u': 'https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8',
         'source': 'https://www.24horas.cl/envivo/'
     },
+    '24-horas-twitch': {
+        'name': '24 horas 5 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://player.twitch.tv/?channel=24horas_tvn&parent=alplox.github.io',
+        'source': 'https://www.twitch.tv/24horas_tvn'
+    },
     '24-horas-señal2': {
         'name': '24 Horas s2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'm3u': 'https://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8',
@@ -156,10 +161,20 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q'
     },
+    'meganoticiascl-twitch': {
+        'name': 'Meganoticias 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://player.twitch.tv/?channel=meganoticiascl&parent=alplox.github.io',
+        'source': 'https://www.twitch.tv/meganoticiascl'
+    },
     't13': {
         'name': 'T13 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg'
+    },
+    't13-twitch': {
+        'name': 'T13EnVivo <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://player.twitch.tv/?channel=t13envivo&parent=alplox.github.io',
+        'source': 'https://www.twitch.tv/t13envivo'
     },
     'cnn-cl': {
         'name': 'CNN Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -360,6 +375,11 @@ const channels = {
         'name': '📻 Radio América TV Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
         'm3u': 'https://Stmv1.zcastbr.com/americatvchile/smil:transcoder.smil/playlist.m3u8',
         'source': 'http://www.radioamerica.cl/'
+    },
+    'derechofacil-twitch': {
+        'name': 'DerechoFacil <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://player.twitch.tv/?channel=derechofacil&parent=alplox.github.io',
+        'source': 'https://www.twitch.tv/derechofacil'
     },
     'holvoet-tv-m3u': {
         'name': 'Holvoet TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
