@@ -165,13 +165,13 @@ let App = {
     
     init: () => {
       App.seedModal();
-      App.add('galeria-cima-s2');
+      App.add('galeria-cima');
       if (!App.isMobile()) {
         App.add('24-horas-m3u');
         App.add('t13');
         App.add('meganoticias');
-        App.add('cnn-cl');
-        App.add('servelelecciones');
+        App.add('bbtv');
+        App.add('adn');
       }
     }
 };

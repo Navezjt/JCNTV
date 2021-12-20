@@ -1,4 +1,9 @@
-/* !important = regla sobreescrita ya que existe en bootstrap.min */
+/* 
+!important = regla sobreescrita ya que existe en bootstrap.min 
+
+by Alplox 
+https://github.com/Alplox
+*/
 
 body {
     background: #000000 !important;

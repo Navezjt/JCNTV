@@ -1,6 +1,20 @@
+/* 
+Guía rápida:
+    'nombre': {                 (Nombre objeto/canal, no repetir entre señales debe ser único)
+        'name': 'nombre'        (Nombre canal a mostrar en botón y barra que dirige a su origen cuando activo)
+        'code': 'url'           (Code se utiliza cuando se trata de contenido que va dentro de un iframe (un embed directo))
+    SINO SE CUENTA CON URL PARA FORMATO "code" UTILIZAR "m3u"
+        'm3u': 'url'            (M3U se utiliza cuando se utilizan enlaces .m3u8, no listas m3u solo canales individuales)
+        'source': 'url'         (Source es el enlace de origen de la señal, a modo de transparencia y libertad de abandonar la página si solo se quiere continuar con dicha señal, si se extra una señal ya sea tipo "code" o "m3u8" de www.pagina-ejemplo.cl debe de ponerse www.pagina-ejemplo.cl en "source")
+    }
+
+by Alplox 
+https://github.com/Alplox
+*/
+
 const channels = {
 //ELECCIONES
-    'decidechile': {
+    /* 'decidechile': {
         'name': 'decidechile.cl <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
         'code': 'https://live.decidechile.cl/#/ev/2021.12/ct/2021.12.P/',
         'source': 'https://live.decidechile.cl/'
@@ -19,103 +33,8 @@ const channels = {
         'name': 'Servicio Electoral de Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCB8s6rETjmWgXrp_BxyXqdg'
-    },
+    }, */
 // Canales
-    'tv-senado': {
-        'name': '🏛️ TV Senado <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://janus-tv.senado.cl/embed.php',
-        'source': 'https://tv.senado.cl/'
-    },
-    'tv-senado-m3u': {
-        'name': '🏛️ TV Senado 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://janus-tv-ply.senado.cl/playlist/playlist.m3u8',
-        'source': 'https://tv.senado.cl/'
-    },
-    'tv-senado-yutu': {
-        'name': '🏛️ TV Senado 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg'
-    },
-    'cam-dipu-m3u-1': {
-        'name': '🏛️ Cámara Diputados <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8',
-        'source': 'http://www.cdtv.cl/'
-    },
-    'cam-dipu-m3u-2': {
-        'name': '🏛️ Cámara Diputados 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR',
-        'source': 'http://webtv.camara.cl/'
-    },
-    'cam-dipu-m3u-3': {
-        'name': '🏛️ Cámara Diputados 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8',
-        'source': 'http://webtv.camara.cl/'
-    },
-    'convencion-tv': {
-        'name': '🏛️ Convención Constitucional <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://mdstrm.com/live-stream/60d476c14157440829d03cd7?autoplay=true&volume=0',
-        'source': 'https://www.convencion.tv/'
-    },
-    'convencion-tv-yutu': {
-        'name': '🏛️ Convención Constitucional 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCRlIWVAxQdAnCl4D4UR9r3Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCRlIWVAxQdAnCl4D4UR9r3Q'
-    },
-    'convencion-tv-m3u': {
-        'name': '🏛️ Convención Constitucional 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist-v/60d476c14157440829d03cd7.m3u8',
-        'source': 'https://www.convencion.tv/'
-    },
-    'convencion-tv-s1': {
-        'name': '🏛️ Convención Constitucional s1 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCc3koBbWMyvSyzRbG5eTgvQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCc3koBbWMyvSyzRbG5eTgvQ'
-    },
-    'convencion-tv-s2': {
-        'name': '🏛️ Convención Constitucional s2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCKmKUwcjv6HJP7-z9Nnpp2w&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCKmKUwcjv6HJP7-z9Nnpp2w'
-    },
-    'convencion-tv-s3': {
-        'name': '🏛️ Convención Constitucional s3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCeIlCkkBplhU0SrWM9B7u7Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCeIlCkkBplhU0SrWM9B7u7Q'
-    },
-    'convencion-tv-s4': {
-        'name': '🏛️ Convención Constitucional s4 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkMWMYCPUGzf3UPAxcIaVqA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCkMWMYCPUGzf3UPAxcIaVqA'
-    },
-    'convencion-tv-s5': {
-        'name': '🏛️ Convención Constitucional s5 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UChNeKfZ0-wwuOCyUSu6BlcA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UChNeKfZ0-wwuOCyUSu6BlcA'
-    },
-    'convencion-tv-s6': {
-        'name': '🏛️ Convención Constitucional s6 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC-HPc8CLoGRSG0dgbzZbDWA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC-HPc8CLoGRSG0dgbzZbDWA'
-    },
-    'convencion-tv-s7': {
-        'name': '🏛️ Convención Constitucional s7 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC9p2Hsom7SXdro9FhN4K59w&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC9p2Hsom7SXdro9FhN4K59w'
-    },
-    'convencion-tv-s8': {
-        'name': '🏛️ Convención Constitucional s8 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCFkkF0LKUOUOcQEwG4nTrHw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCFkkF0LKUOUOcQEwG4nTrHw'
-    },
-    'tribunal-consti': {
-        'name': '🏛️ Tribunal Constitucional <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg'
-    },
-    'poder-judicial': {
-        'name': '🏛️ Poder Judicial <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg'
-    },
     '24-horas': {
         'name': '24 horas <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -131,13 +50,8 @@ const channels = {
         'm3u': 'https://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8',
         'source': 'https://www.24horas.cl/envivo/'
     },
-    '24-horas-m3u-3': {
-        'name': '24 Horas 4 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8',
-        'source': 'https://www.24horas.cl/envivo/'
-    },
     '24-horas-twitch': {
-        'name': '24 horas 5 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'name': '24 horas 4 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://player.twitch.tv/?channel=24horas_tvn&parent=alplox.github.io',
         'source': 'https://www.twitch.tv/24horas_tvn'
     },
@@ -161,7 +75,7 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q'
     },
-    'meganoticiascl-twitch': {
+    'meganoticias-twitch': {
         'name': 'Meganoticias 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://player.twitch.tv/?channel=meganoticiascl&parent=alplox.github.io',
         'source': 'https://www.twitch.tv/meganoticiascl'
@@ -172,7 +86,7 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg'
     },
     't13-twitch': {
-        'name': 'T13EnVivo <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'name': 'T13 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://player.twitch.tv/?channel=t13envivo&parent=alplox.github.io',
         'source': 'https://www.twitch.tv/t13envivo'
     },
@@ -181,45 +95,25 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCpOAcjJNAp0Y0fhznRrXIJQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpOAcjJNAp0Y0fhznRrXIJQ'
     },
-    'cnn-cl-m3u': {
-        'name': 'CNN Chile 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://unlimited1-cl.dps.live/cnn/cnn.smil/playlist.m3u8',
-        'source': 'https://www.cnnchile.com/'
-    },
-    'cnn-cl-m3u-2': {
-        'name': 'CNN Chile 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://unlimited1-cl-isp.dps.live/cnn/cnn.smil/playlist.m3u8',
-        'source': 'https://www.cnnchile.com/'
-    },
     'prensa-presidencia': {
         'name': 'Prensa Presidencia <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://mdstrm.com/live-stream/5dc17f8944795108a2a52a49?autoplay=true&volume=0',
         'source': 'https://prensa.presidencia.cl/streaming.aspx'
     },
-    'tv-chile-m3u': {
-        'name': 'TV Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8',
-        'source': 'https://www.tvchile.cl/envivo/'
-    },
-    'tv-chile-m3u-2': {
-        'name': 'TV Chile 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist-v/533adcc949386ce765657d7c.m3u8',
-        'source': 'https://www.tvchile.cl/envivo/'
-    },
-    'tvn-yutu': {
+    'tvn': {
         'name': 'TVN <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCaVaCaiG6qRzDiJDuEGKOhQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCaVaCaiG6qRzDiJDuEGKOhQ'
-    },
-    'tvn-m3u': {
-        'name': 'TVN 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://unlimited10-cl.dps.live/tvn/tvn.smil/tvn/livestream1/chunks.m3u8',
-        'source': 'https://www.24horas.cl/envivo/'
     },
     'canal-13': {
         'name': 'Canal 13 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCd4D3LfXC_9MY2zSv_3gMgw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCd4D3LfXC_9MY2zSv_3gMgw'
+    },
+    'canal-13-2': {
+        'name': 'Canal 13 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://13313131.tnvas.repl.co/',
+        'source': 'https://www.13.cl/en-vivo'
     },
     'chv': {
         'name': 'CHV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -245,11 +139,6 @@ const channels = {
         'name': 'La Red 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'm3u': 'https://unlimited1-cl-movistar.dps.live/lared/lared.smil/lared/livestream0/chunks.m3u8',
         'source': 'https://www.lared.cl/senal-online'
-    },
-    'stgo-tv': {
-        'name': 'Stgo TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://stv.janus.cl/front/embed.html',
-        'source': 'https://www.santiagotelevision.cl/'
     },
     'cooperativa': {
         'name': '📻 Cooperativa <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
@@ -316,11 +205,6 @@ const channels = {
         'm3u': 'https://593b04c4c5670.streamlock.net:443/8192/8192/playlist.m3u8',
         'source': 'https://www.alegriafm.cl/'
     },
-    'radio-las-nieves-m3u': {
-        'name': '📻 Radio Las Nieves <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'm3u': 'https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8',
-        'source': 'https://www.rln.cl/'
-    },
     'romantica-tv': {
         'name': '📻 Romántica TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
         'code': 'https://rudo.video/live/romanticatv?volume=0&mute=1',
@@ -328,27 +212,22 @@ const channels = {
     },
     'romantica-tv-m3u': {
         'name': '📻 Romántica TV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'm3u': 'https://unlimited2-cl.dps.live/romanticatv/romanticatv.smil/playlist.m3u8',
+        'm3u': 'https://unlimited2-cl-isp.dps.live/romanticatv/romanticatv.smil/playlist.m3u8',
         'source': 'https://www.romantica.cl/romantica-tv/'
     },
     'radio-genial': {
         'name': '📻 Radio Genial 100.5 FM <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'code': 'https://v2.tustreaming.cl/genialtv/live1/embed.html?autoplay=true',
+        'm3u': 'https://v2.tustreaming.cl/genialtv/index.m3u8',
         'source': 'https://radiogenial.cl/'
     },
-    'radio-genial-m3u': {
-        'name': '📻 Radio Genial 100.5 FM 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'm3u': 'https://v2.tustreaming.cl/genialtv/live1/index.m3u8',
-        'source': 'https://radiogenial.cl/'
-    },
-    'mi-radiols': {
-        'name': '📻 Mi Radio LS <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UClJiriqxFwmmVIQeASJfICQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UClJiriqxFwmmVIQeASJfICQ'
+    'mi-radio-es-mas': {
+        'name': '📻 Mi Radio es Más <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCflUbt1g29kPG-H9SV5QIyw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCflUbt1g29kPG-H9SV5QIyw'
     },
     'radio-la-clave': {
         'name': '📻 Radio La Clave <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'code': 'https://rudo.video/live/laclavetv?volume=0&mute=1"></iframe><div class="nombre-barra">',
+        'code': 'https://rudo.video/live/laclavetv?volume=0&mute=1',
         'source': 'https://radiolaclave.cl/'
     },
     'radio-folclor-chile': {
@@ -361,39 +240,49 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UClMwb2kCYemWyDIZ2dYttKA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UClMwb2kCYemWyDIZ2dYttKA'
     },
-    'on-radio-kpop': {
-        'name': '📻 On Radio Kpop <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'code': 'https://live.grupoz.cl/0551dfe14dd61f524debcb5b5595b3f2?sound=0"></iframe><div class="nombre-barra">',
-        'source': 'https://onradiochile.cl/kpop/'
-    },
-    'on-radio-kpop-m3u': {
-        'name': '📻 On Radio Kpop 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'm3u': 'https://tls.cdnz.cl/onradio4/live/playlist.m3u8',
-        'source': 'https://onradiochile.cl/kpop/'
-    },
-    'radio-america-tv-m3u': {
-        'name': '📻 Radio América TV Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios, Musica</span>',
-        'm3u': 'https://Stmv1.zcastbr.com/americatvchile/smil:transcoder.smil/playlist.m3u8',
-        'source': 'http://www.radioamerica.cl/'
+    'stgo-tv': {
+        'name': 'Stgo TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://stv.janus.cl/front/embed.html',
+        'source': 'https://www.santiagotelevision.cl/'
     },
     'derechofacil-twitch': {
         'name': 'DerechoFacil <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://player.twitch.tv/?channel=derechofacil&parent=alplox.github.io',
         'source': 'https://www.twitch.tv/derechofacil'
     },
-    'holvoet-tv-m3u': {
-        'name': 'Holvoet TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, Radios</span>',
-        'm3u': 'https://unlimited1-cl.dps.live/holvoettv/holvoettv.smil/playlist.m3u8',
+    'voz-sobran': {
+        'name': 'La Voz De Los Que Sobran <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCEnSee5vPeNAm2EFpb_UaRw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCEnSee5vPeNAm2EFpb_UaRw'
+    },
+    'copano': {
+        'name': 'Nicolas Copano <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCVTL17ftpqx3lQ_IaGUNgSg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCVTL17ftpqx3lQ_IaGUNgSg'
+    },
+    'copano-twitch': {
+        'name': 'Nicolas Copano 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://player.twitch.tv/?channel=copano&parent=alplox.github.io',
+        'source': 'https://www.twitch.tv/copano'
+    },
+    'holvoet-tv': {
+        'name': 'Holvoet TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://rudo.video/live/holvoettv',
         'source': 'https://holvoet.cl/en-vivo/'
     },
-    'tv-salud-m3u': {
-        'name': 'TV Salud <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://srv3.zcast.com.br/mastermedia/mastermedia/tvsalud.cl.m3u8',
-        'source': 'https://tvsalud.cl/'
+    'holvoet-tv-m3u': {
+        'name': 'Holvoet TV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://unlimited1-cl-isp.dps.live/holvoettv/holvoettv.smil/playlist.m3u8',
+        'source': 'https://holvoet.cl/en-vivo/'
     },
     'antofagasta-tv-m3u': {
         'name': 'Antofagasta TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'm3u': 'https://unlimited6-cl.dps.live/atv/atv.smil/atv/livestream2/playlist.m3u8',
+        'source': 'https://www.antofagasta.tv/'
+    },
+    'antofagasta-tv-m3u-2': {
+        'name': 'Antofagasta TV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8',
         'source': 'https://www.antofagasta.tv/'
     },
     'canal-9': {
@@ -431,25 +320,30 @@ const channels = {
         'm3u': 'https://unlimited6-cl.dps.live/estaciontv/estaciontv.smil/playlist.m3u8',
         'source': 'https://www.estaciontv.cl/site/'
     },
+    'estaciontv-m3u-2': {
+        'name': 'Estacióntv 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://pantera1-100gb-cl-movistar.dps.live/estaciontv/estaciontv.smil/playlist.m3u8',
+        'source': 'https://www.estaciontv.cl/site/'
+    },
     'pinguino-tv': {
         'name': 'Pingüino TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://elpinguino.com/reproductor/',
         'source': 'https://elpinguino.com/reproductor/'
     },
-    'teleton-tv': {
-        'name': 'Teletón TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://mdstrm.com/live-stream/5d6d5f05a2f6f407b0147965?autoplay=true&volume=0',
-        'source': 'https://teletontv.cl/'
+    'pinguino-tv-m3u': {
+        'name': 'Pingüino TV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://streaming.elpinguino.com:5391/live/EP.smil/playlist.m3u8',
+        'source': 'https://elpinguino.com/reproductor/'
     },
-    'teleton-tv-m3u': {
-        'name': 'Teletón TV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist/5d6d5f05a2f6f407b0147965.m3u8',
-        'source': 'https://teletontv.cl/'
+    'itv-patagonia': {
+        'name': 'ITV Patagonia <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://rudo.video/live/itv?volume=0&mute=1',
+        'source': 'https://www.itvpatagonia.com/'
     },
-    'contexto-nuble-tv-m3u': {
-        'name': 'Contexto Ñuble TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://streaming10.zglobalhost.com:1936/8014/8014/playlist.m3u8',
-        'source': 'https://tv.contextonuble.cl/'
+    'itv-patagonia-m3u': {
+        'name': 'ITV Patagonia 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://unlimited1-cl-isp.dps.live/itv/itv.smil/playlist.m3u8',
+        'source': 'https://www.itvpatagonia.com/'
     },
     'ucv': {
         'name': 'UCV TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
@@ -476,6 +370,21 @@ const channels = {
         'm3u': 'https://unlimited2-cl.dps.live/contivision/contivision.smil/playlist.m3u8',
         'source': 'http://w.contivision.cl/cvn/envivo.php'
     },
+    'teleton-tv': {
+        'name': 'Teletón TV <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://mdstrm.com/live-stream/5d6d5f05a2f6f407b0147965?autoplay=true&volume=0',
+        'source': 'https://teletontv.cl/'
+    },
+    'teleton-tv-m3u': {
+        'name': 'Teletón TV 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://mdstrm.com/live-stream-playlist/5d6d5f05a2f6f407b0147965.m3u8',
+        'source': 'https://teletontv.cl/'
+    },
+    'tv-salud-m3u': {
+        'name': 'TV Salud <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://srv3.zcast.com.br/mastermedia/mastermedia/tvsalud.cl.m3u8',
+        'source': 'https://tvsalud.cl/'
+    },
 // ARGENTINA
     'tn': {
         'name': 'Todonoticias <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
@@ -496,11 +405,6 @@ const channels = {
         'name': 'Net TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
         'code': 'https://rudo.video/live/nettv?volume=0&mute=1',
         'source': 'https://www.canalnet.tv/page/senal-en-vivo'
-    },
-    'ip-noticias': {
-        'name': 'IP Noticias <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC1bBjOZieJWHbsFA0LwjjJA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA'
     },
     'tv-publica-arg': {
         'name': 'Televisión Pública <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
@@ -541,7 +445,7 @@ const channels = {
     'red-mas-noticias': {
         'name': 'RED MÁS Noticias <img src="assets/svg/paises/colombia.svg" alt="bandera Colombia" title="Colombia"><span hidden>Colombia, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCpcvsK0UAI3MIHsjjj3CgMg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'ttps://www.youtube.com/channel/UCpcvsK0UAI3MIHsjjj3CgMg'
+        'source': 'https://www.youtube.com/channel/UCpcvsK0UAI3MIHsjjj3CgMg'
     },
 // PERU
     'tv-peru': {
@@ -572,10 +476,10 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCFxHplbcoJK9m70c4VyTIxg'
     },
 // HONDURAS
-    'hch-live': {
-        'name': 'HCH Live <img src="assets/svg/paises/honduras.svg" alt="bandera Honduras" title="Honduras"><span hidden>Honduras</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCVhRud5bqgYoiN9X3C_v_Sw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCVhRud5bqgYoiN9X3C_v_Sw'
+    'hch-vivo': {
+        'name': 'HCH En Vivo <img src="assets/svg/paises/honduras.svg" alt="bandera Honduras" title="Honduras"><span hidden>Honduras</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIs6fmAXOI1K2jgkoBdWveg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCIs6fmAXOI1K2jgkoBdWveg'
     },        
 // ESPAÑA
     'rtve': {
@@ -697,6 +601,37 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCczrL-2b-gYK3l4yDld4XlQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ'
     },
+// CHINA
+    'live-chino': {
+        'name': '民視直播 FTVN Live 53 <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UClIfopQZlkkSpM1VgCFLRJA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UClIfopQZlkkSpM1VgCFLRJA'
+    },
+    'live-chino-2': {
+        'name': '三立LIVE新聞 <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC2TuODJhC03pLgd6MpWP0iw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw'
+    },
+    'live-chino-3': {
+        'name': '三立iNEWS <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCoNYj9OFHZn3ACmmeRCPwbA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCoNYj9OFHZn3ACmmeRCPwbA'
+    },
+    'live-chino-4': {
+        'name': ' <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCmH4q-YjeazayYCVHHkGAMA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCmH4q-YjeazayYCVHHkGAMA'
+    },
+    'live-chino-5': {
+        'name': '華視新聞 CH52 <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCDCJyLpbfgeVE9iZiEam-Kg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCDCJyLpbfgeVE9iZiEam-Kg'
+    },
+    'live-chino-6': {
+        'name': '中天電視 <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC5l1Yto5oOIgRXlI4p4VKbw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw'
+    },
 // VARIOS
     'dw': {
         'name': 'DW Español 🌍<span hidden>Alemania, español/span>',
@@ -718,11 +653,6 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCfiwzLy-8yKzIbsmZTzxDgw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCfiwzLy-8yKzIbsmZTzxDgw'
     },
-    'palestine-tv': {
-        'name': 'Palestine Today TV 🌍<span hidden>Catar, arabe</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCQiGmJwJHVd3xcEbUmxM4Kw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCQiGmJwJHVd3xcEbUmxM4Kw'
-    },
     'cna': {
         'name': 'CNA 🌍<span hidden>Singapur, ingles</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC83jt4dlz1Gjl58fzQrrKZg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -738,97 +668,77 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCeqUUXaM75wrK5Aalo6UorQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCeqUUXaM75wrK5Aalo6UorQ'
     },
-    'HK-cable-tv': {
-        'name': 'CABLE TV & CABLE News 🌍<span hidden>Hong Kong, chino</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC_q7e5XYJB0JDGagcF0KW0w&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC_q7e5XYJB0JDGagcF0KW0w'
-    },
-    'live-chino': {
-        'name': '三立LIVE新聞 🌍<span hidden>Taiwan, chino</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC2TuODJhC03pLgd6MpWP0iw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC2TuODJhC03pLgd6MpWP0iw'
-    },
     'live-japones': {
         'name': 'ANNnewsCH 🌍<span hidden>Japon, japones</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCGCZAYq5Xxojl_tSXcVJhiQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCGCZAYq5Xxojl_tSXcVJhiQ'
     },
-    'live-taiwan': {
-        'name': '民視直播 FTVN Live 53 🌍<span hidden>Taiwan, chino</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UClIfopQZlkkSpM1VgCFLRJA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UClIfopQZlkkSpM1VgCFLRJA'
-    },
-    'live-chino-2': {
-        'name': '三立iNEWS 🌍<span hidden>Taiwan, chino</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCoNYj9OFHZn3ACmmeRCPwbA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCoNYj9OFHZn3ACmmeRCPwbA'
-    },
 // MUSICA 24/7
     'chilledCow': {
-        'name': 'ChilledCow 🎵<span hidden>Radios</span>',
+        'name': 'ChilledCow 🎵<span hidden>Radios, lofi, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/5qap5aO4i9A?autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow'
     },
     'chillhop': {
-        'name': 'Chillhop 🎵<span hidden>Radios</span>',
+        'name': 'Chillhop 🎵<span hidden>Radios, lofi, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCOxqgCwgOqC2lMqC5PYz_Dg&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg'
     },
     'steezyasfuck': {
-        'name': 'Steezyasfuck 🎵<span hidden>Radios</span>',
+        'name': 'Steezyasfuck 🎵<span hidden>Radios, lofi, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCsIg9WMfxjZZvwROleiVsQg&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg'
     },
-    'relaxdaily': {
-        'name': 'Relaxdaily 🎵<span hidden>Radios</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCc9EzBNAtdnNiDrMw5CAxUw&autoplay=1&mute=0&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCc9EzBNAtdnNiDrMw5CAxUw'
-    },
     'imuc-radio-chile': {
-        'name': 'IMUC Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"> 🎵<span hidden>Radios</span>',
+        'name': 'IMUC Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"> 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCIIDtZoaK9UZi4FaGMmL_hw'
     },
-    'live-vinyl-chile': {
-        'name': 'Live Vinyl Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"> 🎵<span hidden>Radios</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC8FJRxSiunppaD0sZgL7H_A&autoplay=1&mute=0&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC8FJRxSiunppaD0sZgL7H_A'
-    },
     'doom-radio': {
-        'name': 'Doom Radio 🎵<span hidden>Radios</span>',
+        'name': 'Doom Radio 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCR2D48i5MCMYwVKbgYIAftQ&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCR2D48i5MCMYwVKbgYIAftQ'
     },
     'naxos-japan': {
-        'name': 'naxos japan 🎵<span hidden>Radios</span>',
+        'name': 'naxos japan 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCwP6-81HmoDyC3nfBAyGPXQ&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCwP6-81HmoDyC3nfBAyGPXQ'
     },
     'acidjazz': {
-        'name': 'AcidJazz 🎵<span hidden>Radios</span>',
+        'name': 'AcidJazz 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC8cRYBn-z6y1EOUeMdJ0VHA&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC8cRYBn-z6y1EOUeMdJ0VHA'
     },
     'darkwave': {
-        'name': 'The 80s Guy 🎵<span hidden>Radios</span>',
+        'name': 'The 80s Guy 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC6ghlxmJNMd8BE_u1HR-bTg&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC6ghlxmJNMd8BE_u1HR-bTg'
     },
+    'the-bootleg-boy-1': {
+        'name': 'the bootleg boy 🎵<span hidden>Radios, lofi, 24/7</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC0fiLCwTmAukotCXYnqfj0A&autoplay=1&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC0fiLCwTmAukotCXYnqfj0A'
+    },
     'the-bootleg-boy-2': {
-        'name': 'the bootleg boy 2 🎵<span hidden>Radios</span>',
+        'name': 'the bootleg boy 2 🎵<span hidden>Radios, lofi, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCwkTfp14Sj7o6q9_8ADJpnA&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCwkTfp14Sj7o6q9_8ADJpnA'
+    },
+    'chill-with-taiki': {
+        'name': 'Chill with Taiki 🎵<span hidden>Radios, lofi, 24/7</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCKdURsjh1xT1vInYBy82n6g&autoplay=1&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCKdURsjh1xT1vInYBy82n6g'
+    },
+    'abao-en-tokio': {
+        'name': 'Abao en Tokio 🎵<span hidden>Radios, lofi, 24/7</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC84whx2xxsiA1gXHXXqKGOA&autoplay=1&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC84whx2xxsiA1gXHXXqKGOA'
     },
 // CAMARAS MUNDO
 // Chile
     'galeria-cima': {
         'name': '📷 Galería CIMA <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GOcOKkEefz5NamN4WyMFg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg'
-    },
-    'galeria-cima-s2': {
-        'name': '📷 Galería CIMA s2<img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/gFpXXQOIJaI?autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg'
     },
     'parquemet-cumbre': {
@@ -840,6 +750,22 @@ const channels = {
         'name': '📷 Halcón Parquemet, Terraza <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español</span>',
         'code': 'https://g1.ipcamlive.com/player/player.php?alias=5a7085fe914c0&autoplay=true',
         'source': 'https://halcon.parquemet.cl/index.html'
+    },
+    'ledrium': {
+        'name': '📷 Providencia, Ledrium <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/mGxX5PfREPA?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCTDewuGhfwGv6JRNnqa-yXw'
+    },
+// Peru
+    'av-angamos': {
+        'name': '📷 Av Angamos <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/jQcotlKaPYY?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
+    },
+    'av-la-marina': {
+        'name': '📷 Av La Marina <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/Arq2BUHYz9Y?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
     },
 //  Argentina
     'obelisco': {
@@ -874,24 +800,14 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UChQ5P-kHBZpH20EnXm9X0YQ'
     },
 // Japon
-    'pandas': {
-        'name': '📷 アドベンチャーワールド公式 🌍<span hidden>Cámaras, Japon, japones</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCVEmpbL5VzfXsULPFeRsj4Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCVEmpbL5VzfXsULPFeRsj4Q'
-    },
-    'cruce-shibuya': {
-        'name': '📷 SHIBUYA COMMUNITY NEWS 🌍<span hidden>Cámaras, Japon, japones</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCgdHxnHSXvcAi4PaMIY1Ltg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCgdHxnHSXvcAi4PaMIY1Ltg'
-    },
     'RailCam': {
         'name': '📷 Aoba traffics 🌍<span hidden>Cámaras, Japon, japones</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCynDLZ-YJnrMLSQvwYi-bUA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCynDLZ-YJnrMLSQvwYi-bUA'
     },
     'jerusalem': {
-        'name': '📷 JERUSALEM Live 🌍<span hidden>Cámaras, Jerusalem, arabe</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/UAjimIsht0M?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'name': '📷 Steadycamline, Jerusalem 🌍<span hidden>Cámaras, Jerusalem, arabe</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC1byT4dOeBAZwVqQ309iAuA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC1byT4dOeBAZwVqQ309iAuA'
     },
     'hawaii-livecam': {
@@ -899,11 +815,21 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCTLF36lXVM7uiR-VolWHv0Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCTLF36lXVM7uiR-VolWHv0Q'
     },
+    'daily-seoul': {
+        'name': '📷 Daily Seoul Live Camera - Hangang 🌍<span hidden>Cámaras, corea</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCQKQTgZJo3PlxA-9V1Z51XA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCQKQTgZJo3PlxA-9V1Z51XA'
+    },
 // aleatorio
     'camaras-aleatorias': {
         'name': '📷 Boston and Maine Live 🌍<span hidden>Cámaras</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/ZPdV3Ae4ZuU?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube-nocookie.com/embed/0jwaMlVL9ZA?autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC8gbWbcNNyb5-NIXvFklkOA'
+    },
+    'namibiacam': {
+        'name': '📷 NamibiaCam 🌍<span hidden>Cámaras, Namibia</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC9X6gGKDv2yhMoofoeS7-Gg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC9X6gGKDv2yhMoofoeS7-Gg'
     },
 // ESPACIO
     'nasa': {
@@ -913,18 +839,18 @@ const channels = {
     },
     'space-videos': {
         'name': '🔭 NASA ISS Live Stream <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/EEIk7gwjgIM?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/watch?v=EEIk7gwjgIM'
+        'code': 'https://www.youtube-nocookie.com/embed/86YLFOog4GM?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/watch?v=86YLFOog4GM'
+    },
+    'space-videos-2': {
+        'name': '🔭 Space Videos <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCakgsb0w7QB0VHdnCc-OVEA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCakgsb0w7QB0VHdnCc-OVEA'
     },
     'nasa-spaceflight': {
         'name': '🔭 NASASpaceflight <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCSUu1lih2RifWkKtDOJdsBA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA'
-    },
-    'spacex': {
-        'name': '🔭 SpaceX <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA'
     },
     'espacio-tierra': {
         'name': '🔭 Earth view from ISS <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
@@ -935,6 +861,21 @@ const channels = {
         'name': '🔭 LabPadre <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCFwMITSkc1Fms6PoJoh1OUQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCFwMITSkc1Fms6PoJoh1OUQ'
+    },
+    'spacex': {
+        'name': '🔭 SpaceX <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCtI0Hodo5o5dUb67FeUjDeA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA'
+    },
+    'blue-origin': {
+        'name': '🔭 Blue Origin <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCVxTHEKKLxNjGcvVaZindlg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCVxTHEKKLxNjGcvVaZindlg'
+    },
+    'virgin-galactic': {
+        'name': '🔭 Virgin Galactic <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles, espacio</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UClcvOr7LV8tlJwJvkNMmnKg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UClcvOr7LV8tlJwJvkNMmnKg'
     },
 // COVID
     'corona-pagina': {
@@ -981,11 +922,6 @@ const channels = {
     },
     'tv-educa-cl': {
         'name': '📚 TV Educa Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8',
-        'source': 'https://www.tvn.cl/envivo/tveducachile/'
-    },
-    'tv-educa-cl-2': {
-        'name': '📚 TV Educa Chile 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'm3u': 'https://mdstrm.com/live-stream-playlist-v/5e74e53f1ab4eb073b19ef34.m3u8',
         'source': 'https://www.tvn.cl/envivo/tveducachile/'
     },
@@ -994,6 +930,57 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCCY6xIXHmGBGZUgUYxtfKSg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCCY6xIXHmGBGZUgUYxtfKSg'
     },
+// 🏛️ 🏛️ 🏛️ 
+    'tv-senado': {
+        'name': '🏛️ TV Senado <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://janus-tv.senado.cl/embed.php',
+        'source': 'https://tv.senado.cl/'
+    },
+    'tv-senado-m3u': {
+        'name': '🏛️ TV Senado 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://janus-tv-ply.senado.cl/playlist/playlist.m3u8',
+        'source': 'https://tv.senado.cl/'
+    },
+    'tv-senado-yutu': {
+        'name': '🏛️ TV Senado 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg'
+    },
+    'cam-dipu-m3u-1': {
+        'name': '🏛️ Cámara Diputados <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8',
+        'source': 'http://www.cdtv.cl/'
+    },
+    'cam-dipu-m3u-2': {
+        'name': '🏛️ Cámara Diputados 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR',
+        'source': 'http://webtv.camara.cl/'
+    },
+    'cam-dipu-m3u-3': {
+        'name': '🏛️ Cámara Diputados 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://tls-cl.cdnz.cl/camara/live/playlist.m3u8',
+        'source': 'http://webtv.camara.cl/'
+    },
+    'convencion-tv': {
+        'name': '🏛️ Convención Constitucional <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://mdstrm.com/live-stream/60d476c14157440829d03cd7?autoplay=true&volume=0',
+        'source': 'https://www.convencion.tv/'
+    },
+    'convencion-tv-2': {
+        'name': '🏛️ Convención Constitucional 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'm3u': 'https://mdstrm.com/live-stream-playlist/60d1f10fdacfa008348d71d2.m3u8',
+        'source': 'https://www.convencion.tv/'
+    },
+    'tribunal-consti': {
+        'name': '🏛️ Tribunal Constitucional <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg'
+    },
+    'poder-judicial': {
+        'name': '🏛️ Poder Judicial <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg'
+    },    
 // CANALES ALTERNATIVOS CAM DIPUTADOS
     'cam-dipu-yutu': {
         'name': 'Cámara Diputados Señal Youtube <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
