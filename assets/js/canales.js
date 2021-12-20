@@ -828,7 +828,7 @@ const channels = {
     },
     'galeria-cima-s2': {
         'name': '📷 Galería CIMA s2<img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/YKSe9y5QYss?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube-nocookie.com/embed/gFpXXQOIJaI?autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC4GOcOKkEefz5NamN4WyMFg'
     },
     'parquemet-cumbre': {
