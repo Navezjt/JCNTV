@@ -165,7 +165,7 @@ let App = {
     
     init: () => {
       App.seedModal();
-      App.add('galeria-cima');
+      App.add('galeria-cima-s2');
       if (!App.isMobile()) {
         App.add('24-horas-m3u');
         App.add('t13');
