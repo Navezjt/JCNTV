@@ -5,11 +5,11 @@
 Está diseñado para informar sobre eventos relevantes en el país con cobertura regional. Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 Toda contribución es bienvenida 😊
-[(Repositorio)](https://github.com/Alplox/tele)
+[(Repositorio)](https://github.com/Sanguinet/tele)
 
 # Tabla de contenido
 - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen-)
-- [Reportes de transparencia](#denunciar-violación-ddhh-)
+- [Reportes de transparencia](#reportes-de-transparencia)
 - [Material Complementario 🔗🦠](#material-complementario-)
 - [Descargo de responsabilidad 📝](#descargo-de-responsabilidad-)
 - [Licencia](#licencia-)
