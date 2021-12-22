@@ -1,4 +1,4 @@
-## Visor de múltiples canales de noticias chilenos a modo de seguir/comparar las ~~protestas actuales~~ noticias
+## Visor de múltiples canales de noticias peruanos a modo de seguir/comparar la realidad política en nuestros días
 # Sitio: https://alplox.github.io/tele/
 
 Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
@@ -225,10 +225,10 @@ Sitios que poseen información útil en cuanto a diversos temas que no sabía d�
 ___
 # Descargo de responsabilidad [↑](#tabla-de-contenido)
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso.
-- “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección.
-- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, janus-tv, rudo.video, live.grupoz, streaminghd, entre otros).
+- “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección ni restricción de acceso (incluso si fuesen geobloqueados a Perú).
+- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, LimaLive, entre otros).
 - El sitio cuenta con reproductores multimedia, lo que no corresponden a una retransmisión de los canales ni implica la decodificación de éstos.
-- No se es propietario, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal..
+- No se es propietario, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal. Tampoco hay ningún vínculo con los dueños propietarios de sus señales.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
 - El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o medio.
 - En este proyecto no se almacena ninguna transmisión.
@@ -261,4 +261,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-[![Visits Badge](https://badges.pufler.dev/visits/Alplox/tele)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/visits/Sanguinet/tele)](https://badges.pufler.dev)
