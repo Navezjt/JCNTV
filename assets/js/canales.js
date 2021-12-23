@@ -55,6 +55,11 @@ const channels = {
         'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
+    'nacional-tv': {
+        'name': 'Nacional TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
+        'source': 'https://ntvperu.pe/'
+    },
     'panamericana': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'https://cdnh71.iblups.com/hls/ptv2.m3u8',
@@ -64,6 +69,16 @@ const channels = {
         'name': 'Panamericana TV DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'onda-digital': {
+        'name': 'Onda Digital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://tv.ondadigital.pe:1936/ondatv2/ondatv2/playlist.m3u8',
+        'source': 'https://ondadigitaltv.com'
+    },
+    'onda-digital-alt': {
+        'name': 'Onda Digital ALT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://ed1ov.live.opencaster.com/CwCfFGFdtebB/index.m3u8',
+        'source': 'https://ondadigitaltv.com'
     },
     'uci': {
         'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
@@ -104,6 +119,11 @@ const channels = {
         'name': 'Radio Santa Rosa <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIGV0oiNkdK2-tnf10DNp2A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCIGV0oiNkdK2-tnf10DNp2A'
+    },
+    'la-republica': {
+        'name': 'La República - RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
     },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
