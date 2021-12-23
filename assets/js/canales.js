@@ -645,7 +645,7 @@ const channels = {
         'source': 'https://www.youtube.com/playlist?list=PLtU1EVPSjC2BFUDlGRiq37vGM4sPnnZZN'
     },
     'afhs': {
-        'name': 'Al fondo hay sitio - Los mejores momentos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>,
+        'name': 'Al fondo hay sitio - Los mejores momentos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLC3i0ombJso_KHNBnH97-icKgQ1_CeyzV&autoplay=0&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/playlist?list=PLC3i0ombJso_KHNBnH97-icKgQ1_CeyzV'
     },
