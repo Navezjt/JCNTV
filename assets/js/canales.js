@@ -37,7 +37,7 @@ const channels = {
 // Canales
     'tv-peru': {
         'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'http://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
+        'm3u': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias': {
@@ -57,7 +57,12 @@ const channels = {
     },
     'panamericana': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'http://cdnh71.iblups.com/hls/ptv2.m3u8',
+        'm3u': 'https://cdnh71.iblups.com/hls/ptv2.m3u8',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'panamericana-dm': {
+        'name': 'Panamericana TV DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'uci': {
