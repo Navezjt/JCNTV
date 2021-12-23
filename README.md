@@ -126,7 +126,7 @@ ___
 online (Youtube, LimaLive, ibPlus, entre otros).
 - Los enlaces obtenidos de “tele” son encontrados como libre distribución sin ninguna
 restricción. En cualquier caso, "tele" no decodifica señales de satélite ni de cable directamente.
-- El sitio cuenta con reproductores multimedia para que el usuario final reproduzca los enlaces directamente a su navegador web. Por lo tanto, no hay una transmisión fuera de la wb de stream y el usuario final.
+- El sitio cuenta con reproductores multimedia para que el usuario final reproduzca los enlaces directamente a su navegador web. Por lo tanto, no existe un software de transmisión oculto, fuera de la web del streaming y el usuario final.
 - Los desarrolladora del proyecto no es propietaria, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal. Tampoco hay ningún vínculo con los dueños propietarios de sus señales.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
 - El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o medio.
