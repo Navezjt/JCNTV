@@ -165,13 +165,13 @@ let App = {
     
     init: () => {
       App.seedModal();
-      App.add('galeria-cima');
+      App.add('av-angamos');
       if (!App.isMobile()) {
-        App.add('24-horas-m3u');
-        App.add('t13');
-        App.add('meganoticias');
-        App.add('bbtv');
-        App.add('adn');
+        App.add('tv-peru');
+        App.add('atv-plus');
+        App.add('willax');
+        App.add('panamericana');
+        App.add('uci');
       }
     }
 };
