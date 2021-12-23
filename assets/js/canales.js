@@ -696,31 +696,22 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ'
 // EDUCATIVOS
     },
-    'tv-educa-cl': {
-        'name': '📚 TV Educa Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist-v/5e74e53f1ab4eb073b19ef34.m3u8',
-        'source': 'https://www.tvn.cl/envivo/tveducachile/'
-    },
-    'puntaje-nacional': {
-        'name': '📚 PuntajeNacional Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCCY6xIXHmGBGZUgUYxtfKSg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCCY6xIXHmGBGZUgUYxtfKSg'
+    'ipe': {
+        'name': '📚 Indentidad Peruana - iPE <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://cdnh8.iblups.com/hls/OVJNKV4pSr.m3u8',
+        'source': 'https://www.canalipe.tv/'
     },
 // 🏛️ 🏛️ 🏛️ 
-    'tv-senado': {
-        'name': '🏛️ TV Senado <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://janus-tv.senado.cl/embed.php',
-        'source': 'https://tv.senado.cl/'
+    'congreso': {
+        'name': '🏛️ Congreso <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCsKiP5cZCYh9YhPGrI6GrkQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCsKiP5cZCYh9YhPGrI6GrkQ'
     },
-    'poder-judicial': {
-        'name': '🏛️ Poder Judicial <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCo0C1-ocUG9a0Yb3iO0V-xg'
+    'justicia-tv': {
+        'name': '🏛️ JusticiaTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCwsURxTXqGqijgu98ndod3A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCwsURxTXqGqijgu98ndod3A'
     },    
 // CANALES ALTERNATIVOS CAM DIPUTADOS
-    'cam-dipu-yutu': {
-        'name': 'Cámara Diputados Señal Youtube <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA'
-    },
+// NA
 }
