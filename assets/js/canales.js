@@ -110,6 +110,21 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIGV0oiNkdK2-tnf10DNp2A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCIGV0oiNkdK2-tnf10DNp2A'
     },
+    'san-borja': {
+        'name': 'Radio San Borja <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, radio, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvsanborja/livesanborjatv/playlist.m3u8',
+        'source': 'https://radiosanborjatv.com/'
+    },
+    'radio-tropical': {
+        'name': 'Radio Tropical <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, radio, español</span>',
+        'm3u': 'https://5ee0faac3bbae.streamlock.net/raditropical/raditropical/playlist.m3u8',
+        'source': 'https://radiotropical.pe/'
+    },
+    'radio-uno': {
+        'name': 'Radio Uno <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tacna, radio, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCK0lpuL9PQb3I5CDcu7Y7bA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCK0lpuL9PQb3I5CDcu7Y7bA'
+    },
     'la-republica': {
         'name': 'La República - RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
