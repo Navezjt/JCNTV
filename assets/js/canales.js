@@ -624,25 +624,20 @@ const channels = {
         'source': 'https://bing.com/covid/local/chile'
     },
 // SERIES
-    '31-minutos': {
-        'name': '31 minutos - Todos los episodios <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL&autoplay=0&mute=0&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL'
+    'pataclaun': {
+        'name': 'Patacláun - Todos los episodios <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLipJYKrsQUvxUtvTGNovoaEau2-_0gf9j&autoplay=0&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/playlist?list=PLipJYKrsQUvxUtvTGNovoaEau2-_0gf9j'
     },
-    'diego-glot-s01': {
-        'name': 'Diego y Glot - Temporada 1 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u&autoplay=0&mute=0&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/watch?v=J3cLcZ1QhFE&list=PLnDONcPxnlq2s8zwIuJt8_JI4Tf3amd6u'
+   'nuestra-historia': {
+        'name': 'Nuestra historia - Todos los episodios <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLtU1EVPSjC2BFUDlGRiq37vGM4sPnnZZN&autoplay=0&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/playlist?list=PLtU1EVPSjC2BFUDlGRiq37vGM4sPnnZZN'
     },
-    'los-pulentos-s01': {
-        'name': 'Los Pulentos - Temporada 1 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb&autoplay=0&mute=0&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/playlist?list=PLnDONcPxnlq2gZlH-OAXCnIeyPwMpQuUb'
-    },
-    'villa-dulce-s01': {
-        'name': 'Villa Dulce - Temporada 1 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3&autoplay=0&mute=0&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/playlist?list=PLnDONcPxnlq1V8zLL54a6luAy4Wp6ldK3'
+    'afhs': {
+        'name': 'Al fondo hay sitio - Los mejores momentos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>,
+        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLC3i0ombJso_KHNBnH97-icKgQ1_CeyzV&autoplay=0&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/playlist?list=PLC3i0ombJso_KHNBnH97-icKgQ1_CeyzV'
     },
     'bob-ross': {
         'name': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
@@ -666,46 +661,6 @@ const channels = {
         'code': 'https://janus-tv.senado.cl/embed.php',
         'source': 'https://tv.senado.cl/'
     },
-    'tv-senado-m3u': {
-        'name': '🏛️ TV Senado 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://janus-tv-ply.senado.cl/playlist/playlist.m3u8',
-        'source': 'https://tv.senado.cl/'
-    },
-    'tv-senado-yutu': {
-        'name': '🏛️ TV Senado 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC4GJ43VNn4AYfiYa0RBCHQg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC4GJ43VNn4AYfiYa0RBCHQg'
-    },
-    'cam-dipu-m3u-1': {
-        'name': '🏛️ Cámara Diputados <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8',
-        'source': 'http://www.cdtv.cl/'
-    },
-    'cam-dipu-m3u-2': {
-        'name': '🏛️ Cámara Diputados 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8?DVR',
-        'source': 'http://webtv.camara.cl/'
-    },
-    'cam-dipu-m3u-3': {
-        'name': '🏛️ Cámara Diputados 3 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://tls-cl.cdnz.cl/camara/live/playlist.m3u8',
-        'source': 'http://webtv.camara.cl/'
-    },
-    'convencion-tv': {
-        'name': '🏛️ Convención Constitucional <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://mdstrm.com/live-stream/60d476c14157440829d03cd7?autoplay=true&volume=0',
-        'source': 'https://www.convencion.tv/'
-    },
-    'convencion-tv-2': {
-        'name': '🏛️ Convención Constitucional 2 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'm3u': 'https://mdstrm.com/live-stream-playlist/60d1f10fdacfa008348d71d2.m3u8',
-        'source': 'https://www.convencion.tv/'
-    },
-    'tribunal-consti': {
-        'name': '🏛️ Tribunal Constitucional <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCZaI-1N1oaGb-U8K2VNztjg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCZaI-1N1oaGb-U8K2VNztjg'
-    },
     'poder-judicial': {
         'name': '🏛️ Poder Judicial <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCo0C1-ocUG9a0Yb3iO0V-xg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -717,49 +672,4 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCYd5k2TyOyOmUJNx0SH17KA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCYd5k2TyOyOmUJNx0SH17KA'
     },
-    'cam-dipu-01-yutu': {
-        'name': 'Cámara Diputados YT 01 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCcULnWuDzgQG9yF0Dv3DIgg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCcULnWuDzgQG9yF0Dv3DIgg'
-    },
-    'cam-dipu-03-yutu': {
-        'name': 'Cámara Diputados YT 03 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCF6KgLfQqQzekn8U1DwVs9g&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCF6KgLfQqQzekn8U1DwVs9g'
-    },
-    'cam-dipu-05-yutu': {
-        'name': 'Cámara Diputados YT 05 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC0QKtI8NpeMObauDylsSUDA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC0QKtI8NpeMObauDylsSUDA'
-    },
-    'cam-dipu-06-yutu': {
-        'name': 'Cámara Diputados YT 06 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCspWzpGflwb6A8PZqWw49CQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCspWzpGflwb6A8PZqWw49CQ'
-    },
-    'cam-dipu-07-yutu': {
-        'name': 'Cámara Diputados YT 07 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCyVjDDBZGDywVGrpGBvGEsw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCyVjDDBZGDywVGrpGBvGEsw'
-    },
-    'cam-dipu-08-yutu': {
-        'name': 'Cámara Diputados YT 08 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCCtDbZzh63vgU_BWHRGsbug&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCCtDbZzh63vgU_BWHRGsbug'
-    },
-    'cam-dipu-11-yutu': {
-        'name': 'Cámara Diputados YT 11 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCYPKjGKq2yLbAnmth5rFZmQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCYPKjGKq2yLbAnmth5rFZmQ'
-    },
-    'cam-dipu-12-yutu': {
-        'name': 'Cámara Diputados YT 12 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCVOWFY-sgbDglBsfOap9okg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCVOWFY-sgbDglBsfOap9okg'
-    },
-    'cam-dipu-13-yutu': {
-        'name': 'Cámara Diputados YT 13 <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC33MG3YdoQ16a8a3wODh6lw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC33MG3YdoQ16a8a3wODh6lw'
-    }
 }
