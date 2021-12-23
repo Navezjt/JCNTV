@@ -61,7 +61,7 @@ const channels = {
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'uci': {
-        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'http://170.79.102.223/UCI/index.m3u8',
         'source': 'https://uci.pe/envivo'
     },
@@ -97,7 +97,7 @@ const channels = {
     },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'code': 'https://www.dailymotion.com/embed/video/x7x4dgx?autoplay=1',
+        'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
         'source': 'https://willax.tv/en-vivo/'
     },    
 // ARGENTINA
