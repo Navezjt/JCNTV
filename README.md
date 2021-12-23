@@ -88,9 +88,11 @@ Toda contribución es bienvenida 😊
 | Enlaces |  RRSS |
 | ------------- | ------------- |
 | https://transparencia.org.pe/transparencia/ |  [Facebook](https://www.facebook.com/transparenciaperu) - [Twitter](https://twitter.com/actransparencia) - [Instagram](https://www.instagram.com/actransparencia/)          |
+| https://www.proetica.org.pe/ |  [Facebook](https://www.facebook.com/ProeticaPeru/) - [Twitter](https://twitter.com/ProeticaPeru) - [Instagram](https://www.instagram.com/proetica_peru/)          |
+| https://www.defensoria.gob.pe/ |  [Facebook](https://www.facebook.com/defensoriaperu) - [Twitter](https://twitter.com/defensoria_peru) - [Instagram](https://www.instagram.com/defensoriaperu/)          |
 
 # Medios de Prensa Alternativos: [↑](#tabla-de-contenido)
-📰 📻 
+📰 📻
 
 *No porque un sitio sea "alternativo" lo convierte en verídico, recuerde aplicar el mismo nivel de criterio que con los medios televisivos o cualquier medio de prensa venga el caso [(¿Cómo detectar un Fake News?)](https://aam.cl/noticias-aam/social-media/como-detectar-un-fake-news/).
 
