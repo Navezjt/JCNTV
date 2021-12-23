@@ -39,6 +39,31 @@ const channels = {
         'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
+    },
+    'antares-tv': {
+        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
+        'source': 'http://antarestvradio.com/tvonline.html'
+    },
+    'andes-tv': {
+        'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
+        'source': 'https://radiosicuani.com/ANDESTV/'
+    },
+    'turbo-mix': {
+        'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8 ',
+        'source': 'https://www.turbomix.com.pe/'
+    },    
+    'pbo-radio': {
+        'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCgR0st4ZLABi-LQcWNu3wnQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCgR0st4ZLABi-LQcWNu3wnQ'
+    },     
+    'santa-rosa': {
+        'name': 'Radio Santa Rosa <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIGV0oiNkdK2-tnf10DNp2A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCIGV0oiNkdK2-tnf10DNp2A'
     },       
 // ARGENTINA
     'tn': {
@@ -390,6 +415,17 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UC84whx2xxsiA1gXHXXqKGOA'
     },
 // CAMARAS MUNDO
+// Peru
+    'av-angamos': {
+        'name': '📷 Av Angamos <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/jQcotlKaPYY?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
+    },
+    'av-la-marina': {
+        'name': '📷 Av La Marina <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/Arq2BUHYz9Y?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
+    },
 // Chile
     'galeria-cima': {
         'name': '📷 Galería CIMA <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
@@ -410,17 +446,6 @@ const channels = {
         'name': '📷 Providencia, Ledrium <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
         'code': 'https://www.youtube-nocookie.com/embed/mGxX5PfREPA?autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCTDewuGhfwGv6JRNnqa-yXw'
-    },
-// Peru
-    'av-angamos': {
-        'name': '📷 Av Angamos <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/jQcotlKaPYY?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
-    },
-    'av-la-marina': {
-        'name': '📷 Av La Marina <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/Arq2BUHYz9Y?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
     },
 //  Argentina
     'obelisco': {
