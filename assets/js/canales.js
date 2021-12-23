@@ -92,7 +92,7 @@ const channels = {
     },
     'turbo-mix': {
         'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8 ',
+        'm3u': 'https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8',
         'source': 'https://www.turbomix.com.pe/'
     },    
     'pbo-radio': {
