@@ -106,7 +106,7 @@ ___
 # Descargo de responsabilidad [↑](#tabla-de-contenido)
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso.
 - “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección. En el caso que fuesen geobloqueados a Perú, se respetará este derecho pero no perderá su estado de accesible.
-- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, LimaLive, entre otros).
+- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, LimaLive, ibPlus, entre otros).
 - El sitio cuenta con reproductores multimedia, lo que no significa que la plataforma retransmita los canales ni implica la decodificación de éstos en cumplimiento al DL 822.
 - Los desarrolladora del proyecto no es propietaria, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal. Tampoco hay ningún vínculo con los dueños propietarios de sus señales.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
