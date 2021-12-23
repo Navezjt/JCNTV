@@ -48,7 +48,7 @@ const channels = {
     'tv-peru-noticias-yt': {
         'name': 'TVPerú Noticias YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.tvperu.gob.pe/play'
+        'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
     'antares-tv': {
         'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
@@ -62,8 +62,13 @@ const channels = {
     },
     'uci': {
         'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'http://170.79.102.223/UCI/index.m3u8',
+        'm3u': 'https://mediastreamm.com:3449/live/mlecaroslive.m3u8',
         'source': 'https://uci.pe/envivo'
+    },
+    'uci-yt': {
+        'name': 'UCI YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCdl1ygFwPa6lUdNYPLjoAGg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCdl1ygFwPa6lUdNYPLjoAGg'
     },
     'atv': {
         'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
