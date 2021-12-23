@@ -85,6 +85,11 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCdl1ygFwPa6lUdNYPLjoAGg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCdl1ygFwPa6lUdNYPLjoAGg'
     },
+    'vnp': {
+        'name': 'Visión Noticias - VNP <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5ee0faac3bbae.streamlock.net/visionnoticias/visionnoticias/playlist.m3u8',
+        'source': 'https://www.cablevisionperu.pe/?page_id=1938'
+    },
     'atv': {
         'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8',
@@ -165,6 +170,31 @@ const channels = {
         'name': 'BHTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
         'm3u': 'http://cdn1.ujjina.com:1935/iptvbhtv/livebhtvtv/playlist.m3u8',
         'source': 'https://bhtv.pe/'
+    },
+    'best-cable': {
+        'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'm3u': 'http://cdn1.ujjina.com:1935/iptvbhtv/livebhtvtv/playlist.m3u8',
+        'source': 'https://bestcableperu.com.pe/tv3.html'
+    },
+    'cadena-tv': {
+        'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
+        'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
+        'source': 'https://web.archive.org/web/20210228055435/https://www.cadenatv.com.pe/'
+    },
+    'cajamarca-tv': {
+        'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
+        'm3u': 'https://tv.siete.us/cajamarcatv/cajamarcatv/index.m3u8',
+        'source': 'https://cajamarcatv.pe/tv'
+    },
+    'tv-cosmos': {
+        'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
+        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u88',
+        'source': 'https://tvcosmos.pe/envivo'
+    },
+    'tv-tumpis': {
+        'name': 'TV Tumpis <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tumbes, español</span>',
+        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u88',
+        'source': 'https://tumpistv.com/en-vivo/'
     },
 // ARGENTINA
     'tn': {
