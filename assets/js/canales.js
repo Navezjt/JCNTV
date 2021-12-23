@@ -100,11 +100,6 @@ const channels = {
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
     },
-    'turbo-mix': {
-        'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8',
-        'source': 'https://www.turbomix.com.pe/'
-    },    
     'pbo-radio': {
         'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCgR0st4ZLABi-LQcWNu3wnQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -150,6 +145,11 @@ const channels = {
         'name': 'Vía Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
         'm3u': 'https://5ee0faac3bbae.streamlock.net/viatv2021/viatv2021/playlist.m3u8',
         'source': 'https://viatelevision.pe/envivo'
+    },
+    'rn-tv': {
+        'name': 'Vía Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
+        'm3u': 'https://5ee0faac3bbae.streamlock.net/rntelevision/rntelevision/playlist.m3u8',
+        'source': 'http://radionoticiastv.com/'
     },
     'tv-en-linea': {
         'name': 'TV en Línea <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
@@ -510,6 +510,16 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCsIg9WMfxjZZvwROleiVsQg&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCsIg9WMfxjZZvwROleiVsQg'
     },
+    'turbo-mix': {
+        'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"> 🎵<span hidden>Radios, Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8',
+        'source': 'https://www.turbomix.com.pe/'
+    },
+    'stereo-tv': {
+        'name': 'Stereo TV <img src="assets/svg/paises/peru.svg" title="Peru"> 🎵<span hidden>Radios, Perú, Jaen, español</span>',
+        'm3u': 'https://servers.amelbasoluciones.co:19360/5medialive/5medialive.m3u8',
+        'source': 'https://radiostereotv.com/'
+    },   
     'imuc-radio-chile': {
         'name': 'IMUC Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"> 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&modestbranding=1&showinfo=0',
