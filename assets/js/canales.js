@@ -50,11 +50,6 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
-    'antares-tv': {
-        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
-        'source': 'http://antarestvradio.com/tvonline.html'
-    },
     'nacional-tv': {
         'name': 'Nacional TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
@@ -80,6 +75,11 @@ const channels = {
         'm3u': 'https://ed1ov.live.opencaster.com/CwCfFGFdtebB/index.m3u8',
         'source': 'https://ondadigitaltv.com'
     },
+    'ovacion': {
+        'name': 'Ovación <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvovacion1/liveovacion1tv/playlist.m3u8',
+        'source': 'https://ovacion.pe/radio'
+    },
     'uci': {
         'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'https://mediastreamm.com:3449/live/mlecaroslive.m3u8',
@@ -99,11 +99,6 @@ const channels = {
         'name': 'ATV Más <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
-    },
-    'andes-tv': {
-        'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
-        'source': 'https://radiosicuani.com/ANDESTV/'
     },
     'turbo-mix': {
         'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
@@ -134,6 +129,17 @@ const channels = {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
+    },
+// LOCALES    
+   'andes-tv': {
+        'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
+        'source': 'https://radiosicuani.com/ANDESTV/'
+    },
+    'antares-tv': {
+        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
+        'source': 'http://antarestvradio.com/tvonline.html'
     },
 // ARGENTINA
     'tn': {
@@ -506,6 +512,16 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/Arq2BUHYz9Y?autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
     },
+    'av-javier-prado': {
+        'name': '📷 Av Javier Prado <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/BYw_2aRwALk?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCCvdN9xfucz3W0fS47HkiFw'
+    },
+    'av-republica-panama': {
+        'name': '📷 Av República de Panamá <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/aywirEbu12A?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCCvdN9xfucz3W0fS47HkiFw'
+    },
 // Chile
     'galeria-cima': {
         'name': '📷 Galería CIMA <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Cámaras, Chile, español, plaza italia</span>',
@@ -649,9 +665,9 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCDGiCfCZIV5phsoGiPwIcyQ'
     },
     'corona-pag-chile': {
-        'name': '🦠 COVID-19 Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
-        'code': 'https://bing.com/covid/local/chile',
-        'source': 'https://bing.com/covid/local/chile'
+        'name': '🦠 COVID-19 Perú <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://bing.com/covid/local/peru',
+        'source': 'https://bing.com/covid/local/peru'
     },
 // SERIES
     'pataclaun': {
@@ -668,6 +684,11 @@ const channels = {
         'name': 'Al fondo hay sitio - Los mejores momentos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PLC3i0ombJso_KHNBnH97-icKgQ1_CeyzV&autoplay=0&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/playlist?list=PLC3i0ombJso_KHNBnH97-icKgQ1_CeyzV'
+    },
+    'encerrona': {
+        'name': 'La Encerrona - Todos los episodios <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/videoseries?list=PL4_L4CSNdHPUIm8ajOHFvHniKhc8Z26hY&autoplay=0&mute=0&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/playlist?list=PL4_L4CSNdHPUIm8ajOHFvHniKhc8Z26hY'
     },
     'bob-ross': {
         'name': 'Bob Ross (Todas las Temporadas) 🌍<span hidden>Estados unidos, ingles</span>',
