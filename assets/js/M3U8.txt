@@ -4,73 +4,10 @@
 ██   ██ ██         ██    ██  ██  ██  ██    ██      ██ ██ 
 ██   ██  ██████    ██    ██   ████    ██████  ███████                               
 
-Lista de canales M3U8 activos:
-TV Senado 2
-https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
-Cámara Diputados 
-https://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8
-Convención Constitucional
-https://mdstrm.com/live-stream-playlist-v/60d476c14157440829d03cd7.m3u8
-24 Horas
-https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8
-24 Horas - 2
-https://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8
-24 Horas - Señal 2
-https://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8
-24 Horas - Señal 2 - 2
-https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
-24 Horas - Señal 3
-https://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8
-CNN CL
-https://unlimited1-cl.dps.live/cnn/cnn.smil/playlist.m3u8
-La Red
-https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
-La Red 2
-https://unlimited1-cl-movistar.dps.live/lared/lared.smil/lared/livestream0/chunks.m3u8
-Holvoet TV
-https://unlimited1-cl-isp.dps.live/holvoettv/holvoettv.smil/playlist.m3u8
-TV Salud
-https://srv3.zcast.com.br/mastermedia/mastermedia/tvsalud.cl.m3u8
-Antofagasta TV
-https://unlimited6-cl.dps.live/atv/atv.smil/atv/livestream2/playlist.m3u8
-Antofagasta TV 2
-https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8
-Canal 9 Bío Bío
-https://unlimited6-cl.dps.live/c9/c9.smil/c9/livestream1/chunks.m3u8
-TVU
-https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8
-Canal 21 Chillán
-https://tls.cdnz.cl/canal21tv/live/playlist.m3u8
-Estacióntv
-https://unlimited6-cl.dps.live/estaciontv/estaciontv.smil/playlist.m3u8
-Estacióntv 2
-https://pantera1-100gb-cl-movistar.dps.live/estaciontv/estaciontv.smil/playlist.m3u8
-PINGUINO TV
-https://streaming.elpinguino.com:5391/live/EP.smil/playlist.m3u8
-ITV Patagonia
-https://unlimited1-cl-isp.dps.live/itv/itv.smil/playlist.m3u8
-Teletón TV 2
-https://mdstrm.com/live-stream-playlist/5d6d5f05a2f6f407b0147965.m3u8
-Contivision
-https://unlimited2-cl.dps.live/contivision/contivision.smil/playlist.m3u8
-CNN US
-https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
-TV Educa Chile 2
-https://mdstrm.com/live-stream-playlist-v/5e74e53f1ab4eb073b19ef34.m3u8
-
-
-
-RADIOS:
-CAROLINA TV
-https://unlimited6-cl.dps.live/carolinatv/carolinatv.smil/carolinatv/livestream2/chunks.m3u8
-FM TIEMPO
-https://unlimited10-cl.dps.live/fmtiempotv/fmtiempotv.smil/playlist.m3u8
-ALEGRIA TV
-https://593b04c4c5670.streamlock.net:443/8192/8192/playlist.m3u8
-ROMANTICA TV
-https://unlimited2-cl-isp.dps.live/romanticatv/romanticatv.smil/playlist.m3u8
-RADIO GENIAL
-https://v2.tustreaming.cl/genialtv/index.m3u8
+Andes Televisión:
+https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8
+Antares Televisión:
+https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8
 
 
 
@@ -90,85 +27,8 @@ https://v2.tustreaming.cl/genialtv/index.m3u8
 ██  ██  ██ ██    ██ ██      ██   ██    ██    ██    ██      ██ ██ 
 ██      ██  ██████  ███████ ██   ██    ██     ██████  ███████    
                                                                  
-                                                                 
-CANAL 13
-https://cl-canal13-canal13-app-qfb4kpcp-live.ned.media/live.m3u8
-https://mdstrm.com/live-stream-playlist/5f2d60b6e6e8357a6a4d8b4d.m3u8?access_token=K4ScKCso1XrsDWMpyaRdiLPvINkCJiXcSp21IE6j2USeoRaTnr2bXuVHituDld2bWAxDiun136e
-
-TVN
-https://unlimited10-cl.dps.live/tvn/tvn.smil/tvn/livestream1/chunks.m3u8
-https://unlimited10-cl.dps.live/tvn/tvn.smil/playlist.m3u8
-https://unlimited1-us.dps.live/tvn/tvn.smil/playlist.m3u8
-
-T13
-https://t13-movil-live.cdn.nedmedia.io/index.m3u8
-
-CHV
-https://mdstrm.com/live-stream-playlist/5cc0855ddf297e136a586daa.m3u8
-http://mi.chv.cl/playlist/stream.m3u8?s=hd
-http://mi.chv.cl/playlist/stream.m3u8?s=sd
-
-MEGA
-https://mdstrm.com/live-stream-playlist/53d2c1a32640614e62a0e000.m3u8?access_token=XXXXX
-
-MEGANOTICIAS
-https://mdstrm.com/live-stream-playlist-v/561430ae330428c223687e1e.m3u8
-https://mdstrm.com/live-stream-playlist-v/5ddfebf14bee0054b9b3fd14.m3u8
-https://mdstrm.com/live-stream-playlist-v/5ddfef39d0ff235bffface57.m3u8
-https://mdstrm.com/live-stream-playlist-v/56f97fc0b9bb39786b04a3b0.m3u8
-
-CNN CHILE
-http://unlimited1-cl-isp.dps.live/cnnprensa/cnnprensa.smil/playlist.m3u8
-https://unlimited1-cl.dps.live/cnn/cnn.smil/playlist.m3u8
-https://unlimited1-cl-isp.dps.live/cnn/cnn.smil/playlist.m3u8
-
-CNN US
-https://cnnlive.warnermediacdn.com/hls/live/2011591/PROD-cnnlive0/de/master.m3u8
-
-CAMARA DE DIPUTADOS
-http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8
-https://camara.02.cl.cdnz.cl/cdndvr/live/playlist.m3u8
-
-TV Chile
-https://mdstrm.com/live-stream-playlist-v/533adcc949386ce765657d7c.m3u8
-
-HOLVOET TV
-https://unlimited1-cl.dps.live/holvoettv/holvoettv.smil/playlist.m3u8
-
-TV EL CENTRAL
-https://5580a424c4e9f.streamlock.net:8020/vs/tvelcentral/chunklist_w514497132.m3u8
-https://593b04c4c5670.streamlock.net:443/8172/8172/playlist.m3u8
-
-RADIO GENIAL
-https://v3.tustreaming.cl/genialtv/live1/tracks-v1a1/index.m3u8
-
-CANAL 21
-https://edge1.cl.grupoz.cl/canal21tv/live/chunklist_w148640593.m3u8
-
-PINGUINO TV
-https://167.114.133.205:1935/live/pinguinotv/playlist.m3u8
-http://streaming.elpinguino.com:1935/live/pinguinotv_240p/playlist.m3u8
-
-Contexto Ñuble TV
-https://streaming10.zglobalhost.com:1936/8014/8014/playlist.m3u8
-
-LA TERCERA TV
-https://unlimited2-cl.dps.live/lttv/lttv.smil/playlist.m3u8
-
-TV Educa Chile
-https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
-
-ADN
-https://unlimited1-cl-isp.dps.live/adntv/adntv.smil/playlist.m3u8
-
-Halcón Parquemet, Cumbre
-https://s13.ipcamlive.com/streams/0doevpfldsmsx32tx/stream.m3u8
-
-Halcón Parquemet, Terraza
-https://s12.ipcamlive.com/streams/0cbuqz3kfhg1t4sed/stream.m3u8
-
-MEDIABANCO
-https://iframe.dacast.com/b/169709/c/560061?autoplay=true&volume=0
+Tropimix:
+https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8
 
 NASA TV MEDIA
 https://www.ustream.tv/embed/10414700?autoplay=true&volume=0
@@ -179,17 +39,6 @@ https://www.ustream.tv/embed/6540154?autoplay=true&volume=0
 ABC NEWS (BLOQUEO VISOR EXTERNO)
 https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q
 
-
-RADIO LAS NIEVES
-https://v2.tustreaming.cl/rln/live1/tracks-v1a1/mono.m3u8
-ROMANTICA TV
-https://unlimited2-cl.dps.live/romanticatv/romanticatv.smil/playlist.m3u8
-RADIO GENIAL
-https://v2.tustreaming.cl/genialtv/live1/index.m3u8
-ON RADIO KPOP
-https://tls.cdnz.cl/onradio4/live/playlist.m3u8
-Radio América TV Chile
-https://Stmv1.zcastbr.com/americatvchile/smil:transcoder.smil/playlist.m3u8
 
 
 
@@ -207,27 +56,12 @@ https://Stmv1.zcastbr.com/americatvchile/smil:transcoder.smil/playlist.m3u8
 =====================================================================================
 =====================================================================================
 FUNCIONAN PERO NO TIENEN HTTPS:
-Contivision musica
-http://media.digitalproserver.com/v2/live/contivisionmusica
-http://wow2.cl.digitalproserver.com/contivisionmusica/contivisionmusicavivo/contivisionmusica.smil/playlist.m3u8
+
 
 
 =====================================================================================
 =====================================================================================
 estos links los guardo porque si y que pasa
-https://www.servelelecciones.cl/
-https://2020.decidechile.cl/#/
-https://www.meganoticias.cl/plebiscito-2020/
-https://www.24horas.cl/plebiscito-chile-elige/
-https://www.t13.cl/plebiscito
-https://www.emol.com/especiales/2020/nacional/plebiscito/resultados.asp
-https://www.soychile.cl/noticias/plebiscito2020/
 
 
-https://2021.decidechile.cl/#/ev/2021
-https://www.meganoticias.cl/elecciones-chile-2021/resultados/
-https://www.t13.cl/elecciones-2021
-https://www.biobiochile.cl/resultados-elecciones-constituyentes/iframe.html
-https://chileelige.24horas.cl/
-https://www.emol.com/especiales/2021/nacional/elecciones/resultados.asp
-https://www.cnnchile.com/page/elecciones-2021-hemiciclo-paridad-fuerzas-y-pueblos/
+
