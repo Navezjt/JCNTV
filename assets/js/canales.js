@@ -14,132 +14,157 @@ https://github.com/Alplox
 
 const channels = {
 //ELECCIONES
-    /* 'decidechile': {
-        'name': 'decidechile.cl <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://live.decidechile.cl/#/ev/2021.12/ct/2021.12.P/',
-        'source': 'https://live.decidechile.cl/'
+    /* 'jne': {
+        'name': 'Jurado Nacional de Elecciones - JNE <img src="assets/svg/paises/peru.svg" alt="bandera Perú" title="Perú"><span hidden>Perú, español, elecciones, presidenciales, conteo votos</span>',
+        'code': 'https://dc1.webstream.eu/hls/hls/jnetvhdstreaming_high/index.m3u8',
+        'source': 'https://www.jne.gob.pe/jnetv/'
     },
-    'servelelecciones': {
-        'name': 'servelelecciones.cl <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://servelelecciones.cl/',
-        'source': 'https://servelelecciones.cl/'
+    'decide-bien': {
+        'name': 'Decide Bien <img src="assets/svg/paises/peru.svg" alt="bandera Perú" title="Perú"><span hidden>Perú, español, elecciones, presidenciales, conteo votos</span>',
+        'code': 'https://decidebien.pe/',
+        'source': 'https://decidebien.pe/'
     },
-    'tips': {
-        'name': 'Vaya a votar (si quiere) <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://alplox.github.io/tele/assets/js/archivo.html',
-        'source': 'https://alplox.github.io/tele/'
-    },
-    'servel': {
-        'name': 'Servicio Electoral de Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCB8s6rETjmWgXrp_BxyXqdg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCB8s6rETjmWgXrp_BxyXqdg'
+    'onpe': {
+        'name': 'Oficina Nacional de Procesos Electorales - ONPE <img src="assets/svg/paises/peru.svg" alt="bandera Perú" title="Perú"><span hidden>Perú, español, elecciones, presidenciales, conteo votos</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCe54d4U9342SA5ov0Nb0geA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCe54d4U9342SA5ov0Nb0geA'
     }, */
 // Canales
     'tv-peru': {
-        'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias': {
-        'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'http://cdnh8.iblups.com/hls/RMuwrdk7M9.m3u8',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias-yt': {
-        'name': 'TVPerú Noticias YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'TVPerú Noticias YT <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
     'nacional-tv': {
-        'name': 'Nacional TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Nacional TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
         'source': 'https://ntvperu.pe/'
     },
     'panamericana': {
-        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://cdnh71.iblups.com/hls/ptv2.m3u8',
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'panamericana-dm': {
-        'name': 'Panamericana TV DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Panamericana TV DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'onda-digital': {
-        'name': 'Onda Digital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Onda Digital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://tv.ondadigital.pe:1936/ondatv2/ondatv2/playlist.m3u8',
         'source': 'https://ondadigitaltv.com'
     },
     'onda-digital-alt': {
-        'name': 'Onda Digital ALT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Onda Digital ALT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://ed1ov.live.opencaster.com/CwCfFGFdtebB/index.m3u8',
         'source': 'https://ondadigitaltv.com'
     },
     'ovacion': {
-        'name': 'Ovación <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Ovación <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvovacion1/liveovacion1tv/playlist.m3u8',
         'source': 'https://ovacion.pe/radio'
     },
     'uci': {
-        'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://mediastreamm.com:3449/live/mlecaroslive.m3u8',
         'source': 'https://uci.pe/envivo'
     },
     'uci-yt': {
-        'name': 'UCI YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'UCI YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCdl1ygFwPa6lUdNYPLjoAGg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCdl1ygFwPa6lUdNYPLjoAGg'
     },
     'atv': {
-        'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
     },
     'atv-plus': {
-        'name': 'ATV Más <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'ATV Más <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
     },
     'turbo-mix': {
-        'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Turbo Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8',
         'source': 'https://www.turbomix.com.pe/'
     },    
     'pbo-radio': {
-        'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCgR0st4ZLABi-LQcWNu3wnQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCgR0st4ZLABi-LQcWNu3wnQ'
     },     
     'santa-rosa': {
-        'name': 'Radio Santa Rosa <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Radio Santa Rosa <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, radio, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIGV0oiNkdK2-tnf10DNp2A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCIGV0oiNkdK2-tnf10DNp2A'
     },
     'la-republica': {
-        'name': 'La República - RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'La República - RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
     },
     'willax': {
-        'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
         'source': 'https://willax.tv/en-vivo/'
     },
     'latina-noticias': {
-        'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
 // LOCALES    
    'andes-tv': {
-        'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Puno, español</span>',
         'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
         'source': 'https://radiosicuani.com/ANDESTV/'
     },
     'antares-tv': {
-        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
         'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
         'source': 'http://antarestvradio.com/tvonline.html'
+    },
+    'autentica-tv': {
+        'name': 'Auténtica TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
+        'm3u': 'https://live.obslivestream.com/autenticatvmux/index.m3u8',
+        'source': 'https://autenticatv.pe/'
+    },
+    'via-tv': {
+        'name': 'Vía Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
+        'm3u': 'https://5ee0faac3bbae.streamlock.net/viatv2021/viatv2021/playlist.m3u8',
+        'source': 'https://viatelevision.pe/envivo'
+    },
+    'tv-en-linea': {
+        'name': 'TV en Línea <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
+        'm3u': 'https://5ee0faac3bbae.streamlock.net/viatv2021/viatv2021/playlist.m3u8',
+        'source': 'https://www.tvenlineaoficial.com/'
+    },
+    'qt-tv': {
+        'name': 'QT Televisión - Qosqo Times <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
+        'm3u': 'https://mediastreamm.com:3753/live/qosqotimeslive.m3u8',
+        'source': 'https://qosqotimes.pe/'
+    },
+    'asiri': {
+        'name': 'Asiri <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'm3u': 'https://video2.lhdserver.es/asiritv/live.m3u8',
+        'source': 'https://www.asiritv.pe/'
+    },
+    'bhtv': {
+        'name': 'BHTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'm3u': 'http://cdn1.ujjina.com:1935/iptvbhtv/livebhtvtv/playlist.m3u8',
+        'source': 'https://bhtv.pe/'
     },
 // ARGENTINA
     'tn': {
