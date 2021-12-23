@@ -45,6 +45,16 @@ const channels = {
         'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
+    'panamericana': {
+        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://cdnhd.iblups.com/hls/ptv2.m3u8',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'uci': {
+        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'http://170.79.102.223/UCI/index.m3u8',
+        'source': 'https://uci.pe/envivo'
+    },
     'atv': {
         'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8',
@@ -74,7 +84,12 @@ const channels = {
         'name': 'Radio Santa Rosa <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIGV0oiNkdK2-tnf10DNp2A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCIGV0oiNkdK2-tnf10DNp2A'
-    },       
+    },
+    'willax': {
+        'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.dailymotion.com/embed/video/x7x4dgx?autoplay=1',
+        'source': 'https://willax.tv/en-vivo/'
+    },    
 // ARGENTINA
     'tn': {
         'name': 'Todonoticias <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
