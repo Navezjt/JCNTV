@@ -13,7 +13,7 @@ Toda contribución es bienvenida 😊
 - [Material Complementario 🔗🦠](#material-complementario-)
 - [Descargo de responsabilidad 📝](#descargo-de-responsabilidad-)
 - [Licencia](#licencia-)
-   
+
 # Canales disponibles junto a su origen: [↑](#tabla-de-contenido)
 | Canales ![](https://github.com/SanguiNET/tele/raw/master/assets/svg/paises/peru.svg)          | 📻 Radios ![](https://github.com/Alplox/tele/raw/master/icons/chile.png) | Internacionales 🌍                                                                                                       | Música 🎵                                                                      | Cámaras 📷                                                                                     | Espacio 🔭                                                                   |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -93,21 +93,23 @@ ___
 Sitios que poseen información útil en cuanto a diversos temas que no sabía dónde añadir para compartir:
 | Sitio                                                                                                                                                                                                                                          | Mirror                                                                              | RRSS                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Streaming de TV abierta**                                                                                                                                                                                                                                               
+| **Streaming de TV abierta**
 | https://m3u.cl/lista-iptv-peru.php  | |
 | **Prevención y cuidado**                                                                                                                                                                                                                       |                                                                                     |                                                                                                                                                            |
 | [⚕️Salud Mental (MINSA)](https://www.minsa.gob.pe/salud-mental/)                                                                                                                                                                                 |                                                                                                               |
 | [🦠COVID-19 Información Oficial Gobierno de Perú](https://www.gob.pe/coronavirus)                                                                                                                                                            |                                                                                     |                                                                                                                                                            |
 | [🦠Coronavirus Información WHO](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public)                                                                                                                          |                                                                                     |                                                                                                                                                            |
-| [🦠COVID-19 rastrear la propagación mundial](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) - [x](https://github.com/CSSEGISandData/COVID-19)                                              | [mirrors](https://www.apuntesplox.xyz/2020/03/dashboards-coronavirus-covid-19.html) |                                                                                                                                                            
-                                                             
+| [🦠COVID-19 rastrear la propagación mundial](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) - [x](https://github.com/CSSEGISandData/COVID-19)                                              | [mirrors](https://www.apuntesplox.xyz/2020/03/dashboards-coronavirus-covid-19.html) |
+
 
 ___
 # Descargo de responsabilidad [↑](#tabla-de-contenido)
-- "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso.
-- “tele” no decodifica señales de satélite ni de cable directamente, todo en este sitio ha sido procesado de diferentes sitios públicos encontrados como libre distribución sin ninguna protección. En el caso que fuesen geobloqueados a Perú, se respetará este derecho pero no perderá su estado de accesible.
-- Los enlaces que figuran en este sitio son procesados de diferentes webs de streaming online (Youtube, LimaLive, ibPlus, entre otros).
-- El sitio cuenta con reproductores multimedia, lo que no significa que la plataforma retransmita los canales ni implica la decodificación de éstos en cumplimiento al DL 822.
+- "tele" es un proyecto colaborativo gratuito para gestionar canales detelevisión por internet de libre acceso. Creemos que cuando el usuario busca ver diferentes perspectivas de canales de televisión de hechos recientes se considera como "uso justo" (DL 822 Art. 45).
+- Los enlaces que figuran en este sitio son obtenidos de diferentes webs públicas de streaming
+online (Youtube, LimaLive, ibPlus, entre otros).
+- Los enlaces obtenidos de “tele” son encontrados como libre distribución sin ninguna
+restricción. En cualquier caso, "tele" no decodifica señales de satélite ni de cable directamente.
+- El sitio cuenta con reproductores multimedia para que el usuario final reproduzca los enlaces directamente a su navegador web. Por lo tanto, no hay una transmisión fuera de la wb de stream y el usuario final.
 - Los desarrolladora del proyecto no es propietaria, ni responsable de ninguno de los contenidos transmitidos por parte de cada canal. Tampoco hay ningún vínculo con los dueños propietarios de sus señales.
 - No se cobra ni ofrece canales de pago bajo ninguna modalidad.
 - El sitio "tele" no posee ningún tipo de monetización, en consecuencia, no se lucra de ninguna forma o medio.
