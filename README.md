@@ -10,6 +10,7 @@ Toda contribución es bienvenida 😊
 # Tabla de contenido
 - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen-)
 - [Reportes de transparencia](#reportes-de-transparencia)
+- [Medios de Prensa Alternativos 📰 📻](#medios-de-prensa-alternativos-)
 - [Material Complementario 🔗🦠](#material-complementario-)
 - [Descargo de responsabilidad 📝](#descargo-de-responsabilidad-)
 - [Licencia](#licencia-)
@@ -87,6 +88,20 @@ Toda contribución es bienvenida 😊
 | Enlaces |  RRSS |
 | ------------- | ------------- |
 | https://transparencia.org.pe/transparencia/ |  [Facebook](https://www.facebook.com/transparenciaperu) - [Twitter](https://twitter.com/actransparencia) - [Instagram](https://www.instagram.com/actransparencia/)          |
+
+# Medios de Prensa Alternativos: [↑](#tabla-de-contenido)
+📰 📻 
+
+*No porque un sitio sea "alternativo" lo convierte en verídico, recuerde aplicar el mismo nivel de criterio que con los medios televisivos o cualquier medio de prensa venga el caso [(¿Cómo detectar un Fake News?)](https://aam.cl/noticias-aam/social-media/como-detectar-un-fake-news/).
+
+| Enlace/Nombre                                                                                                                                               | Twitter ![](https://i.imgur.com/u4qu0Y1.png)   | Facebook ![](https://i.imgur.com/yGCWyob.png)                                                | Instagram ![](https://i.imgur.com/L70jBYo.png)               | Fuente                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| [Verificador La República](https://larepublica.pe/verificador/)                                                                                                                     | ❌                                              | ❌                                                                                            | ❌                                                            | ❌                                                                                                              |
+| [GOB Noticias](https://www.gob.cl/noticias/)                                                                                                                | [Twitter](https://twitter.com/presidenciaperu) | [Facebook](https://www.facebook.com/PresidenciaPeru)                                         | [Instagram](https://www.instagram.com/presidenciaperu/)      | ❌                                                                                                              |
+| [Google News](https://news.google.com/)                                                                                                                     | ❌                                              | ❌                                                                                            | ❌                                                            | ❌                                                                                                              |
+| [Microsoft News](https://microsoftnews.msn.com/)                                                                                                            | ❌                                              | ❌                                                                                            | ❌                                                            | ❌                                                                                                              |
+| [Yahoo News](https://news.yahoo.com/)                                                                                                                       | ❌                                              | ❌                                                                                            | ❌                                                            | ❌                                                                                                              |
+| [Bing News](https://www.bing.com/news)                                                                                                                      | ❌                                              | ❌                                                                                            | ❌                                                            | ❌                                                                                                              |
 
 ___
 # Material Complementario: [↑](#tabla-de-contenido)
