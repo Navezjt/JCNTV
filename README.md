@@ -104,7 +104,7 @@ Sitios que poseen información útil en cuanto a diversos temas que no sabía d�
 
 ___
 # Descargo de responsabilidad [↑](#tabla-de-contenido)
-- "tele" es un proyecto colaborativo gratuito para gestionar canales detelevisión por internet de libre acceso. Creemos que cuando el usuario busca ver diferentes perspectivas de canales de televisión de hechos recientes se considera como "uso justo" (DL 822 Art. 45).
+- "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso. Creemos que cuando el usuario busca ver diferentes perspectivas de canales de televisión de hechos recientes se considera como "uso justo" (DL 822 Art. 45).
 - Los enlaces que figuran en este sitio son obtenidos de diferentes webs públicas de streaming
 online (Youtube, LimaLive, ibPlus, entre otros).
 - Los enlaces obtenidos de “tele” son encontrados como libre distribución sin ninguna
