@@ -45,6 +45,16 @@ const channels = {
         'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
+    'atv': {
+        'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8',
+        'source': 'https://www.atv.pe/envivo-atv'
+    },
+    'atv-plus': {
+        'name': 'ATV Más <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
+        'source': 'https://www.atv.pe/envivo-atv'
+    },
     'andes-tv': {
         'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
