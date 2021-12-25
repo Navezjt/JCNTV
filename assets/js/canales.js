@@ -216,9 +216,9 @@ const channels = {
         'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
         'source': 'https://web.archive.org/web/20210228055435/https://www.cadenatv.com.pe/'
     },
-    'canal-8': {
-        'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Piura, español</span>',
-        'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
+    'catacaos-tv': {
+        'name': 'Catacaos TV 8 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Piura, español</span>',
+        'm3u': 'hhttps://tvdatta.com:3838/live/canalcatacaoslive.m3u8',
         'source': 'https://www.canal8catacaos.com/'
     },
     'cajamarca-tv': {
