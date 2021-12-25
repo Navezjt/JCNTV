@@ -227,7 +227,7 @@ const channels = {
         'source': 'https://cajamarcatv.pe/tv'
     },
     'tv-cosmos': {
-        'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
+        'name': 'TV Cosmos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
         'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u88',
         'source': 'https://tvcosmos.pe/envivo'
     },
