@@ -228,12 +228,12 @@ const channels = {
     },
     'tv-cosmos': {
         'name': 'TV Cosmos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
-        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u88',
+        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u8',
         'source': 'https://tvcosmos.pe/envivo'
     },
     'tv-tumpis': {
         'name': 'TV Tumpis <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tumbes, español</span>',
-        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u88',
+        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u8',
         'source': 'https://tumpistv.com/en-vivo/'
     },
     'gaceta-ucayalina': {
