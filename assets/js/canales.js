@@ -16,8 +16,13 @@ const channels = {
 //ELECCIONES
     /* 'jne': {
         'name': 'Jurado Nacional de Elecciones - JNE <img src="assets/svg/paises/peru.svg" alt="bandera Perú" title="Perú"><span hidden>Perú, español, elecciones, presidenciales, conteo votos</span>',
-        'code': 'https://dc1.webstream.eu/hls/hls/jnetvhdstreaming_high/index.m3u8',
+        'm3u': 'https://dc1.webstream.eu/hls/hls/jnetvhdstreaming_high/index.m3u8',
         'source': 'https://www.jne.gob.pe/jnetv/'
+    },
+    'Voto Informado': {
+        'name': 'Voto Informado <img src="assets/svg/paises/peru.svg" alt="bandera Perú" title="Perú"><span hidden>Perú, español, elecciones, presidenciales, conteo votos</span>',
+        'code': 'https://votoinformado.jne.gob.pe/',
+        'source': 'https://votoinformado.jne.gob.pe/'
     },
     'decide-bien': {
         'name': 'Decide Bien <img src="assets/svg/paises/peru.svg" alt="bandera Perú" title="Perú"><span hidden>Perú, español, elecciones, presidenciales, conteo votos</span>',
@@ -99,6 +104,11 @@ const channels = {
         'name': 'ATV Más <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
+    },
+    'radio-exitosa': {
+        'name': 'Radio Exitosa <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'm3u': 'https://cu.onliv3.com/livevd1/user2.m3u8',
+        'source': 'https://exitosanoticias.pe/v1/tvenvivo/'
     },
     'pbo-radio': {
         'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
@@ -191,10 +201,25 @@ const channels = {
         'm3u': 'http://cdn1.ujjina.com:1935/iptvbhtv/livebhtvtv/playlist.m3u8',
         'source': 'https://bestcableperu.com.pe/tv3.html'
     },
+    'canal-b': {
+        'name': 'Canal B <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Lima, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCbPOnTkKzeIkoYNTo6n3FvA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCbPOnTkKzeIkoYNTo6n3FvA'
+    },
+    'conecta-tv': {
+        'name': 'Radio Conecta2 TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
+        'm3u': 'https://mediastreamm.com:3528/live/conect2tvlive.m3u8',
+        'source': 'https://conecta2peru.com/'
+    },
     'cadena-tv': {
         'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
         'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
         'source': 'https://web.archive.org/web/20210228055435/https://www.cadenatv.com.pe/'
+    },
+    'canal-8': {
+        'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Piura, español</span>',
+        'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
+        'source': 'https://www.canal8catacaos.com/'
     },
     'cajamarca-tv': {
         'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
@@ -210,6 +235,11 @@ const channels = {
         'name': 'TV Tumpis <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tumbes, español</span>',
         'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u88',
         'source': 'https://tumpistv.com/en-vivo/'
+    },
+    'gaceta-ucayalina': {
+        'name': 'Gaceta Ucayalina <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://tvsource.gacetaucayalina.com/hls/prueba.m3u8',
+        'source': 'https://gacetaperutv.pe/envivo'
     },
 // ARGENTINA
     'tn': {
