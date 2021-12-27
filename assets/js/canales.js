@@ -1,4 +1,4 @@
-/* 
+/*
 Guía rápida:
     'nombre': {                 (Nombre objeto/canal, no repetir entre señales debe ser único)
         'name': 'nombre'        (Nombre canal a mostrar en botón y barra que dirige a su origen cuando activo)
@@ -8,7 +8,7 @@ Guía rápida:
         'source': 'url'         (Source es el enlace de origen de la señal, a modo de transparencia y libertad de abandonar la página si solo se quiere continuar con dicha señal, si se extra una señal ya sea tipo "code" o "m3u8" de www.pagina-ejemplo.cl debe de ponerse www.pagina-ejemplo.cl en "source")
     }
 
-by Alplox 
+by Alplox
 https://github.com/Alplox
 */
 
@@ -42,7 +42,7 @@ const channels = {
     },
     'tv-peru-noticias': {
         'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://iblups.com/e_tvperu73',
+        'code': 'assets/ibplus/tvperu.html',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias-yt': {
@@ -114,7 +114,7 @@ const channels = {
         'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCgR0st4ZLABi-LQcWNu3wnQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCgR0st4ZLABi-LQcWNu3wnQ'
-    },     
+    },
     'santa-rosa': {
         'name': 'Radio Santa Rosa <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, radio, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIGV0oiNkdK2-tnf10DNp2A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -150,7 +150,7 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
-// LOCALES    
+// LOCALES
    'andes-tv': {
         'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Puno, español</span>',
         'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
@@ -318,7 +318,7 @@ const channels = {
         'name': '24 horas <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCTXNz3gjAypWp3EhlIATEJQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCTXNz3gjAypWp3EhlIATEJQ'
-    },  
+    },
     'meganoticias': {
         'name': 'Meganoticias <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkccyEbqhhM3uKOI6Shm-4Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -344,7 +344,7 @@ const channels = {
         'name': 'teleSUR tv <img src="assets/svg/paises/venezuela.svg" alt="bandera Venezuela" title="Venezuela"><span hidden>Venezuela, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCbHFKMtqLYkIBRiPHJwxu_w&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCbHFKMtqLYkIBRiPHJwxu_w'
-    },   
+    },
 // MEXICO
     'MILENIO': {
         'name': 'MILENIO <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
@@ -356,7 +356,7 @@ const channels = {
         'name': 'HCH En Vivo <img src="assets/svg/paises/honduras.svg" alt="bandera Honduras" title="Honduras"><span hidden>Honduras</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIs6fmAXOI1K2jgkoBdWveg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCIs6fmAXOI1K2jgkoBdWveg'
-    },        
+    },
 // ESPAÑA
     'rtve': {
         'name': 'RTVE Noticias <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
@@ -414,7 +414,7 @@ const channels = {
         'name': 'NBCLA <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCSWoppsVL0TLxFQ2qP_DLqQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCSWoppsVL0TLxFQ2qP_DLqQ'
-    },   
+    },
     'nbc-news': {
         'name': 'NBC News <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCeY0bbntWzzVIaj2z3QigXg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -425,7 +425,7 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCuiLR4p6wQ3xLEm15pEn1Xw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCuiLR4p6wQ3xLEm15pEn1Xw'
     },
-// FRANCIA        
+// FRANCIA
     'euronews-esp': {
         'name': 'euronews (Español) <img src="assets/svg/paises/francia.svg" alt="bandera Francia" title="Francia"><span hidden>Francia, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -574,7 +574,7 @@ const channels = {
         'name': 'Stereo TV <img src="assets/svg/paises/peru.svg" title="Peru"> 🎵<span hidden>Radios, Perú, Jaen, español</span>',
         'm3u': 'https://servers.amelbasoluciones.co:19360/5medialive/5medialive.m3u8',
         'source': 'https://radiostereotv.com/'
-    },   
+    },
     'imuc-radio-chile': {
         'name': 'IMUC Chile <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"> 🎵<span hidden>Radios, 24/7</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCIIDtZoaK9UZi4FaGMmL_hw&autoplay=1&mute=0&modestbranding=1&showinfo=0',
@@ -826,7 +826,7 @@ const channels = {
         'code': 'https://www.opencaster.com/clients/cultura24/',
         'source': 'https://cultura24.tv/'
     },
-// 🏛️ 🏛️ 🏛️ 
+// 🏛️ 🏛️ 🏛️
     'congreso': {
         'name': '🏛️ Congreso <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCsKiP5cZCYh9YhPGrI6GrkQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -836,7 +836,7 @@ const channels = {
         'name': '🏛️ JusticiaTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCwsURxTXqGqijgu98ndod3A&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCwsURxTXqGqijgu98ndod3A'
-    },    
+    },
 // CANALES ALTERNATIVOS CAM DIPUTADOS
 // NA
 }
