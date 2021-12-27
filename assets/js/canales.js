@@ -42,7 +42,7 @@ const channels = {
     },
     'tv-peru-noticias': {
         'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://iblups.com/tvperu73',
+        'code': 'https://www.tvperu.gob.pe/play',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias-yt': {

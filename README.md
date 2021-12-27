@@ -135,7 +135,7 @@ ___
 # Descargo de responsabilidad [↑](#tabla-de-contenido)
 - "tele" es un proyecto colaborativo gratuito para gestionar canales de televisión por internet de libre acceso. **Creemos que cuando el usuario busca ver diferentes perspectivas de canales de televisión de hechos recientes se considera como "uso justo" (DL 822 Art. 45).**
 - Los enlaces que figuran en este sitio son obtenidos de diferentes webs públicas de streaming
-online (Youtube, LimaLive, ibPlus, entre otros).
+online (Youtube, LimaLive, iblups, entre otros).
 - Los enlaces obtenidos de “tele” son encontrados como libre distribución sin ninguna
 restricción. En cualquier caso, "tele" no decodifica señales de satélite ni de cable directamente.
 - El sitio cuenta con reproductores multimedia para que el usuario final reproduzca los enlaces directamente a su navegador web. Por lo tanto, no existe un software de transmisión oculto, fuera de la web del streaming y el usuario final.
