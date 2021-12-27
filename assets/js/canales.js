@@ -37,12 +37,12 @@ const channels = {
 // Canales
     'tv-peru': {
         'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
+        'code': 'https://iblups.com/e_tvperuHD',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias': {
         'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'http://cdnh8.iblups.com/hls/RMuwrdk7M9.m3u8',
+        'code': 'https://iblups.com/e_tvperu73',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias-yt': {
@@ -210,6 +210,11 @@ const channels = {
         'name': 'Radio Conecta2 TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
         'm3u': 'https://mediastreamm.com:3528/live/conect2tvlive.m3u8',
         'source': 'https://conecta2peru.com/'
+    },
+    'la-abeja': {
+        'name': 'La Abeja <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Lima, español</span>',
+        'code': 'https://iblups.com/e_laabejatv',
+        'source': 'https://www.laabeja.pe/tv/'
     },
     'cadena-tv': {
         'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
@@ -813,8 +818,13 @@ const channels = {
     },
     'ipe': {
         'name': '📚 Indentidad Peruana - iPE <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'm3u': 'https://cdnh8.iblups.com/hls/OVJNKV4pSr.m3u8',
-        'source': 'https://www.canalipe.tv/'
+        'code': 'https://iblups.com/e_tvperu72',
+        'source': 'https://www.canalipe.tv/streaming'
+    },
+    'cultura-24': {
+        'name': '📚 Indentidad Peruana - iPE <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'code': 'https://www.opencaster.com/clients/cultura24/',
+        'source': 'https://cultura24.tv/'
     },
 // 🏛️ 🏛️ 🏛️ 
     'congreso': {
