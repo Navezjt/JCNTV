@@ -37,7 +37,7 @@ const channels = {
 // Canales
     'tv-peru': {
         'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
+        'm3u': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias': {
@@ -818,7 +818,7 @@ const channels = {
     },
     'ipe': {
         'name': '📚 Indentidad Peruana - iPE <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'code': 'http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8',
+        'm3u': 'http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8',
         'source': 'https://www.canalipe.tv/streaming'
     },
     'cultura-24': {
