@@ -822,7 +822,7 @@ const channels = {
         'source': 'https://www.canalipe.tv/streaming'
     },
     'cultura-24': {
-        'name': '📚 Indentidad Peruana - iPE <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
+        'name': '📚 Cultura 24 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
         'code': 'https://www.opencaster.com/clients/cultura24/',
         'source': 'https://cultura24.tv/'
     },
