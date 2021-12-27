@@ -37,12 +37,12 @@ const channels = {
 // Canales
     'tv-peru': {
         'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://iblups.com/tvperuHD',
+        'code': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias': {
         'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://sanguinet.github.io/tele/assets/iblus/tvperunoticias.html',
+        'm3u': 'https://cdnh8.iblups.com/hls/RMuwrdk7M9.m3u8',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias-yt': {
@@ -213,7 +213,7 @@ const channels = {
     },
     'la-abeja': {
         'name': 'La Abeja <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Lima, español</span>',
-        'code': 'https://iblups.com/laabejatv',
+        'm3u': 'http://cdnhd.iblups.com/hls/F87ppt1YAT.m3u8',
         'source': 'https://www.laabeja.pe/tv/'
     },
     'cadena-tv': {
@@ -818,7 +818,7 @@ const channels = {
     },
     'ipe': {
         'name': '📚 Indentidad Peruana - iPE <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, español</span>',
-        'code': 'https://iblups.com/tvperu72',
+        'code': 'http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8',
         'source': 'https://www.canalipe.tv/streaming'
     },
     'cultura-24': {

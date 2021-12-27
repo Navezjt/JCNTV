@@ -1,4 +1,4 @@
-/* Modal Descargo de responsabilidad para que carge al inicar la página junto a crear cookie para que no vuelva a salir 
+/* Modal Descargo de responsabilidad para que carge al inicar la página junto a crear cookie para que no vuelva a salir
 https://coderwall.com/p/gnqdpg/dismiss-bootstrap-modal-forever-with-jquery-cookie-on-click */
 $(document).ready(function () {
   if (document.cookie.indexOf("ModalShown=true") < 0) {
@@ -17,14 +17,14 @@ const losCanales = document.getElementById('los-canales');
 //-------------------------------------------------------------
 
 /*
-               _ _    _  _____ _______       _____    _______       __  __           /\/|  ____  
-     /\       | | |  | |/ ____|__   __|/\   |  __ \  |__   __|/\   |  \/  |   /\    |/\/_ / __ \ 
+               _ _    _  _____ _______       _____    _______       __  __           /\/|  ____
+     /\       | | |  | |/ ____|__   __|/\   |  __ \  |__   __|/\   |  \/  |   /\    |/\/_ / __ \
     /  \      | | |  | | (___    | |  /  \  | |__) |    | |  /  \  | \  / |  /  \  | \ | | |  | |
    / /\ \ _   | | |  | |\___ \   | | / /\ \ |  _  /     | | / /\ \ | |\/| | / /\ \ |  \| | |  | |
   / ____ \ |__| | |__| |____) |  | |/ ____ \| | \ \     | |/ ____ \| |  | |/ ____ \| |\  | |__| |
- /_/    \_\____/ \____/|_____/   |_/_/    \_\_|  \_\    |_/_/    \_\_|  |_/_/    \_\_| \_|\____/ 
+ /_/    \_\____/ \____/|_____/   |_/_/    \_\_|  \_\    |_/_/    \_\_|  |_/_/    \_\_| \_|\____/
 */
-// https://codepen.io/nosurprisethere/pen/KJxwQz 
+// https://codepen.io/nosurprisethere/pen/KJxwQz
 const settings = { fill: "#fd7e14", background: "#1f1f1f" },
   sliders = document.querySelectorAll(".range-slider");
 
@@ -59,12 +59,12 @@ let anchoStreams = document.getElementById('tamaño-streams');
     }
 
 /*
-   _____          _   _          _      ______  _____ 
+   _____          _   _          _      ______  _____
   / ____|   /\   | \ | |   /\   | |    |  ____|/ ____|
- | |       /  \  |  \| |  /  \  | |    | |__  | (___  
- | |      / /\ \ | . ` | / /\ \ | |    |  __|  \___ \ 
+ | |       /  \  |  \| |  /  \  | |    | |__  | (___
+ | |      / /\ \ | . ` | / /\ \ | |    |  __|  \___ \
  | |____ / ____ \| |\  |/ ____ \| |____| |____ ____) |
-  \_____/_/    \_\_| \_/_/    \_\______|______|_____/                                                                                                   
+  \_____/_/    \_\_| \_/_/    \_\______|______|_____/
 */
 const fragmentCanal = document.createDocumentFragment();
 
@@ -162,12 +162,12 @@ let App = {
         });
       };
     },
-    
+
     init: () => {
       App.seedModal();
       App.add('av-angamos');
       if (!App.isMobile()) {
-        App.add('tv-peru-noticias');
+        App.add('tv-peru-noticias-yt');
         App.add('atv-plus');
         App.add('willax');
         App.add('panamericana-dm');
@@ -178,17 +178,17 @@ let App = {
 
 App.init();
 
-/* 
-   ____ _______ _____   ____   _____           _ 
+/*
+   ____ _______ _____   ____   _____           _
   / __ \__   __|  __ \ / __ \ / ____|         | |
  | |  | | | |  | |__) | |  | | (___   __  ____| |
  | |  | | | |  |  _  /| |  | |\___ \  \ \/ / _` |
  | |__| | | |  | | \ \| |__| |____) |  >  < (_| |
   \____/  |_|  |_|  \_\\____/|_____/  /_/\_\__,_|
-*/                                               
-/* filtro de canales 
-https://www.w3schools.com/bootstrap/bootstrap_filters.asp 
-https://es.stackoverflow.com/questions/195813/c%C3%B3mo-ignorar-acentos-en-b%C3%BAsqueda-filtro-usando-javascript 
+*/
+/* filtro de canales
+https://www.w3schools.com/bootstrap/bootstrap_filters.asp
+https://es.stackoverflow.com/questions/195813/c%C3%B3mo-ignorar-acentos-en-b%C3%BAsqueda-filtro-usando-javascript
 https://es.stackoverflow.com/questions/62031/eliminar-signos-diacr%C3%ADticos-en-javascript-eliminar-tildes-acentos-ortogr%C3%A1ficos
  */
 $(document).ready(() => {
@@ -207,7 +207,7 @@ $(document).ready(() => {
     });
   });
 
-/* copiar enlace a portapapeles y alerta copiado 
+/* copiar enlace a portapapeles y alerta copiado
 https://www.w3schools.com/howto/howto_js_copy_clipboard.as
 https://codepen.io/lancebush/pen/zdxLE */
 $("#success").click(() => {
