@@ -172,7 +172,7 @@ const channels = {
         'source': 'https://viatelevision.pe/envivo'
     },
     'rn-tv': {
-        'name': 'Vía Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
+        'name': 'Radio Noticias Televisión (RN) <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Yurimaguas, español</span>',
         'm3u': 'https://5ee0faac3bbae.streamlock.net/rntelevision/rntelevision/playlist.m3u8',
         'source': 'http://radionoticiastv.com/'
     },
