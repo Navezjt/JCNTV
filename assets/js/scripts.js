@@ -167,7 +167,7 @@ let App = {
       App.seedModal();
       App.add('av-angamos');
       if (!App.isMobile()) {
-        App.add('tv-peru-noticias-yt');
+        App.add('tv-peru-noticias');
         App.add('atv-plus');
         App.add('willax');
         App.add('panamericana-dm');
