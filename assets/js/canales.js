@@ -203,8 +203,13 @@ const channels = {
     },
     'best-cable': {
         'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
-        'm3u': 'http://cdn1.ujjina.com:1935/iptvbhtv/livebhtvtv/playlist.m3u8',
+        'm3u': 'https://tv.siete.us/bestcable/bestcable/index.m3u8',
         'source': 'https://bestcableperu.com.pe/tv3.html'
+    },
+    'best-cable-sports': {
+        'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'm3u': 'https://tv.siete.us/bestcablesports/bestcablesports/index.m3u8',
+        'source': 'https://bestcableperu.com.pe/tv6.html'
     },
     'canal-b': {
         'name': 'Canal B <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Lima, español</span>',
