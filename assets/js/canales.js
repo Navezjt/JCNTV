@@ -166,10 +166,15 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/autenticatvmux/index.m3u8',
         'source': 'https://autenticatv.pe/'
     },
-    'via-tv': {
-        'name': 'Vía Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
-        'm3u': 'https://5ee0faac3bbae.streamlock.net/viatv2021/viatv2021/playlist.m3u8',
-        'source': 'https://viatelevision.pe/envivo'
+    'tarapoto-tv': {
+        'name': 'Tarapoto TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
+        'm3u': 'https://tv.oyotunstream.com:1936/master/master/playlist.m3u8',
+        'source': 'https://www.televisiontarapoto.pe/tv-en-vivo/'
+    },
+    'antares-tv': {
+        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
+        'source': 'http://antarestvradio.com/tvonline.html'
     },
     'rn-tv': {
         'name': 'Radio Noticias Televisión (RN) <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Yurimaguas, español</span>',
