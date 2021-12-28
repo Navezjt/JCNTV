@@ -183,7 +183,7 @@ const channels = {
     },
     'tv-en-linea': {
         'name': 'TV en Línea <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
-        'm3u': 'https://5ee0faac3bbae.streamlock.net/viatv2021/viatv2021/playlist.m3u8',
+        'm3u': 'https://s1.tvdatta.com:3883/live/tvenlinealive.m3u8',
         'source': 'https://www.tvenlineaoficial.com/'
     },
     'qt-tv': {
