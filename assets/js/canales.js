@@ -176,6 +176,11 @@ const channels = {
         'm3u': 'https://5ee0faac3bbae.streamlock.net/rntelevision/rntelevision/playlist.m3u8',
         'source': 'http://radionoticiastv.com/'
     },
+    'vz-tv': {
+        'name': 'VZ Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Moyobamba, español</span>',
+        'm3u': 'https://live.obslivestream.com/vzmux/index.m3u8',
+        'source': 'https://moyobamba.com/vztv/'
+    },
     'tv-en-linea': {
         'name': 'TV en Línea <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
         'm3u': 'https://5ee0faac3bbae.streamlock.net/viatv2021/viatv2021/playlist.m3u8',
