@@ -207,7 +207,7 @@ const channels = {
         'source': 'https://bestcableperu.com.pe/tv3.html'
     },
     'best-cable-sports': {
-        'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'name': 'Best Cable Sports <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
         'm3u': 'https://tv.siete.us/bestcablesports/bestcablesports/index.m3u8',
         'source': 'https://bestcableperu.com.pe/tv6.html'
     },
