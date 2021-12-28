@@ -248,7 +248,7 @@ const channels = {
     },
     'tv-cosmos-2': {
         'name': 'TV Cosmos 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
-        'code': 'https://tvcosmos.pe/wp-content/uploads/2021/05/transmision-15-2.jpg',
+        'code': 'https://www.opencaster.com/tvcosmos-100-100',
         'source': 'https://tvcosmos.pe/envivo'
     },
     'tv-tumpis': {
