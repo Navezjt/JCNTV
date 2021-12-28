@@ -221,6 +221,11 @@ const channels = {
         'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
         'source': 'https://web.archive.org/web/20210228055435/https://www.cadenatv.com.pe/'
     },
+    'canal-21': {
+        'name': 'Canal 21 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
+        'code': 'https://www.opencaster.com/nicolezevallos98-100-100',
+        'source': 'https://canal21huancayo.com/en-vivo/'
+    },
     'catacaos-tv': {
         'name': 'Catacaos TV 8 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Piura, español</span>',
         'm3u': 'hhttps://tvdatta.com:3838/live/canalcatacaoslive.m3u8',
@@ -238,7 +243,7 @@ const channels = {
     },
     'tv-tumpis': {
         'name': 'TV Tumpis <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tumbes, español</span>',
-        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u8',
+        'm3u': 'https://mediastreamm.com:3531/live/tumpistvlive.m3u8',
         'source': 'https://tumpistv.com/en-vivo/'
     },
     'gaceta-ucayalina': {
