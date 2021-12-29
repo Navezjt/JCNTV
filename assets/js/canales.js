@@ -110,6 +110,11 @@ const channels = {
         'm3u': 'https://cu.onliv3.com/livevd1/user2.m3u8',
         'source': 'https://exitosanoticias.pe/v1/tvenvivo/'
     },
+    'radio-exitosa-yt': {
+        'name': 'Radio Exitosa YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCbyblOHU12USUbbPL_M7BNg'
+    },
     'pbo-radio': {
         'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCgR0st4ZLABi-LQcWNu3wnQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
@@ -230,6 +235,11 @@ const channels = {
         'name': 'La Abeja <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Lima, español</span>',
         'm3u': 'http://cdnhd.iblups.com/hls/F87ppt1YAT.m3u8',
         'source': 'https://www.laabeja.pe/tv/'
+    },
+    'peru-21': {
+        'name': 'Perú 21 TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCNd09h2GugrdeT_80LxOFMw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCNd09h2GugrdeT_80LxOFMw'
     },
     'cadena-tv': {
         'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
