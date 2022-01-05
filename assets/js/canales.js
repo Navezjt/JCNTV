@@ -163,7 +163,7 @@ const channels = {
     },
     'antares-tv': {
         'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
-        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvantares/liveantarestv/playlist.m3u8',
+        'code': 'http://www.ujjina.com/cdn/antarestv.html',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
     'autentica-tv': {
