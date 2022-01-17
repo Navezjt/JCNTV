@@ -91,6 +91,7 @@ Toda contribución es bienvenida 😊
 | https://transparencia.org.pe/transparencia/ |  [Facebook](https://www.facebook.com/transparenciaperu) - [Twitter](https://twitter.com/actransparencia) - [Instagram](https://www.instagram.com/actransparencia/)          |
 | https://www.proetica.org.pe/ |  [Facebook](https://www.facebook.com/ProeticaPeru/) - [Twitter](https://twitter.com/ProeticaPeru) - [Instagram](https://www.instagram.com/proetica_peru/)          |
 | https://www.defensoria.gob.pe/ |  [Facebook](https://www.facebook.com/defensoriaperu) - [Twitter](https://twitter.com/defensoria_peru) - [Instagram](https://www.instagram.com/defensoriaperu/)          |
+| https://derechoshumanos.pe/ |  [Facebook](https://www.facebook.com/cnddhh) - [Twitter](https://twitter.com/cnddhh) - [Instagram](https://www.instagram.com/cnddhhperu/)          |
 
 # Medios de Prensa Alternativos: [↑](#tabla-de-contenido)
 📰 📻
