@@ -82,7 +82,7 @@ const channels = {
     },
     'uci': {
         'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://mediastreamm.com:3449/live/mlecaroslive.m3u8',
+        'm3u': 'https://servilive.com:3449/live/mlecaroslive.m3u8',
         'source': 'https://uci.pe/envivo'
     },
     'uci-yt': {
@@ -198,7 +198,7 @@ const channels = {
     },
     'qt-tv': {
         'name': 'QT Televisión - Qosqo Times <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
-        'm3u': 'https://mediastreamm.com:3753/live/qosqotimeslive.m3u8',
+        'm3u': 'https://servilive.com:3753/live/qosqotimeslive.m3u8',
         'source': 'https://qosqotimes.pe/'
     },
     'asiri': {
@@ -213,12 +213,12 @@ const channels = {
     },
     'best-cable': {
         'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
-        'm3u': 'https://tv.siete.us/bestcable/bestcable/index.m3u8',
+        'm3u': 'https://ca.inka.net.pe/bestcable/bestcable/index.m3u8',
         'source': 'https://bestcableperu.com.pe/tv3.html'
     },
     'best-cable-sports': {
         'name': 'Best Cable Sports <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
-        'm3u': 'https://tv.siete.us/bestcablesports/bestcablesports/index.m3u8',
+        'm3u': 'https://ca.inka.net.pe/bestcablesports/bestcablesports/index.m3u8',
         'source': 'https://bestcableperu.com.pe/tv6.html'
     },
     'canal-b': {
@@ -228,7 +228,7 @@ const channels = {
     },
     'conecta-tv': {
         'name': 'Radio Conecta2 TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
-        'm3u': 'https://mediastreamm.com:3528/live/conect2tvlive.m3u8',
+        'm3u': 'https://servilive.com:3528/live/conect2tvlive.m3u8',
         'source': 'https://conecta2peru.com/'
     },
     'la-abeja': {
@@ -258,7 +258,7 @@ const channels = {
     },
     'cajamarca-tv': {
         'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
-        'm3u': 'https://tv.siete.us/cajamarcatv/cajamarcatv/index.m3u8',
+        'm3u': 'https://ca.inka.net.pe/cajamarcatv/cajamarcatv/index.m3u8',
         'source': 'https://cajamarcatv.pe/tv'
     },
     'tv-cosmos': {
@@ -273,7 +273,7 @@ const channels = {
     },
     'tv-tumpis': {
         'name': 'TV Tumpis <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tumbes, español</span>',
-        'm3u': 'https://mediastreamm.com:3531/live/tumpistvlive.m3u8',
+        'm3u': 'https://servilive.com:3531/live/tumpistvlive.m3u8',
         'source': 'https://tumpistv.com/en-vivo/'
     },
     'gaceta-ucayalina': {
