@@ -504,13 +504,13 @@ const channels = {
 // RUSIA
     'RT-español': {
         'name': 'RT en Español <img src="assets/svg/paises/rusia.svg" alt="bandera Rusia" title="Rusia"><span hidden>Rusia, español/span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC2mtXUpAYLYJIZ2deSPhlqw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw'
+        'code': 'https://actualidad.rt.com/live-embed',
+        'source': 'https://actualidad.rt.com/en_vivo'
     },
     'RT-español2': {
         'name': 'RT en vivo <img src="assets/svg/paises/rusia.svg" alt="bandera Rusia" title="Rusia"><span hidden>Rusia, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCEIhICHOQOonjE6V0SLdrHQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCEIhICHOQOonjE6V0SLdrHQ'
+        'code': 'https://actualidad.rt.com/live-embed',
+        'source': 'https://actualidad.rt.com/en_vivo'
     },
     'RT-News': {
         'name': 'RT News <img src="assets/svg/paises/rusia.svg" alt="bandera Rusia" title="Rusia"><span hidden>Rusia, ingles</span>',
