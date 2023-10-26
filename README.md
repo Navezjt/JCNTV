@@ -5,7 +5,7 @@
 Está diseñado para informar sobre eventos relevantes en el país. Incluye canales de cobertura regional. Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 Toda contribución es bienvenida 😊
-[(Repositorio)](https://github.com/Sanguinet/tele)
+[(Repositorio)](https://navezjt.github.io/tele/)
 
 # Tabla de contenido
 - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen-)
