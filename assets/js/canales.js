@@ -53,7 +53,7 @@ const channels = {
     'nacional-tv': {
         'name': 'Nacional TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
-        'source': 'https://ntvperu.pe/'
+        'source': 'https://nacionaltvperu.com/'
     },
     'panamericana': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
@@ -72,7 +72,7 @@ const channels = {
     },
     'onda-digital-alt': {
         'name': 'Onda Digital ALT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://ed1ov.live.opencaster.com/CwCfFGFdtebB/index.m3u8',
+        'm3u': 'https://v4.tustreaming.cl:2000/VideoPlayer/ondadigitaltv?autoplay=1',
         'source': 'https://ondadigitaltv.com'
     },
     'ovacion': {
