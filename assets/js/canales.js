@@ -51,9 +51,9 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
     'nacional-tv': {
-        'name': 'Nacional TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
-        'source': 'https://nacionaltvperu.com/'
+        'name': 'Planeta TV <img src="https://cdn.m3u.cl/logo/1092_Planeta_TV.png" title="Perú"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/planetatv/tracks-v1a1/mono.m3u8',
+        'source': 'https://moyobamba.com/planetatv/'
     },
     'panamericana': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
