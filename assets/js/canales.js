@@ -152,7 +152,7 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'http://mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
+        'src': 'http://mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
 // LOCALES
