@@ -302,10 +302,10 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w'
     },
-    'america-tv': {
-        'name': 'América TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/2Vyx4ee2Tss?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UC6NVDkuzY2exMOVFw4i9oHw'
+    'Palmeras-tv': {
+        'name': 'Palmeras TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
+        'source': 'https://grupopalmerastv.com/portal/'
     },
     'net-tv': {
         'name': 'Net TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
