@@ -113,7 +113,7 @@ const channels = {
     'radio-exitosa-yt': {
         'name': 'Radio Exitosa YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/K1O6v9EHBzY?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCbyblOHU12USUbbPL_M7BNg'
+        'source': 'https://www.youtube.com/@exitosape'
     },
     'pbo-radio': {
         'name': 'PBO Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
@@ -152,7 +152,7 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': '//mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
+        'code': 'http://mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
 // LOCALES
