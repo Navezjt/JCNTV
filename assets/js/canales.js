@@ -140,9 +140,9 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCK0lpuL9PQb3I5CDcu7Y7bA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCK0lpuL9PQb3I5CDcu7Y7bA'
     },
-    'la-republica': {
-        'name': 'La República - RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+    'Mega-TV': {
+        'name': 'Mega TV <img src="https://cdn.m3u.cl/logo/689_Mega_TV.png" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://hls.servidor.stream/storage/megatv.m3u8?PlaylistM3UCL',
         'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
     },
     'willax': {
@@ -152,8 +152,13 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': '//mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
+        'code': 'https://www.youtube-nocookie.com/embed/Ke2gDPxYnsk?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
+    },
+    'latina-noticias-2': {
+        'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'm3u': 'https://live-latinav2-mdstrm.secure.footprint.net/live-stream-mp/d1aden84nxx8u4/3330943a0248407faa8c6f5f5c874fa4/5ce7109c7398b977dc0744cd/index_3.m3u8?&',
+        'source': 'https://www.latina.pe/tvenvivo'
     },
 // LOCALES
    'DobleC-tv': {
