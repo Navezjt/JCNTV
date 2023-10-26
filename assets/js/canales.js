@@ -152,12 +152,12 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'src': 'http://mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
+        'm3u': 'http://mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
 // LOCALES
    'DobleC-tv': {
-        'name': 'Doble C TV <img src="https://doblectelevision.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-28-at-11.48.49-AM.jpeg" title="Peru"><span hidden>Perú, Puno, español</span>',
+        'name': 'Doble C TV <img src="https://cdn.m3u.cl/logo/1256_Doble_C_TV.png" title="Peru"><span hidden>Perú, Puno, español</span>',
         'm3u': 'https://7.innovatestream.pe:19360/cctvchupaca/cctvchupaca.m3u8',
         'source': 'https://doblectelevision.com/'
     },
