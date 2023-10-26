@@ -156,10 +156,10 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
 // LOCALES
-   'andes-tv': {
-        'name': 'Andes TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Puno, español</span>',
-        'm3u': 'https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8',
-        'source': 'https://radiosicuani.com/ANDESTV/'
+   'DobleC-tv': {
+        'name': 'Doble C TV <img src="https://doblectelevision.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-28-at-11.48.49-AM.jpeg" title="Peru"><span hidden>Perú, Puno, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/cctvchupaca/cctvchupaca.m3u8',
+        'source': 'https://doblectelevision.com/'
     },
     'antares-tv': {
         'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
