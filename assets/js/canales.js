@@ -142,7 +142,12 @@ const channels = {
     },
     'Mega-TV': {
         'name': 'Mega TV <img src="https://cdn.m3u.cl/logo/689_Mega_TV.png" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'https://hls.servidor.stream/storage/megatv.m3u8?PlaylistM3UCL',
+        'm3u': 'https://hls.servidor.stream/storage/megatv.m3u8?PlaylistM3UCL',
+        'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
+    },
+    'Mega-TV-Jaen': {
+        'name': 'Mega TV Jaen <img src="https://cdn.m3u.cl/logo/1491_Mega_TV_Jaen.png" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8',
         'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
     },
     'willax': {
