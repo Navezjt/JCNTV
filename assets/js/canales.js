@@ -132,7 +132,7 @@ const channels = {
     },
     'radio-tropical': {
         'name': 'Radio Tropical <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, radio, español</span>',
-        'm3u': 'https://5ee0faac3bbae.streamlock.net/raditropical/raditropical/playlist.m3u8',
+        'src': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/raditropical?autoplay=1',
         'source': 'https://radiotropical.pe/'
     },
     'radio-uno': {
@@ -152,7 +152,7 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCpSJ5fGhmAME9Kx2D3ZvN3Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': '//mdstrm.com/live-stream/5ce7109c7398b977dc0744cd?autoplay=false&player=60351d053a482d07eeef8770',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
 // LOCALES
