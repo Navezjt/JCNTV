@@ -107,12 +107,12 @@ const channels = {
     },
     'radio-exitosa': {
         'name': 'Radio Exitosa <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'https://cu.onliv3.com/livevd1/user2.m3u8',
+        'src': 'https://cu.onliv3.com/exitosa/',
         'source': 'https://exitosanoticias.pe/v1/tvenvivo/'
     },
     'radio-exitosa-yt': {
         'name': 'Radio Exitosa YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube-nocookie.com/embed/K1O6v9EHBzY?channel=UCbyblOHU12USUbbPL_M7BNg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCbyblOHU12USUbbPL_M7BNg'
     },
     'pbo-radio': {
