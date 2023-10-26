@@ -1,6 +1,6 @@
 
 ## Visor de múltiples canales de noticias peruanos a modo de seguir/comparar la realidad política y social en nuestros días (en pruebas)
-# Sitio: https://sanguinet.github.io/tele/
+# Sitio: https://https://navezjt.github.io/tele/
 
 Está diseñado para informar sobre eventos relevantes en el país. Incluye canales de cobertura regional. Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
