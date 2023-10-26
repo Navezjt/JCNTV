@@ -51,7 +51,7 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
     'nacional-tv': {
-        'name': 'Planeta TV <img src="https://cdn.m3u.cl/logo/1092_Planeta_TV.png" title="Perú"><span hidden>Perú, español</span>',
+        'name': 'Planeta TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://live.obslivestream.com/planetatv/tracks-v1a1/mono.m3u8',
         'source': 'https://moyobamba.com/planetatv/'
     },
@@ -141,12 +141,12 @@ const channels = {
         'source': 'https://www.youtube.com/channel/UCK0lpuL9PQb3I5CDcu7Y7bA'
     },
     'Mega-TV': {
-        'name': 'Mega TV <img src="https://cdn.m3u.cl/logo/689_Mega_TV.png" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Mega TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'm3u': 'https://hls.servidor.stream/storage/megatv.m3u8?PlaylistM3UCL',
         'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
     },
     'Mega-TV-Jaen': {
-        'name': 'Mega TV Jaen <img src="https://cdn.m3u.cl/logo/1491_Mega_TV_Jaen.png" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Mega TV Jaen <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'm3u': 'https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8',
         'source': 'https://megatvjaen.pe/tv-en-vivo/'
     },
@@ -167,7 +167,7 @@ const channels = {
     },
 // LOCALES
    'DobleC-tv': {
-        'name': 'Doble C TV <img src="https://cdn.m3u.cl/logo/1256_Doble_C_TV.png" title="Peru"><span hidden>Perú, Puno, español</span>',
+        'name': 'Doble C TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Puno, español</span>',
         'm3u': 'https://7.innovatestream.pe:19360/cctvchupaca/cctvchupaca.m3u8',
         'source': 'https://doblectelevision.com/'
     },
