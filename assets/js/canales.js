@@ -659,8 +659,8 @@ const channels = {
 // Peru
     'av-angamos': {
         'name': '📷 Av Angamos <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/jQcotlKaPYY?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCP9nvEUj8EN-wuOQajPQbAw'
+        'code': 'https://www.youtube-nocookie.com/embed/VpF3b5bsVXY?si=-S66VpAjmMjOKKZE?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/watch?v=VpF3b5bsVXY'
     },
     'av-la-marina': {
         'name': '📷 Av La Marina <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
