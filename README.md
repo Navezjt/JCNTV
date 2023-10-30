@@ -1,11 +1,11 @@
 
 ## Visor de múltiples canales de noticias peruanos a modo de seguir/comparar la realidad política y social en nuestros días (en pruebas)
-# Sitio: https://navezjt.github.io/tele/
+# Sitio: https://navezjt.github.io/JCNTV/
 
 Está diseñado para informar sobre eventos relevantes en el país. Incluye canales de cobertura regional. Obviamente puede ser adaptado para otro tipo de contenido, eso ya es cosa suya.
 
 Toda contribución es bienvenida 😊
-[(Repositorio)](https://navezjt.github.io/tele/)
+[(Repositorio)](https://navezjt.github.io/JCNTV/)
 
 # Tabla de contenido
 - [Canales disponibles junto a su origen 📺](#canales-disponibles-junto-a-su-origen-)
