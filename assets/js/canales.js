@@ -186,9 +186,9 @@ const channels = {
         'm3u': 'https://5ee0faac3bbae.streamlock.net/televisiontpp/televisiontpp/playlist.m3u8',
         'source': 'https://www.televisiontarapoto.pe/tv-en-vivo/'
     },
-    'antares-tv1': {
-        'name': 'Antares TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
-        'code': 'http://www.ujjina.com/cdn/antarestv.html',
+    'antares-tv': {
+        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvantares/liveantarestv/chunklist_w1847670507.m3u8',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
     'rn-tv': {
