@@ -198,7 +198,7 @@ const channels = {
     },
     'rn-tv': {
         'name': 'Radio Noticias Televisión (RN) <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Yurimaguas, español</span>',
-        'fuente': 'hhttps://videoserver.tmcreativos.com:2020/VideoPlayer/rnyurimaguas?autoplay=1',
+        'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/rnyurimaguas?autoplay=1',
         'source': 'http://radionoticiastv.com/'
     },
     'vz-tv': {
