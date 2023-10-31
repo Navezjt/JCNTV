@@ -8,8 +8,8 @@ Guía rápida:
         'source': 'url'         (Source es el enlace de origen de la señal, a modo de transparencia y libertad de abandonar la página si solo se quiere continuar con dicha señal, si se extra una señal ya sea tipo "code" o "m3u8" de www.pagina-ejemplo.cl debe de ponerse www.pagina-ejemplo.cl en "source")
     }
 
-by Alplox
-https://github.com/Alplox
+by Navezjt
+https://github.com/Navezjt
 */
 
 const channels = {
