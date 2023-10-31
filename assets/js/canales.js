@@ -95,10 +95,10 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCdl1ygFwPa6lUdNYPLjoAGg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCdl1ygFwPa6lUdNYPLjoAGg'
     },
-    'vnp': {
-        'name': 'Visión Noticias - VNP <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://5ee0faac3bbae.streamlock.net/visionnoticias/visionnoticias/playlist.m3u8',
-        'source': 'https://www.cablevisionperu.pe/?page_id=1938'
+    'Vision-Sur-Television': {
+        'name': 'Vision Sur Television <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://ott1.hdlatam.tv/live_abr/webtvVisionSur/playlist.m3u8',
+        'source': 'https://visionsurtv.pe/tv-en-vivo/'
     },
     'atv': {
         'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
