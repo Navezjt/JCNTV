@@ -248,7 +248,7 @@ const channels = {
     },
     'peru-21': {
         'name': 'Perú 21 TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
-        'yt-id': 'UCNd09h2GugrdeT_80LxOFMw',
+        'code': 'UCNd09h2GugrdeT_80LxOFMw',
         'source': 'https://www.youtube.com/channel/UCNd09h2GugrdeT_80LxOFMw'
     },
     'cadena-tv': {
