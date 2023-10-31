@@ -50,7 +50,12 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
-    'nacional-tv': {
+    'telecolor-tv': {
+        'name': 'Telecolor TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/telecolormux/index.m3u8',
+        'source': 'https://telecolortv.pe/'
+    },
+    'planeta-tv': {
         'name': 'Planeta TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://live.obslivestream.com/planetatv/tracks-v1a1/mono.m3u8',
         'source': 'https://moyobamba.com/planetatv/'
