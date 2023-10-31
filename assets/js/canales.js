@@ -667,10 +667,10 @@ const channels = {
     },
 // CAMARAS MUNDO
 // Peru
-    'av-angamos': {
-        'name': '📷 Av Angamos <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/VpF3b5bsVXY?si=-S66VpAjmMjOKKZE?autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/watch?v=VpF3b5bsVXY'
+    'Musica': {
+        'name': '📷 Musica <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/HpdsHrfhKqQ?si=xHpkUqXHgv8pn9l9?autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.youtube.com/@almaantiguamusica-yh3qg'
     },
     'av-la-marina': {
         'name': '📷 Av La Marina <img src="assets/svg/paises/peru.svg" alt="bandera Peru" title="Peru"><span hidden>Cámaras, Peru, español</span>',
