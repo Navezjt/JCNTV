@@ -188,7 +188,7 @@ const channels = {
     },
     'tarapoto-tv': {
         'name': 'Tarapoto TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tarapoto, español</span>',
-        'm3u': 'https://5ee0faac3bbae.streamlock.net/televisiontpp/televisiontpp/playlist.m3u8',
+        'm3u': 'https://ott1.hdlatam.tv/live_abr/webtvTarapotoPe/playlist.m3u8',
         'source': 'https://www.televisiontarapoto.pe/tv-en-vivo/'
     },
     'antares-tv': {
