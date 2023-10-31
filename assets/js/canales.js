@@ -171,9 +171,9 @@ const channels = {
         'm3u': 'https://7.innovatestream.pe:19360/cctvchupaca/cctvchupaca.m3u8',
         'source': 'https://doblectelevision.com/'
     },
-    'antares-tv': {
-        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
-        'code': 'http://www.ujjina.com/cdn/antarestv.html',
+    'antares-tv2': {
+        'name': 'Antares TV2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
+        'url': 'http://www.ujjina.com/cdn/antarestv.html',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
     'autentica-tv': {
@@ -188,7 +188,7 @@ const channels = {
     },
     'antares-tv': {
         'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
-        'm3u': 'https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8',
+        'iframe_url': 'http://www.ujjina.com/cdn/antarestv.html',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
     'rn-tv': {
