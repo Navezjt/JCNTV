@@ -263,8 +263,8 @@ const channels = {
     },
     'catacaos-tv': {
         'name': 'Catacaos TV 8 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Piura, español</span>',
-        'm3u': 'hhttps://tvdatta.com:3838/live/canalcatacaoslive.m3u8',
-        'source': 'https://www.canal8catacaos.com/'
+        'm3u': 'https://live.obslivestream.com/canal8/tracks-v1a1/mono.m3u8',
+        'source': 'https://canal8tv.pe/'
     },
     'cajamarca-tv': {
         'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
