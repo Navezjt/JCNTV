@@ -112,7 +112,7 @@ const channels = {
     },
     'radio-exitosa1': {
         'name': 'Radio Exitosa1 <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'src': 'https://cu.onliv3.com/exitosa/',
+        'code': 'https://cu.onliv3.com/exitosa/',
         'source': 'https://exitosanoticias.pe/v1/tvenvivo/'
     },
     'radio-exitosa-yt': {
@@ -162,11 +162,11 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/Ke2gDPxYnsk?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube-nocookie.com/embed/ZF7El9aObqc?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
     'latina-noticias-2': {
-        'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Latina Noticias 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'm3u': 'https://live-latinav2-mdstrm.secure.footprint.net/live-stream-mp/d1aden84nxx8u4/3330943a0248407faa8c6f5f5c874fa4/5ce7109c7398b977dc0744cd/index_3.m3u8?&',
         'source': 'https://www.latina.pe/tvenvivo'
     },
