@@ -80,10 +80,10 @@ const channels = {
         'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvovacion1/liveovacion1tv/playlist.m3u8',
         'source': 'https://ovacion.pe/radio'
     },
-    'uci': {
-        'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://servilive.com:3449/live/mlecaroslive.m3u8',
-        'source': 'https://uci.pe/envivo'
+    'palmeras-tv': {
+        'name': 'Palmeras TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://video.ingenioperu.com:3982/live/palmerastvlive.m3u8',
+        'source': 'https://grupopalmerastv.com/portal/'
     },
     'uci-yt': {
         'name': 'UCI YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
