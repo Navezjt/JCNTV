@@ -173,7 +173,7 @@ const channels = {
     },
     'antares-tv2': {
         'name': 'Antares TV2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
-        'url': 'http://www.ujjina.com/cdn/antarestv.html',
+        'code': 'http://www.ujjina.com/cdn/antarestv.html',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
     'autentica-tv': {
@@ -186,9 +186,9 @@ const channels = {
         'm3u': 'https://5ee0faac3bbae.streamlock.net/televisiontpp/televisiontpp/playlist.m3u8',
         'source': 'https://www.televisiontarapoto.pe/tv-en-vivo/'
     },
-    'antares-tv': {
-        'name': 'Antares TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
-        'iframe_url': 'http://www.ujjina.com/cdn/antarestv.html',
+    'antares-tv1': {
+        'name': 'Antares TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, español</span>',
+        'code': 'http://www.ujjina.com/cdn/antarestv.html',
         'source': 'http://antarestvradio.com/tvonline.html'
     },
     'rn-tv': {
@@ -246,10 +246,10 @@ const channels = {
         'm3u': 'http://cdnhd.iblups.com/hls/F87ppt1YAT.m3u8',
         'source': 'https://www.laabeja.pe/tv/'
     },
-    'peru-21': {
-        'name': 'Perú 21 TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
-        'code': 'UCNd09h2GugrdeT_80LxOFMw',
-        'source': 'https://www.youtube.com/channel/UCNd09h2GugrdeT_80LxOFMw'
+    'peru-Channel': {
+        'name': 'Perú Channel <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
+        'm3u': 'https://a.cdni.live/peruchanel/peruchanel/playlist.m3u8',
+        'source': 'https://www.cxtvenvivo.com/tv-en-vivo/peru-channel'
     },
     'cadena-tv': {
         'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
@@ -265,6 +265,11 @@ const channels = {
         'name': 'Catacaos TV 8 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Piura, español</span>',
         'm3u': 'https://live.obslivestream.com/canal8/tracks-v1a1/mono.m3u8',
         'source': 'https://canal8tv.pe/'
+    },
+    'Ok-teVe': {
+        'name': 'Ok TeVe <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
+        'm3u': 'https://live.obslivestream.com/oktv/video.m3u8?token=Bk-DXAXulO1OV0',
+        'source': 'https://oktelevisionhd.com/'
     },
     'cajamarca-tv': {
         'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
