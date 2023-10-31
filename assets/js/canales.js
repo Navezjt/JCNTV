@@ -80,8 +80,8 @@ const channels = {
         'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvovacion1/liveovacion1tv/playlist.m3u8',
         'source': 'https://ovacion.pe/radio'
     },
-    'palmeras-tv': {
-        'name': 'Palmeras TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'palmeras-tv1': {
+        'name': 'Palmeras TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://video.ingenioperu.com:3982/live/palmerastvlive.m3u8',
         'source': 'https://grupopalmerastv.com/portal/'
     },
