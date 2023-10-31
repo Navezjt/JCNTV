@@ -110,8 +110,8 @@ const channels = {
         'm3u': 'https://d3krdjs7is1y42.cloudfront.net/ATVmas/74ee4169b59e6f987ae3d77317309109.sdp/playlist.m3u8?PlaylistM3UCL',
         'source': 'https://www.atv.pe/envivo-atv'
     },
-    'radio-exitosa': {
-        'name': 'Radio Exitosa <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+    'radio-exitosa1': {
+        'name': 'Radio Exitosa1 <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'src': 'https://cu.onliv3.com/exitosa/',
         'source': 'https://exitosanoticias.pe/v1/tvenvivo/'
     },
@@ -203,8 +203,8 @@ const channels = {
     },
     'vz-tv': {
         'name': 'VZ Televisión <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Moyobamba, español</span>',
-        'm3u': 'https://live.obslivestream.com/vzmux/index.m3u8',
-        'source': 'https://moyobamba.com/vztv/'
+        'm3u': 'https://live.obslivestream.com/vztv/index.m3u8?PlaylistM3UCL',
+        'source': 'https://vztvproducciones.com/'
     },
     'tv-en-linea': {
         'name': 'TV en Línea <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cuzco, español</span>',
