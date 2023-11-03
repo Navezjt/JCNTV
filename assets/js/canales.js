@@ -259,7 +259,7 @@ const channels = {
     'cadena-tv': {
         'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
         'code': 'https://servilive.com/live-stream-video-widget/cdnatv',
-        'source': 'https://web.archive.org/web/20210228055435/https://www.cadenatv.com.pe/'
+        'source': 'https://www.cadenatv.com.pe/'
     },
     'canal-21': {
         'name': 'Canal 21 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
