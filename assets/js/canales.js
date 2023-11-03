@@ -258,7 +258,7 @@ const channels = {
     },
     'cadena-tv': {
         'name': 'Cadena TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Huancayo, español</span>',
-        'm3u': 'https://tvdatta.com:3262/live/cadenatvlive.m3u8',
+        'code': 'https://servilive.com/live-stream-video-widget/cdnatv',
         'source': 'https://web.archive.org/web/20210228055435/https://www.cadenatv.com.pe/'
     },
     'canal-21': {
