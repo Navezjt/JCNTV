@@ -137,7 +137,7 @@ const channels = {
     },
     'radio-tropical': {
         'name': 'Radio Tropical <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Tarapoto, radio, español</span>',
-        'src': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/raditropical?autoplay=1',
+        'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/raditropical?autoplay=1',
         'source': 'https://radiotropical.pe/'
     },
     'radio-uno': {
