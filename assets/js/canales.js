@@ -566,7 +566,7 @@ const channels = {
 // VARIOS
     'dw': {
         'name': 'DW Español 🌍<span hidden>Alemania, español/span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'yt_id': 'UCT4Jg8h03dD0iN3Pb5L0PMA',
         'source': 'https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA'
     },
     'trt-world': {
