@@ -566,7 +566,7 @@ const channels = {
 // VARIOS
     'dw': {
         'name': 'DW Español 🌍<span hidden>Alemania, español/span>',
-        'yt_id': 'UCT4Jg8h03dD0iN3Pb5L0PMA',
+        'code': 'UCT4Jg8h03dD0iN3Pb5L0PMA',
         'source': 'https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA'
     },
     'trt-world': {
