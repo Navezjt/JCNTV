@@ -569,6 +569,16 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCT4Jg8h03dD0iN3Pb5L0PMA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA'
     },
+    'dw1': {
+        'name': 'DW Español 1 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA/live',
+        'source': 'https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw'
+    },
+    'dw2': {
+        'name': 'DW Español 2 🌍<span hidden>Turquia, ingles</span>',
+        'm3u': 'https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8',
+        'source': 'https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw'
+    },
     'trt-world': {
         'name': 'TRT World 🌍<span hidden>Turquia, ingles</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC7fWeaHhqgM4Ry-RMpM2YYw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
