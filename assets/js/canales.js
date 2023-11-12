@@ -37,7 +37,7 @@ const channels = {
 // Canales
     'tv-peru': {
         'name': 'TVPerú <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'https://cdnh8.iblups.com/hls/R9WtilpKKB.m3u8',
+        'code': 'https://iblups.com/e_tvperuHD',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias': {
