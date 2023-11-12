@@ -293,8 +293,8 @@ const channels = {
     },
     'tv-tumpis': {
         'name': 'TV Tumpis <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Tumbes, español</span>',
-        'm3u': 'https://servilive.com:3531/live/tumpistvlive.m3u8',
-        'source': 'https://tumpistv.com/en-vivo/'
+        'code': 'https://servilive.com/hybrid-stream-video-widget/tumpistv',
+        'source': 'https://tumpistv.pe/transmision-en-vivo-tumpis-tv/'
     },
     'gaceta-ucayalina': {
         'name': 'Gaceta Ucayalina <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
