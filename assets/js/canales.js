@@ -77,7 +77,7 @@ const channels = {
     },
     'onda-digital-alt': {
         'name': 'Onda Digital ALT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://v4.tustreaming.cl:2000/VideoPlayer/ondadigitaltv?autoplay=1',
+        'code': 'https://v4.tustreaming.cl:2000/VideoPlayer/ondadigitaltv?autoplay=1',
         'source': 'https://ondadigitaltv.com'
     },
     'ovacion': {
