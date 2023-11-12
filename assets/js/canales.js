@@ -622,7 +622,7 @@ const channels = {
     },
     'chillhop': {
         'name': 'Chillhop 🎵<span hidden>Radios, lofi, 24/7</span>',
-        'code': 'https://www.youtube.com/@ChillhopMusic/live/channel=UCOxqgCwgOqC2lMqC5PYz_Dg&autoplay=1&mute=0&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg/live&autoplay=1&mute=0&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg'
     },
     'steezyasfuck': {
