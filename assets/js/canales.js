@@ -228,12 +228,12 @@ const channels = {
     },
     'best-cable': {
         'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
-        'm3u': 'https://ca.inka.net.pe/bestcable/bestcable/index.m3u8',
+        'code': 'https://dattassd.com/player/index.php?puerto=19360&rtmp=bestcable&stream=bestcable',
         'source': 'https://bestcableperu.com.pe/tv3.html'
     },
     'best-cable-sports': {
         'name': 'Best Cable Sports <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
-        'm3u': 'https://ca.inka.net.pe/bestcablesports/bestcablesports/index.m3u8',
+        'code': 'https://dattassd.com/player/index.php?puerto=19360&rtmp=bestcablesports&stream=bestcablesports',
         'source': 'https://bestcableperu.com.pe/tv6.html'
     },
     'canal-b': {
