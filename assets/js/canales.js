@@ -560,7 +560,7 @@ const channels = {
     },
     'live-chino-6': {
         'name': '中天電視 <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC5l1Yto5oOIgRXlI4p4VKbw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube.com/embed/oIgbl7t0S_w?autoplay=0&controls=0&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fctinews.com%2Flive&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Fctinews.com&widgetid=1',
         'source': 'https://www.youtube.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw'
     },
 // VARIOS
