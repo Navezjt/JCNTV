@@ -298,7 +298,7 @@ const channels = {
     },
     'gaceta-ucayalina': {
         'name': 'Gaceta Ucayalina <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
-        'code': 'https://tvsource.gacetaucayalina.com/',
+        'code': 'https://vk.com/video_ext.php?oid=710509469&id=456239043&hd=2&autoplay=1',
         'source': 'https://gacetaperutv.pe/envivo'
     },
 // ARGENTINA
