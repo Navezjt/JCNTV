@@ -155,6 +155,16 @@ const channels = {
         'm3u': 'https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8',
         'source': 'https://megatvjaen.pe/tv-en-vivo/'
     },
+    'Doble-AA': {
+        'name': 'Doble AA <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/yvmgbdpqmp',
+        'source': 'https://dobleaamedios.com/tv'
+    },
+    'Radio-California': {
+        'name': 'Radio California <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/californiatv',
+        'source': 'https://www.radiocalifornia.pe/'
+    },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
@@ -757,12 +767,12 @@ const channels = {
     },
     'VOA': {
         'name': '📷 VOA <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
-        'm3u8': 'https://voa-ingest.akamaized.net/hls/live/2033866/tvmc01/playlist.m3u8',
+        'm3u': 'https://voa-ingest.akamaized.net/hls/live/2033866/tvmc01/playlist.m3u8',
         'source': 'https://www.vozdeamerica.com/'
     },
     'Ariana-NEWS': {
         'name': '📷 Ariana NEWS <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
-        'm3u8': 'https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8',
+        'm3u': 'https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8',
         'source': 'https://www.ariananews.af/livetv/'
     },
     'puente-brooklyn': {
