@@ -226,6 +226,16 @@ const channels = {
         'm3u': 'http://cdn1.ujjina.com:1935/iptvbhtv/livebhtvtv/playlist.m3u8',
         'source': 'https://bhtv.pe/'
     },
+    'Mas-Cumbia': {
+        'name': 'Mas cumbia <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'code': 'https://dattassd.com/player/index.php?puerto=19360&rtmp=mascumbiatvonline&stream=mascumbiatvonline',
+        'source': 'https://bestcableperu.com.pe/tv6.html'
+    },
+    'Hatun-tv': {
+        'name': 'Hatun tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
+        'code': 'https://dattassd.com/player/index.php?puerto=19360&rtmp=bestcablehatuntv&stream=bestcablehatuntv',
+        'source': 'https://bestcableperu.com.pe/tv6.html'
+    },
     'best-cable': {
         'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
         'code': 'https://dattassd.com/player/index.php?puerto=19360&rtmp=bestcable&stream=bestcable',
@@ -744,6 +754,16 @@ const channels = {
         'name': '📷 Times Square Live 4K <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC6qrG3W8SMK0jior2olka3g&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC6qrG3W8SMK0jior2olka3g'
+    },
+    'VOA': {
+        'name': '📷 VOA <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
+        'm3u8': 'https://voa-ingest.akamaized.net/hls/live/2033866/tvmc01/playlist.m3u8',
+        'source': 'https://www.vozdeamerica.com/'
+    },
+    'Ariana-NEWS': {
+        'name': '📷 Ariana NEWS <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
+        'm3u8': 'https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8',
+        'source': 'https://www.ariananews.af/livetv/'
     },
     'puente-brooklyn': {
         'name': '📷 St. George Tower <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Cámaras, Estados unidos, ingles</span>',
