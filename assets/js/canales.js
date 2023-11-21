@@ -344,7 +344,7 @@ const channels = {
     },
     'tv-publica-arg': {
         'name': 'Televisión Pública <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCs231K71Bnu5295_x0MB5Pg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://canales.online/en-vivo/tv-publica/',
         'source': 'https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg'
     },
     'cronica-tv': {
@@ -364,7 +364,7 @@ const channels = {
     },
     'la-nacion': {
         'name': 'LA NACION <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCba3hpU7EFBSk817y9qZkiA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://flow2.thegift.mom/cvatt.html?get=TGFfTmFjaW9u',
         'source': 'https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA'
     },
 // COLOMBIA
