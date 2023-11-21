@@ -364,7 +364,7 @@ const channels = {
     },
     'la-nacion': {
         'name': 'LA NACION <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://flow2.thegift.mom/cvatt.html?get=TGFfTmFjaW9u',
+        'url': 'https://flow2.thegift.mom/cvatt.html?get=TGFfTmFjaW9u',
         'source': 'https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA'
     },
 // COLOMBIA
