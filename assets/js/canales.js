@@ -609,9 +609,24 @@ const channels = {
         'code': 'https://player.infomaniak.com/?channel=71743&player=11471',
         'source': 'https://africa24tv.com/africa-24-live/'
     },
+    'ZEE': {
+        'name': 'ZEE 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://player.3rbcafee.com/2021/09/zee-alwan-ex.html',
+        'source': 'قناة بى فور يو أفلام B4U Aflam بث مباشر (3rbcafee.com)'
+    },
+    'MBCBollywood': {
+        'name': 'MBC Bollywood 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://tv.aflam4you.org/embed.php?vid=78',
+        'source': 'http://mbc-bollywood.algeria-tv.com/'
+    },
+    'mbc1': {
+        'name': 'mbc 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://tv.aflam4you.org/mbc-live-mbc-watch2024_5.html',
+        'source': 'https://tv.aflam4you.org/mbc-live-mbc-watch2024_5.html'
+    },
     'AbuDhabi': {
         'name': 'Abu Dhabi 🌍<span hidden>Turquia, ingles</span>',
-        'code': 'https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/playlist.m3u8',
+        'm3u': 'https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/playlist.m3u8',
         'source': 'https://online-television.net/es/2718-abu-dhabi-tv.html'
     },
     'Abscbnnews': {
