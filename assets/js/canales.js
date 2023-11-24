@@ -599,6 +599,16 @@ const channels = {
         'm3u': 'https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8',
         'source': 'https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw'
     },
+    'HispanTV': {
+        'name': 'HispanTV 🌍<span hidden>Turquia, ingles</span>',
+        'm3u': 'https://live3.presstv.ir/hispantv/index.m3u8',
+        'source': 'https://www.hispantv.com/directo'
+    },
+    'Africa 24': {
+        'name': 'Africa 24 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://player.infomaniak.com/?channel=71743&player=11471',
+        'source': 'https://www.hispantv.com/directo'
+    },
     'trt-world': {
         'name': 'TRT World 🌍<span hidden>Turquia, ingles</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC7fWeaHhqgM4Ry-RMpM2YYw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
