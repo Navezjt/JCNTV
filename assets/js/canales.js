@@ -607,7 +607,17 @@ const channels = {
     'Africa 24': {
         'name': 'Africa 24 🌍<span hidden>Turquia, ingles</span>',
         'code': 'https://player.infomaniak.com/?channel=71743&player=11471',
-        'source': 'https://www.hispantv.com/directo'
+        'source': 'https://africa24tv.com/africa-24-live/'
+    },
+    'AbuDhabi': {
+        'name': 'Abu Dhabi 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/playlist.m3u8',
+        'source': 'https://online-television.net/es/2718-abu-dhabi-tv.html'
+    },
+    'Abscbnnews': {
+        'name': 'abs cbn news 🌍<span hidden>Turquia, ingles</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/pBmRIjlAe_U?autoplay=1&playsinline=1',
+        'source': 'https://www.youtube.com/channel/UCaLzUKBv5iIAHKYP8hL2zFw'
     },
     'trt-world': {
         'name': 'TRT World 🌍<span hidden>Turquia, ingles</span>',
