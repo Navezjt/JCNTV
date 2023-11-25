@@ -1,1 +1,2 @@
-https://github.com/SanguiNET/tele
+- https://github.com/SanguiNET/tele
+- https://github.com/Alplox/la-tele
