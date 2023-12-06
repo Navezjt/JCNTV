@@ -90,6 +90,11 @@ const channels = {
         'm3u': 'https://video.ingenioperu.com:3982/live/palmerastvlive.m3u8',
         'source': 'https://grupopalmerastv.com/portal/'
     },
+    'uci': {
+        'name': 'UCI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://servilive.com:3449/live/mlecaroslive.m3u8',
+        'source': 'https://uci.pe/envivo'
+    },
     'uci-yt': {
         'name': 'UCI YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCdl1ygFwPa6lUdNYPLjoAGg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
