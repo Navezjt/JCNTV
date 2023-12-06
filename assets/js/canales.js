@@ -65,7 +65,7 @@ const channels = {
         'code': 'https://panamericana.pe/tvenvivo/noframes',
         'source': 'https://panamericana.pe/tvenvivo'
     },
-    'panamericana-dm': {
+    'panamericana-TV2-dm': {
         'name': 'Panamericana TV2 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
