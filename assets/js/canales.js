@@ -62,11 +62,11 @@ const channels = {
     },
     'panamericana': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'https://panamericana.pe/tvenvivo/noframes',
+        'code': 'https://panamericana.pe/tvenvivo/noframes',
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'panamericana-dm': {
-        'name': 'Panamericana TV DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'name': 'Panamericana TV2 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
     },
