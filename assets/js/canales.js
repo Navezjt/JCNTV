@@ -172,7 +172,7 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/ZF7El9aObqc?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube-nocookie.com/embed/k2beWwqPkUI?channel=UC-B7Xv56uNRDkj0vC3QW8Cg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
     'latina-noticias-2': {
