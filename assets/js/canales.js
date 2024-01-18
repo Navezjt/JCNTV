@@ -326,6 +326,11 @@ const channels = {
         'code': 'https://vk.com/video_ext.php?oid=710509469&id=456239043&hd=2&autoplay=1',
         'source': 'https://gacetaperutv.pe/envivo'
     },
+    'Palmeras-tv': {
+        'name': 'Palmeras TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
+        'source': 'https://grupopalmerastv.com/portal/'
+    },
 // ARGENTINA
     'tn': {
         'name': 'Todonoticias <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
@@ -337,10 +342,15 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCFgk2Q2mVO1BklRQhSv6p0w'
     },
-    'Palmeras-tv': {
-        'name': 'Palmeras TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
-        'source': 'https://grupopalmerastv.com/portal/'
+    'telefe-tw': {
+        'name': 'Telefe TW <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'code': 'https://www.twitch.tv/telefe',
+        'source': 'https://www.twitch.tv/telefe'
+    },
+    'telefe-tv': {
+        'name': 'Telefe TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'code': 'https://vercanalesonline.com/embed/cv.html?get=VGVsZWZlSEQ=&lang=1',
+        'source': 'https://vercanalesonline.com/en-vivo/telefe/'
     },
     'net-tv': {
         'name': 'Net TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
