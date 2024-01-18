@@ -160,6 +160,11 @@ const channels = {
         'm3u': 'https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8',
         'source': 'https://megatvjaen.pe/tv-en-vivo/'
     },
+    'liga1max': {
+        'name': 'Liga1Max <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://clarovideo.deportesporinternet.com/dash2.html?url=aHR0cHM6Ly9wZWxpdmVjaGFubmVsc2Rhc2gtMy5jbGFyb3ZpZGVvLmNvbS9icGstdHYvTElHQTFNQVgvZGFzaF9may9pbmRleC5tcGQ=&k1=NDlmMTRkYzZhNzMxNDgwOTRkZmMyNzJkZjkwOGFjMWQ=&k2=MTFjNTg2YmUyNmM0MjJjZDE2OWUwMTczOWI1NzAyZTk=&aut=true&lang=0',
+        'source': 'https://tvporinternet.pe/golperu-en-vivo/'
+    },
     'Doble-AA': {
         'name': 'Doble AA <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/yvmgbdpqmp',
@@ -169,6 +174,36 @@ const channels = {
         'name': 'Radio California <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/californiatv',
         'source': 'https://www.radiocalifornia.pe/'
+    },
+    'atm': {
+        'name': 'ATM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/atm',
+        'source': 'https://atm.pe/'
+    },
+    'diariohechicera': {
+        'name': 'Diariohechicera <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://video.misistemareseller.com:443/corporationhc/corporationhc/playlist.m3u8',
+        'source': 'https://diariohechicera.com/'
+    },
+    'Canal33Ayacucho': {
+        'name': 'Canal33Ayacucho <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://video2.getstreamhosting.com:19360/8206/8206.m3u8',
+        'source': 'https://live.canal33ayacucho.com/'
+    },
+    'uraniotv': {
+        'name': 'Uraniotv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/uraniotv/index.m3u8',
+        'source': 'https://uraniotv.pe/'
+    },
+    'ozonotv': {
+        'name': 'Ozonotv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/ozonotv/index.m3u8',
+        'source': 'https://ozonotelevision.pe/'
+    },
+    'aldiaradiotv': {
+        'name': 'Aldiaradiotv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/aldiatv/aldiatv.m3u8',
+        'source': 'https://aldiaradiotv.com/'
     },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
