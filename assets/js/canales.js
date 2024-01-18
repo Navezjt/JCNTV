@@ -205,6 +205,86 @@ const channels = {
         'm3u': 'https://7.innovatestream.pe:19360/aldiatv/aldiatv.m3u8',
         'source': 'https://aldiaradiotv.com/'
     },
+    'viaaltomayotv': {
+        'name': 'Viaaltomayotv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://bradmax.com/client/embed-player/6f3681d2b86803cdd0e30ff79e8d2240dcca604c_9989?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fviaaltomayomux%2Findex.m3u8&title=VIA%20Alto%20Mayo&duration=0',
+        'source': 'https://www.viaaltomayotv.com/'
+    },
+    'geniostv': {
+        'name': 'Geniostv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/geniostvmux/index.m3u8',
+        'source': 'https://geniostv.pe/'
+    },
+    'crtv': {
+        'name': 'Crtv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/crtvmux/index.m3u8',
+        'source': 'https://crtv.pe/'
+    },
+    'wtv': {
+        'name': 'Wtv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/wtv/index.m3u8',
+        'source': 'https://playmax.tv/'
+    },
+    'estacioncmtv': {
+        'name': 'Estacioncmtv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/mtv/index.m3u8',
+        'source': 'https://estacioncmtv.pe/'
+    },
+    'radiotvnorselva': {
+        'name': 'Radiotvnorselva <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/norselvatv/index.m3u8',
+        'source': 'https://radiotvnorselva.com/'
+    },
+    'sanjuaneratv': {
+        'name': 'Sanjuaneratv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/sanjuanera/index.m3u8',
+        'source': 'http://sanjuaneratv.pe/'
+    },
+    'supercanal': {
+        'name': 'Supercanal <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/supercanal/index.m3u8',
+        'source': 'https://supercanal.com.pe/'
+    },
+    'reddigital': {
+        'name': 'Reddigital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/reddigital/index.m3u8',
+        'source': 'https://playmax.tv/'
+    },
+    'riberena': {
+        'name': 'Riberena <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.grupolimalive.com:3277/live/riberenatvlive.m3u8',
+        'source': 'https://riberena.pe/'
+    },
+    'radioselvatv': {
+        'name': 'Radioselvatv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://app.ahxpro.com/audio/radioselvav2/',
+        'source': 'https://radioselvatv.pe/'
+    },
+    'cositel': {
+        'name': 'Cositel <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://cloudvideo.servers10.com:2020/VideoPlayer/8180?autoplay=1',
+        'source': 'https://cositelperu.com/'
+    },
+    'cultura24': {
+        'name': 'Cultura24 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.opencaster.com/clients/cultura24/index.php?ancho=100&alto=100',
+        'source': 'https://www.cultura24.tv/'
+    },
+    'huanucoenvivo': {
+        'name': 'Huanucoenvivo <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/antonio',
+        'source': 'https://huanucoenvivo.com/'
+    },
+    'cutervotv': {
+        'name': 'Cutervotv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://mc.servidor.stream:2020/VideoPlayer/8256?autoplay=1',
+        'source': 'https://cutervotv.com/'
+    },
+    'cumo': {
+        'name': 'Cumo <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/cumo/index.m3u8',
+        'source': 'https://cumo.pe/'
+    },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
