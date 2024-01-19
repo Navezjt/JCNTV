@@ -285,6 +285,71 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/cumo/index.m3u8',
         'source': 'https://cumo.pe/'
     },
+    'creotvperu': {
+        'name': 'Creotvperu <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://srv1.mediastreamperu.com:19360/creotv/creotv.m3u8',
+        'source': 'https://www.creotvperu.com/'
+    },
+    'CentralTV': {
+        'name': 'CentralTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvcentraltv/livecentraltvtv/playlist.m3u8',
+        'source': 'https://artv.watch/es/PE/CentralTV.pe'
+    },
+    'conecta2peru': {
+        'name': 'Conecta2peru <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://tmcreativos.app/android/conecta2',
+        'source': 'https://conecta2peru.com/'
+    },
+    'conecta2peruR': {
+        'name': 'Conecta2peruR <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://servilive.com:3696/live/enlacetxlive.m3u8',
+        'source': 'https://conecta2peru.com/'
+    },
+    'canalb': {
+        'name': 'Canalb <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.youtube.com/embed/OH3UAIu2q-U?hd=1&autoplay=1',
+        'source': 'https://canalb.pe/'
+    },
+    'bnbdigitaltv': {
+        'name': 'Bnbdigitaltv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.panelstreaming.live:3806/live/bnbdigitallive.m3u8',
+        'source': 'https://www.bnbdigitaltv.com/'
+    },
+    'canal8tv': {
+        'name': 'Canal8tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/canal8/index.m3u8',
+        'source': 'https://canal8tv.pe/quienes-somos/'
+    },
+    'radioatmosfera': {
+        'name': 'Radioatmosfera <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://castv10.plugstreaming.com:19360/atmosferatv/atmosferatv.m3u8',
+        'source': 'https://radioatmosfera.pe/'
+    },
+    'dmjsur': {
+        'name': 'Dmjsur <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://stmv1.voxhdnet.com/dmjsurtv/dmjsurtv/playlist.m3u8',
+        'source': 'https://www.dmjsur.com/tv/'
+    },
+    'galacticatv': {
+        'name': 'Galacticatv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': '//tmcreativos.app/android/galacticatv',
+        'source': 'https://galacticatv.com/'
+    },
+    'imperialtv': {
+        'name': 'ImperialTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.grupolimalive.com:3162/live/imperialtvlive.m3u8',
+        'source': 'https://artv.watch/es/PE/ImperialTelevision.pe'
+    },
+    'IntuitivaTV': {
+        'name': 'IntuitivaTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://video2.lhdserver.es/cableperu/live.m3u8',
+        'source': 'https://cableperu.pe/'
+    },
+    'La5ta': {
+        'name': 'La5ta <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://video.ingenioperu.com/server-stream-video-widget/la5ta',
+        'source': 'https://la5ta.pe/'
+    },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
