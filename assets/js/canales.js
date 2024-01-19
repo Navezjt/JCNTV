@@ -153,7 +153,7 @@ const channels = {
     'Mega-TV': {
         'name': 'Mega TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'm3u': 'https://hls.servidor.stream/storage/megatv.m3u8?PlaylistM3UCL',
-        'source': 'https://www.youtube.com/channel/UC-B7Xv56uNRDkj0vC3QW8Cg'
+        'source': 'https://www.megatvarequipa.com/television-en-vivo/'
     },
     'Mega-TV-Jaen': {
         'name': 'Mega TV Jaen <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
@@ -330,25 +330,165 @@ const channels = {
         'm3u': 'https://stmv1.voxhdnet.com/dmjsurtv/dmjsurtv/playlist.m3u8',
         'source': 'https://www.dmjsur.com/tv/'
     },
-    'galacticatv': {
-        'name': 'Galacticatv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'galactica-tv': {
+        'name': 'Galactica tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': '//tmcreativos.app/android/galacticatv',
         'source': 'https://galacticatv.com/'
     },
-    'imperialtv': {
-        'name': 'ImperialTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'imperial-tv': {
+        'name': 'Imperial TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://vdo.grupolimalive.com:3162/live/imperialtvlive.m3u8',
         'source': 'https://artv.watch/es/PE/ImperialTelevision.pe'
     },
-    'IntuitivaTV': {
-        'name': 'IntuitivaTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'Intuitiva-TV': {
+        'name': 'Intuitiva TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://video2.lhdserver.es/cableperu/live.m3u8',
         'source': 'https://cableperu.pe/'
     },
-    'La5ta': {
-        'name': 'La5ta <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://video.ingenioperu.com/server-stream-video-widget/la5ta',
-        'source': 'https://la5ta.pe/'
+    'la-republica': {
+        'name': 'La Republica <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://mdstrm.com/live-stream/621936cf2953c10828e21c03?player=5ff34bac3c6bb67fa49896b5',
+        'source': 'https://larepublica.pe/'
+    },
+    'miel-TV': {
+        'name': 'Miel TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8',
+        'source': 'https://elgrupofiesta.pe/'
+    },
+    'Controversia-TV': {
+        'name': 'Controversia TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/controversiatv/index.m3u8',
+        'source': 'https://artv.watch/es/PE/ControversiaTV.pe'
+    },
+    'la-abeja2': {
+        'name': 'La-Abeja2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://cdnhd.iblups.com/hls/F87ppt1YAT.m3u8',
+        'source': 'https://www.laabeja.pe/tv/'
+    },
+    'limalive': {
+        'name': 'Limalive <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.grupolimalive.com:3245/stream/play.m3u8',
+        'source': 'https://grupolimalive.com/radio-nube/'
+    },
+    'matices': {
+        'name': 'Matices <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/maticestv',
+        'source': 'https://aldiaconmatices.com/'
+    },
+    'milenial': {
+        'name': 'Milenial <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://www.milenial.news/salida/sd/milenial.m3u8',
+        'source': 'https://www.milenial.news/'
+    },
+    'milleniumr-tv': {
+        'name': 'Milleniumr TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/nqvnhujhrx',
+        'source': 'https://milleniumrtv.com/'
+    },
+    'minedu-1': {
+        'name': 'MINEDU 1<img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'http://iptv.perueduca.pe:1935/canal1/canal11/playlist.m3u8',
+        'source': 'http://iptv.perueduca.pe/'
+    },
+    'minedu-2': {
+        'name': 'MINEDU 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'http://iptv.perueduca.pe:1935/canal2/canal22/playlist.m3u8',
+        'source': 'http://iptv.perueduca.pe/'
+    },
+    'minedu-3': {
+        'name': 'MINEDU 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'http://iptv.perueduca.pe:1935/canal3/canal33/playlist.m3u8',
+        'source': 'http://iptv.perueduca.pe/'
+    },
+    'minedu-4': {
+        'name': 'MINEDU 4 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'http://iptv.perueduca.pe:1935/canal4/canal44/playlist.m3u8',
+        'source': 'http://iptv.perueduca.pe/'
+    },
+    'hipodromo-monterrico': {
+        'name': 'Hipodromo-Monterrico <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.opencaster.com/clients/hipodromojcp/',
+        'source': 'https://hipodromodemonterrico.com.pe/monterrico/home'
+    },
+    'Nacional-TV-Perú': {
+        'name': 'Nacional TV Perú <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://s1.tvdatta.com/live-stream-video-widget/nacionaltv',
+        'source': 'https://nacionaltvperu.com/'
+    },
+    'ntv': {
+        'name': 'NTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://ntv.pe/salida/nativa.m3u8',
+        'source': 'https://ntv.pe/'
+    },
+    'Nativa-TV-Satipo': {
+        'name': 'Nativa TV Satipo <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8',
+        'source': 'https://elgrupofiesta.pe/'
+    },
+    'Nazarenas-TV': {
+        'name': 'Nazarenas TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvnazarenas/livenazarenastv/playlist.m3u8',
+        'source': 'https://www.nazarenas.tv/'
+    },
+    'NorSelva-RTV': {
+        'name': 'NorSelva RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/norselvatv/index.m3u8',
+        'source': 'https://radiotvnorselva.com/'
+    },
+    'Nova-TV-Star': {
+        'name': 'Nova TV Star <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/radionovastar/radionovastar.m3u8',
+        'source': 'http://radionovastar.com/tv-en-vivo/'
+    },
+    'Oasis-RTV': {
+        'name': 'Oasis RTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/oasisrtv/oasisrtv.m3u8',
+        'source': 'https://oasisrtv.com/'
+    },
+    'PeruvianRadio-TV': {
+        'name': 'PeruvianRadio TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.grupolimalive.com:3399/stream/play.m3u8',
+        'source': 'https://artv.watch/es/PE/PeruvianRadioTV.pe'
+    },
+    'Planea-TV-amazonas': {
+        'name': 'Planea TV Amazonas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/planeatv',
+        'source': 'https://planeatvamazonas.com/'
+    },
+    'Primavera-radio': {
+        'name': 'Primavera Radio <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://playerv.streamingvip.click/video/primaveratv/1/true/false/YzNSdGRpNXpkSEpsWVcxcGJtZDJhWEF1WTJ4cFkycz0rWg==/16:9/',
+        'source': 'https://www.radioprimaveratv.com.pe/'
+    },
+    'QT-Television': {
+        'name': 'QT Television <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://servilive.com/live-stream-video-widget/qosqotimes',
+        'source': 'https://qosqotimes.pe/'
+    },
+    'Radio-El-Pueblo': {
+        'name': 'Radio El Pueblo <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://tv.mediacp.eu:2020/VideoPlayer/radioelpueblo?autoplay=1',
+        'source': 'https://radioelpueblo.com/el-pueblo-tv/'
+    },
+    'Radio-Inka-TV': {
+        'name': 'Radio Inka TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://playerv.streamingvip.click/video-chat/inkatropical/YzNSdGRpNXpkSEpsWVcxcGJtZDJhWEF1WTJ4cFkycz0rWg==/true/',
+        'source': 'https://inkatropical.pe/'
+    },
+    'Radio-TV-Tendencias': {
+        'name': 'Radio TV Tendencias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://s1.tvdatta.com:3950/multi_web/play.m3u8',
+        'source': 'https://www.radiotvtendencias.com/'
+    },
+    'RCR': {
+        'name': 'RCR <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8',
+        'source': 'https://www.rcrperu.com/'
+    },
+    'Region-TV-Callao': {
+        'name': 'Region TV Callao <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://reproplay.com/callaotv/',
+        'source': 'https://regionteve.com/'
     },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
