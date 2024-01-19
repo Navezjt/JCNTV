@@ -490,6 +490,161 @@ const channels = {
         'code': 'https://reproplay.com/callaotv/',
         'source': 'https://regionteve.com/'
     },
+    'RTV-Total-Yurimaguas': {
+        'name': 'RTV Total Yurimaguas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://innovatestream.com/tv/v2/rtv.php',
+        'source': 'https://rtvtotal.pe/'
+    },
+    'RW-Television-Tarapoto': {
+        'name': 'RW Television Tarapoto <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://',
+        'source': 'https://rwtelevision.com/'
+    },
+    'Senal-Peru-TV': {
+        'name': 'Senal Peru TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'value="https://livestream.perucast.com/hls/stream.m3u8"',
+        'source': 'https://xn--sealperutv-u9a.pe/'
+    },
+    'Sistema-1': {
+        'name': 'Sistema 1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://inliveserver.com:1936/9514/9514/playlist.m3u8',
+        'source': 'https://sistema1tv.com/'
+    },
+    'SolTV': {
+        'name': 'SolTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://playerv.logicahost.com.br/video/soltv/1/true/false/ZG1sa1pXOHdNeTVzYjJkcFkyRm9iM04wTG1OdmJTNWljZz09K1o=/16:9///',
+        'source': 'https://soltvperu.com/'
+    },
+    'Teleamazonas': {
+        'name': 'Teleamazonas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.tvcontrolcp.com:1936/8054/8054/playlist.m3u8',
+        'source': 'https://teleamazonas.pe/tv-en-vivo/'
+    },
+    'Telecanal': {
+        'name': 'Telecanal <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/broadcaster/millenium/live/player',
+        'source': 'https://telecanalperu.com/tv-en-vivo/'
+    },
+    'Telelima': {
+        'name': 'Telelima <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://mserver.latincable.net/TeleLima/index.m3u8',
+        'source': 'https://www.telelima.pe/'
+    },
+    'Television-Tarapoto': {
+        'name': 'Television Tarapoto <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://ott1.hdlatam.tv/live_abr/webtvTarapotoPe/playlist.m3u8',
+        'source': 'https://www.televisiontarapoto.pe/'
+    },
+    'Telesur-Camana': {
+        'name': 'Telesur Camana <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://telesur.com.pe/streaming/stream.html',
+        'source': 'https://www.telesur.com.pe/telesur/streaming'
+    },
+    'Top-TV': {
+        'name': 'Top TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://audiostreamvolt.com/tvcliente/toptvaguaytia.html',
+        'source': 'https://www.toptvaguaytia.com/'
+    },
+    'Top-Latino-TV': {
+        'name': 'Top Latino TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://toplatino.net/players/latinotv/',
+        'source': 'https://toplatino.net/'
+    },
+    'Trivu': {
+        'name': 'Trivu <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://cdn.theoplayer.com/demos/iframe/theoplayer.html?autoplay=false&muted=false&preload=none&src=//www.chasquirouter.com/salida/sd/trivu.m3u8',
+        'source': 'https://www.trivutv.com/home'
+    },
+    'Tropical-TV': {
+        'name': 'Tropical TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://tv.oyotunstream.com:1936/tropicaltv/tropicaltv/playlist.m3u8',
+        'source': 'https://corporaciontropicalpuerto.com/'
+    },
+    'Turbo-Mix-Radio-TV': {
+        'name': 'Turbo Mix Radio TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://innovatestream.com/tv/v2/turbomix.php',
+        'source': 'https://www.turbomix.com.pe/'
+    },
+    'TV-Bella-Asuncion': {
+        'name': 'TV Bella Asuncion <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://tvdatta.com/hybrid-stream-video-widget/tvbella',
+        'source': 'https://www.tvbellaasuncion.com/'
+    },
+    'TV-Peruanisima': {
+        'name': 'TV Peruanisima <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://62fc643fbf1aa.streamlock.net/TVperuanisima/TVperuanisima/playlist.m3u8',
+        'source': 'https://tvperuanisima.com/'
+    },
+    'TV-Sistemas-Cuzco': {
+        'name': 'TV Bella Asuncion <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://stmv1.voxhdnet.com/sistemascusco/sistemascusco/chunklist_w1194342348.m3u8',
+        'source': 'https://sistemascuscoperu.com/'
+    },
+    'TVUNO': {
+        'name': 'TVUNO <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8',
+        'source': 'https://artv.watch/es/PE/TVUNO.pe'
+    },
+    'solartv': {
+        'name': 'Solartv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://stmv1.voxhdnet.com/solartv/solartv/chunklist_w2016841464.m3u8',
+        'source': 'https://sistemascuscoperu.com/'
+    },
+    'andestv': {
+        'name': 'Andestv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.radiosicuani.com/andestv/fvp-1/',
+        'source': 'https://www.radiosicuani.com/andestv/'
+    },
+    'Unitel': {
+        'name': 'Unitel <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/unitel',
+        'source': 'https://unitelperu.pe/'
+    },
+    'USIL-TV': {
+        'name': 'USIL TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://per01-lim01.servidor.stream/usiltv/embed.html',
+        'source': 'https://usil.tv/'
+    },
+    'VamisaTV': {
+        'name': 'VamisaTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://inliveserver.com:1936/10044/10044/playlist.m3u8',
+        'source': 'https://radiovamisa.tv/'
+    },
+    'Via-Altomayo': {
+        'name': 'Via Altomayo <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://bradmax.com/client/embed-player/6f3681d2b86803cdd0e30ff79e8d2240dcca604c_9989?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fviaaltomayomux%2Findex.m3u8&title=VIA%20Alto%20Mayo&duration=0',
+        'source': 'https://www.viaaltomayotv.com/'
+    },
+    'Via-Television': {
+        'name': 'Via Television <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/cablerasvia?autoplay=1',
+        'source': 'https://viatelevision.pe/'
+    },
+    'Vision-TV-Musica': {
+        'name': 'Vision TV Musica <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://videoserver.tmcreativos.com:2020/VideoPlayer/visionnoticias?autoplay=1',
+        'source': 'https://www.cablevisiontv.pe/en-vivo/'
+    },
+    'Viva-TV-Yurimaguas': {
+        'name': 'Viva TV Yurimaguas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www-vivatvonline-com.filesusr.com/html/2c320d_77f089c57da0ec47aa7b507af52cf5b7.html',
+        'source': 'https://www.vivatvonline.com/'
+    },
+    'VNP': {
+        'name': 'VNP <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://videoserver.tmcreativos.com:1936/visionnoticias/visionnoticias/playlist.m3u8',
+        'source': 'https://artv.watch/es/PE/VNP.pe'
+    },
+    'Wtv': {
+        'name': 'Wtv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/wtv/index.m3u8',
+        'source': 'https://artv.watch/es/PE/Wtv.pe'
+    },
+    'X TV Chachapoyas': {
+        'name': 'X TV Chachapoyas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.panelchs.com/live-stream-video-widget/xtvcontrol',
+        'source': 'https://xtv.pe/'
+    },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
