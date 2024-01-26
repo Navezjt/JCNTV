@@ -809,7 +809,7 @@ const channels = {
 // GRECIA
     'Megatv-GR': {
         'name': 'Megatv GR <img src="assets/svg/paises/Greece.svg" alt="bandera Greece" title="Greece"><span hidden>Greece, Griego</span>',
-        'code': 'https://c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8',
+        'm3u': 'https://c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8',
         'source': 'https://www.megatv.com/'
     },
 // ARGENTINA
