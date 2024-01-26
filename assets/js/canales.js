@@ -152,7 +152,7 @@ const channels = {
     },
     'Mega-TV': {
         'name': 'Mega TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'm3u': 'https://hls.servidor.stream/storage/megatv.m3u8?PlaylistM3UCL',
+        'code': 'https://megatvarequipa.com/megatvarequipa-live/index.html',
         'source': 'https://www.megatvarequipa.com/television-en-vivo/'
     },
     'Mega-TV-Jaen': {
@@ -804,6 +804,12 @@ const channels = {
     'Palmeras-tv': {
         'name': 'Palmeras TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
         'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
+        'source': 'https://grupopalmerastv.com/portal/'
+    },
+// GRECIA
+    'Megatv-GR': {
+        'name': 'Megatv GR <img src="assets/svg/paises/Greece.svg" alt="bandera Greece" title="Greece"><span hidden>Greece, Griego</span>',
+        'code': 'https://c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8',
         'source': 'https://grupopalmerastv.com/portal/'
     },
 // ARGENTINA
