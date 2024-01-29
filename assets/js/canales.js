@@ -1048,6 +1048,42 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCczrL-2b-gYK3l4yDld4XlQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCczrL-2b-gYK3l4yDld4XlQ'
     },
+// KOREA
+    'JTBC-GOLF': {
+        'name': 'JTBC GOLF <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://www.yjtv007.com/liveedge/live37/playlist.m3u8?site=boxtv&ch=live37&pm=P&wowzatokenstarttime=1706564464&wowzatokenendtime=1706575264&wowzatokenCustomParameter=live37&wowzatokenhash=vpR-RP1Bqqb2r7o3LZfRWz6I89-WYHdbXQIhL0NaLWk=',
+        'source': 'http://jtbcgolf.joins.com/tv/tv_timer.asp'
+    },
+    'SBS-GOLF': {
+        'name': 'SBS GOLF <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://www.yjtv1004.com/liveedge/live26/playlist.m3u8?site=boxtv&ch=live26&pm=P&wowzatokenstarttime=1706564843&wowzatokenendtime=1706575643&wowzatokenCustomParameter=live26&wowzatokenhash=bDnrqeUK86Yu9l7ffKeKJE7RJDavqgHAMk1fgp1AYhM=',
+        'source': 'https://golf.sbs.co.kr/'
+    },
+    'OCN': {
+        'name': 'OCN <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://www.yjtv007.com/liveedge/live05/playlist.m3u8?site=boxtv&ch=live05&pm=P&wowzatokenstarttime=1706563601&wowzatokenendtime=1706574401&wowzatokenCustomParameter=live05&wowzatokenhash=hyFIf_5UtnElZ8Fv0JY4qPBgfATZ4d8HlD5tMaQTsW4=',
+        'source': 'https://golf.sbs.co.kr/'
+    },
+    'CATCH-ON1': {
+        'name': 'CATCH ON1 <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://www.jobstv24.com/liveedge/live09/playlist.m3u8?site=boxtv&ch=live09&pm=P&wowzatokenstarttime=1706564088&wowzatokenendtime=1706574888&wowzatokenCustomParameter=live09&wowzatokenhash=eq38dlW6S3Th4QJGUo5kqqTzCCImqSF8ZIevMqbm04E=',
+        'source': 'https://box24.tv/'
+    },
+    'KBS1': {
+        'name': 'KBS1 <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://sang007.com/sites/boxtv/theme/new_black/pages/pc/pc_view.php?ch=live26&title=SBS%20GOLF&m3u8=undefined&html=undefined&start=on&num=1',
+        'source': 'https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=11&ch_type=globalList'
+    },
+    'KBS2': {
+        'name': 'KBS2 <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://www.yjtv1004.com/liveedge/live13/playlist.m3u8?site=boxtv&ch=live13&pm=P&wowzatokenstarttime=1706565219&wowzatokenendtime=1706576019&wowzatokenCustomParameter=live13&wowzatokenhash=8rxdi34-fJyJfNmrR9mi-3Ul62mugDGovrlZO-2h-Q0=',
+        'source': 'https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=11&ch_type=globalList'
+    },
+    'SBS': {
+        'name': 'SBS <img src="assets/svg/paises/Korea.svg" alt="bandera Korea" title="Korea"><span hidden>Korea, español/span>',
+        'code': 'https://www.mvptv24.com/liveedge/live14/playlist.m3u8?site=boxtv&ch=live14&pm=P&wowzatokenstarttime=1706565417&wowzatokenendtime=1706576217&wowzatokenCustomParameter=live14&wowzatokenhash=J7nCgpse86-slBaL-n4T_I8AV_2BIBFwq6BQjAhNPp4=',
+        'source': 'https://www.sbs.co.kr/'
+    },
 // CHINA
     'live-chino': {
         'name': '民視直播 FTVN Live 53 <img src="assets/svg/paises/china.svg" alt="bandera China" title="China"><span hidden>China, Taiwan, chino</span>',
