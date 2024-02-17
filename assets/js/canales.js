@@ -655,6 +655,11 @@ const channels = {
         'code': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q/live',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
+    'America-tv': {
+        'name': 'America tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://mdstrm.com/live-stream/6099b04d9418ac082441dd74?jsapi=true&pause_ad_on_click=false&show_controls_on_ad=true&autoplay=true&player=60c2a74e0f4668082e309af4&ref=https%3A%2F%2Ftvgo.americatv.com.pe%2F&access_token=bD3FQoPGvwZ1FNiY59c8ZRP3hKVJLxdv2aKla3rBW6CxeLZ5gjpJYBz2iVaXkOpujBvndqkYdoy&c=&ads[map]=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F84748259%2Ftvgo_home_atf_player%26description_url%3D%5Bplaceholder%5D%26tfcd%3D0%26npa%3D0%26sz%3D640x480%26gdfp_req%3D1%26output%3Dvast%26unviewed_position_start%3D1%26env%3Dvp%26impl%3Ds%26correlator%3D&youbora[extra][0]=NoRegNoSusc&youbora[extra][1]=TVGO%20Web&youbora[extra][2]=tvgo-web',
+        'source': 'https://tvgo.americatv.com.pe/'
+    },
     'latina-noticias-2': {
         'name': 'Latina Noticias 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://rudo.video/live/latina',
