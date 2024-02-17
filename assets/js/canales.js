@@ -545,9 +545,9 @@ const channels = {
         'code': 'https://audiostreamvolt.com/tvcliente/toptvaguaytia.html',
         'source': 'https://www.toptvaguaytia.com/'
     },
-    'Top-Latino-TV': {
-        'name': 'Top Latino TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://toplatino.net/players/latinotv/',
+    'Top-Latino': {
+        'name': 'Top Latino <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'url': 'https://toplatino.net/players/latinotv/',
         'source': 'https://toplatino.net/'
     },
     'Trivu': {
@@ -652,7 +652,7 @@ const channels = {
     },
     'latina-noticias': {
         'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'url': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q/live',
+        'code': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q/live',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
     'America-tv': {
