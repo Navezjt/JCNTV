@@ -550,6 +550,11 @@ const channels = {
         'code': 'https://toplatino.net/players/latinotv/',
         'source': 'https://toplatino.net/'
     },
+    'Top-Latino-Tv': {
+        'name': 'Top Latino Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latin-tv.stream/playlist.m3u8',
+        'source': 'https://toplatino.net/'
+    },
     'Trivu': {
         'name': 'Trivu <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://cdn.theoplayer.com/demos/iframe/theoplayer.html?autoplay=false&muted=false&preload=none&src=//www.chasquirouter.com/salida/sd/trivu.m3u8',
