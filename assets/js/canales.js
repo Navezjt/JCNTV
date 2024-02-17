@@ -547,7 +547,7 @@ const channels = {
     },
     'Top-Latino': {
         'name': 'Top Latino <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'url': 'https://toplatino.net/players/latinotv/',
+        'source': 'https://toplatino.net/players/latinotv/',
         'source': 'https://toplatino.net/'
     },
     'Trivu': {
