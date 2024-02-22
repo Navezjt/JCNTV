@@ -793,7 +793,7 @@ const channels = {
     },
     'tv-cosmos': {
         'name': 'TV Cosmos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
-        'm3u': 'https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u8',
+        'm3u': 'https://5790d294af2dc.streamlock.net:443/8134/8134/playlist.m3u8',
         'source': 'https://tvcosmos.pe/envivo'
     },
     'tv-cosmos-2': {
@@ -803,7 +803,7 @@ const channels = {
     },
     'tv-cosmos-3': {
         'name': 'TV Cosmos 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
-        'code': 'https://www.opencaster.com/tvcosmos-100-100',
+        'code': '',
         'source': 'https://tvcosmos.pe/envivo'
     },
     'tv-tumpis': {
