@@ -911,7 +911,7 @@ const channels = {
     },
     'tv-publica-arg': {
         'name': 'Televisión Pública <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://vmf.edge-apps.net/embed/live.php?streamname=c7live01-20034&autoplay=true',
+        'code': 'https://cntlnk-main-edge-access.secure.footprint.net/entrypoint/c7_vivo01_dai_source-20001_all_480p.m3u8',
         'source': 'https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg'
     },
     'cronica-tv': {
