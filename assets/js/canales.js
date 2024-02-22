@@ -803,7 +803,7 @@ const channels = {
     },
     'tv-cosmos-3': {
         'name': 'TV Cosmos 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
-        'code': '',
+        'code': 'https://online.tvcosmos.pe/envivo.html',
         'source': 'https://tvcosmos.pe/envivo'
     },
     'tv-tumpis': {
