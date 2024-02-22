@@ -817,7 +817,7 @@ const channels = {
         'source': 'https://gacetaperutv.pe/envivo'
     },
     'Palmeras-tv': {
-        'name': 'Palmeras TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'name': 'Gaceta Ucayalina <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
         'source': 'https://grupopalmerastv.com/portal/'
     },
@@ -1015,8 +1015,8 @@ const channels = {
         'm3u': 'https://directes-tv-int.ccma.cat/live-content/c33-super3-hls/bitrate_1.m3u8',
         'source': 'https://www.ccma.cat/3cat/directes/33/'
     }, 
-    '324': {
-        'name': '324 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+    'Canal-324': {
+        'name': 'CANAL 324 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'm3u': 'https://directes-tv-int.ccma.cat/live-content/canal324-hls/bitrate_1.m3u8',
         'source': 'https://www.ccma.cat/3cat/directes/324/'
     }, 
