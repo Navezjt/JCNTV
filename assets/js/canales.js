@@ -824,8 +824,58 @@ const channels = {
 // PARAGUAY
    'La-Tele': {
         'name': 'La Tele <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
-        'code': 'https://www.desdepylabs.com/External/tvaccion/latele',
+        'm3u': 'https://hhkld.com/vi/19_ENG.m3u8',
         'source': 'https://latele.com.py/envivo/'
+    }, 
+    'ABC': {
+        'name': 'ABC <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'code': 'https://cdn.jwplayer.com/players/0qRytEJD-bL2g5Vmx.html',
+        'source': 'https://www.abc.com.py/tv/'
+    }, 
+    'NPY': {
+        'name': 'NPY <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'm3u': 'https://hhkld.com/vi/19_ENG.m3u8',
+        'source': 'https://npy.com.py/en-vivo/'
+    }, 
+    'GEN': {
+        'name': 'GEN <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'm3u': 'https://rds3gen.desdeparaguay.net/gentv/gentv_int_alta/playlist.m3u8?k=77f5dd9b286e3b4d8981b3266a7b85a9b7703eff007489173219e404fca3c567&exp=1708634283',
+        'source': 'https://npy.com.py/en-vivo/'
+    }, 
+    'UNIVERSO': {
+        'name': 'UNIVERSO <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'm3u': 'https://rds3gen.desdeparaguay.net/universotv/universotv_int_alta/playlist.m3u8?k=c6cdd7508c1f67c0cd7429d8644c027d355269f453ee6c9d0c49ece41a07c9a7&exp=1708634580',
+        'source': 'https://npy.com.py/en-vivo/'
+    }, 
+    'TRECE': {
+        'name': 'TRECE <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'code': 'https://www.desdepylabs.com/External/trecetv',
+        'source': 'https://trece.com.py/'
+    }, 
+    'UNICANAL': {
+        'name': 'UNICANAL <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'code': 'https://www.desdepylabs.com/External/unicanal',
+        'source': 'https://unicanal.com.py/'
+    }, 
+    'America': {
+        'name': 'America <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'code': 'https://vimeo.com/event/3970934/embed/interaction',
+        'source': 'https://www.americatv.com.py/ver-vivo/'
+    }, 
+    'UnionTV': {
+        'name': 'UnionTV <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'code': 'https://www.desdepylabs.com/External/video/800tv',
+        'source': 'https://uniontv.com.py/'
+    }, 
+    'Telefuturo': {
+        'name': 'Telefuturo <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'm3u': 'https://hhkld.com/vi/19_ENG.m3u8',
+        'source': 'https://telefuturo.com.py/envivo'
+    }, 
+    'CN9': {
+        'name': 'CN9 <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'm3u': 'https://deh05ueq91v6s.cloudfront.net/C9NPY/031fe10f99063bb9e8271716ce50b133.sdp/playlist.m3u8',
+        'source': 'https://telefuturo.com.py/envivo'
     }, 
 // GRECIA
     'Megatv-GR': {
@@ -960,6 +1010,36 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC_lEiu6917IJz03TnntWUaQ&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC_lEiu6917IJz03TnntWUaQ'
     },
+    'TV-33': {
+        'name': 'TV 33 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://directes-tv-int.ccma.cat/live-content/c33-super3-hls/bitrate_1.m3u8',
+        'source': 'https://www.ccma.cat/3cat/directes/33/'
+    }, 
+    '324': {
+        'name': '324 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://directes-tv-int.ccma.cat/live-content/canal324-hls/bitrate_1.m3u8',
+        'source': 'https://www.ccma.cat/3cat/directes/324/'
+    }, 
+    'TV3': {
+        'name': 'TV3 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://directes3-tv-int.ccma.cat/live-content/tvi-hls/bitrate_1.m3u8',
+        'source': 'https://www.ccma.cat/3cat/directes/tv3/'
+    }, 
+    'Z-ONZE': {
+        'name': 'Z ONZE <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://directes-tv-int.ccma.cat/live-origin/esport3-hls/bitrate_1.m3u8',
+        'source': 'https://www.ccma.cat/3cat/directes/esport3/'
+    }, 
+    '3DH': {
+        'name': '3HD <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://punt3.es/directo/directo.html',
+        'source': 'https://www.punt3.es/'
+    }, 
+    'Canal-3': {
+        'name': 'Canal 3 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://avantstreaming.es/hls/canal3.m3u8',
+        'source': 'https://canal3biar.es/directe/'
+    }, 
 // BRASIL
     'cnn-brasil': {
         'name': 'CNN Brasil <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
@@ -1346,6 +1426,11 @@ const channels = {
         'name': '📷 SISE Argentina <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Cámaras, Argentina, Español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UC2RkL2eATR1V6H8g4eNfA5Q&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UC2RkL2eATR1V6H8g4eNfA5Q'
+    },
+    'El-trece': {
+        'name': '📷 EL TRECE <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Cámaras, Argentina, Español</span>',
+        'code': 'https://geo.dailymotion.com/player/x8p5t.html?video=x8aobf1',
+        'source': 'https://www.rosario3.com/'
     },
 // EEUU
     'times-square': {
