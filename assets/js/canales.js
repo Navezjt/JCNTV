@@ -798,6 +798,11 @@ const channels = {
     },
     'tv-cosmos-2': {
         'name': 'TV Cosmos 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
+        'code': 'https://online.tvcosmos.pe/envivo.html',
+        'source': 'https://tvcosmos.pe/envivo'
+    },
+    'tv-cosmos-3': {
+        'name': 'TV Cosmos 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Trujillo, español</span>',
         'code': 'https://www.opencaster.com/tvcosmos-100-100',
         'source': 'https://tvcosmos.pe/envivo'
     },
