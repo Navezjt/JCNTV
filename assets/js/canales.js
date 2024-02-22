@@ -821,6 +821,12 @@ const channels = {
         'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
         'source': 'https://grupopalmerastv.com/portal/'
     },
+// PARAGUAY
+   'La-Tele': {
+        'name': 'La Tele <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
+        'code': 'https://www.desdepylabs.com/External/tvaccion/latele',
+        'source': 'https://latele.com.py/envivo/'
+    }, 
 // GRECIA
     'Megatv-GR': {
         'name': 'Megatv GR <img src="assets/svg/paises/Greece.svg" alt="bandera Greece" title="Greece"><span hidden>Greece, Griego</span>',
