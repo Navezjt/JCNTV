@@ -931,8 +931,13 @@ const channels = {
     },
     'la-nacion': {
         'name': 'LA NACION <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'src_url': 'https://flow2.thegift.mom/cvatt.html?get=TGFfTmFjaW9u',
+        'code': 'https://www.youtube.com/embed/LY2XEQ_SSXA?frameborder=0&mute=1&autoplay=1&amp;rel=0&amp;showinfo=0',
         'source': 'https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA'
+    },
+    'uniteve': {
+        'name': 'Uniteve <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'm3u': 'https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8',
+        'source': 'http://uniteve.com.ar/'
     },
 // COLOMBIA
     'el-tiempo': {
