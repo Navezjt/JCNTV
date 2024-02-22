@@ -1086,6 +1086,11 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw'
     },
+    'aratu-AO-brasil': {
+        'name': 'aratu AO Brasil <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'code': 'https://player.jmvstream.com/lvw/37jDLdzr0ReTuCIodqOVe5VoVFRt8l',
+        'source': 'https://tvaratu.com.br/ao-vivo/'
+    },
 // ESTADOS UNIDOS
     'cnn-us': {
         'name': 'CNN US <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, inglés</span>',
