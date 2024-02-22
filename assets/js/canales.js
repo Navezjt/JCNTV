@@ -990,8 +990,48 @@ const channels = {
 // MEXICO
     'MILENIO': {
         'name': 'MILENIO <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCFxHplbcoJK9m70c4VyTIxg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'code': 'https://www.youtube.com/embed/OpcsOaurCRI?si=jidTDns-35G7Bfru" title="YouTube video player',
         'source': 'https://www.youtube.com/channel/UCFxHplbcoJK9m70c4VyTIxg'
+    },
+    'N+': {
+        'name': 'N+ <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'm3u': 'https://channel07-notusa.akamaized.net/hls/live/2036971/event01/index_1.m3u8',
+        'source': 'https://www.nmas.com.mx/en-vivo/'
+    },
+    'FOROtv': {
+        'name': 'FOROtv <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'm3u': 'https://channel02-notusa.akamaized.net/hls/live/2023914/event01/index_2.m3u8',
+        'source': 'https://www.nmas.com.mx/en-vivo/?canal=forotv'
+    },
+    'canal-once': {
+        'name': 'CANAL ONCE <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'm3u': 'https://vivo.canaloncelive.tv/oncedos/ngrp:pruebachunks_all/playlist.m3u8',
+        'source': 'https://canalonce.mx/'
+    },
+    'ADN40': {
+        'name': 'ADN40 <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'code': 'https://mdstrm.com/live-stream/60b578b060947317de7b57ac?jsapi=true&show_controls_on_ad=true&autoplay=true&player=607868647ef7d607f13d0adb&show_title=false&ads[map]=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Flive%2Fads%3Fiu%3D%2F29782907%2FADN-40%2FEnvivoConstantPage%26description_url%3D%5Bplaceholder%5D%26url%3D%26env%3Dvp%26impl%3Ds%26tfcd%3D0%26npa%3D0%26gdfp_req%3D1%26output%3Dvast%26sz%3D640x480%26unviewed_position_start%3D1%26ad_rule%3D1%26correlator%3D%22',
+        'source': 'https://www.adn40.mx/'
+    },
+    'telediario': {
+        'name': 'Telediario <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'code': 'https://mdstrm.com/live-stream/5f2d9d6ff17144074bd8a284?jsapi=true&autoplay=true&mse=true',
+        'source': 'https://www.telediario.mx/television'
+    },
+    'capital21': {
+        'name': 'Capital21 <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'm3u': 'https://video.cdmx.gob.mx/redes/stream.m3u8',
+        'source': 'https://www.capital21.cdmx.gob.mx/'
+    },
+    'mexiquense': {
+        'name': 'Mexiquense <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'code': 'https://conceptoweb-studio.com/radio/video/mexiquense/',
+        'source': 'https://radioytvmexiquense.mx/'
+    },
+    'elfinanciero': {
+        'name': 'Elfinanciero <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
+        'code': 'https://us-east-1.prod.tvcoins.com/player/player.html?tenant-id=elfinanciero&channel-id=820d0659-b687-44cc-97ed-b69098e058ad&autoplay=true',
+        'source': 'https://www.elfinanciero.com.mx/tv/'
     },
 // HONDURAS
     'hch-vivo': {
