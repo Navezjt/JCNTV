@@ -831,6 +831,12 @@ const channels = {
         'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
         'source': 'https://grupopalmerastv.com/portal/'
     },
+   // BOLIVIA 
+    'RED-UNO': {
+        'name': 'RED UNO <img src="assets/svg/paises/Bolivia.svg" title="Bolivia"><span hidden>Bolivia, español</span>',
+        'code': 'https://www.dailymotion.com/embed/video/x8s1at2?syndication=278713',
+        'source': 'https://www.reduno.com.bo/senal-en-vivo'
+    },
 // PARAGUAY
    'La-Tele': {
         'name': 'La Tele <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
