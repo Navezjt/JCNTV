@@ -650,6 +650,16 @@ const channels = {
         'code': 'https://vdo.panelchs.com/live-stream-video-widget/xtvcontrol',
         'source': 'https://xtv.pe/'
     },
+    "zona-film": {
+        'name': '📷 Zona Film <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',,
+        'code': 'https://vdo.panelchs.com/live-stream-video-widget/do9373639',
+        'source': 'https://xtv.pe/canal-zona-film/',
+    },
+    "xtvcumbia": {
+        'name': '📷 xtvcumbia <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://vdo.panelchs.com/live-stream-video-widget/vdo82376947328',
+        'source': 'https://xtv.pe/xtvcumbia/',
+    },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x7x4dgx&autoplay=true',
