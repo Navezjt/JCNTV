@@ -651,12 +651,12 @@ const channels = {
         'source': 'https://xtv.pe/'
     },
     'zona-film': {
-        'name': '📷 Zona Film <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',,
+        'name': 'Zona Film <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://vdo.panelchs.com/live-stream-video-widget/do9373639',
         'source': 'https://xtv.pe/canal-zona-film/',
     },
     'xtvcumbia': {
-        'name': '📷 xtvcumbia <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'name': 'xtvcumbia <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://vdo.panelchs.com/live-stream-video-widget/vdo82376947328',
         'source': 'https://xtv.pe/xtvcumbia/',
     },
