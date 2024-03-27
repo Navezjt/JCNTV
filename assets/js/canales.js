@@ -107,12 +107,17 @@ const channels = {
     },
     'atv': {
         'name': 'ATV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://d3krdjs7is1y42.cloudfront.net/ATVpe/df13ed57843877b21ad969184ab6888f.sdp/playlist.m3u8?PlaylistM3UCL',
+        'm3u': 'https://alba-pe-atv-atv.stream.mediatiquestream.com/index.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
     },
     'atv-plus': {
         'name': 'ATV Más <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://d3krdjs7is1y42.cloudfront.net/ATVmas/74ee4169b59e6f987ae3d77317309109.sdp/playlist.m3u8?PlaylistM3UCL',
+        'm3u': 'https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8',
+        'source': 'https://www.atv.pe/envivo-atv'
+    },
+    'atv-sur': {
+        'name': 'ATV SUR <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://alba-pe-atv-atvsur.stream.mediatiquestream.com/index.m3u8',
         'source': 'https://www.atv.pe/envivo-atv'
     },
     'radio-exitosa1': {
