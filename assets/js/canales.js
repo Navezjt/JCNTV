@@ -597,7 +597,7 @@ const channels = {
     },
     'solartv': {
         'name': 'Solartv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://stmv1.voxhdnet.com/solartv/solartv/chunklist_w2016841464.m3u8',
+        'm3u': 'https://stmv1.voxhdnet.com/solartv/solartv/chunklist_w2016841464.m3u8',
         'source': 'https://sistemascuscoperu.com/'
     },
     'andestv': {
