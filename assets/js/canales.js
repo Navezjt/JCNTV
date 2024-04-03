@@ -167,7 +167,7 @@ const channels = {
     },
     'liga1max': {
         'name': 'Liga1Max <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://clarovideo.deportesporinternet.com/dash2.html?url=aHR0cHM6Ly9wZWxpdmVjaGFubmVsc2Rhc2gtMy5jbGFyb3ZpZGVvLmNvbS9icGstdHYvTElHQTFNQVgvZGFzaF9may9pbmRleC5tcGQ=&k1=NDlmMTRkYzZhNzMxNDgwOTRkZmMyNzJkZjkwOGFjMWQ=&k2=MTFjNTg2YmUyNmM0MjJjZDE2OWUwMTczOWI1NzAyZTk=&aut=true&lang=0',
+        'code': 'https://betzta.com/canales.php?stream=l1max',
         'source': 'https://tvporinternet.pe/golperu-en-vivo/'
     },
     'Doble-AA': {
