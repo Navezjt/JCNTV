@@ -305,6 +305,11 @@ const channels = {
         'code': 'https://tmcreativos.app/android/conecta2',
         'source': 'https://conecta2peru.com/'
     },
+    'señal-peru': {
+        'name': 'Señal Peru <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https:\/\/livestream.perucast.com\/low\/stream.m3u8',
+        'source': 'https://xn--sealperutv-u9a.pe/'
+    },
     'conecta2peruR': {
         'name': 'Conecta2peruR <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://servilive.com:3696/live/enlacetxlive.m3u8',
