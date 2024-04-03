@@ -42,7 +42,12 @@ const channels = {
     },
     'tv-peru-noticias': {
         'name': 'TVPerú Noticias <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'm3u': 'https://d6vls0u25arys.cloudfront.net/out/v1/777b4d4cc0984575a7d14f6ee57dbcaf/index.m3u8',
+        'code': 'https://iblups.com/e_tvperu73',
+        'source': 'https://www.tvperu.gob.pe/play'
+    },
+    'tvperu-Internacional': {
+        'name': 'TVPerú Internacional <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://iblups.com/e_tvperu72',
         'source': 'https://www.tvperu.gob.pe/play'
     },
     'tv-peru-noticias-yt': {
@@ -54,6 +59,11 @@ const channels = {
         'name': 'Telecolor TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'm3u': 'https://live.obslivestream.com/telecolormux/index.m3u8',
         'source': 'https://telecolortv.pe/'
+    },
+    'Congreso-tv': {
+        'name': 'Congreso TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://www.youtube.com/embed/live_stream?channel=UCBBfJ9Y_Cl3AA10wGz7jxXQ&autoplay=1',
+        'source': 'https://comunicaciones.congreso.gob.pe/tv-congreso/'
     },
     'planeta-tv': {
         'name': 'Planeta TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
