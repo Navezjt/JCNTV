@@ -510,9 +510,9 @@ const channels = {
         'code': 'https://',
         'source': 'https://rwtelevision.com/'
     },
-    'Senal-Peru-TV': {
+    'SeÑal-Peru-TV': {
         'name': 'Senal Peru TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'value="https://livestream.perucast.com/hls/stream.m3u8"',
+        'm3u': 'https://livestream.perucast.com/hls/stream.m3u8',
         'source': 'https://xn--sealperutv-u9a.pe/'
     },
     'Sistema-1': {
