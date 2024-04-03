@@ -380,10 +380,15 @@ const channels = {
         'm3u': 'https://vdo.grupolimalive.com:3245/stream/play.m3u8',
         'source': 'https://grupolimalive.com/radio-nube/'
     },
+    'limalive': {
+        'name': 'Limalive <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.grupolimalive.com:3245/stream/play.m3u8',
+        'source': 'https://grupolimalive.com/radio-nube/'
+    },
     'matices': {
         'name': 'Matices <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://vdo.grupolimalive.com/live-stream-video-widget/maticestv',
-        'source': 'https://aldiaconmatices.com/'
+        'm3u': 'https://vdo.grupolimalive.com:3375/live/bnbdigitallive.m3u8',
+        'source': 'https://www.bnbdigitaltv.com/'
     },
     'milenial': {
         'name': 'Milenial <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
