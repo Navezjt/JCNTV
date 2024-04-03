@@ -320,6 +320,11 @@ const channels = {
         'code': 'https://www.youtube.com/embed/OH3UAIu2q-U?hd=1&autoplay=1',
         'source': 'https://canalb.pe/'
     },
+    'chincha-tv': {
+        'name': 'Chincha Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://ok.ru/videoembed/5439500131845?nochat=1&autoplay=1',
+        'source': 'https://www.chincha.tv/p/live.html'
+    },
     'bnbdigitaltv': {
         'name': 'Bnbdigitaltv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://vdo.panelstreaming.live:3806/live/bnbdigitallive.m3u8',
