@@ -80,6 +80,11 @@ const channels = {
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
     },
+    'panamericana-TV3-dm': {
+        'name': 'Panamericana TV3 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.dailymotion.com/embed/video/x774s7s?autoplay=1',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
     'onda-digital': {
         'name': 'Onda Digital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://tv.ondadigital.pe:1936/ondatv2/ondatv2/playlist.m3u8',
