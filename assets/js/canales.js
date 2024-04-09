@@ -280,6 +280,11 @@ const channels = {
         'code': 'https://app.ahxpro.com/audio/radioselvav2/',
         'source': 'https://radioselvatv.pe/'
     },
+    'radioselva-tv': {
+        'name': 'Radioselva tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/selvatv/index.m3u8',
+        'source': 'https://radioselvatv.pe/'
+    },
     'cositel': {
         'name': 'Cositel <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://cloudvideo.servers10.com:2020/VideoPlayer/8180?autoplay=1',
