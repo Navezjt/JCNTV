@@ -1056,7 +1056,7 @@ const channels = {
 // MEXICO
     'MILENIO': {
         'name': 'MILENIO <img src="assets/svg/paises/mexico.svg" alt="bandera Mexico" title="Mexico"><span hidden>Mexico, español</span>',
-        'code': 'https://www.youtube.com/embed/OpcsOaurCRI?si=jidTDns-35G7Bfru" title="YouTube video player',
+        'code': 'https://www.youtube.com/embed/-eJZ_JUoY_o?si=-pwGXOFT4Sn1bfz5" title="YouTube video player',
         'source': 'https://www.youtube.com/channel/UCFxHplbcoJK9m70c4VyTIxg'
     },
     'N+': {
