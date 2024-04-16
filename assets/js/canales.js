@@ -110,6 +110,11 @@ const channels = {
         'm3u': 'https://servilive.com:3449/live/mlecaroslive.m3u8',
         'source': 'https://uci.pe/envivo'
     },
+    'MERCADOS': {
+        'name': 'MERCADOS <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.tradingview-widget.com/embed-widget/ticker-tape/?locale=es#%7B%22symbols%22%3A%5B%7B%22description%22%3A%22IBEX%2035%22%2C%22proName%22%3A%22FOREXCOM%3AESP35%22%7D%2C%7B%22description%22%3A%22EURO%2FDOLAR%22%2C%22proName%22%3A%22FX_IDC%3AEURUSD%22%7D%2C%7B%22description%22%3A%22DAX%2030%22%2C%22proName%22%3A%22CURRENCYCOM%3ADE30%22%7D%2C%7B%22description%22%3A%22S%26P%20500%22%2C%22proName%22%3A%22FOREXCOM%3ASPXUSD%22%7D%2C%7B%22description%22%3A%22Nasdaq%20100%22%2C%22proName%22%3A%22FOREXCOM%3ANSXUSD%22%7D%2C%7B%22description%22%3A%22BTC%2FUSD%22%2C%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%7D%2C%7B%22description%22%3A%22PETR%C3%93LEO%20BRENT%22%2C%22proName%22%3A%22TVC%3AUKOIL%22%7D%2C%7B%22description%22%3A%22EURO%20STOXX%2050%22%2C%22proName%22%3A%22CURRENCYCOM%3AEU50%22%7D%2C%7B%22description%22%3A%22ORO%22%2C%22proName%22%3A%22TVC%3AGOLD%22%7D%2C%7B%22description%22%3A%22%5C%22FTSE%20100%22%2C%22proName%22%3A%22CURRENCYCOM%3AUK100%22%7D%2C%7B%22description%22%3A%22NIKKEI%20225%22%2C%22proName%22%3A%22TVC%3ANI225%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22largeChartUrl%22%3A%22https%3A%2F%2Fwww.negocios.com%22%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A78%2C%22utm_source%22%3A%22www.negocios.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22www.negocios.com%2F%22%7D',
+        'source': 'https://uci.pe/envivo'
+    },
     'uci-yt': {
         'name': 'UCI YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCdl1ygFwPa6lUdNYPLjoAGg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
