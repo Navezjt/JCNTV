@@ -725,6 +725,46 @@ const channels = {
         'code': 'https://rudo.video/live/latina',
         'source': 'https://latinanoticias.pe/'
     },
+    'Oriental': {
+        'name': 'Oriental <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://rudo.video/live/latina',
+        'source': 'https://otv.pe/'
+    },
+    'Oriental-DO': {
+        'name': 'Oriental DO <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://cdn.essastream.com/live-stream-video/-widget/orientaltv',
+        'source': 'https://orientaltv.com.do/'
+    },
+    'Oriental-DOM': {
+        'name': 'Oriental DOM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'm3u': 'https://vdo1.streamgato.us:3592/live/teleorientaldigitallive.m3u8?DVR',
+        'source': 'https://orientaltv.com.do/'
+    },
+    'Oriental-DOMI': {
+        'name': 'Oriental DOMI <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://dominicanplayers.com/video-player/280/0/0',
+        'source': 'https://cableondaoriental.com/onda-tv/'
+    },
+    'RadioAntenaOriental': {
+        'name': 'RadioAntenaOriental <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'm3u': 'https://srv.panelcast.net/tvantenaoriental2021/tvantenaoriental2021/playlist.m3u8',
+        'source': 'https://radioantenaoriental.com/tv-online/'
+    },
+    'VOTV': {
+        'name': 'VOTV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'm3u': 'https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8',
+        'source': 'https://votv.cat/votv-en-directe/'
+    },
+    'TVO': {
+        'name': 'TVO <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://conceptoweb-studio.com/radio/video/tvo/',
+        'source': 'https://tvocanal23.com/tvo-en-vivo/'
+    },
+    'AO': {
+        'name': 'AO <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'm3u': 'https://video05.logicahost.com.br/extremotv/extremotv/playlist.m3u8',
+        'source': 'http://eotv.live/#aovivo'
+    },
 // LOCALES
    'DobleC-tv': {
         'name': 'Doble C TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, Puno, español</span>',
