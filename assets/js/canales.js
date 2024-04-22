@@ -1380,8 +1380,8 @@ const channels = {
     },
     'dw1': {
         'name': 'DW Español 1 🌍<span hidden>Turquia, ingles</span>',
-        'code': 'https://www.youtube.com/channel/UCT4Jg8h03dD0iN3Pb5L0PMA/live',
-        'source': 'https://www.youtube.com/channel/UC7fWeaHhqgM4Ry-RMpM2YYw'
+        'code': 'https://www.youtube.com/embed/5VF4aor94gw?si=4PEaUDDCMU5XRjQ6',
+        'source': 'https://www.dw.com/es/live-tv/channel-spanish'
     },
     'dw2': {
         'name': 'DW Español 2 🌍<span hidden>Turquia, ingles</span>',
