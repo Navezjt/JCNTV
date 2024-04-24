@@ -960,7 +960,7 @@ const channels = {
     }, 
     'America': {
         'name': 'America <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
-        'code': 'https://vimeo.com/event/3970934/embed/interaction',
+        'm3u': 'https://live-ak.vimeocdn.com/exp=1713977231~acl=%2Fd1dfab2c-7e7c-477d-a95a-92fb7c9cee3f_fmp4%2F%2A~hmac=e3fec4e1942cfa29ab9e7222dbe134316303714c30223a911f83275b3e8dd4f8/d1dfab2c-7e7c-477d-a95a-92fb7c9cee3f_fmp4/hls.m3u8',
         'source': 'https://www.americatv.com.py/ver-vivo/'
     }, 
     'UnionTV': {
