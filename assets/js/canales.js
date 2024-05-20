@@ -916,6 +916,11 @@ const channels = {
         'code': 'https://video.ingenioperu.com/live-stream-video-widget/palmerastv',
         'source': 'https://grupopalmerastv.com/portal/'
     },
+    'canalb-tv': {
+        'name': 'canalb <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://www.youtube.com/embed/nOukZI_clUU?hd=1&autoplay=1',
+        'source': 'https://canalb.pe/live'
+    },
    // BOLIVIA 
     'RED-UNO': {
         'name': 'RED UNO <img src="assets/svg/paises/Bolivia.svg" title="Bolivia"><span hidden>Bolivia, español</span>',
