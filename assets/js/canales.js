@@ -1087,6 +1087,11 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCsRnhjcUCR78Q3Ud6OXCTNg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg'
     },
+    'canal21tv.cl': {
+        'name': 'canal21tv.cl <img src="assets/svg/paises/chile.svg" alt="bandera Chile" title="Chile"><span hidden>Chile, español</span>',
+        'code': 'https://live.grupoz.cl/7092f3c5b7a28815b97373b9d6e84df5',
+        'source': 'https://www.canal21tv.cl/wp/en-vivo/'
+    },
 // VENEZUELA
     'globovision': {
         'name': 'Globovisión En Vivo <img src="assets/svg/paises/venezuela.svg" alt="bandera Venezuela" title="Venezuela"><span hidden>Venezuela, español</span>',
