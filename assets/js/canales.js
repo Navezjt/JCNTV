@@ -1395,7 +1395,7 @@ const channels = {
     },
     'HispanTV': {
         'name': 'HispanTV 🌍<span hidden>Turquia, ingles</span>',
-        'm3u': 'https://live3.presstv.ir/hispantv/index.m3u8',
+        'm3u': 'https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8',
         'source': 'https://www.hispantv.com/directo'
     },
     'Africa 24': {
