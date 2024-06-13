@@ -1087,6 +1087,114 @@ L341.91,330.654L341.91,330.654z" />
     </div>
     <!---->
 
+                            <!-- Boton Correo -->
+                            <a class="btn btn-light-subtle btn-lg" role="button"
+                                href="mailto:?subject=PWA%20C%C3%B3digo%20Abierto%20para%20ver%2Fcomparar%20preseleccionadas%20transmisiones%20de%20canales%20de%20noticias%20provenientes%20de%20Chile%20(y%20el%20mundo).&amp;body=https%3A%2F%2Falplox.github.io%2Fteles%2F"
+                                target="_self" rel="nofollow noreferrer noopener" title="Correo"
+                                data-bs-toggle="tooltip" data-bs-title="Correo">
+                                <i class="bi bi-envelope-at"></i>
+                            </a>
+                        </div>
+                        <div class="input-group mt-3">
+                            <input class="form-control fs-small" type="text" value="https://alplox.github.io/teles/"
+                                aria-label="enlace sitio" readonly id="input-enlace-compartir">
+                            <button type="button" class="btn btn-outline-indigo"
+                                id="boton-copiar-enlace-compartir">Copiar
+                                enlace <i class="bi bi-clipboard"></i></button>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-100">
+                    <div
+                        class="bg-dark-subtle rounded-4 w-100 py-2 px-3 border border-light-subtle shadow d-flex flex-column">
+                        <p>Información</p>
+                        <p>
+                            <i class="bi bi-clock-history rounded-3 p-1 me-1"></i><a
+                                href="https://github.com/Alplox/teles/blob/main/changelog.md"
+                                rel="noopener noreferrer">Changelog <i class="bi bi-box-arrow-up-right"></i></a>
+                        </p>
+                        <p>
+                            <i class="bi bi-github rounded-3 p-1 me-1"></i><a href="https://github.com/Alplox/teles"
+                                rel="nofollow noreferrer">Repositorio <i class="bi bi-box-arrow-up-right"></i></a>
+                        </p>
+                        </a>
+                    </div>
+                </li>
+                <li class="w-100">
+                    <div class="py-2 px-3 bg-dark-subtle rounded-pill border border-light-subtle shadow">
+                        <div class="form-check form-switch d-flex align-items-center gap-2" title="ocultar fondo">
+                            <input class="form-check-input" type="checkbox" role="switch"
+                                id="checkbox-tarjeta-logo-background">
+                            <label class="form-check-label w-100 d-flex justify-content-start align-items-center"
+                                for="checkbox-tarjeta-logo-background">
+                                Logo en fondo
+                                <span class="ps-1 fs-smaller text-secondary"
+                                    id="span-valor-visualizacion-tarjeta-logo-background"></span>
+                                <i class="bi bi-eye ms-auto bg-light-subtle px-2 py-1 rounded-circle"
+                                    id="icono-personalizar-visualizacion-tarjeta-logo-background"></i>
+                            </label>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-100">
+                    <div class="py-2 px-3 bg-dark-subtle rounded-pill border border-light-subtle shadow">
+                        <button type="button" class="btn btn-sm btn-warning rounded-pill w-100 d-flex justify-content-between align-items-center text-start" id="boton-experimental">
+                            <span class="flex-grow-1">Activar modo experimental canales IPTV</span><i class="bi bi-question-circle ms-auto bg-light-subtle text-body rounded-circle px-1" data-bs-toggle="tooltip" data-bs-title="
+                            Este botón carga lista IPTV en conjunto a los canales predeterminados.
+                            El funcionamiento de estos, tanto como sus enlaces a los sitios oficiales no se garantiza. 
+                            Esta carga debe ser siempre activada manualmente."></i>
+                        </button>
+                    </div>
+                </li>
+                <li class="w-100 d-flex bg-dark-subtle rounded-pill py-2 px-3 border border-light-subtle shadow">
+                    <button type="button" class="btn btn-danger rounded-pill btn-sm w-100 d-flex justify-content-between align-items-center text-start" data-bs-toggle="modal"
+                        data-bs-target="#modal-reset"><span class="flex-grow-1">Reiniciar personalizaciones</span><i class="bi bi-question-circle ms-auto bg-light-subtle text-body rounded-circle px-1" data-bs-toggle="tooltip" data-bs-title="Este botón sirve para limpiar datos del sitio. Se te pedirá confirmar este paso."></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex p-3 bg-dark bg-opacity-75 gap-2 rounded-bottom-5">
+            <button type="button" class="btn btn-success rounded-pill" id="boton-instalar-pwa">
+                <i class="bi bi-plus-circle-dotted"></i> Instalar
+            </button>
+
+            <button class="btn btn-secondary ms-auto rounded-pill" data-bs-dismiss="offcanvas"
+                aria-label="Close">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- alerta previa borrado localstorage -->
+    <div class="modal modal-alert py-5" tabindex="-1" role="dialog" id="modal-reset">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content rounded-4 shadow bg-danger-subtle border-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">¿Estás seguro de que deseas reiniciar todas tus personalizaciones?</h5>
+                </div>
+                <div class="modal-body py-4">
+                    <p>
+                        Al hacerlo, todas las entradas que hayan sido creadas por este sitio en tu navegador a través
+                        de tu almacenamiento local (localStorage) serán eliminadas. Esto es equivalente a recargar la
+                        página desde cero.
+                    </p>
+                    <p class="text-secondary fst-italic">
+                        Si estas presentando problemas con el funcionamiento de la página es recomendable proseguir y/o
+                        borrar la caché del navegador.
+                    </p>
+                </div>
+                <div class="modal-footer flex-nowrap p-0 overflow-hidden border-0">
+                    <button type="button" class="btn btn-danger w-100 m-0 rounded-0" id="boton-borrar-localstorage"
+                        data-bs-dismiss="modal" data-bs-toggle="offcanvas">
+                        <strong><i class="bi bi-trash3"></i> Reiniciar</strong>
+                    </button>
+                    <button type="button" class="btn btn-secondary w-100 m-0 rounded-0" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+                                    
     <div class="boton-flotante">
         <span data-toggle="modal" data-target="#modalcompartir" role="button" title="Compartir"><svg class="share-svg"
                 version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
