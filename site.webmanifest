@@ -1,7 +1,7 @@
 {
-    "name": "CNTV - Transmisiones de noticias de Chile y el mundo",
-    "short_name": "CNTV",
-    "description": "PWA Código Abierto para ver/comparar preseleccionadas transmisiones de noticias provenientes de Chile (y el mundo).",
+    "name": "JCNTV - Transmisiones de noticias de PERU y el mundo",
+    "short_name": "JCNTV",
+    "description": "PWA Código Abierto para ver/comparar preseleccionadas transmisiones de noticias provenientes de PERU (y el mundo).",
     "lang": "es",
     "categories": [
         "television",
@@ -16,64 +16,64 @@
     "display": "standalone",
     "orientation": "any",
 
-    "start_url": "/CNTV/",
-    "id": "/CNTV/",
+    "start_url": "/JCNTV/",
+    "id": "/JCNTV/",
     
     "icons": [
         {
-            "src": "./assets/favicon/PWA/maskable-icon-x192.png",
+            "src": "./assets/favicon/PWA/android-chrome-icon-x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "./assets/favicon/PWA/maskable-icon-x384.png",
+            "src": "./assets/favicon/PWA/android-chrome-icon-x384.png",
             "sizes": "384x384",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "./assets/favicon/PWA/maskable-icon-x512.png",
+            "src": "./assets/favicon/PWA/android-chrome-icon-x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "./assets/favicon/PWA/maskable_icon_x48.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x48.png",
             "sizes": "48x48",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "./assets/favicon/PWA/maskable_icon_x72.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x72.png",
             "sizes": "72x72",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "./assets/favicon/PWA/maskable_icon_x96.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x96.png",
             "sizes": "96x96",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "./assets/favicon/PWA/maskable_icon_x128.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x128.png",
             "sizes": "128x128",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "./assets/favicon/PWA/maskable_icon_x192.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         }, {
-            "src": "./assets/favicon/PWA/maskable_icon_x384.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x384.png",
             "sizes": "384x384",
             "type": "image/png",
             "purpose": "maskable"
         }, {
-            "src": "./assets/favicon/PWA/maskable_icon_x512.png",
+            "src": "./assets/favicon/PWA/android-chrome_icon_x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
