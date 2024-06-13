@@ -1,7 +1,7 @@
 {
-    "name": "CNTV - Transmisiones de noticias de Chile y el mundo",
+    "name": "CNTV - Transmisiones de noticias de PERU y el mundo",
     "short_name": "CNTV",
-    "description": "PWA Código Abierto para ver/comparar preseleccionadas transmisiones de noticias provenientes de Chile (y el mundo).",
+    "description": "PWA Código Abierto para ver/comparar preseleccionadas transmisiones de noticias provenientes de PERU (y el mundo).",
     "lang": "es",
     "categories": [
         "television",
@@ -16,8 +16,8 @@
     "display": "standalone",
     "orientation": "any",
 
-    "start_url": "/CNTV/",
-    "id": "/CNTV/",
+    "start_url": "/JCNTV/",
+    "id": "/JCNTV/",
     
     "icons": [
         {
