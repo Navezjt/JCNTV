@@ -829,7 +829,7 @@ const channels = {
     'Hatun-tv': {
         'name': 'Hatun tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
         'code': 'https://dattassd.com/player/index.php?puerto=19360&rtmp=bestcablehatuntv&stream=bestcablehatuntv',
-        'source': 'https://bestcableperu.com.pe/tv6.html'
+        'source': 'https://bestcableperu.com.pe/lima/enVivo'
     },
     'best-cable': {
         'name': 'Best Cable <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, español</span>',
