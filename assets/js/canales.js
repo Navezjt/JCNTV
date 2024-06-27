@@ -70,7 +70,7 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/planetatv/tracks-v1a1/mono.m3u8',
         'source': 'https://moyobamba.com/planetatv/'
     },
-    'panamericana': {
+    'panamericana-dm': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'code': 'https://panamericana.pe/tvenvivo/noframes',
         'source': 'https://panamericana.pe/tvenvivo'
