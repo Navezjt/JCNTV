@@ -165,7 +165,7 @@ let App = {
 
     init: () => {
       App.seedModal();
-      App.add('av-angamos');
+      App.add('mega-tv');
       if (!App.isMobile()) {
         App.add('tv-peru-noticias-yt');
         App.add('atv-plus');
