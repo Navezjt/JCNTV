@@ -175,7 +175,7 @@ const channels = {
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCK0lpuL9PQb3I5CDcu7Y7bA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCK0lpuL9PQb3I5CDcu7Y7bA'
     },
-    'Mega-TV': {
+    'mega-tv': {
         'name': 'Mega TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://megatvarequipa.com/megatvarequipa-live/index.html',
         'source': 'https://www.megatvarequipa.com/television-en-vivo/'
