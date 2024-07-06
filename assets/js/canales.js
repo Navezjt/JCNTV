@@ -1001,6 +1001,111 @@ const channels = {
         'code': 'https://1.deporte-libre.org/en-vivo-online/tudn/embed3.php',
         'source': 'https://1.deporte-libre.org/'
     },
+    'navez-tudnmx-1-4': {
+        'name': 'navez dsports-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/tudnmx/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-tudnmx-1-5': {
+        'name': 'navez dsports-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/tudnmx/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-azteca-guate-1-1': {
+        'name': 'navez azteca-guate-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://fullchannels.online/canales.php?id=azteca-guate',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-fox-1-1': {
+        'name': 'navez fox-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://fullchannels.online/canales.php?id=azteca-guate',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-fox-1-2': {
+        'name': 'navez fox-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/fox-deportes/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-fox-1-3': {
+        'name': 'navez fox-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/fox-deportes/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-fox-1-4': {
+        'name': 'navez fox-1-4 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/fox-deportes/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-sky-sport-1-it': {
+        'name': 'navez sky-sport-1-it <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/sky-sport-1-it/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-vamos-1-1': {
+        'name': 'navez vamos-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/vamos/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-vamos-1-2': {
+        'name': 'navez vamos-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/vamos/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-vamos-1-3': {
+        'name': 'navez vamos-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/vamos/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-telemundo-usa-1-1': {
+        'name': 'navez telemundo-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/telemundo-usa/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-telemundo-usa-1-2': {
+        'name': 'navez telemundo-usa-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/telemundo-usa/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-telemundo-usa-1-3': {
+        'name': 'navez telemundo-usa-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/telemundo-usa/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-nbc-universo-usa-1-1': {
+        'name': 'navez nbc-universo-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/nbc-universo-usa/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-nbc-universo-usa-1-2': {
+        'name': 'navez nbc-universo-usa1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/nbc-universo-usa/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-vtv-plus-1-1': {
+        'name': 'navez vtv-plus-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/vtv-plus/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-vtv-plus-1-2': {
+        'name': 'navez vtv-plus-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/vtv-plus/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-vtv-plus-1-3': {
+        'name': 'navez vtv-plus-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/vtv-plus/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-arena-premium-1-1': {
+        'name': 'navez arena-premium-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/arena-premium/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-tele-1-1': {
+        'name': 'navez tele-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://miztv.shop/tele/stream-3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
     'navez-dazn-1-2': {
         'name': 'navez-dazn-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed2.php',
@@ -1024,6 +1129,51 @@ const channels = {
     'navez-dazn-1-1': {
         'name': 'navez-dazn-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-espn-1-1': {
+        'name': 'navez-espn-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://tucanaldeportivo.com/espn-hd.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-sky-1-1': {
+        'name': 'navez sky-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/sky-sport-calcio/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-tve1-1-1': {
+        'name': 'navez tve1-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://tele-libre.com/en-vivo-online/tve1/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-sporttv1-1-1': {
+        'name': 'navez sporttv1-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/sporttv1/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-sporttv1-1-2': {
+        'name': 'navez sporttv1-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/sporttv1/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-bein-sports-1-1': {
+        'name': 'navez bein-sports-1-fr <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/bein-sports-1-fr/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-bein-sports-1-2': {
+        'name': 'navez bein-sports-1-fr <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/bein-sports-1-fr/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-supersport-premier-league-1': {
+        'name': 'navez supersport-premier-league-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/supersport-premier-league/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-supersport-premier-league-2': {
+        'name': 'navez supersport-premier-league-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/supersport-premier-league/embed2.php',
         'source': 'https://1.deporte-libre.org/'
     },
     'navez-teledeporte': {
