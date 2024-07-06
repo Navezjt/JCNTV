@@ -921,6 +921,116 @@ const channels = {
         'code': 'https://www.youtube.com/embed/nOukZI_clUU?hd=1&autoplay=1',
         'source': 'https://canalb.pe/live'
     },
+    'Grupo-Tvl"': {
+        'name': 'Grupo Tvl <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://player.twitch.tv/?autoplay=true&channel=tvlesp&height=720&muted=false&parent=grupotvl.com&referrer=https%3A%2F%2Fgrupotvl.com%2Fen-vivo%2F&width=1280',
+        'source': 'https://grupotvl.com/en-vivo/'
+    },
+    'Alternativam-mix': {
+        'name': 'Alternativam Mix <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://eu1.servers10.com:8081/8130/index.m3u8',
+        'source': 'https://grupoalternativamix.com/'
+    },
+    'canal45-tv': {
+        'name': 'Canal45 Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8',
+        'source': 'https://canalb.pe/live'
+    },
+    'piura-plustv': {
+        'name': 'piura plustv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://s.piuraplustv.com/hls/stream.m3u8',
+        'source': 'https://www.piuraplustv.com/'
+    },
+    'Piura-tv': {
+        'name': 'Piura Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://live.obslivestream.com/piuratv/embed.html',
+        'source': 'https://www.facebook.com/piuratvcanal/?locale=es_LA'
+    },
+    'vea-canal': {
+        'name': 'Canal45 Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://player.kick.com/veacanaltv',
+        'source': 'https://veacanal.tv/sitio/'
+    },
+    'vea-canal': {
+        'name': 'Canal45 Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://player.kick.com/veacanaltv',
+        'source': 'https://veacanal.tv/sitio/'
+    },
+    'radioa1-fmperu': {
+        'name': 'radioa1 fmperu <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://tv.portalexpress.es:3333/live/radiotva1live.m3u8',
+        'source': 'https://radioa1fmperu.com/tv/'
+    },
+    'huancayo-tv': {
+        'name': 'huancayo tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://6362ca6f1fc28.streamlock.net:443/8090/8090/playlist.m3u8',
+        'source': 'https://www.huancayotv.com/'
+    },
+    'canal-21-huancayo': {
+        'name': 'Canal45 Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://www.opencaster.com/nicolezevallos98-100-100',
+        'source': 'https://canal21huancayo.com/en-vivo/'
+    },
+    'navez-dsports-1-2': {
+        'name': 'navez dsports-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dsports/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dsports-1-1': {
+        'name': 'navez dsports-1-1  <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dsports/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dsports-1-3': {
+        'name': 'navez dsports-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dsports/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-tudn-1-1': {
+        'name': 'navez dsports-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/tudn/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-tudn-1-2': {
+        'name': 'navez dsports-1-1  <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/tudn/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-tudn-1-3': {
+        'name': 'navez dsports-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/tudn/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dazn-1-2': {
+        'name': 'navez-dazn-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dazn-1-4': {
+        'name': 'navez-dazn-1-4 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed4.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dazn-1-3': {
+        'name': 'navez-dazn-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed3.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dazn-1-2': {
+        'name': 'navez-dazn-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-dazn-1-1': {
+        'name': 'navez-dazn-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/dazn-1-es/embed.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
+    'navez-teledeporte': {
+        'name': 'navez-teledeporte <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://1.deporte-libre.org/en-vivo-online/teledeporte/embed2.php',
+        'source': 'https://1.deporte-libre.org/'
+    },
    // BOLIVIA 
     'RED-UNO': {
         'name': 'RED UNO <img src="assets/svg/paises/Bolivia.svg" title="Bolivia"><span hidden>Bolivia, español</span>',
