@@ -692,7 +692,7 @@ const channels = {
     },
     'X TV Chachapoyas': {
         'name': 'X TV Chachapoyas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://vdo.panelchs.com/live-stream-video-widget/xtvcontrol',
+        'code': 'https://bradm.ax/build/202403/22/7f3ef98516bf62a2f18d05db9e0b2b9099705a66/index.html?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fxtv%2Findex.m3u8',
         'source': 'https://xtv.pe/'
     },
     'zona-film': {
