@@ -80,6 +80,11 @@ const channels = {
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
     },
+    'RPP-Noticias': {
+        'name': 'RPPNoticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.youtube.com/channel/UC5j8-2FT0ZMMBkmK72R4aeA/live',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
     'panamericana-TV3-dm': {
         'name': 'Panamericana TV3 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.dailymotion.com/embed/video/x774s7s?autoplay=1',
