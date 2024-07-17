@@ -282,8 +282,63 @@ const channels = {
     },
     'riberena': {
         'name': 'Riberena <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://vdo.grupolimalive.com:3277/live/riberenatvlive.m3u8',
+        'm3u': 'https://cloudvideo.servers10.com:8081/8070/index.m3u8',
         'source': 'https://riberena.pe/'
+    },
+    'TVHuarmey': {
+        'name': 'TVHuarmey <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://player.twitch.tv/?channel=tvhuarmey&parent=www.coolstreaming.us&theme=dark',
+        'source': 'https://www.coolstreaming.us/channelnew/es/64699/TVHuarmey.html'
+    },
+    'Telesur-Camana': {
+        'name': 'Telesur Camana <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://1667517699.rsc.cdn77.org/hls/ilo.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71388/TelesurCamana.html'
+    },
+    'kuriertv': {
+        'name': 'Kuriertv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://schautv.mdn.ors.at/live/eds/kuriertv_hd/hls_nodrm/kuriertv_hd-nodrm.m3u8?guid=c5bca0ef-7394-4b87-a48b-b625dfae0101',
+        'source': 'https://www.coolstreaming.us/channelnew/es/63983/LaRiberenaTv.html'
+    },
+    'Quatro-Tv-Peru': {
+        'name': 'Quatro Tv Peru  <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://player.twitch.tv/?channel=quatrotvgo&parent=www.coolstreaming.us&theme=dark',
+        'source': 'https://www.coolstreaming.us/channelnew/es/64097/QuatroTvPeru.html'
+    },
+    'Like-Tv-Perú': {
+        'name': 'Like Tv Perú <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://vdo.grupolimalive.com:3618/live/liketvlive.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74149/LikeTvPer.html'
+    },
+    'RCR-TV': {
+        'name': 'RRCR TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/73040/FarodeSantidadTV.html'
+    },
+    'Faro-de-Santidad': {
+        'name': 'Faro de Santidad <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/64097/QuatroTvPeru.html'
+    },
+    'usmptv': {
+        'name': 'Usmptv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://streamusmptv.ddns.net/?autoplay=1',
+        'source': 'https://usmptv.pe/vivo/'
+    },
+    'Doble-C-Televisionn': {
+        'name': 'Doble C Televisionn <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/cctvchupaca/cctvchupaca.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/68930/DobleCTelevisionn.html'
+    },
+    'Primavera-Televisioncn15': {
+        'name': 'Primavera Televisioncn15 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://stmv.streamingvip.click/primaveratv/primaveratv/playlist.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/68930/DobleCTelevisionn.html'
+    },
+    'CNC-Señal-Digital': {
+        'name': 'CNC Señal Digital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://7.innovatestream.pe:19360/cnctv/cnctv.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74371/CNCSealDigital.html'
     },
     'radioselvatv': {
         'name': 'Radioselvatv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
