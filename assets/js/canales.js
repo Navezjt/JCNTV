@@ -1500,27 +1500,157 @@ const channels = {
         'name': 'CANAL 324 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'm3u': 'https://directes-tv-int.ccma.cat/live-content/canal324-hls/bitrate_1.m3u8',
         'source': 'https://www.ccma.cat/3cat/directes/324/'
-    }, 
+    },
     'TV3': {
         'name': 'TV3 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'm3u': 'https://directes3-tv-int.ccma.cat/live-content/tvi-hls/bitrate_1.m3u8',
         'source': 'https://www.ccma.cat/3cat/directes/tv3/'
-    }, 
+    },
     'Z-ONZE': {
         'name': 'Z ONZE <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'm3u': 'https://directes-tv-int.ccma.cat/live-origin/esport3-hls/bitrate_1.m3u8',
         'source': 'https://www.ccma.cat/3cat/directes/esport3/'
-    }, 
+    },
     '3DH': {
         'name': '3HD <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'code': 'https://punt3.es/directo/directo.html',
         'source': 'https://www.punt3.es/'
-    }, 
+    },
     'Canal-3': {
         'name': 'Canal 3 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'm3u': 'https://avantstreaming.es/hls/canal3.m3u8',
         'source': 'https://canal3biar.es/directe/'
-    }, 
+    },
+    'Mijas-3.40-TV': {
+        'name': 'Mijas 3.40 TV <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://streaming004.gestec-video.com/hls/MIJAS.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71317/Mijas340TV.html'
+    },
+    'Bon-Dia-TV': {
+        'name': 'Bon Dia TV <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://www.ccma.cat/3cat/video/bondiatv/embed/',
+        'source': 'https://www.ccma.cat/bondiatv/'
+    },
+    'Radio-Televisión-Ceuta': {
+        'name': 'Radio Televisión Ceuta <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://cdnlivevlc.codev8.net/rtvcelive/smil:channel1.smil/playlist.m3u8?test',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74465/RadioTelevisinCeuta.html'
+    },
+    'STZ-Telebista': {
+        'name': 'STZ Telebista <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://cloudvideo.servers10.com:8081/stztelebista/index.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71505/STZTelebista.html'
+    },
+    'Auronplay': {
+        'name': 'Auronplay <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://player.twitch.tv/?channel=auronplay&parent=www.coolstreaming.us&theme=dark',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71505/STZTelebista.html'
+    },
+    'Activa-Musical': {
+        'name': 'Activa Musical <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://streamtv.mediasector.es/hls/activatv/index.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71505/STZTelebista.html'
+    },
+    'MolaHits': {
+        'name': 'MolaHits <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://ventdelnord.tv:8080/mola/directe.m3u8?hls_ctx=m43x06q8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74786/MolaHitsTV.html'
+    },
+    'HQM-Folk': {
+        'name': 'HQM Folk <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://yowi.tv/embed/folkhqm?autoplay=false',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74802/HQMFolk.html'
+    },
+    'Hermes-TV-Vigo': {
+        'name': 'Hermes TV Vigo <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://player.twitch.tv/?channel=hermestelevisionvigo&parent=www.coolstreaming.us&theme=dark',
+        'source': 'https://www.coolstreaming.us/channelnew/es/61883/HermesTVVigo.html'
+    },
+    'Alcarria': {
+        'name': 'Alcarria <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/63114/AlcarriaTV.html'
+    },
+    'TeleMadrid': {
+        'name': 'TeleMadrid <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCv2BcgqxHSrl2QQfIkjR5Eg&autoplay=1&mute=1&modestbranding=1&showinfo=0',
+        'source': 'https://www.coolstreaming.us/channelnew/es/61883/HermesTVVigo.html'
+    },
+    'La-8-Mediterraneo': {
+        'name': 'La 8 Mediterraneo <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://streaming004.gestec-video.com/hls/8TV.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/63297/La8MediterraneoLaOchoTV.html'
+    },
+    'TeleVigo': {
+        'name': 'TeleVigo <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/63306/TeleVigoTV.html'
+    },
+    'Durangaldeko-Telebista': {
+        'name': 'Durangaldeko Telebista <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71321/DurangaldekoTelebista.html'
+    },
+    'HQM-Spanish': {
+        'name': 'HQM Spanish <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://yowi.tv/embed/spanishhqm?autoplay=false',
+        'source': 'https://www.coolstreaming.us/channelnew/es/61182/HQMSpanish.html'
+    },
+    'Punt-3-Television': {
+        'name': 'Punt 3 Television <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/64270/Punt3Television.html'
+    },
+    'HQM-Spanish': {
+        'name': 'HQM Spanish <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://yowi.tv/embed/spanishhqm?autoplay=false',
+        'source': 'https://www.coolstreaming.us/channelnew/es/61182/HQMSpanish.html'
+    },
+    'TEF-Tv': {
+        'name': 'TEF TV <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://5940924978228.streamlock.net/EIVISSA_1/EIVISSA_1/playlist.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/63246/TEFTV.html'
+    },
+    'Negocios-tv': {
+        'name': 'Negocios TV <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://streaming013.gestec-video.com/hls/negociostv.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/66866/NegociosTV.html'
+    },
+    'Telemotril-tv': {
+        'name': 'NTelemotril TV <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://5940924978228.streamlock.net/8431/8431/playlist.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71318/TelemotrilTV.html'
+    },
+    'Canal-Sur-Andalucía': {
+        'name': 'Canal Sur Andalucía <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UChtLgH7ZJLqLGWJpBnzy9Lg&controls=1',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74612/CanalSurAndaluca.html'
+    },
+    'Grupo-Canal-Media': {
+        'name': 'Grupo Canal Media <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://cloud.fastchannel.es/mic/manifiest/hls/gcmi/gcmi.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74781/GrupoCanalMedia.html'
+    },
+    'XPTV1': {
+        'name': 'XPTV1 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/72817/XPTV1.html'
+    },
+    'SpektraTV': {
+        'name': 'SpektraTV <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://cloudvideo.servers10.com:8081/8136/index.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/71501/SpektraTV.html'
+    },
+    'Canela-Music-Hits': {
+        'name': 'Canela Music Hits <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://stream.ads.ottera.tv/playlist.m3u8?network_id=1058',
+        'source': 'https://www.coolstreaming.us/channelnew/es/74441/CanelaMusicHits.html'
+    },
+    'DoTB-TV': {
+        'name': 'DoTB Tv <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'm3u': 'https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/fragments/live-2000/index.m3u8',
+        'source': 'https://www.coolstreaming.us/channelnew/es/55105/DoTBTv.html'
+    },
 // BRASIL
     'cnn-brasil': {
         'name': 'CNN Brasil <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
