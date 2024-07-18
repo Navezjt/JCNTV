@@ -171,7 +171,7 @@ let App = {
         App.add('atv-plus');
         App.add('willax');
         App.add('panamericana-dm');
-        App.add('uci');
+        App.add('sanjuaneratv');
       }
     }
 };
