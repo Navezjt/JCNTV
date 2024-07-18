@@ -432,7 +432,7 @@ const channels = {
     },
     'galactica-tv': {
         'name': 'Galactica tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': '//tmcreativos.app/android/galacticatv',
+        'm3u': 'https://stream.galacticatv.online//live/moxstreamlive/index.m3u8',
         'source': 'https://galacticatv.com/'
     },
     'imperial-tv': {
