@@ -652,12 +652,12 @@ const channels = {
     },
     'Top-Latino': {
         'name': 'Top Latino <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://toplatino.net/players/latinotv/',
+        'code': 'https://toplatino.net/players/latinotv/conToken.php',
         'source': 'https://toplatino.net/'
     },
     'Top-Latino-Tv': {
         'name': 'Top Latino Tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://5cefcbf58ba2e.streamlock.net:543/tltvweb/latin-tv.stream/playlist.m3u8',
+        'm3u': 'https://5cefcbf58ba2e.streamlock.net:543/tltvweb/webtl-tv.stream/playlist.m3u8?tvtokenstarttime=1721312180&tvtokenendtime=1721313980&tvtokenhash=qJaqgqa1Gf_5U1n2V5HrvPc__TGNva2tfh1-pSnVNTU=',
         'source': 'https://toplatino.net/'
     },
     'Trivu': {
