@@ -660,6 +660,41 @@ const channels = {
         'm3u': 'https://5cefcbf58ba2e.streamlock.net:543/tltvweb/webtl-tv.stream/playlist.m3u8?tvtokenstarttime=1721312180&tvtokenendtime=1721313980&tvtokenhash=qJaqgqa1Gf_5U1n2V5HrvPc__TGNva2tfh1-pSnVNTU=',
         'source': 'https://toplatino.net/'
     },
+    'dancetv': {
+        'name': 'Dancetv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://dj.worldcast.tv/streamframejs.php?channeldb=dancetelevision&theserver=eu-nl-012.worldcast.tv&player=flash&quality=adaptive&channel=DANCE01',
+        'source': 'https://www.dancetv.net/'
+    },
+    'dancetv1': {
+        'name': 'Dancetv1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8',
+        'source': 'https://www.dancetv.net/'
+    },
+    'dancetv2': {
+        'name': 'Dancetv2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8',
+        'source': 'https://www.dancetv.net/'
+    },
+    '4funtv': {
+        'name': '4funtv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://stream.4fun.tv:8888/hls/4f.m3u8',
+        'source': 'https://4fun.tv/'
+    },
+    'deejay': {
+        'name': 'Deejay <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://video.deejay.it/embed/copertina/deejay-tv-live/4137/4145?adref=https://www.deejay.it/tv/&responsive=true&autostart=true',
+        'source': 'https://www.deejay.it/tv/'
+    },
+    'radiovisione-fmitaliatv': {
+        'name': 'Radiovisione Fmitaliatv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.radiofmitalia.it/radiovisione-fmitaliatv.php',
+        'source': 'https://www.radiofmitalia.it/'
+    },
+    'RTL-102.5-Radiovisione': {
+        'name': 'RTL 102.5 Radiovisione Fmitaliatv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8',
+        'source': 'https://play.rtl.it/live/1/radiovisione/'
+    },
     'Trivu': {
         'name': 'Trivu <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://cdn.theoplayer.com/demos/iframe/theoplayer.html?autoplay=false&muted=false&preload=none&src=//www.chasquirouter.com/salida/sd/trivu.m3u8',
@@ -1548,6 +1583,11 @@ const channels = {
     },
     'Activa-Musical': {
         'name': 'Activa Musical <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
+        'code': 'https://www.emisorasmusicales.net/tv/tv.php',
+        'source': 'https://www.emisorasmusicales.net/activa-tv/'
+    },
+    'Activa-Musical1': {
+        'name': 'Activa Musical1 <img src="assets/svg/paises/españa.svg" alt="bandera España" title="España"><span hidden>España, español</span>',
         'm3u': 'https://streamtv.mediasector.es/hls/activatv/index.m3u8',
         'source': 'https://www.coolstreaming.us/channelnew/es/71505/STZTelebista.html'
     },
