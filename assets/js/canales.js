@@ -1905,8 +1905,18 @@ const channels = {
     },
     '7News': {
         'name': 'Noticias 7News <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
-        'code': 'https://dai2-playlistserver.aws.syncbak.com/cpl/20359441/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJtaWQiOiIyMDM1OTQ0MSIsImNpZCI6MjA5MzAsInNpZCI6ODYzLCJtZDUiOiI2NDVlOGI4YzNlZjVjNjIzMWZmZDBmMjQ2YjM2NWNhNSIsImlhdCI6MTY4MTQyMDM2MSwiaXNzIjoiU3luY2JhayAoVEcpIn0.z6s98foBqaIqJNlYcAcqkgFbgL5xw_oO7KK0S38E6z0&platform=web',
+        'm3u': 'https://dai2-playlistserver.aws.syncbak.com/cpl/20359441/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJtaWQiOiIyMDM1OTQ0MSIsImNpZCI6MjA5MzAsInNpZCI6ODYzLCJtZDUiOiI2NDVlOGI4YzNlZjVjNjIzMWZmZDBmMjQ2YjM2NWNhNSIsImlhdCI6MTY4MTQyMDM2MSwiaXNzIjoiU3luY2JhayAoVEcpIn0.z6s98foBqaIqJNlYcAcqkgFbgL5xw_oO7KK0S38E6z0&platform=web',
         'source': 'https://wsvn.com/on-air-live-stream/'
+    },
+    'abc17news': {
+        'name': 'Noticias abc17news <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
+        'm3u': 'https://dai2-playlistserver.aws.syncbak.com/cpl/22150625/dai2v5/1.0/7b7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJtaWQiOiIyMjE1MDYyNSIsImNpZCI6MjIzNzcsInNpZCI6MTIyMywibWQ1IjoiZTM1OTdiYTU5YmExOTgwYzUxYTc3ODExM2VmZTYwNzEiLCJpYXQiOjE2ODE5MTU1MTcsImlzcyI6IlN5bmNiYWsgKFRHKSJ9.vclKOthiy0Ir27YzoIeaSSD8I99Er9WWDsf9MZYeDPM',
+        'https://abc17news.com/livestream/'
+    },
+    'live5news': {
+        'name': 'Noticias live5news <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
+        'm3u': 'https://dai2-playlistserver.aws.syncbak.com/cpl/18498840/dai2v5/1/7b2264657669636554797065223a382c22616b616d61694d7670644b6579223a6e756c6c7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJkZXZpY2VUeXBlIjo4LCJzaWQiOjc1MSwiY2lkIjoxNzA3NywibWlkIjoxODQ5ODg0MCwibWsiOm51bGwsIm9vbSI6dHJ1ZSwiaXAiOiIxNzkuNi4xNjguNTciLCJ1aXAiOiIxNzkuNi4xNjguNTciLCJkbWEiOjAsInNzaWQiOiI5MjcwYWJhZmRlNzE0ZDBkYjk1ZTM4Njk2NWVkNDM4MiIsInNuIjoiV2ViIGExNjQxYjU3ZTEgKCBudWxsICkiLCJ1aWQiOm51bGwsImFwc3QiOm51bGwsInNiZXAiOmZhbHNlLCJjc2IiOmZhbHNlLCJtZDUiOiIxNGNkYzExOWZkN2Y0YWZiZGM2Nzk3MjA2YTMyNjhhZiIsImlhdCI6MTcyMTY2ODYxMCwiZXhwIjoxNzIxNjY4OTEwLCJhdWQiOiJodHRwczovL3BsYXlsaXN0c2VydmVyLmF3cy5zeW5jYmFrLmNvbSIsImlzcyI6IlN5bmNiYWsgR3JhcGhRTCBBUEkiLCJzdWIiOiJTS3JfYlc3amlsdHQtS2luUURzZkJ5ODBuT0YxT1hWTmo2OE5qSTNSaERZeHRJTTFuZyJ9.GW-snVrFhVBtN3WD8VOvYjhJkAADiajNhpUmxxcX8sQ',
+        'source': 'https://www.live5news.com/livestream/'
     },
     'telemundo': {
         'name': 'Noticias Telemundo <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
