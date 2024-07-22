@@ -1694,19 +1694,219 @@ const channels = {
 // BRASIL
     'cnn-brasil': {
         'name': 'CNN Brasil <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
-        'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCvdwhh_fDyWccR42-rReZLw&autoplay=1&mute=1&modestbranding=1&showinfo=0',
-        'source': 'https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw'
+        'code': 'https://www.youtube.com/embed/1kLySHZxgDg?embed_config=%7B%22adsConfig%22%3A%7B%22disableAds%22%3Atrue%7D%2C%22enableIma%22%3Atrue%7D&enablejsapi=1&origin=https%3A%2F%2Fwww.cnnbrasil.com.br&widgetid=1',
+        'source': 'https://www.cnnbrasil.com.br/'
     },
     'aratu-AO-brasil': {
         'name': 'aratu AO Brasil <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
         'code': 'https://player.jmvstream.com/lvw/37jDLdzr0ReTuCIodqOVe5VoVFRt8l',
         'source': 'https://tvaratu.com.br/ao-vivo/'
     },
+    'JovemPanNews': {
+        'name': 'JovemPanNews.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8',
+        'source': 'https://github.com/listamake/iptvbr/blob/main/ytchannelbr.m3u'
+    },
+    'GloboNordeste-tv': {
+        'name': 'GloboNordeste.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://live-01.edge-dtel-vsa-pe.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS1kdGVsLXZzYS1wZS52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MTk1OTU4NDgsImlhdCI6MTcxOTUwOTQ0OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI5OTkwYTc3YS1hMGE2LTQ4NzQtYTZhNy1kY2RlYTdhODAyZGIiLCJwYXRoIjoiL251L2YoZHZyPTEyMCxpPTIpL2dsb2JvLXBlMS9wbGF5bGlzdC5tM3U4In0.qp2KeiMHzMOiPz3VKPfi8MStQRQsRLexvJHt1lt3KhPcYbNXVDk-jZVgwHKlZQdrQGDR8JChSjgkMtzu-FGTU9cDhUDkOqDalFRWMNHrCSrJsUSU0fmqSOsPUJeLctTYx5SPY-GP1gx03FusIIcqWLq5Ytjwg9c55j6VhNpKJh_Rm3T4Z5ShkcutPmsEOUbUgELoTrJbAlUeZPgfCJV8ToIN8YljvWl0QLtq7x96aaOOKFKMNhnQV9EHXroIXwyJb_JM6iQKB1GhjF0V8x3MpI3J2VM1i3eavAfruy_3Q-trlL4auF1aGakGeoWUq1RAFlM--Z3k75myEc33LpCL4A/nu/f(dvr=120,i=2)/globo-pe1/playlist.m3u8',
+        'source': 'https://github.com/listamake/iptvbr/blob/main/home.m3u'
+    },
+    'RedeVida-tv': {
+        'name': 'RedeVida.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8',
+        'source': 'https://github.com/listamake/iptvbr/blob/main/home.m3u'
+    },
+    'RBATV-1': {
+        'name': 'RBATV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8',
+        'source': 'https://github.com/listamake/iptvbr/blob/main/home.m3u'
+    },
+    'RedeTV.br-2': {
+        'name': 'RedeTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://cdn.jmvstream.com/w/AVJ-15235/playlist/playlist.m3u8',
+        'source': 'https://github.com/listamake/iptvbr/blob/main/home.m3u'
+    },
+    'RedeTVRondonia.br-0': {
+        'name': 'RedeTVRondonia.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8',
+        'source': ''
+    },
+    'RecordNews.br-0': {
+        'name': 'RecordNews.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8',
+        'source': ''
+    },
+    'JovemPanNews.br-1-0': {
+        'name': 'JovemPanNews.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8',
+        'source': ''
+    },
+    'redefamilia.br-1-0': {
+        'name': 'redefamilia.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://tv01.zas.media:1936/rftv/rftv/playlist.m3u8',
+        'source': ''
+    },
+    'RedeBrasil.br-1-0': {
+        'name': 'RedeBrasil.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://video07.logicahost.com.br/redebrasil/redebrasil/playlist.m3u8',
+        'source': ''
+    },
+    'CentralTV.br-1-0': {
+        'name': 'CentralTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://tv01.zas.media:1936/centraltvweb/centraltvweb/playlist.m3u8',
+        'source': ''
+    },
+    'ISTVHD.br-1-0': {
+        'name': 'ISTVHD.br music <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8',
+        'source': ''
+    },
+    'Cultura.br-1-0': {
+        'name': 'Cultura.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=9818453201921378000',
+        'source': ''
+    },
+    'TVEBahia.br-1-0': {
+        'name': 'TVEBahia.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8',
+        'source': ''
+    },
+    'anitv.br-1-0': {
+        'name': 'anitv.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://stream.ichibantv.com:3764/hybrid/play.m3u8',
+        'source': ''
+    },
+    'PLAYTV.br-1-0': {
+        'name': 'PLAYTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8',
+        'source': ''
+    },
+    '-1-0': {
+        'name': ' <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://a.cdni.live/radioesporte/radioesporte/playlist.m3u8',
+        'source': ''
+    },
+    'EsporteBrasilia.br-1-0': {
+        'name': 'EsporteBrasilia.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://a.cdni.live/radioesporte/radioesporte/playlist.m3u8',
+        'source': ''
+    },
+    'RSNewsSports.br-1-0': {
+        'name': 'RSNewsSports.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://59f1cbe63db89.streamlock.net:1443/rsnewssports/_definst_/rsnewssports/playlist.m3u8',
+        'source': ''
+    },
+    'UnivespTV.br-1-0': {
+        'name': 'UnivespTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8',
+        'source': ''
+    },
+    'TVMaisFamilia.br-1-0': {
+        'name': 'TVMaisFamilia.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://video01.logicahost.com.br/redefamiliaa/redefamiliaa/playlist.m3u8',
+        'source': ''
+    },
+    'SESCTV.br-1-0': {
+        'name': 'SESCTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/b0601c5cba87e912a4e37e8b68c1499b/video/a41dcac4-0033-46ca-b03f-d7858c6ad0c1_index.m3u8',
+        'source': ''
+    },
+    'CanalEducacao.br-1-0': {
+        'name': 'CanalEducacao.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://canaleducacao-stream.ebc.com.br/chunks.m3u8',
+        'source': ''
+    },
+    'RTNTV.br-1-0': {
+        'name': 'RTNTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://tv01.zas.media:1936/rtntv/rtntv/playlist.m3u8',
+        'source': ''
+    },
+    'IdealTV.br-1-0': {
+        'name': 'IdealTV.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'code': 'https://s.apkwuv.xyz:80/6jcBys/VND1HB/83359',
+        'source': ''
+    },
+    'MeioNorte.br-1-0': {
+        'name': 'MeioNorte.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'http://streaming.jornalmn.com.br/live/tvmn.m3u8',
+        'source': ''
+    },
+    'AllSports.br-1-0': {
+        'name': 'AllSports.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8',
+        'source': ''
+    },
+    'vivaxtv.br-1-0': {
+        'name': 'vivaxtv.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8',
+        'source': ''
+    },
+    'bstv.br-1-0': {
+        'name': ' <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://br5093.streamingdevideo.com.br/bstv/bstv/playlist.m3u8',
+        'source': ''
+    },
+    'adessotv.br-1-0': {
+        'name': 'adessotv.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/chunklist.m3u8',
+        'source': ''
+    },
+    'rbctv.br-1-0': {
+        'name': 'rbctv.br music <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://60d88f8ce1206.streamlock.net/id2515/id2515/chunklist.m3u8',
+        'source': ''
+    },
+    'RetroCartoon.br-1-0': {
+        'name': 'RetroCartoon.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8',
+        'source': ''
+    },
+    'RetroCartoon.br-1-0': {
+        'name': 'RetroCartoon.br 2 <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8',
+        'source': ''
+    },
+    'fkids.br-1-0': {
+        'name': 'fkids.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://stmv1.srvif.com/emlsilva/emlsilva/playlist.m3u8',
+        'source': ''
+    },
+    'turnerdemo.br-1-0': {
+        'name': 'turnerdemo.br <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://cdn-1.nxplay.com.br/TOONCAST_TK/index.m3u8',
+        'source': ''
+    },
+    'TVMax.br-1-0': {
+        'name': 'TVMax.br usic <img src="assets/svg/paises/brasil.svg" alt="bandera Brasil" title="Brasil"><span hidden>Brasil, Portugues</span>',
+        'm3u': 'https://5cf4a2c2512a2.streamlock.net/tvmax/tvmax/chunklist_w777565696.m3u8',
+        'source': ''
+    },
 // ESTADOS UNIDOS
     'cnn-us': {
         'name': 'CNN US <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, inglés</span>',
-        'm3u': 'https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8',
+        'code': 'https://livingabroad.tv/app/cnn-international',
         'source': 'https://us.cnn.com'
+    },
+    'cnn-us1': {
+        'name': 'CNN US1 <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, inglés</span>',
+        'code': 'https://livingabroad.tv/app/cnn-international',
+        'source': 'https://livingabroad.tv/cnn-international-live-stream'
+    },
+    'cnn-us2': {
+        'name': 'CNN US2 <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, inglés</span>',
+        'code': 'https://babaktv.com/embed/cnn-international-link01/',
+        'source': 'https://babaktv.com/cnn-international/'
+    },
+    'cnn-us3': {
+        'name': 'CNN US3 <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, inglés</span>',
+        'm3u': 'https://livenewsplay.com:1936/cnnsd/cnnsd//playlist.m3u8?dvr&secendtime=1721674713&sechash=MfjIbvyMONajiQ2pXQLuAMddCn8GtqeeYMI-177pu00=&secstarttime=1721663913',
+        'source': 'https://www.livenewsmag.com/livecnn/'
+    },
+    '7News': {
+        'name': 'Noticias 7News <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
+        'code': 'https://dai2-playlistserver.aws.syncbak.com/cpl/20359441/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJtaWQiOiIyMDM1OTQ0MSIsImNpZCI6MjA5MzAsInNpZCI6ODYzLCJtZDUiOiI2NDVlOGI4YzNlZjVjNjIzMWZmZDBmMjQ2YjM2NWNhNSIsImlhdCI6MTY4MTQyMDM2MSwiaXNzIjoiU3luY2JhayAoVEcpIn0.z6s98foBqaIqJNlYcAcqkgFbgL5xw_oO7KK0S38E6z0&platform=web',
+        'source': 'https://wsvn.com/on-air-live-stream/'
     },
     'telemundo': {
         'name': 'Noticias Telemundo <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
