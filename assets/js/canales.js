@@ -973,7 +973,7 @@ const channels = {
     },
     'Ok-teVe': {
         'name': 'Ok TeVe <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
-        'm3u': 'https://live.obslivestream.com/oktv/video.m3u8?token=Bk-DXAXulO1OV0',
+        'm3u': 'https://vdo.grupolimalive.com:3005/live/oktvlive.m3u8',
         'source': 'https://oktelevisionhd.com/'
     },
     'cajamarca-tv': {
