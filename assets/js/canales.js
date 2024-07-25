@@ -147,8 +147,8 @@ const channels = {
     },
     'radio-exitosa1': {
         'name': 'Radio Exitosa1 <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://cu.onliv3.com/exitosa/',
-        'source': 'https://exitosanoticias.pe/v1/tvenvivo/'
+        'code': 'https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/embed.html?autoplay=0',
+        'source': 'https://www.exitosanoticias.pe/tv/envivo'
     },
     'radio-exitosa-yt': {
         'name': 'Radio Exitosa YT <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Lima, radio, español</span>',
@@ -167,7 +167,7 @@ const channels = {
     },
     'san-borja': {
         'name': 'Radio San Borja <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, radio, español</span>',
-        'm3u': 'https://5c3fb01839654.streamlock.net:1963/iptvsanborja/livesanborjatv/playlist.m3u8',
+        'code': 'https://bradm.ax/build/202403/30/d853f825e47c181f6e4522144984d9b4ab69c6ac/index.html?mediaUrl=https%3A%2F%2Fcast.stre.live7.la%3A3168%2Flive%2Fsanborjatevelive.m3u8&duration=734.097415&splashImgUrl=https%3A%2F%2Fradiosanborjatv.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fflyer-radio-1024x576.jpg',
         'source': 'https://radiosanborjatv.com/'
     },
     'radio-tropical': {
