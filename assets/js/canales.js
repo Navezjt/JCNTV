@@ -978,7 +978,7 @@ const channels = {
     },
     'cajamarca-tv': {
         'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
-        'm3u': 'https://ca.inka.net.pe/cajamarcatv/cajamarcatv/index.m3u8',
+        'm3u': 'https://s1.tvdatta.com:3252/live/cajamarcatvlive.m3u8',
         'source': 'https://cajamarcatv.pe/tv'
     },
     'tv-cosmos': {
