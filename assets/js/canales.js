@@ -1911,7 +1911,7 @@ const channels = {
     'abc17news': {
         'name': 'Noticias abc17news <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
         'm3u': 'https://dai2-playlistserver.aws.syncbak.com/cpl/22150625/dai2v5/1.0/7b7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJtaWQiOiIyMjE1MDYyNSIsImNpZCI6MjIzNzcsInNpZCI6MTIyMywibWQ1IjoiZTM1OTdiYTU5YmExOTgwYzUxYTc3ODExM2VmZTYwNzEiLCJpYXQiOjE2ODE5MTU1MTcsImlzcyI6IlN5bmNiYWsgKFRHKSJ9.vclKOthiy0Ir27YzoIeaSSD8I99Er9WWDsf9MZYeDPM',
-        'https://abc17news.com/livestream/'
+        'source': 'https://abc17news.com/livestream/'
     },
     'live5news': {
         'name': 'Noticias live5news <img src="assets/svg/paises/us.svg" alt="bandera US" title="US"><span hidden>Estados unidos, ingles</span>',
