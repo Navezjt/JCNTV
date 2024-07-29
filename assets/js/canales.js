@@ -1372,11 +1372,12 @@ const channels = {
     },
     'tv-publica-arg': {
         'name': 'Televisión Pública <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://cntlnk-main-edge-access.secure.footprint.net/entrypoint/c7_vivo01_dai_source-20001_all_480p.m3u8',
-        'source': 'https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg'
+        'code': 'https://www.youtube.com/embed/ocFG3yor--M?frameborder=0&mute=1&autoplay=1&amp;rel=0&amp;showinfo=0',
+        'source': 'https://lnmas.lanacion.com.ar/'
+    },
     'ip-tv-vivo': {
         'name': 'IP Noticia <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
-        'code': 'https://player.twitch.tv/?channel=ip_noticias&parent=ipnoticias.ar',
+        'code': 'https://rudo.video/live/nettv?volume=0&mute=1',
         'source': 'https://ipnoticias.ar/actualidad/19807-ip-en-vivo'
     },
     'cronica-tv': {
