@@ -812,7 +812,7 @@ const channels = {
     },
     'America-tv': {
         'name': 'America tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': '',
+        'code': 'https://player.twitch.tv/?channel=americatv_envivo&parent=americatv_envivo',
         'source': 'https://tvgo.americatv.com.pe/'
     },
     'latina-noticias-2': {
@@ -1374,6 +1374,10 @@ const channels = {
         'name': 'Televisión Pública <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
         'code': 'https://cntlnk-main-edge-access.secure.footprint.net/entrypoint/c7_vivo01_dai_source-20001_all_480p.m3u8',
         'source': 'https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg'
+    'ip-tv-vivo': {
+        'name': 'IP Noticia <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'code': 'https://player.twitch.tv/?channel=ip_noticias&parent=ipnoticias.ar',
+        'source': 'https://ipnoticias.ar/actualidad/19807-ip-en-vivo'
     },
     'cronica-tv': {
         'name': 'Crónica TV <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
@@ -1399,6 +1403,21 @@ const channels = {
         'name': 'Uniteve <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
         'm3u': 'https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8',
         'source': 'http://uniteve.com.ar/'
+    },
+    'multivisionfederal': {
+        'name': 'multivisionfederal <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'code': 'https://389471779-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.es.JittUyyTSxA.O%2Fam%3DAAAg%2Fd%3D1%2Frs%3DAHpOoo-1D2N_rfVIW10DIrv6De_3PqIS8Q%2Fm%3D__features__',
+        'source': 'https://sites.google.com/view/multivisionfederal/'
+    },
+    'canal-79-la-costa': {
+        'name': 'canal-79-la-costa <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'm3u': 'https://streamconex.com:19360/lacosta/lacosta.m3u8',
+        'source': 'https://canal79tv.com.ar/la-costa/'
+    },
+    'rts-1': {
+        'name': 'rts-1 <img src="assets/svg/paises/argentina.svg" alt="bandera Argentina" title="Argentina"><span hidden>Argentina, español</span>',
+        'm3u': 'https://ed1.acangroup.org:1929/larts/rts1_all/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI0IDc6MTM6NDUgUE0maGFzaF92YWx1ZT1NWVZkcXJpbnFkaTlrOEZrTEd0WitRPT0mdmFsaWRtaW51dGVzPTEw',
+        'source': 'https://www.rts.sn/tv/rts-1'
     },
 // COLOMBIA
     'el-tiempo': {
