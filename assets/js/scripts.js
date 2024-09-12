@@ -172,9 +172,6 @@ let App = {
         App.add('willax');
         App.add('panamericana-dm');
         App.add('sanjuaneratv');
-        App.add('RPP-Noticias');
-        App.add('America-tv');
-        App.add('SolTV');
       }
     }
 };
