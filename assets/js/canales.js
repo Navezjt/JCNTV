@@ -80,8 +80,8 @@ const channels = {
         'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
         'source': 'https://panamericana.pe/tvenvivo'
     },
-    'RPPNoticias': {
-        'name': 'RPPNoticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'RPP-Noticias': {
+        'name': 'RPP Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube.com/embed/36EbAg4YluU?frameborder=0&mute=1&autoplay=1&amp;rel=0&amp;sh',
         'source': 'https://www.youtube.com/@RPPNoticias'
     },
