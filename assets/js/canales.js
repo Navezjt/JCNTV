@@ -265,8 +265,13 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/norselvatv/index.m3u8',
         'source': 'https://radiotvnorselva.com/'
     },
-    'sanjuaneratv': {
-        'name': 'Sanjuaneratv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'sanjuanera-tv': {
+        'name': 'Sanjuanera TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://live.obslivestream.com/sanjuanera/tracks-v1a1/mono.m3u8',
+        'source': 'http://sanjuaneratv.pe/'
+    },
+    'sanjuanera-tv1': {
+        'name': 'Sanjuanera TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://live.obslivestream.com/sanjuanera/index.m3u8',
         'source': 'http://sanjuaneratv.pe/'
     },
