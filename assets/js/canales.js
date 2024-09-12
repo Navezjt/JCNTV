@@ -271,7 +271,7 @@ const channels = {
         'source': 'http://sanjuaneratv.pe/'
     },
     'sanjuanera-tv1': {
-        'name': 'Sanjuanera TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'name': 'Sanjuanera TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://live.obslivestream.com/sanjuanera/index.m3u8',
         'source': 'http://sanjuaneratv.pe/'
     },
