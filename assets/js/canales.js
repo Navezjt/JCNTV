@@ -270,8 +270,8 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/sanjuanera/tracks-v1a1/mono.m3u8',
         'source': 'http://sanjuaneratv.pe/'
     },
-    'sanjuanera-tv1': {
-        'name': 'Sanjuanera TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'sanjuanera-tv': {
+        'name': 'Sanjuanera TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://live.obslivestream.com/sanjuanera/index.m3u8',
         'source': 'http://sanjuaneratv.pe/'
     },
@@ -415,10 +415,10 @@ const channels = {
         'code': 'https://ok.ru/videoembed/5439500131845?nochat=1&autoplay=1',
         'source': 'https://www.chincha.tv/p/live.html'
     },
-    'bnbdigitaltv': {
-        'name': 'Bnbdigitaltv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://vdo.panelstreaming.live:3806/live/bnbdigitallive.m3u8',
-        'source': 'https://www.bnbdigitaltv.com/'
+    'bnb-television': {
+        'name': 'Bnb Television <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'm3u': 'https://play.agenciastreaming.com:8081/bnblimalive/tracks-v1a1/mono.m3u8',
+        'source': 'https://bnbtelevision.com/'
     },
     'canal8tv': {
         'name': 'Canal8tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
@@ -815,15 +815,20 @@ const channels = {
         'code': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q/live',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
-    'America-tv': {
-        'name': 'America tv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
-        'code': 'https://player.twitch.tv/?channel=americatv_envivo&parent=americatv_envivo',
-        'source': 'https://tvgo.americatv.com.pe/'
-    },
     'latina-noticias-2': {
         'name': 'Latina Noticias 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://rudo.video/live/latina',
         'source': 'https://latinanoticias.pe/'
+    },
+    'America-tv': {
+        'name': 'America TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://mdstrm.com/live-stream/6099b04d9418ac082441dd74?jsapi=true&pause_ad_on_click=false&show_controls_on_ad=true&autoplay=true&player=60c2a74e0f4668082e309af4&ref=https%3A%2F%2Ftvgo.americatv.com.pe%2F&access_token=BmEfXA7uscb6t1vplJ9rAcPueFWs8iLmbbUtZVhVMcYpHUBQh1ZrDbkooHEeYVzxm68x7tsfHTn&c=&ads[map]=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F84748259%2Ftvgo_home_atf_player%26description_url%3D%5Bplaceholder%5D%26tfcd%3D0%26npa%3D0%26sz%3D640x480%26gdfp_req%3D1%26output%3Dvast%26unviewed_position_start%3D1%26env%3Dvp%26impl%3Ds%26correlator%3D&youbora[extra][0]=NoRegNoSusc&youbora[extra][1]=TVGO%20Web&youbora[extra][2]=tvgo-web',
+        'source': 'https://tvgo.americatv.com.pe/'
+    },
+    'America-tv1': {
+        'name': 'America TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://player.twitch.tv/?channel=americatv_envivo&parent=americatv_envivo',
+        'source': 'https://tvgo.americatv.com.pe/'
     },
     'Oriental': {
         'name': 'Oriental <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
@@ -1325,7 +1330,7 @@ const channels = {
     }, 
     'America': {
         'name': 'America <img src="assets/svg/paises/Paraguay.svg" title="Paraguay"><span hidden>Paraguay, español</span>',
-        'm3u': 'https://live-ak.vimeocdn.com/exp=1713977231~acl=%2Fd1dfab2c-7e7c-477d-a95a-92fb7c9cee3f_fmp4%2F%2A~hmac=e3fec4e1942cfa29ab9e7222dbe134316303714c30223a911f83275b3e8dd4f8/d1dfab2c-7e7c-477d-a95a-92fb7c9cee3f_fmp4/hls.m3u8',
+        'm3u': 'https://live-ak.vimeocdn.com/exp=1726156791~acl=%2F53ea59d7-7bd5-4547-b943-d1dbdb8b53e7_fmp4%2F%2A~hmac=4d944e008a25aeb2255a6f30e3b5991cbb3379bb7088f5ae73c3828c0564576b/53ea59d7-7bd5-4547-b943-d1dbdb8b53e7_fmp4/chunklist_b600000_cmaf_v.m3u8?_HLS_skip=YES',
         'source': 'https://www.americatv.com.py/ver-vivo/'
     }, 
     'UnionTV': {
