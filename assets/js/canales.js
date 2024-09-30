@@ -80,7 +80,7 @@ const channels = {
         'code': 'https://iblups.com/e_ptvpe',
         'source': 'https://panamericana.pe/tvenvivo'
     },
-    'panamericana-dm': {
+    'panamericanadm': {
         'name': 'PanamericanaTV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'code': 'https://panamericana.pe/tvenvivo/noframes',
         'source': 'https://panamericana.pe/tvenvivo'
