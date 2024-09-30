@@ -70,8 +70,18 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/planetatv/tracks-v1a1/mono.m3u8',
         'source': 'https://moyobamba.com/planetatv/'
     },
+    'Quatro-Televisión': {
+        'name': 'Quatro Televisión <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://tvgratisperu.com/pages/peru/re/quatrotvgo_op1.php',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
     'panamericana-dm': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://iblups.com/e_ptvpe',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'panamericana-dm': {
+        'name': 'PanamericanaTV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'code': 'https://panamericana.pe/tvenvivo/noframes',
         'source': 'https://panamericana.pe/tvenvivo'
     },
