@@ -1171,33 +1171,48 @@ const channels = {
         'code': 'https://1.deporte-libre.org/en-vivo-online/vamos/embed3.php',
         'source': 'https://1.deporte-libre.org/'
     },
+    'navez-teleonce-usa-1-1': {
+        'name': 'Navez teleonce-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://player.restream.io/?token=4c57ad65917d4802a65ba18911e366cf',
+        'source': 'https://cdn.teleonce.com/en-vivo/'
+    },
     'navez-univision-usa-1-1': {
-        'name': 'Navez telemundo-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
-        'code': 'https://www.cablevisionhd.com/stream2/univision.php',
-        'source': 'https://www.cablevisionhd.com/univision-en-vivo.html'
+        'name': 'Navez univision-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://deporte-libre.top/en-vivo-online/univision-usa/embed.php',
+        'source': 'https://deporte-libre.top/en-vivo-online/univision-usa/'
     },
     'navez-univision-usa-1-2': {
-        'name': 'Navez telemundo-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
-        'm3u': 'https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8',
-        'source': 'https://amorlatinochat.com/telemundo.html'
+        'name': 'Navez univision-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://deporte-libre.top/en-vivo-online/univision-usa/embed2.php',
+        'source': 'https://deporte-libre.top/en-vivo-online/univision-usa/'
+    },
+    'navez-univision-usa-1-3': {
+        'name': 'Navez univision-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'code': 'https://www.telegratis.me/en-vivo/player/embed.php?r=univision',
+        'source': 'https://www.telegratis.me/en-vivo/univision'
+    },
+    'navez-univision-usa-1-4': {
+        'name': 'Navez univision-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'm3u': 'https://raw.githubusercontent.com/CODERX24/tv/master/Univision.m3u8',
+        'source': 'https://github.com/CODERX24/tv/blob/0104ad7a64ab808ff95a0e77953bfd38aa94401c/advancefeed.json#L943'
     },
     'navez-telemundo-usa-1-1': {
-        'name': 'Navez telemundo-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'name': 'Navez Telemundo-usa-1-1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'm3u': 'https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8',
         'source': 'https://amorlatinochat.com/telemundo.html'
     },
     'navez-telemundo-usa-1-2': {
-        'name': 'Navez telemundo-usa-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'name': 'Navez Telemundo-usa-1-2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'm3u': 'https://dai2-playlistserver.aws.syncbak.com/media.m3u8?bitrate=3659760&session=668092073c3c49fab2712412b1a870a1',
         'source': 'https://www.telemundolaredo.tv/en-vivo/'
     },
     'navez-telemundo-usa-1-3': {
-        'name': 'Navez telemundo-usa-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'name': 'Navez Telemundo-usa-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'code': 'https://deporte-libre.top/en-vivo-online/telemundo-usa/embed.php',
         'source': 'https://deporte-libre.top/en-vivo-online/telemundo-usa/'
     },
     'navez-telemundo-usa-1-4': {
-        'name': 'Navez telemundo-usa-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
+        'name': 'Navez Telemundo-usa-1-3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Ucayali, español</span>',
         'code': 'https://deporte-libre.top/en-vivo-online/telemundo-usa/embed2.php',
         'source': 'https://deporte-libre.top/en-vivo-online/telemundo-usa/'
     },
