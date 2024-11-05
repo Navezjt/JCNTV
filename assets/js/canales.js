@@ -800,7 +800,7 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/wtv/index.m3u8',
         'source': 'https://artv.watch/es/PE/Wtv.pe'
     },
-    'X TV Chachapoyas': {
+    'X-TV-Chachapoyas': {
         'name': 'X TV Chachapoyas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://bradm.ax/build/202403/22/7f3ef98516bf62a2f18d05db9e0b2b9099705a66/index.html?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fxtv%2Findex.m3u8',
         'source': 'https://xtv.pe/'
@@ -808,12 +808,12 @@ const channels = {
     'zona-film': {
         'name': 'Zona Film <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://vdo.panelchs.com/live-stream-video-widget/do9373639',
-        'source': 'https://xtv.pe/canal-zona-film/',
+        'source': 'https://xtv.pe/canal-zona-film/'
     },
     'xtvcumbia': {
         'name': 'xtvcumbia <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://vdo.panelchs.com/live-stream-video-widget/vdo82376947328',
-        'source': 'https://xtv.pe/xtvcumbia/',
+        'source': 'https://xtv.pe/xtvcumbia/'
     },
     'willax': {
         'name': 'Willax <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
@@ -821,22 +821,22 @@ const channels = {
         'source': 'https://willax.tv/en-vivo/'
     },
     'latina-noticias': {
-        'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Latina Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q/live',
         'source': 'https://www.youtube.com/channel/UCpSJ5fGhmAME9Kx2D3ZvN3Q'
     },
     'latina-noticias-2': {
-        'name': 'Latina Noticias 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Latina Noticias 2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://rudo.video/live/latina',
         'source': 'https://latinanoticias.pe/'
     },
     'latina-noticias-3': {
-        'name': 'Latina Noticias 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Latina Noticias 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://rudo.video/live/latinanoticias',
         'source': 'https://latinanoticias.pe/'
     },
     'latina-clasicos': {
-        'name': 'Latina Clasicos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'name': 'Latina Clasicos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://rudo.video/live/latina2',
         'source': 'https://latinanoticias.pe/'
     },
