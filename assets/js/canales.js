@@ -277,12 +277,12 @@ const channels = {
     },
     'sanjuaneratv': {
         'name': 'Sanjuaneratv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://live.obslivestream.com/sanjuanera/tracks-v1a1/mono.m3u8',
+        'code': 'https://infosmartpe.store:5443/LiveApp/play.html?id=vLn2BEFdTBNu8866060423704237',
         'source': 'http://sanjuaneratv.pe/'
     },
     'sanjuanera-tv': {
         'name': 'Sanjuanera TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://live.obslivestream.com/sanjuanera/index.m3u8',
+        'm3u': 'https://infosmartpe.store:5443/LiveApp/streams/vLn2BEFdTBNu8866060423704237.m3u8',
         'source': 'http://sanjuaneratv.pe/'
     },
     'supercanal': {
@@ -830,6 +830,16 @@ const channels = {
         'code': 'https://rudo.video/live/latina',
         'source': 'https://latinanoticias.pe/'
     },
+    'latina-noticias-3': {
+        'name': 'Latina Noticias 3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://rudo.video/live/latinanoticias',
+        'source': 'https://latinanoticias.pe/'
+    },
+    'latina-clasicos': {
+        'name': 'Latina Clasicos <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://rudo.video/live/latina2',
+        'source': 'https://latinanoticias.pe/'
+    },
     'America-tv': {
         'name': 'America TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://mdstrm.com/live-stream/6099b04d9418ac082441dd74?jsapi=true&pause_ad_on_click=false&show_controls_on_ad=true&autoplay=true&player=60c2a74e0f4668082e309af4&ref=https%3A%2F%2Ftvgo.americatv.com.pe%2F&access_token=BmEfXA7uscb6t1vplJ9rAcPueFWs8iLmbbUtZVhVMcYpHUBQh1ZrDbkooHEeYVzxm68x7tsfHTn&c=&ads[map]=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F84748259%2Ftvgo_home_atf_player%26description_url%3D%5Bplaceholder%5D%26tfcd%3D0%26npa%3D0%26sz%3D640x480%26gdfp_req%3D1%26output%3Dvast%26unviewed_position_start%3D1%26env%3Dvp%26impl%3Ds%26correlator%3D&youbora[extra][0]=NoRegNoSusc&youbora[extra][1]=TVGO%20Web&youbora[extra][2]=tvgo-web',
@@ -838,6 +848,16 @@ const channels = {
     'America-tv1': {
         'name': 'America TV1 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://player.twitch.tv/?channel=americatv_envivo&parent=americatv_envivo',
+        'source': 'https://tvgo.americatv.com.pe/'
+    },
+    'America-tv1'2': {
+        'name': 'America TV2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'https://mdstrm.com/live-stream/65fc43190d37be36e84e931f?jsapi=true&autoplay=true&controls=true&volume=100&player=60c2a74e0f4668082e309af4&ref=https%3A%2F%2Ftvgo.americatv.com.pe%2Fcanalesenvivo%3Fchannel%3D65fc43190d37be36e84e931f&access_token=TV8BTSF0X7VsuPGvnbHgsJPrMOMdikflMc1c0Wx5sHH0ksNdC6bclS3Mqh7aWBAqnUxkS1Jyhay&c=&ads[map]=&controls_bar[showPlayPause]=true&controls_bar[showBackward]=true&controls_bar[showForward]=true&controls_bar[showVolume]=true&controls_bar[showTimeline]=true&controls_bar[showSettings]=true&controls_bar[showFullscreen]=true&youbora[extra][0]=NoRegNoSusc&youbora[extra][1]=TVGO%20Web&youbora[extra][2]=tvgo-fast-channel-web',
+        'source': 'https://tvgo.americatv.com.pe/'
+    },
+    'America-tv3': {
+        'name': 'America TV3 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
+        'code': 'hhttps://mdstrm.com/live-stream/657fbe15e3ba9363bb07c6b4?jsapi=true&autoplay=true&controls=true&volume=100&player=60c2a74e0f4668082e309af4&ref=https%3A%2F%2Ftvgo.americatv.com.pe%2Fcanalesenvivo%3Fchannel%3D65fc43190d37be36e84e931f&access_token=NJ9KDYMYvxsiMa2UTk2QSJLr9nzmZwEIycHfiQIGl8Eo2RsLCk6uhUs97gX0KGTjtwKEGnSygH2&c=&ads[map]=&controls_bar[showPlayPause]=true&controls_bar[showBackward]=true&controls_bar[showForward]=true&controls_bar[showVolume]=true&controls_bar[showTimeline]=true&controls_bar[showSettings]=true&controls_bar[showFullscreen]=true&youbora[extra][0]=NoRegNoSusc&youbora[extra][1]=TVGO%20Web&youbora[extra][2]=tvgo-fast-channel-web',
         'source': 'https://tvgo.americatv.com.pe/'
     },
     'Oriental': {
