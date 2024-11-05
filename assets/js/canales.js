@@ -277,12 +277,12 @@ const channels = {
     },
     'sanjuaneratv': {
         'name': 'Sanjuaneratv <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://infosmartpe.store:5443/LiveApp/play.html?id=vLn2BEFdTBNu8866060423704237',
+        'code': 'https://infosmartpe.store:5443/LiveApp/streams/vLn2BEFdTBNu8866060423704237.m3u8',
         'source': 'http://sanjuaneratv.pe/'
     },
     'sanjuanera-tv': {
         'name': 'Sanjuanera TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://infosmartpe.store:5443/LiveApp/streams/vLn2BEFdTBNu8866060423704237.m3u8',
+        'm3u': 'https://infosmartpe.store:5443/LiveApp/play.html?id=vLn2BEFdTBNu8866060423704237',
         'source': 'http://sanjuaneratv.pe/'
     },
     'supercanal': {
