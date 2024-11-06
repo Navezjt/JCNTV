@@ -392,7 +392,7 @@ const channels = {
     },
     'creotvperu': {
         'name': 'Creotvperu <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'm3u': 'https://srv1.mediastreamperu.com:19360/creotv/creotv.m3u8',
+        'code': 'https://srv1.mediastreamperu.com/creotv/embed.html',
         'source': 'https://www.creotvperu.com/'
     },
     'CentralTV': {
