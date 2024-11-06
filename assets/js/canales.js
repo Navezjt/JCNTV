@@ -485,8 +485,8 @@ const channels = {
         'm3u': 'https://vdo.grupolimalive.com:3245/stream/play.m3u8',
         'source': 'https://grupolimalive.com/radio-nube/'
     },
-    'limalive': {
-        'name': 'Limalive <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+    'limalive2': {
+        'name': 'Limalive2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'm3u': 'https://vdo.grupolimalive.com:3245/stream/play.m3u8',
         'source': 'https://grupolimalive.com/radio-nube/'
     },
@@ -800,9 +800,14 @@ const channels = {
         'm3u': 'https://live.obslivestream.com/wtv/index.m3u8',
         'source': 'https://artv.watch/es/PE/Wtv.pe'
     },
-    'X TV Chachapoyas': {
+    'X-TV-Chachapoyas': {
         'name': 'X TV Chachapoyas <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://bradm.ax/build/202403/22/7f3ef98516bf62a2f18d05db9e0b2b9099705a66/index.html?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fxtv%2Findex.m3u8',
+        'source': 'https://xtv.pe/'
+    },
+    'X-TV-Chachapoyas-plus': {
+        'name': 'X TV Chachapoyas plus <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://bradm.ax/build/202403/22/7f3ef98516bf62a2f18d05db9e0b2b9099705a66/index.html?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fxtvplus%2Findex.m3u8',
         'source': 'https://xtv.pe/'
     },
     'zona-film': {
