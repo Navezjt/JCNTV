@@ -850,7 +850,7 @@ const channels = {
         'code': 'https://player.twitch.tv/?channel=americatv_envivo&parent=americatv_envivo',
         'source': 'https://tvgo.americatv.com.pe/'
     },
-    'America-tv1'2': {
+    'America-tv2': {
         'name': 'America TV2 <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'code': 'https://mdstrm.com/live-stream/65fc43190d37be36e84e931f?jsapi=true&autoplay=true&controls=true&volume=100&player=60c2a74e0f4668082e309af4&ref=https%3A%2F%2Ftvgo.americatv.com.pe%2Fcanalesenvivo%3Fchannel%3D65fc43190d37be36e84e931f&access_token=TV8BTSF0X7VsuPGvnbHgsJPrMOMdikflMc1c0Wx5sHH0ksNdC6bclS3Mqh7aWBAqnUxkS1Jyhay&c=&ads[map]=&controls_bar[showPlayPause]=true&controls_bar[showBackward]=true&controls_bar[showForward]=true&controls_bar[showVolume]=true&controls_bar[showTimeline]=true&controls_bar[showSettings]=true&controls_bar[showFullscreen]=true&youbora[extra][0]=NoRegNoSusc&youbora[extra][1]=TVGO%20Web&youbora[extra][2]=tvgo-fast-channel-web',
         'source': 'https://tvgo.americatv.com.pe/'
