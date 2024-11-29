@@ -52,6 +52,11 @@ const channels = {
     },
     'tv-peru-noticias-yt': {
         'name': 'TVPerú Noticias YT <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://www.youtube.com/embed/Q8E7xPNG7nQ?frameborder=0&mute=1&autoplay=1&amp;rel=0&amp;showinfo=0',
+        'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
+    },
+    'tv-peru-noticias-yt2': {
+        'name': 'TVPerú Noticias YT <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCkZCoc42IipR1ucqJmIehsA&autoplay=1&mute=1&modestbranding=1&showinfo=0',
         'source': 'https://www.youtube.com/channel/UCkZCoc42IipR1ucqJmIehsA'
     },
@@ -77,7 +82,7 @@ const channels = {
     },
     'panamericana-dm': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://iblups.com/e_ptvpe',
+        'code': 'https://panamericana.pe/tvenvivo/noframes',
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'panamericanadm': {
