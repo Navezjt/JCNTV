@@ -82,7 +82,7 @@ const channels = {
     },
     'panamericana-dm': {
         'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://panamericana.pe/tvenvivo/noframes',
+        'code': 'https://player.twitch.tv/?channel=panamericanatvpe&parent=panamericana.pe&muted=false',
         'source': 'https://panamericana.pe/tvenvivo'
     },
     'panamericanadm': {
