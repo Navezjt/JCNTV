@@ -165,13 +165,13 @@ let App = {
 
     init: () => {
       App.seedModal();
-      App.add('mega-tv');
+      App.add('sanjuaneratv');
       if (!App.isMobile()) {
         App.add('tv-peru-noticias-yt');
         App.add('atv-plus');
         App.add('willax');
         App.add('solartv');
-        App.add('sanjuaneratv');
+        App.add('telecolor-tv');
       }
     }
 };
