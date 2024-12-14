@@ -170,7 +170,7 @@ let App = {
         App.add('tv-peru-noticias-yt');
         App.add('atv-plus');
         App.add('willax');
-        App.add('panamericana-dm');
+        App.add('solartv');
         App.add('sanjuaneratv');
       }
     }
