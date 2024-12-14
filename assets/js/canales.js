@@ -80,35 +80,15 @@ const channels = {
         'code': 'https://tvgratisperu.com/pages/peru/re/quatrotvgo_op1.php',
         'source': 'https://panamericana.pe/tvenvivo'
     },
-    'panamericana-dm': {
-        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://player.twitch.tv/?channel=panamericanatvpe&parent=tvpe15.com',
-        'source': 'https://tvpe15.com/tv-nacional/panamericana'
-    },
-    'panamericana-dm1': {
-        'name': 'Panamericana TV1 <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://player.twitch.tv/?channel=panamericanatvpe&parent=panamericana.pe&muted=false',
-        'source': 'https://panamericana.pe/tvenvivo'
-    },
-    'panamericanadm': {
-        'name': 'PanamericanaTV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
-        'code': 'https://panamericana.pe/tvenvivo/noframes',
-        'source': 'https://panamericana.pe/tvenvivo'
-    },
-    'panamericana-TV2-dm': {
-        'name': 'Panamericana TV2 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
-        'source': 'https://panamericana.pe/tvenvivo'
+    'Navez-Mix': {
+        'name': 'NAVEZ MIX <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://stream.zeno.fm/vq4s9m2sg48uv',
+        'source': 'https://sites.google.com/view/radio-navez-mixs/home?authuser=0'
     },
     'RPP-Noticias': {
         'name': 'RPP Noticias <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
         'code': 'https://www.youtube.com/embed/36EbAg4YluU?frameborder=0&mute=1&autoplay=1&amp;rel=0&amp;sh',
         'source': 'https://www.youtube.com/@RPPNoticias'
-    },
-    'panamericana-TV3-dm': {
-        'name': 'Panamericana TV3 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
-        'code': 'https://www.dailymotion.com/embed/video/x774s7s?autoplay=1',
-        'source': 'https://panamericana.pe/tvenvivo'
     },
     'onda-digital': {
         'name': 'Onda Digital <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
@@ -914,6 +894,31 @@ const channels = {
         'name': 'AO <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, noticias, español</span>',
         'm3u': 'https://video05.logicahost.com.br/extremotv/extremotv/playlist.m3u8',
         'source': 'http://eotv.live/#aovivo'
+    },
+    'panamericana-dm': {
+        'name': 'Panamericana TV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://player.twitch.tv/?channel=panamericanatvpe&parent=tvpe15.com',
+        'source': 'https://tvpe15.com/tv-nacional/panamericana'
+    },
+    'panamericana-dm1': {
+        'name': 'Panamericana TV1 <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://player.twitch.tv/?channel=panamericanatvpe&parent=panamericana.pe&muted=false',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'panamericanadm': {
+        'name': 'PanamericanaTV <img src="assets/svg/paises/peru.svg" title="Perú"><span hidden>Perú, español</span>',
+        'code': 'https://panamericana.pe/tvenvivo/noframes',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'panamericana-TV2-dm': {
+        'name': 'Panamericana TV2 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true',
+        'source': 'https://panamericana.pe/tvenvivo'
+    },
+    'panamericana-TV3-dm': {
+        'name': 'Panamericana TV3 DM <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Perú, español</span>',
+        'code': 'https://www.dailymotion.com/embed/video/x774s7s?autoplay=1',
+        'source': 'https://panamericana.pe/tvenvivo'
     },
 // LOCALES
    'DobleC-tv': {
