@@ -1028,8 +1028,8 @@ const channels = {
     },
     'Ok-teVe': {
         'name': 'Ok TeVe <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
-        'm3u': 'https://vdo.grupolimalive.com:3005/live/oktvlive.m3u8',
-        'source': 'https://oktelevisionhd.com/'
+        'm3u': 'https://play.agenciastreaming.com:8081/oktv/index.m3u8',
+        'source': 'https://oktelevision.pe/'
     },
     'cajamarca-tv': {
         'name': 'Cajamarca TV <img src="assets/svg/paises/peru.svg" title="Peru"><span hidden>Peru, Cajamarca, español</span>',
